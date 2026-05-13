@@ -157,8 +157,29 @@ def check_no_extra_notes(text: str) -> bool:
         r"\bensure to replace\b",
         r"\bremember to replace\b",
         r"\byou can customize\b",
+        r"\badditional tips\b",
+        r"\bemail draft\b",
+        r"\bplease replace\b",
+        r"(^|\n)\s*###\s*output\s*:",
+        r"(^|\n)\s*###\s*response\s*:",
+        r"(^|\n)\s*assistant\s*:",
+        r"(^|\n)\s*user\s*:",
     ]
     return not any(re.search(pattern, lower) for pattern in forbidden_patterns)
+
+
+def check_no_prompt_leakage(text: str) -> bool:
+    """Detect prompt or role-label leakage in the model response."""
+    leakage_markers = [
+        "Human:",
+        "Assistant:",
+        "User:",
+        "### Instruction:",
+        "### Response:",
+        "### Output:",
+        "### Refine:",
+    ]
+    return not any(marker.lower() in text.lower() for marker in leakage_markers)
 
 
 CHECKS: dict[str, Callable[[str], bool]] = {
@@ -175,6 +196,7 @@ CHECKS: dict[str, Callable[[str], bool]] = {
     "not_too_short": check_not_too_short,
     "has_steps": check_has_steps,
     "no_extra_notes": check_no_extra_notes,
+    "no_prompt_leakage": check_no_prompt_leakage,
 }
 
 
@@ -203,6 +225,7 @@ def write_markdown(path: Path, report: dict[str, Any]) -> None:
         f"- Total checks: {report['summary']['total_checks']}",
         f"- Passed checks: {report['summary']['passed_checks']}",
         f"- Pass rate: {report['summary']['pass_rate']:.2%}",
+        f"- Prompt leakage count: {report['summary'].get('prompt_leakage_count', 0)}",
         "",
         "## Results",
         "",
@@ -244,10 +267,19 @@ def main() -> None:
     results = []
     total_checks = 0
     passed_checks = 0
+    prompt_leakage_count = 0
 
     for sample in tqdm(eval_data, desc="Evaluating"):
         expected_checks = sample.get("expected_checks", [])
-        prompt = build_prompt(sample["instruction"], sample.get("input", ""))
+        prompt = build_prompt(
+            sample["instruction"],
+            sample.get("input", ""),
+            category=sample.get("category", "general"),
+            risk_level=sample.get("risk_level", "low"),
+            output_format=sample.get("output_format", "plain_answer"),
+            user_language=sample.get("user_language", "mixed"),
+            response_language=sample.get("response_language", "en"),
+        )
         response = generate_response(
             tokenizer=tokenizer,
             model=model,
@@ -258,6 +290,9 @@ def main() -> None:
             top_p=args.top_p,
         )
         checks = evaluate_response(response, expected_checks)
+        prompt_leakage = not check_no_prompt_leakage(response)
+        if prompt_leakage:
+            prompt_leakage_count += 1
         item_passed = sum(1 for passed in checks.values() if passed)
         item_total = len(checks)
         total_checks += item_total
@@ -272,6 +307,7 @@ def main() -> None:
                 "input": sample.get("input", ""),
                 "response": response,
                 "checks": checks,
+                "prompt_leakage": prompt_leakage,
                 "passed_count": item_passed,
                 "total_count": item_total,
             }
@@ -283,6 +319,7 @@ def main() -> None:
             "total_checks": total_checks,
             "passed_checks": passed_checks,
             "pass_rate": passed_checks / total_checks if total_checks else 0.0,
+            "prompt_leakage_count": prompt_leakage_count,
         },
         "results": results,
     }

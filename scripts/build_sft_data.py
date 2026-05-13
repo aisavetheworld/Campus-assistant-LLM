@@ -11,6 +11,8 @@ from typing import Any
 
 from tqdm import tqdm
 
+from prompt_utils import build_prompt_from_sample
+
 
 REQUIRED_FIELDS = [
     "id",
@@ -37,14 +39,6 @@ ALLOWED_ENUMS = {
         "safe_escalation",
     },
 }
-
-
-def build_prompt(instruction: str, input_text: str, output: str | None = None) -> str:
-    """Create the prompt format used for both SFT training and inference."""
-    prompt = f"### Instruction:\n{instruction.strip()}\n\n### Input:\n{input_text.strip()}\n\n### Response:\n"
-    if output is not None:
-        prompt += output.strip()
-    return prompt
 
 
 def read_json_list(path: Path) -> list[dict[str, Any]]:
@@ -106,15 +100,15 @@ def deduplicate(samples: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return unique
 
 
-def process_samples(samples: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def process_samples(samples: list[dict[str, Any]], eos_marker: str) -> list[dict[str, Any]]:
     """Preserve metadata and add the final SFT text field."""
     processed = []
     for sample in tqdm(samples, desc="Processing samples"):
         item = dict(sample)
-        item["text"] = build_prompt(
-            instruction=sample["instruction"],
-            input_text=sample["input"],
+        item["text"] = build_prompt_from_sample(
+            sample,
             output=sample["output"],
+            eos_marker=eos_marker,
         )
         processed.append(item)
     return processed
@@ -189,6 +183,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--eval_output", default="data/processed/sft_eval.jsonl")
     parser.add_argument("--eval_ratio", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--eos_marker",
+        default="<|endoftext|>",
+        help="Explicit marker appended after each training output.",
+    )
     return parser.parse_args()
 
 
@@ -202,7 +201,7 @@ def main() -> None:
         validate_sample(sample, index)
 
     unique_samples = deduplicate(raw_samples)
-    processed = process_samples(unique_samples)
+    processed = process_samples(unique_samples, args.eos_marker)
     train_rows, eval_rows = split_train_eval(processed, args.eval_ratio, args.seed)
 
     write_jsonl(Path(args.train_output), train_rows)

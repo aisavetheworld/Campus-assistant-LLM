@@ -11,10 +11,41 @@ import torch
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from prompt_utils import build_prompt as build_metadata_prompt
+from prompt_utils import truncate_at_stop_sequences
 
-def build_prompt(instruction: str, input_text: str) -> str:
+
+def str_to_bool(value: str | bool) -> bool:
+    """Parse a bool-like CLI value."""
+    if isinstance(value, bool):
+        return value
+    normalized = value.lower()
+    if normalized in {"true", "1", "yes", "y"}:
+        return True
+    if normalized in {"false", "0", "no", "n"}:
+        return False
+    raise argparse.ArgumentTypeError(f"Expected true/false, got: {value}")
+
+
+def build_prompt(
+    instruction: str,
+    input_text: str,
+    category: str = "general",
+    risk_level: str = "low",
+    output_format: str = "plain_answer",
+    user_language: str = "mixed",
+    response_language: str = "en",
+) -> str:
     """Create the inference prompt matching the SFT training template."""
-    return f"### Instruction:\n{instruction.strip()}\n\n### Input:\n{input_text.strip()}\n\n### Response:\n"
+    return build_metadata_prompt(
+        instruction=instruction,
+        input_text=input_text,
+        category=category,
+        risk_level=risk_level,
+        output_format=output_format,
+        user_language=user_language,
+        response_language=response_language,
+    )
 
 
 def parse_torch_dtype(dtype_name: str) -> torch.dtype | str:
@@ -94,10 +125,12 @@ def generate_response(
     max_new_tokens: int,
     temperature: float,
     top_p: float,
+    stop_at_extra_notes: bool = True,
 ) -> str:
     """Generate and return only the response portion."""
     input_device = first_parameter_device(model, device)
     inputs = tokenizer(prompt, return_tensors="pt").to(input_device)
+    prompt_length = inputs["input_ids"].shape[-1]
 
     generation_kwargs: dict[str, Any] = {
         "max_new_tokens": max_new_tokens,
@@ -118,12 +151,11 @@ def generate_response(
     with torch.no_grad():
         output_ids = model.generate(**inputs, **generation_kwargs)
 
-    decoded = tokenizer.decode(output_ids[0], skip_special_tokens=True)
-    if decoded.startswith(prompt):
-        return decoded[len(prompt) :].strip()
-    if "### Response:" in decoded:
-        return decoded.split("### Response:", maxsplit=1)[-1].strip()
-    return decoded.strip()
+    completion_ids = output_ids[0][prompt_length:]
+    decoded = tokenizer.decode(completion_ids, skip_special_tokens=True).strip()
+    if stop_at_extra_notes:
+        return truncate_at_stop_sequences(decoded)
+    return decoded
 
 
 def parse_args() -> argparse.Namespace:
@@ -133,12 +165,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--adapter_path", default="")
     parser.add_argument("--instruction", required=True)
     parser.add_argument("--input", required=True)
+    parser.add_argument("--category", default="general")
+    parser.add_argument("--risk_level", default="low")
+    parser.add_argument("--output_format", default="plain_answer")
+    parser.add_argument("--user_language", default="mixed")
+    parser.add_argument("--response_language", default="en")
     parser.add_argument("--max_new_tokens", type=int, default=300)
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=0.9)
     parser.add_argument("--torch_dtype", default="auto")
     parser.add_argument("--trust_remote_code", action="store_true", default=True)
     parser.add_argument("--use_4bit", action="store_true")
+    parser.add_argument("--stop_at_extra_notes", type=str_to_bool, default=True)
     return parser.parse_args()
 
 
@@ -146,7 +184,15 @@ def main() -> None:
     """Run one inference request."""
     args = parse_args()
     tokenizer, model, device = load_model_and_tokenizer(args)
-    prompt = build_prompt(args.instruction, args.input)
+    prompt = build_prompt(
+        args.instruction,
+        args.input,
+        category=args.category,
+        risk_level=args.risk_level,
+        output_format=args.output_format,
+        user_language=args.user_language,
+        response_language=args.response_language,
+    )
     response = generate_response(
         tokenizer=tokenizer,
         model=model,
@@ -155,6 +201,7 @@ def main() -> None:
         max_new_tokens=args.max_new_tokens,
         temperature=args.temperature,
         top_p=args.top_p,
+        stop_at_extra_notes=args.stop_at_extra_notes,
     )
     print(response)
 

@@ -234,11 +234,12 @@
     "risk_level": "low",
     "user_language": "zh",
     "response_language": "en",
-    "output_format": "steps_plus_email",
+    "output_format": "steps",
     "instruction": "用户的包裹显示 delivered，但 mailroom 找不到。",
-    "input": "请给处理步骤和英文邮件模板。",
+    "input": "请给处理步骤，不要写邮件模板。",
     "expected_checks": [
       "non_empty",
+      "not_too_short",
       "has_steps",
       "mentions_official_office",
       "no_absolute_promise"

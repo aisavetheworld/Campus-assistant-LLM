@@ -10,10 +10,10 @@
     "date_collected": "2026-05-12",
     "user_language": "mixed",
     "response_language": "en",
-    "output_format": "steps_plus_email",
+    "output_format": "email_template",
     "instruction": "用户是国际学生，包裹显示 delivered 但 mailroom 找不到。",
-    "input": "用户刚到美国，不熟悉校园 mailroom 流程，希望得到处理步骤和英文邮件模板。 For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
-    "output": "I understand why this is stressful. First, confirm the tracking number, delivery notification, recipient name, delivery address, and pickup location. Second, check whether the carrier marked the package as delivered to a campus mailroom, apartment office, locker, or front desk. Third, contact the mailroom or housing office with those details. Avoid assuming the package is lost until the office checks its internal system.\n\nEmail template:\n\nSubject: Question About Missing Package\n\nDear Mailroom Team,\n\nI hope you are doing well. I received a notification that my package was delivered, but I was not able to find it at the mailroom. Could you please help me check whether it has been received or is still being processed?\n\nTracking number: [tracking number]\nRecipient name: [your full name]\nDelivery date: [date]\nDelivery address: [address]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
+    "input": "用户刚到美国，不熟悉校园 mailroom 流程，希望得到处理步骤和英文邮件模板。 For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
+    "output": "Subject: Question About Missing Package\n\nDear Mailroom Team,\n\nI hope you are doing well. I received a notification that my package was delivered, but I was not able to find it at the mailroom. Could you please help me check whether it has been received or is still being processed?\n\nTracking number: [tracking number]\nRecipient name: [your full name]\nDelivery date: [date]\nDelivery address: [address]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
     "id": "housing_002",
@@ -26,10 +26,10 @@
     "date_collected": "2026-05-12",
     "user_language": "en",
     "response_language": "en",
-    "output_format": "steps_plus_email",
+    "output_format": "email_template",
     "instruction": "用户想知道宿舍维修问题应该怎么处理。",
-    "input": "The sink in my dorm room is leaking. I am not sure whether I should email my RA or submit a maintenance request. For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
-    "output": "First, document the issue with a short description and photos if appropriate. Second, check your campus housing portal or housing website for the official maintenance request process. Many campuses prefer students to submit a maintenance request through an online system rather than only messaging an RA. Third, if the leak could damage property or affect safety, contact the housing office or emergency maintenance line using the official instructions.\n\nYou can write:\n\nSubject: Maintenance Request for Leaking Sink\n\nDear Housing Team,\n\nI hope you are doing well. I am writing to report a leaking sink in my room. The issue started on [date/time], and I have attached photos for reference. Could you please let me know the next steps or confirm whether I should submit this through the housing portal?\n\nBest regards,\n[Your Name]"
+    "input": "The sink in my dorm room is leaking. I am not sure whether I should email my RA or submit a maintenance request. For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
+    "output": "Subject: Maintenance Request for Leaking Sink\n\nDear Housing Team,\n\nI hope you are doing well. I am writing to report a leaking sink in my room. The issue started on [date/time], and I have attached photos for reference. Could you please let me know the next steps or confirm whether I should submit this through the housing portal?\n\nBest regards,\n[Your Name]"
   },
   {
     "id": "housing_003",
@@ -58,10 +58,10 @@
     "date_collected": "2026-05-12",
     "user_language": "en",
     "response_language": "en",
-    "output_format": "steps_plus_email",
+    "output_format": "email_template",
     "instruction": "用户想取消 housing contract，担心违约后果。",
-    "input": "I want to cancel my housing contract because I found an off-campus place. Can you tell me if I can cancel without penalty? For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
-    "output": "I cannot determine whether you can cancel without a penalty because housing contracts depend on the specific agreement, dates, campus policy, and approval process. Please do not rely on a general answer for a binding contract decision.\n\nRecommended steps:\n\n1. Read the cancellation section of your housing contract.\n2. Check the official housing website for the current cancellation process.\n3. Contact the housing office and ask them to explain possible fees, deadlines, and required forms.\n4. Keep written records of any official response.\n\nEmail template:\n\nSubject: Question About Housing Contract Cancellation\n\nDear Housing Office,\n\nI hope you are doing well. I am considering canceling my housing contract because I may live off campus. Could you please let me know the official cancellation process, any relevant deadlines, and whether any fees or penalties may apply in my case?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
+    "input": "I want to cancel my housing contract because I found an off-campus place. Can you tell me if I can cancel without penalty? For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
+    "output": "Subject: Question About Housing Contract Cancellation\n\nDear Housing Office,\n\nI hope you are doing well. I am considering canceling my housing contract because I may live off campus. Could you please let me know the official cancellation process, any relevant deadlines, and whether any fees or penalties may apply in my case?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
     "id": "housing_005",
@@ -108,7 +108,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想写邮件询问 housing office 是否可以换房。",
-    "input": "原因是房间太吵，影响睡眠。用户希望语气礼貌，不要指责室友。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "原因是房间太吵，影响睡眠。用户希望语气礼貌，不要指责室友。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Possible Room Change\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask about the process for requesting a room change. I have been having difficulty sleeping because my current living environment is often noisy, and I would like to understand what options may be available.\n\nI do not want to create conflict with anyone, but I would appreciate guidance on whether there is an official room change request process, what information I should provide, and whether I should first speak with residence life staff.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -156,7 +156,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写 waitlist inquiry。",
-    "input": "The user is on the waitlist for a course and wants to ask whether attending the first class is recommended. Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "The user is on the waitlist for a course and wants to ask whether attending the first class is recommended. Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Waitlist and First Class Attendance\n\nDear Professor [Last Name],\n\nI hope you are doing well. My name is [Your Name], and I am currently on the waitlist for [Course Number/Title]. I am very interested in taking this course and would like to ask whether you recommend that waitlisted students attend the first class session.\n\nI understand that enrollment decisions may depend on department policy and seat availability. I would appreciate any guidance you can provide about how waitlisted students should proceed.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -220,7 +220,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 department 写邮件询问 prerequisite clearance。",
-    "input": "用户有国内大学类似课程背景，希望邮件正式、简洁。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "用户有国内大学类似课程背景，希望邮件正式、简洁。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Prerequisite Clearance Review\n\nDear [Department Name] Advising Team,\n\nI hope you are doing well. My name is [Your Name], and I am interested in enrolling in [Course Number/Title]. I noticed that the course has a prerequisite, and I would like to ask whether my previous coursework can be reviewed for possible prerequisite clearance.\n\nI completed a similar course at [Previous Institution]. I can provide the syllabus, transcript, or course description if needed. Could you please let me know the official process and any documents I should submit?\n\nThank you for your time and guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -316,8 +316,8 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想写邮件给 student health insurance office 询问 waiver status。",
-    "input": "用户已经提交 waiver，但 portal 里还没有结果。不要催得太强硬。 Only provide the email draft. Do not add extra notes or explanations after the email.",
-    "output": "Subject: Question About Health Insurance Waiver Status\n\nDear Student Health Insurance Office,\n\nI hope you are doing well. I submitted my health insurance waiver request on [date], and I am writing to ask whether there is any update on the review status.\n\nCould you please let me know if my submission is complete or if any additional documents are needed? I understand that processing may take time, and I appreciate your guidance.\n\nThank you very much.\n\nBest regards,\n[Your Name]\n[Student ID, if appropriate]"
+    "input": "用户已经提交 waiver，但 portal 里还没有结果。不要催得太强硬。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
+    "output": "Subject: Question About Health Insurance Waiver Status\n\nDear Student Health Insurance Office,\n\nI hope you are doing well. I submitted my health insurance waiver request on [date], and I am writing to ask whether there is any update on the review status.\n\nCould you please let me know if my submission is complete or if any additional documents are needed? I understand that processing may take time, and I appreciate your guidance.\n\nThank you very much.\n\nBest regards,\n[Your Name]"
   },
   {
     "id": "health_005",
@@ -380,7 +380,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 student health center 写邮件询问 immunization hold。",
-    "input": "用户已经上传材料，希望知道是否缺文件。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "用户已经上传材料，希望知道是否缺文件。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Immunization Hold\n\nDear Student Health Center Team,\n\nI hope you are doing well. I noticed that there is still an immunization hold on my account after I uploaded my documents on [date]. Could you please help me check whether my submission is complete or whether any additional information is needed?\n\nMy student information is below:\nName: [Your Name]\nStudent ID: [Student ID]\nUpload date: [Date]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -396,7 +396,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写邮件申请作业延期。",
-    "input": "原因：生病；作业：project report；希望语气礼貌，不要太长。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "原因：生病；作业：project report；希望语气礼貌，不要太长。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Extension on Project Report\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive a short extension for the project report due on [date]. I have been sick recently, which has affected my ability to complete the assignment on time.\n\nI understand the importance of deadlines and course policies. If an extension is possible, I would be grateful for your guidance on an appropriate new deadline.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -412,7 +412,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写 recommendation letter request。",
-    "input": "用户上过教授的课，成绩不错，申请研究项目，需要推荐信。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "用户上过教授的课，成绩不错，申请研究项目，需要推荐信。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Recommendation Letter\n\nDear Professor [Last Name],\n\nI hope you are doing well. My name is [Your Name], and I took [Course Name] with you in [term]. I enjoyed the course and learned a great deal, especially about [specific topic].\n\nI am applying for [program/opportunity], and I wanted to ask whether you would feel comfortable writing a recommendation letter for me. The deadline is [date]. I would be happy to provide my resume, transcript, draft statement, and any other materials that may be helpful.\n\nThank you very much for considering my request.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -428,7 +428,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户要写邮件给 TA 询问 grade feedback。",
-    "input": "希望语气不要像争分，只是想理解哪里可以改进。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "希望语气不要像争分，只是想理解哪里可以改进。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Feedback on [Assignment Name]\n\nDear [TA Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive some feedback on my [assignment/exam]. I am not asking for a grade change at this time; I would mainly like to understand where I lost points and how I can improve in future work.\n\nIf there is an appropriate office hour or process for discussing feedback, please let me know.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -444,8 +444,8 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 international student office 写邮件问 reduced course load。",
-    "input": "用户因为健康原因可能不能 full-time，但还没决定退课。 Only provide the email draft. Do not add extra notes or explanations after the email.",
-    "output": "Subject: Question About Reduced Course Load Process\n\nDear International Student Office,\n\nI hope you are doing well. I am an international student, and I am writing to ask about the official process for discussing a possible reduced course load. Due to health-related circumstances, I may not be able to maintain a full-time course load this term, but I have not made any enrollment changes yet.\n\nCould you please let me know what steps I should follow, what documentation may be required, and whether I should speak with an advisor before making any changes?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]\n[Student ID, if appropriate]"
+    "input": "用户因为健康原因可能不能 full-time，但还没决定退课。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
+    "output": "Subject: Question About Reduced Course Load Process\n\nDear International Student Office,\n\nI hope you are doing well. I am an international student, and I am writing to ask about the official process for discussing a possible reduced course load. Due to health-related circumstances, I may not be able to maintain a full-time course load this term, but I have not made any enrollment changes yet.\n\nCould you please let me know what steps I should follow, what documentation may be required, and whether I should speak with an advisor before making any changes?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
     "id": "email_005",
@@ -460,7 +460,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户要给 housing office 写邮件报告室友问题。",
-    "input": "室友持续制造噪音，用户已经尝试沟通，希望邮件客观。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "室友持续制造噪音，用户已经尝试沟通，希望邮件客观。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Guidance Regarding Roommate Noise Issue\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask for guidance regarding an ongoing noise issue in my room. I have tried to communicate respectfully with my roommate, but the issue has continued and has been affecting my sleep and daily routine.\n\nCould you please let me know what the appropriate next step is? I would like to follow the official residence life or housing process and resolve the issue respectfully.\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -476,8 +476,8 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 insurance office 写邮件问账单和保险。",
-    "input": "用户收到 bill，不确定保险是否处理过。希望邮件不要承认自己一定欠费。 Only provide the email draft. Do not add extra notes or explanations after the email.",
-    "output": "Subject: Question About Medical Bill and Insurance Processing\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a medical bill related to a visit on [date], and I am trying to understand whether the claim has already been processed by my insurance.\n\nCould you please let me know how I can check the claim status and whether any additional documents are needed from me? I would also appreciate guidance on whom to contact if I need an itemized bill or explanation of benefits.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]\n[Student ID or insurance ID, if appropriate]"
+    "input": "用户收到 bill，不确定保险是否处理过。希望邮件不要承认自己一定欠费。 Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
+    "output": "Subject: Question About Medical Bill and Insurance Processing\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a medical bill related to a visit on [date], and I am trying to understand whether the claim has already been processed by my insurance.\n\nCould you please let me know how I can check the claim status and whether any additional documents are needed from me? I would also appreciate guidance on whom to contact if I need an itemized bill or explanation of benefits.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
     "id": "email_007",
@@ -492,7 +492,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户给出一封过于随意的英文邮件，希望改正式。",
-    "input": "Hey prof, I was sick so I can't finish the homework. Can you give me more time? Thanks. Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "input": "Hey prof, I was sick so I can't finish the homework. Can you give me more time? Thanks. Only provide the email draft. Do not add extra notes or explanations after the email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Extension on Homework\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive an extension for the homework due on [date]. I have been sick recently, which has made it difficult for me to complete the assignment by the original deadline.\n\nI understand that extensions depend on course policy, and I appreciate your consideration. Please let me know if any documentation or additional information is needed.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -620,7 +620,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写邮件申请 project report 延期。",
-    "input": "原因是生病，希望邮件简洁正式。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "原因是生病，希望邮件简洁正式。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Extension on Project Report\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive a short extension for the project report due on [date]. I have been sick recently, which has affected my ability to complete the assignment on time.\n\nI understand that extensions depend on course policy, and I will respect your decision. If an extension is possible, I would be grateful for your guidance on an appropriate new deadline.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -636,7 +636,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户因为生病缺课，想给教授写邮件说明情况。",
-    "input": "希望询问如何补上 missed content，不要过度解释。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "希望询问如何补上 missed content，不要过度解释。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Absence From Class Due to Illness\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to let you know that I was unable to attend class on [date] because I was sick. I apologize for missing the session.\n\nCould you please let me know whether there are any materials, notes, or steps I should follow to catch up on the missed content?\n\nThank you for your time and understanding.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -652,7 +652,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户在 waitlist 上，想问 professor 是否应该 attend first class。",
-    "input": "Do not ask the professor to bypass department policy. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Do not ask the professor to bypass department policy. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Waitlist and First Class Attendance\n\nDear Professor [Last Name],\n\nI hope you are doing well. My name is [Your Name], and I am currently on the waitlist for [Course Number/Title]. I am very interested in the course and would like to ask whether you recommend that waitlisted students attend the first class session.\n\nI understand that enrollment depends on official course and department policy. I would appreciate any guidance you can provide about how waitlisted students should proceed.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -668,7 +668,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想请教授写 recommendation letter。",
-    "input": "用户上过教授的课，申请研究项目，需要正式邮件。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户上过教授的课，申请研究项目，需要正式邮件。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Recommendation Letter\n\nDear Professor [Last Name],\n\nI hope you are doing well. My name is [Your Name], and I took [Course Name] with you in [term]. I enjoyed the course and learned a great deal about [specific topic].\n\nI am applying for [program/opportunity], and I wanted to ask whether you would feel comfortable writing a recommendation letter for me. The deadline is [date]. I would be happy to provide my resume, transcript, draft statement, and any other materials that may be helpful.\n\nThank you very much for considering my request.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -684,7 +684,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 department 写 prerequisite clearance 邮件。",
-    "input": "用户有类似课程背景，希望询问官方流程。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户有类似课程背景，希望询问官方流程。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Prerequisite Clearance Review\n\nDear [Department Name] Advising Team,\n\nI hope you are doing well. My name is [Your Name], and I am interested in enrolling in [Course Number/Title]. I noticed that the course has a prerequisite, and I would like to ask whether my previous coursework can be reviewed for possible prerequisite clearance.\n\nI completed a similar course at [Previous Institution]. I can provide the syllabus, transcript, or course description if needed. Could you please let me know the official process and any documents I should submit?\n\nThank you for your time and guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -700,7 +700,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to email academic advising about a missed enrollment deadline.",
-    "input": "The user needs the course for graduation and wants a polite, non-demanding email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "The user needs the course for graduation and wants a polite, non-demanding email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Late Enrollment Options\n\nDear [Department Name] Advising Team,\n\nI hope you are doing well. I am writing to ask about any official options for late enrollment in [Course Number/Title]. I missed the enrollment deadline, and I understand that exceptions depend on university and department policy.\n\nThis course may be important for my graduation plan, so I would appreciate your guidance on whether there is a petition process, substitute course option, or advising appointment I should pursue.\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -716,7 +716,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户包裹显示 delivered 但 mailroom 找不到，想写邮件。",
-    "input": "用户刚到美国，不熟悉 mailroom 流程。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户刚到美国，不熟悉 mailroom 流程。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Missing Package\n\nDear Mailroom Team,\n\nI hope you are doing well. I received a notification that my package was delivered, but I was not able to find it at the mailroom. Could you please help me check whether it has been received or is still being processed?\n\nTracking number: [tracking number]\nRecipient name: [your full name]\nDelivery date: [date]\nDelivery address: [address]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -732,7 +732,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to email housing about a leaking sink.",
-    "input": "Ask for repair steps without blaming anyone. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask for repair steps without blaming anyone. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Maintenance Request for Leaking Sink\n\nDear Housing Team,\n\nI hope you are doing well. I am writing to report a leaking sink in my room. The issue started on [date/time], and I have attached photos for reference if needed.\n\nCould you please let me know the next steps or confirm whether I should submit this through the housing portal?\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -748,7 +748,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 housing office 写邮件报告 roommate noise issue。",
-    "input": "用户已经尝试沟通，希望语气客观，不指责。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户已经尝试沟通，希望语气客观，不指责。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Guidance Regarding Roommate Noise Issue\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask for guidance regarding an ongoing noise issue in my room. I have tried to communicate respectfully, but the issue has continued and has been affecting my sleep and daily routine.\n\nCould you please let me know the appropriate next step? I would like to follow the official residence life or housing process and resolve the issue respectfully.\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -764,7 +764,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想问 housing office 是否可以换房。",
-    "input": "原因是睡眠受影响，邮件不要指责室友。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "原因是睡眠受影响，邮件不要指责室友。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Possible Room Change\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask about the process for requesting a room change. I have been having difficulty sleeping because my current living environment is often noisy, and I would like to understand what options may be available.\n\nCould you please let me know whether there is an official request process and what information I should provide?\n\nThank you very much for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -780,7 +780,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 student health insurance office 询问 waiver status。",
-    "input": "用户已经提交 waiver，但 portal 还没有结果。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户已经提交 waiver，但 portal 还没有结果。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Health Insurance Waiver Status\n\nDear Student Health Insurance Office,\n\nI hope you are doing well. I submitted my health insurance waiver request on [date], and I am writing to ask whether there is any update on the review status.\n\nCould you please let me know if my submission is complete or if any additional documents are needed? I understand that processing may take time, and I appreciate your guidance.\n\nThank you very much.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -796,7 +796,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 student health center 写邮件询问 immunization hold。",
-    "input": "用户已经上传材料，希望知道是否缺文件。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户已经上传材料，希望知道是否缺文件。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Immunization Hold\n\nDear Student Health Center Team,\n\nI hope you are doing well. I noticed that there is still an immunization hold on my account after I uploaded my documents on [date]. Could you please help me check whether my submission is complete or whether any additional information is needed?\n\nName: [Your Name]\nStudent ID: [Student ID]\nUpload date: [Date]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -812,7 +812,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 insurance office 写邮件问 medical bill 和 claim status。",
-    "input": "不要承认自己一定欠费，只询问保险是否处理。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "不要承认自己一定欠费，只询问保险是否处理。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Medical Bill and Insurance Processing\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a medical bill related to a visit on [date], and I am trying to understand whether the claim has already been processed by my insurance.\n\nCould you please let me know how I can check the claim status and whether any additional documents are needed from me? I would also appreciate guidance on whom to contact if I need an itemized bill or explanation of benefits.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -828,7 +828,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 TA 写邮件询问 grade feedback。",
-    "input": "不要像争分，只想知道如何改进。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "不要像争分，只想知道如何改进。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Feedback on [Assignment Name]\n\nDear [TA Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive some feedback on my [assignment/exam]. I am not asking for a grade change at this time; I would mainly like to understand where I lost points and how I can improve in future work.\n\nIf there is an appropriate office hour or process for discussing feedback, please let me know.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -844,7 +844,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to ask a professor for office hours.",
-    "input": "The user has questions about course material and wants a brief email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "The user has questions about course material and wants a brief email. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Office Hours Appointment\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether I could meet with you during office hours or at another available time to discuss questions about [topic/course material].\n\nI would appreciate the opportunity to clarify my understanding and prepare better for the next assignment or exam.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -860,7 +860,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户小组项目沟通困难，想给 professor 写邮件求建议。",
-    "input": "不要指责组员，语气客观。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "不要指责组员，语气客观。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Request for Guidance on Group Project Communication\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask for guidance regarding communication in our group project. I would like to handle the situation respectfully and make sure I am following the expectations for the course.\n\nCould you please let me know whether there is an appropriate way to address this or whether I should discuss it during office hours?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -876,7 +876,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to email an academic advisor about graduation planning.",
-    "input": "Ask whether a course can satisfy a requirement without assuming policy. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask whether a course can satisfy a requirement without assuming policy. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Course Requirement and Graduation Plan\n\nDear Academic Advising Team,\n\nI hope you are doing well. I am writing to ask whether [Course Number/Title] can satisfy [requirement name] for my degree plan. I understand that degree requirement decisions depend on official department or advising policy.\n\nCould you please let me know whether this course applies to my requirement, or whether I should consider another option?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -892,7 +892,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to email department advising about waitlist process.",
-    "input": "Ask about official process, not special treatment. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask about official process, not special treatment. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Waitlist Process for [Course Number]\n\nDear [Department Name] Advising Team,\n\nI hope you are doing well. I am currently on the waitlist for [Course Number/Title], and I would like to ask about the official waitlist process.\n\nCould you please let me know whether there are any steps waitlisted students should follow, and whether attending the first class is recommended or allowed?\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -908,7 +908,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to email insurance office about finding an in-network clinic.",
-    "input": "Do not ask for medical diagnosis. Ask about insurance process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Do not ask for medical diagnosis. Ask about insurance process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Finding an In-Network Clinic\n\nDear Insurance Office,\n\nI hope you are doing well. I am trying to understand how to find an in-network clinic under my student health insurance plan.\n\nCould you please let me know where I can check covered providers and whether there are any referral or appointment steps I should follow before visiting a clinic?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -924,7 +924,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user needs a polite follow-up email after no reply.",
-    "input": "Keep it short and respectful. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Keep it short and respectful. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Follow-Up on Previous Email\n\nDear [Recipient Name],\n\nI hope you are doing well. I am writing to follow up on my previous email sent on [date] regarding [topic].\n\nI understand you may be busy, and I would appreciate any guidance when you have a chance.\n\nThank you very much for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -940,7 +940,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user lost a dorm key or access card and wants to contact housing.",
-    "input": "Ask for official replacement process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask for official replacement process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Lost Room Key or Access Card\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to report that I lost my room key or access card. Could you please let me know the official replacement process and whether there are any temporary access steps I should follow?\n\nMy residence information is below:\nName: [Your Name]\nResidence area: [Residence Area]\nRoom number: [Room Number]\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -956,7 +956,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user has a general housing contract question.",
-    "input": "Ask about process without demanding a legal conclusion. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask about process without demanding a legal conclusion. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Housing Contract Process\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask for guidance about the housing contract process. I would like to understand the official steps, any forms I should review, and whom I should contact for case-specific questions.\n\nI understand that contract outcomes depend on the official policy and my specific situation.\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -972,7 +972,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 international student office 写 reduced course load 咨询邮件。",
-    "input": "用户还没退课，希望邮件不要给签证结论。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "用户还没退课，希望邮件不要给签证结论。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Reduced Course Load Process\n\nDear International Student Office,\n\nI hope you are doing well. I am an international student, and I am writing to ask about the official process for discussing a possible reduced course load. I have not made any enrollment changes yet.\n\nCould you please let me know what steps I should follow, what documentation may be required, and whether I should schedule an appointment with an international student advisor before making any changes?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -988,7 +988,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 international student office 写 CPT 咨询邮件。",
-    "input": "The user has an internship offer but has not received authorization. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "The user has an internship offer but has not received authorization. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About CPT Process Before Internship\n\nDear International Student Office,\n\nI hope you are doing well. I am writing to ask about the official CPT process before starting an internship. I have received an internship offer, but I have not started work and would like to understand the required authorization steps.\n\nCould you please let me know what documents I should prepare, whether I need an advising appointment, and what I should do before my proposed start date?\n\nThank you very much for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1004,7 +1004,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to ask a professor for assignment clarification.",
-    "input": "Keep the email short and specific. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Keep the email short and specific. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About [Assignment Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask for clarification about [specific part] of [Assignment Name]. I reviewed the instructions, but I want to make sure I understand the expectation correctly.\n\nCould you please clarify whether [your specific question]?\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1020,7 +1020,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user needs to apologize for a late reply to an office.",
-    "input": "Keep it professional and concise. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Keep it professional and concise. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Apology for Delayed Response\n\nDear [Office Name] Team,\n\nI hope you are doing well. I apologize for my delayed response. Thank you for your patience.\n\nI am writing to follow up regarding [topic] and would appreciate any guidance on the next steps I should take.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1036,7 +1036,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to ask the insurance office about a denied claim appeal.",
-    "input": "Ask for process and documents; do not assume approval. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask for process and documents; do not assume approval. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Insurance Claim Appeal Process\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a denial notice for an insurance claim, and I would like to understand the official appeal process.\n\nCould you please let me know what documents are required, where I should submit them, and whether there is a deadline I should check on the official insurance materials?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1052,7 +1052,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to ask the mailroom about correct mailing format.",
-    "input": "Ask for official format without inventing address. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask for official format without inventing address. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Official Mailing Address Format\n\nDear Mailroom Team,\n\nI hope you are doing well. I am writing to ask about the official mailing address format for my residence area. I want to make sure my name, room or mailbox information, and delivery address are formatted correctly before ordering important items.\n\nCould you please let me know where I can find the current official format or confirm what information should be included?\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1068,7 +1068,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户有考试时间冲突，想给 professor 写邮件。",
-    "input": "不要要求特殊待遇，只询问课程政策。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "不要要求特殊待遇，只询问课程政策。 Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Exam Conflict\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask for guidance about a possible exam conflict on [date]. I understand that exam policies depend on the course and university rules.\n\nCould you please let me know the appropriate process for reporting this conflict and whether any documentation is needed?\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1084,7 +1084,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to thank an advisor after receiving help.",
-    "input": "Keep it concise and professional. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Keep it concise and professional. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Thank You for Your Guidance\n\nDear [Advisor Name],\n\nI hope you are doing well. I wanted to thank you for your guidance regarding [topic]. Your explanation was very helpful and gave me a clearer understanding of the next steps.\n\nI appreciate your time and support.\n\nThank you again.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1100,7 +1100,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user wants to ask student health center how to schedule an appointment.",
-    "input": "Do not include medical advice. Ask about appointment process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Do not include medical advice. Ask about appointment process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Scheduling a Student Health Appointment\n\nDear Student Health Center Team,\n\nI hope you are doing well. I would like to ask about the process for scheduling an appointment with the student health center.\n\nCould you please let me know where I should make an appointment, what information I should prepare, and whether there are separate instructions for urgent or after-hours care?\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -1116,7 +1116,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "The user is locked out and wants to contact housing.",
-    "input": "Ask about official lockout process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email.",
+    "input": "Ask about official lockout process. Only provide the email draft. Do not add notes, explanations, analysis, or comments after the email. End immediately after \"Best regards,\\n[Your Name]\".",
     "output": "Subject: Question About Temporary Room Access\n\nDear Housing Office,\n\nI hope you are doing well. I am currently unable to access my room and would like to ask about the official lockout or temporary access process.\n\nCould you please let me know whom I should contact and what information I need to provide?\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
