@@ -12,7 +12,7 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from prompt_utils import build_prompt as build_metadata_prompt
-from prompt_utils import truncate_at_stop_sequences
+from prompt_utils import truncate_with_stop_info
 
 
 def str_to_bool(value: str | bool) -> bool:
@@ -126,7 +126,8 @@ def generate_response(
     temperature: float,
     top_p: float,
     stop_at_extra_notes: bool = True,
-) -> str:
+    return_generation_info: bool = False,
+) -> str | tuple[str, dict[str, Any]]:
     """Generate and return only the response portion."""
     input_device = first_parameter_device(model, device)
     inputs = tokenizer(prompt, return_tensors="pt").to(input_device)
@@ -153,8 +154,18 @@ def generate_response(
 
     completion_ids = output_ids[0][prompt_length:]
     decoded = tokenizer.decode(completion_ids, skip_special_tokens=True).strip()
+    info = {
+        "raw_response_length": len(decoded),
+        "was_truncated_by_stop_sequence": False,
+        "stop_sequence_used": None,
+    }
     if stop_at_extra_notes:
-        return truncate_at_stop_sequences(decoded)
+        decoded, was_truncated, stop_used = truncate_with_stop_info(decoded)
+        info["was_truncated_by_stop_sequence"] = was_truncated
+        info["stop_sequence_used"] = stop_used
+    info["response_length"] = len(decoded)
+    if return_generation_info:
+        return decoded, info
     return decoded
 
 

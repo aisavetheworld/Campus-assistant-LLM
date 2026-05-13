@@ -6,6 +6,7 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 from typing import Any, Callable
 
@@ -138,9 +139,9 @@ def check_not_too_short(text: str) -> bool:
 
 def check_has_steps(text: str) -> bool:
     lower = text.lower()
-    if re.search(r"(^|\n)\s*(1\.|2\.|3\.|- )", text):
+    if all(re.search(rf"(^|\n)\s*{index}\.", text) for index in (1, 2, 3)):
         return True
-    return any(marker in lower for marker in ["first", "second", "third", "next", "then", "finally"])
+    return all(marker in lower for marker in ["first", "second", "third"])
 
 
 def check_no_extra_notes(text: str) -> bool:
@@ -226,19 +227,44 @@ def write_markdown(path: Path, report: dict[str, Any]) -> None:
         f"- Passed checks: {report['summary']['passed_checks']}",
         f"- Pass rate: {report['summary']['pass_rate']:.2%}",
         f"- Prompt leakage count: {report['summary'].get('prompt_leakage_count', 0)}",
+        f"- Prompt leakage IDs: {', '.join(report['summary'].get('prompt_leakage_ids', [])) or '-'}",
         "",
-        "## Results",
+        "## Failed Check Counts",
         "",
-        "| ID | Category | Risk | Passed | Failed Checks |",
-        "|---|---|---:|---:|---|",
     ]
+    for check_name, count in report["summary"].get("failed_check_counts", {}).items():
+        lines.append(f"- `{check_name}`: {count}")
+
+    lines.extend(
+        [
+            "",
+            "## Results",
+            "",
+            "| ID | Category | Risk | Passed | Response Words | Truncated | Stop Sequence | Failed Checks |",
+            "|---|---|---:|---:|---:|---|---|---|",
+        ]
+    )
     for item in report["results"]:
         failed = [name for name, passed in item["checks"].items() if not passed]
+        stop = item.get("stop_sequence_used") or "-"
+        if stop != "-":
+            stop = stop.replace("\n", "\\n")
         lines.append(
             f"| {item['id']} | {item['category']} | {item['risk_level']} | "
-            f"{item['passed_count']}/{item['total_count']} | {', '.join(failed) or '-'} |"
+            f"{item['passed_count']}/{item['total_count']} | {item.get('response_word_count', 0)} | "
+            f"{item.get('was_truncated_by_stop_sequence', False)} | `{stop}` | {', '.join(failed) or '-'} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def summarize_failed_checks(results: list[dict[str, Any]]) -> dict[str, int]:
+    """Count failed checks across all evaluated samples."""
+    counter: Counter[str] = Counter()
+    for item in results:
+        for check_name, passed in item["checks"].items():
+            if not passed:
+                counter[check_name] += 1
+    return dict(counter.most_common())
 
 
 def parse_args() -> argparse.Namespace:
@@ -268,6 +294,7 @@ def main() -> None:
     total_checks = 0
     passed_checks = 0
     prompt_leakage_count = 0
+    prompt_leakage_ids = []
 
     for sample in tqdm(eval_data, desc="Evaluating"):
         expected_checks = sample.get("expected_checks", [])
@@ -280,7 +307,7 @@ def main() -> None:
             user_language=sample.get("user_language", "mixed"),
             response_language=sample.get("response_language", "en"),
         )
-        response = generate_response(
+        response, generation_info = generate_response(
             tokenizer=tokenizer,
             model=model,
             prompt=prompt,
@@ -288,11 +315,13 @@ def main() -> None:
             max_new_tokens=args.max_new_tokens,
             temperature=args.temperature,
             top_p=args.top_p,
+            return_generation_info=True,
         )
         checks = evaluate_response(response, expected_checks)
         prompt_leakage = not check_no_prompt_leakage(response)
         if prompt_leakage:
             prompt_leakage_count += 1
+            prompt_leakage_ids.append(sample["id"])
         item_passed = sum(1 for passed in checks.values() if passed)
         item_total = len(checks)
         total_checks += item_total
@@ -306,6 +335,13 @@ def main() -> None:
                 "instruction": sample["instruction"],
                 "input": sample.get("input", ""),
                 "response": response,
+                "response_length": len(response),
+                "response_word_count": word_count(response),
+                "was_truncated_by_stop_sequence": generation_info[
+                    "was_truncated_by_stop_sequence"
+                ],
+                "stop_sequence_used": generation_info["stop_sequence_used"],
+                "raw_response_length": generation_info["raw_response_length"],
                 "checks": checks,
                 "prompt_leakage": prompt_leakage,
                 "passed_count": item_passed,
@@ -320,6 +356,8 @@ def main() -> None:
             "passed_checks": passed_checks,
             "pass_rate": passed_checks / total_checks if total_checks else 0.0,
             "prompt_leakage_count": prompt_leakage_count,
+            "prompt_leakage_ids": prompt_leakage_ids,
+            "failed_check_counts": summarize_failed_checks(results),
         },
         "results": results,
     }

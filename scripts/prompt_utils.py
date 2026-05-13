@@ -12,7 +12,6 @@ ROLE_CONSTRAINT = (
 )
 
 STOP_SEQUENCES = [
-    "\n---",
     "\n### Instruction:",
     "\n### Input:",
     "\n### Response:",
@@ -66,7 +65,73 @@ def language_requirement(response_language: str) -> str:
     return "Use the response language requested by the task metadata."
 
 
-def format_requirements(output_format: str, risk_level: str, response_language: str) -> list[str]:
+def has_any_keyword(text: str, keywords: list[str]) -> bool:
+    """Return whether any keyword appears in text, case-insensitively."""
+    lower = text.lower()
+    return any(keyword.lower() in lower for keyword in keywords)
+
+
+def escalation_requirements(
+    category: str,
+    risk_level: str,
+    instruction: str,
+    input_text: str,
+) -> list[str]:
+    """Generate category/risk-aware official escalation requirements."""
+    if risk_level not in {"medium", "high"}:
+        return []
+
+    combined = f"{instruction}\n{input_text}"
+    requirements: list[str] = []
+
+    if category == "housing":
+        requirements.append(
+            "Mention the housing office, Student Mail, mailroom team, or relevant housing team when official help is needed."
+        )
+    elif category == "course_enrollment":
+        requirements.append("Mention an academic advisor, department, or registrar for academic enrollment issues.")
+        if risk_level == "high" and has_any_keyword(
+            combined,
+            ["visa", "status", "full-time", "full time", "cpt", "opt", "sevis", "reduced course load"],
+        ):
+            requirements.append("Mention the international student office for visa/status/CPT/OPT/full-time enrollment risk.")
+    elif category == "health_insurance":
+        if has_any_keyword(
+            combined,
+            [
+                "medical",
+                "symptom",
+                "symptoms",
+                "treatment",
+                "doctor",
+                "chest pain",
+                "dizziness",
+                "fever",
+                "breathing",
+                "medication",
+                "allergic",
+                "healthcare",
+                "心理",
+                "头晕",
+                "呼吸",
+                "发烧",
+            ],
+        ):
+            requirements.append("Mention a healthcare provider or student health center for medical or symptom-related issues.")
+        if has_any_keyword(combined, ["insurance claim", "claim", "waiver", "bill", "coverage", "appeal"]):
+            requirements.append("Mention the insurance office or insurance provider for insurance claim, waiver, billing, or coverage issues.")
+
+    return requirements
+
+
+def format_requirements(
+    output_format: str,
+    risk_level: str,
+    response_language: str,
+    category: str = "general",
+    instruction: str = "",
+    input_text: str = "",
+) -> list[str]:
     """Build prompt requirements from metadata."""
     requirements = [
         language_requirement(response_language),
@@ -85,18 +150,28 @@ def format_requirements(output_format: str, risk_level: str, response_language: 
             ]
         )
     elif output_format == "steps":
-        requirements.append("Use concise, actionable steps.")
+        requirements.extend(
+            [
+                "Use a numbered list with at least 3 steps.",
+                "Start each step with `1.`, `2.`, `3.`.",
+                "Do not answer in a single paragraph.",
+            ]
+        )
     elif output_format == "safe_escalation":
         requirements.extend(
             [
                 "Use a safe escalation style with clear boundaries.",
                 "Do not give absolute promises or guaranteed outcomes.",
                 "Refer the user to the relevant official office or qualified professional.",
-                "Use concise, actionable steps when appropriate.",
+                "Use a numbered list with at least 3 steps.",
+                "Start each step with `1.`, `2.`, `3.`.",
+                "Do not answer in a single paragraph.",
             ]
         )
     else:
         requirements.append("Provide a concise campus-assistant answer.")
+
+    requirements.extend(escalation_requirements(category, risk_level, instruction, input_text))
 
     if risk_level == "high":
         requirements.append("For high-risk issues, avoid definitive legal, visa, medical, insurance, or disciplinary conclusions.")
@@ -118,7 +193,15 @@ def build_prompt(
 ) -> str:
     """Create the shared metadata-aware SFT/inference prompt."""
     requirements = "\n".join(
-        f"- {item}" for item in format_requirements(output_format, risk_level, response_language)
+        f"- {item}"
+        for item in format_requirements(
+            output_format,
+            risk_level,
+            response_language,
+            category=category,
+            instruction=instruction,
+            input_text=input_text,
+        )
     )
     prompt = (
         f"### Role:\n{ROLE_CONSTRAINT}\n\n"
@@ -160,14 +243,27 @@ def build_prompt_from_sample(
     )
 
 
-def truncate_at_stop_sequences(text: str, stop_sequences: list[str] | None = None) -> str:
-    """Truncate generated text at the earliest configured stop sequence."""
+def truncate_with_stop_info(
+    text: str, stop_sequences: list[str] | None = None
+) -> tuple[str, bool, str | None]:
+    """Truncate generated text and return stop-sequence metadata."""
     stops = stop_sequences or STOP_SEQUENCES
     earliest: int | None = None
+    stop_used: str | None = None
     for stop in stops:
         idx = text.find(stop)
         if idx != -1 and (earliest is None or idx < earliest):
             earliest = idx
+            stop_used = stop
     if earliest is None:
-        return text.strip()
-    return text[:earliest].strip()
+        return text.strip(), False, None
+    truncated = text[:earliest].rstrip()
+    if truncated.endswith("---"):
+        truncated = truncated[:-3].rstrip()
+    return truncated.strip(), True, stop_used
+
+
+def truncate_at_stop_sequences(text: str, stop_sequences: list[str] | None = None) -> str:
+    """Truncate generated text at the earliest configured stop sequence."""
+    truncated_text, _, _ = truncate_with_stop_info(text, stop_sequences)
+    return truncated_text
