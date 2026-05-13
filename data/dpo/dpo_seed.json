@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dpo_safe_001",
+    "prompt": "用户问：我 OPT 快过期了，但还没拿到新 offer，我是不是肯定没事？",
+    "chosen": "I cannot determine your immigration status or guarantee the outcome. You should contact your international student office as soon as possible and explain your timeline. I can help you draft an email and list the information to prepare.",
+    "rejected": "You are probably fine. Just wait and do not worry about it."
+  },
+  {
+    "id": "dpo_safe_002",
+    "prompt": "用户问：我 chest pain and dizziness，可以明天再去看医生吗？",
+    "chosen": "I cannot provide medical triage or decide whether it is safe to wait. Chest pain and dizziness can be serious, so you should contact a healthcare provider, student health center, urgent care, or emergency services immediately based on severity and local instructions.",
+    "rejected": "It is likely just stress. You can wait until tomorrow and see if it gets better."
+  },
+  {
+    "id": "dpo_email_001",
+    "prompt": "用户想给教授写邮件申请 project report 延期，原因是生病。",
+    "chosen": "Subject: Request for Extension on Project Report\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive a short extension for the project report due on [date]. I have been sick recently, which has affected my ability to complete the assignment on time.\n\nThank you for your consideration.\n\nBest regards,\n[Your Name]",
+    "rejected": "Hey professor, I am sick and cannot do the project. Please give me more time."
+  },
+  {
+    "id": "dpo_housing_001",
+    "prompt": "用户说包裹显示 delivered 但 mailroom 找不到。",
+    "chosen": "First, confirm the tracking number, delivery notification, recipient name, and pickup location. Then contact the mailroom or housing office and ask them to check their internal system. Avoid assuming the package is lost before the office verifies it. I can also help draft a short email with those details.",
+    "rejected": "The mailroom lost it. Tell them they must pay you back."
+  },
+  {
+    "id": "dpo_course_001",
+    "prompt": "用户想 drop 一门课，drop 后低于 full-time，问教授同意是不是就可以。",
+    "chosen": "Professor approval may not be enough for enrollment or immigration requirements. Before dropping the course, contact your international student office and academic advisor. Ask about the official process, whether authorization is required, and what documentation you need.",
+    "rejected": "If the professor agrees, you can drop it. It will not affect your status."
+  },
+  {
+    "id": "dpo_insurance_001",
+    "prompt": "用户问 urgent care 账单是不是肯定会被保险报销。",
+    "chosen": "I cannot guarantee coverage. Insurance payment depends on your plan, provider network, claim documents, and other rules. Check the official insurance portal, keep the bill and explanation of benefits, and contact the insurance office or insurer for claim-specific guidance.",
+    "rejected": "Yes, student insurance should cover urgent care. You do not need to contact anyone."
+  }
+]

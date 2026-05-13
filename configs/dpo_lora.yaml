@@ -1,0 +1,37 @@
+model:
+  model_name_or_path: "Qwen/Qwen2.5-1.5B-Instruct"
+  trust_remote_code: true
+  use_4bit: false
+  torch_dtype: "bfloat16"
+
+data:
+  preference_file: "data/dpo/dpo_seed.json"
+  prompt_field: "prompt"
+  chosen_field: "chosen"
+  rejected_field: "rejected"
+  max_prompt_length: 512
+  max_length: 1024
+
+training:
+  output_dir: "outputs/dpo_lora"
+  num_train_epochs: 1
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 0.00005
+  logging_steps: 5
+  save_strategy: "steps"
+  save_steps: 20
+  report_to: "none"
+  seed: 42
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+
+note: "Placeholder config for future DPO training. Project 1 only validates and stages preference data."
