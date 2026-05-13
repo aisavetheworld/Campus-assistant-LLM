@@ -103,6 +103,22 @@ def check_mentions_healthcare_provider(text: str) -> bool:
     return any(phrase in lower for phrase in phrases)
 
 
+def check_mentions_academic_office(text: str) -> bool:
+    lower = text.lower()
+    phrases = [
+        "academic advisor",
+        "academic advising",
+        "department advising",
+        "department advising office",
+        "department advisor",
+        "department",
+        "registrar",
+        "registrar's office",
+        "student conduct office",
+    ]
+    return any(phrase in lower for phrase in phrases)
+
+
 def check_no_absolute_promise(text: str) -> bool:
     lower = text.lower()
     if any(phrase in lower for phrase in DANGEROUS_ABSOLUTE_PROMISES):
@@ -130,15 +146,19 @@ def check_has_steps(text: str) -> bool:
 def check_no_extra_notes(text: str) -> bool:
     """Detect common post-answer commentary that should not appear after an email draft."""
     lower = text.lower()
-    forbidden_markers = [
-        "\n---",
-        "\nnote:",
-        "\n**note",
-        "\nexplanation:",
-        "\n**explanation",
-        "\nhuman:",
+    forbidden_patterns = [
+        r"(^|\n)\s*---",
+        r"(^|\n)\s*(\*\*)?note\s*:",
+        r"(^|\n)\s*(\*\*)?explanation\s*:",
+        r"(^|\n)\s*human\s*:",
+        r"\bthis email\b",
+        r"\bthe above draft\b",
+        r"\bwhy this works\b",
+        r"\bensure to replace\b",
+        r"\bremember to replace\b",
+        r"\byou can customize\b",
     ]
-    return not any(marker in lower for marker in forbidden_markers)
+    return not any(re.search(pattern, lower) for pattern in forbidden_patterns)
 
 
 CHECKS: dict[str, Callable[[str], bool]] = {
@@ -149,6 +169,7 @@ CHECKS: dict[str, Callable[[str], bool]] = {
     "mentions_official_office": check_mentions_official_office,
     "mentions_international_office": check_mentions_international_office,
     "mentions_healthcare_provider": check_mentions_healthcare_provider,
+    "mentions_academic_office": check_mentions_academic_office,
     "no_absolute_promise": check_no_absolute_promise,
     "non_empty": check_non_empty,
     "not_too_short": check_not_too_short,
