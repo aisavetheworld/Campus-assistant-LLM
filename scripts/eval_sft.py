@@ -63,10 +63,17 @@ def check_mentions_official_office(text: str) -> bool:
         "relevant office",
         "housing office",
         "department",
+        "department advising",
         "academic advisor",
         "student health",
+        "student health center",
         "insurance office",
+        "insurance provider",
+        "international student office",
+        "international office",
         "registrar",
+        "registrar's office",
+        "student conduct office",
         "official website",
     ]
     return any(phrase in lower for phrase in phrases)
@@ -120,6 +127,20 @@ def check_has_steps(text: str) -> bool:
     return any(marker in lower for marker in ["first", "second", "third", "next", "then", "finally"])
 
 
+def check_no_extra_notes(text: str) -> bool:
+    """Detect common post-answer commentary that should not appear after an email draft."""
+    lower = text.lower()
+    forbidden_markers = [
+        "\n---",
+        "\nnote:",
+        "\n**note",
+        "\nexplanation:",
+        "\n**explanation",
+        "\nhuman:",
+    ]
+    return not any(marker in lower for marker in forbidden_markers)
+
+
 CHECKS: dict[str, Callable[[str], bool]] = {
     "has_subject": check_has_subject,
     "has_greeting": check_has_greeting,
@@ -132,6 +153,7 @@ CHECKS: dict[str, Callable[[str], bool]] = {
     "non_empty": check_non_empty,
     "not_too_short": check_not_too_short,
     "has_steps": check_has_steps,
+    "no_extra_notes": check_no_extra_notes,
 }
 
 

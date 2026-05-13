@@ -8,11 +8,11 @@
     "source_type": "template_synthetic",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "steps_plus_email",
     "instruction": "用户是国际学生，包裹显示 delivered 但 mailroom 找不到。",
-    "input": "用户刚到美国，不熟悉校园 mailroom 流程，希望得到处理步骤和英文邮件模板。",
+    "input": "用户刚到美国，不熟悉校园 mailroom 流程，希望得到处理步骤和英文邮件模板。 For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "I understand why this is stressful. First, confirm the tracking number, delivery notification, recipient name, delivery address, and pickup location. Second, check whether the carrier marked the package as delivered to a campus mailroom, apartment office, locker, or front desk. Third, contact the mailroom or housing office with those details. Avoid assuming the package is lost until the office checks its internal system.\n\nEmail template:\n\nSubject: Question About Missing Package\n\nDear Mailroom Team,\n\nI hope you are doing well. I received a notification that my package was delivered, but I was not able to find it at the mailroom. Could you please help me check whether it has been received or is still being processed?\n\nTracking number: [tracking number]\nRecipient name: [your full name]\nDelivery date: [date]\nDelivery address: [address]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -28,7 +28,7 @@
     "response_language": "en",
     "output_format": "steps_plus_email",
     "instruction": "用户想知道宿舍维修问题应该怎么处理。",
-    "input": "The sink in my dorm room is leaking. I am not sure whether I should email my RA or submit a maintenance request.",
+    "input": "The sink in my dorm room is leaking. I am not sure whether I should email my RA or submit a maintenance request. For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "First, document the issue with a short description and photos if appropriate. Second, check your campus housing portal or housing website for the official maintenance request process. Many campuses prefer students to submit a maintenance request through an online system rather than only messaging an RA. Third, if the leak could damage property or affect safety, contact the housing office or emergency maintenance line using the official instructions.\n\nYou can write:\n\nSubject: Maintenance Request for Leaking Sink\n\nDear Housing Team,\n\nI hope you are doing well. I am writing to report a leaking sink in my room. The issue started on [date/time], and I have attached photos for reference. Could you please let me know the next steps or confirm whether I should submit this through the housing portal?\n\nBest regards,\n[Your Name]"
   },
   {
@@ -60,7 +60,7 @@
     "response_language": "en",
     "output_format": "steps_plus_email",
     "instruction": "用户想取消 housing contract，担心违约后果。",
-    "input": "I want to cancel my housing contract because I found an off-campus place. Can you tell me if I can cancel without penalty?",
+    "input": "I want to cancel my housing contract because I found an off-campus place. Can you tell me if I can cancel without penalty? For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "I cannot determine whether you can cancel without a penalty because housing contracts depend on the specific agreement, dates, campus policy, and approval process. Please do not rely on a general answer for a binding contract decision.\n\nRecommended steps:\n\n1. Read the cancellation section of your housing contract.\n2. Check the official housing website for the current cancellation process.\n3. Contact the housing office and ask them to explain possible fees, deadlines, and required forms.\n4. Keep written records of any official response.\n\nEmail template:\n\nSubject: Question About Housing Contract Cancellation\n\nDear Housing Office,\n\nI hope you are doing well. I am considering canceling my housing contract because I may live off campus. Could you please let me know the official cancellation process, any relevant deadlines, and whether any fees or penalties may apply in my case?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -104,11 +104,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想写邮件询问 housing office 是否可以换房。",
-    "input": "原因是房间太吵，影响睡眠。用户希望语气礼貌，不要指责室友。",
+    "input": "原因是房间太吵，影响睡眠。用户希望语气礼貌，不要指责室友。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Question About Possible Room Change\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask about the process for requesting a room change. I have been having difficulty sleeping because my current living environment is often noisy, and I would like to understand what options may be available.\n\nI do not want to create conflict with anyone, but I would appreciate guidance on whether there is an official room change request process, what information I should provide, and whether I should first speak with residence life staff.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -156,7 +156,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写 waitlist inquiry。",
-    "input": "The user is on the waitlist for a course and wants to ask whether attending the first class is recommended.",
+    "input": "The user is on the waitlist for a course and wants to ask whether attending the first class is recommended. Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Question About Waitlist and First Class Attendance\n\nDear Professor [Last Name],\n\nI hope you are doing well. My name is [Your Name], and I am currently on the waitlist for [Course Number/Title]. I am very interested in taking this course and would like to ask whether you recommend that waitlisted students attend the first class session.\n\nI understand that enrollment decisions may depend on department policy and seat availability. I would appreciate any guidance you can provide about how waitlisted students should proceed.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -216,11 +216,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 department 写邮件询问 prerequisite clearance。",
-    "input": "用户有国内大学类似课程背景，希望邮件正式、简洁。",
+    "input": "用户有国内大学类似课程背景，希望邮件正式、简洁。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Request for Prerequisite Clearance Review\n\nDear [Department Name] Advising Team,\n\nI hope you are doing well. My name is [Your Name], and I am interested in enrolling in [Course Number/Title]. I noticed that the course has a prerequisite, and I would like to ask whether my previous coursework can be reviewed for possible prerequisite clearance.\n\nI completed a similar course at [Previous Institution]. I can provide the syllabus, transcript, or course description if needed. Could you please let me know the official process and any documents I should submit?\n\nThank you for your time and guidance.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -312,11 +312,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想写邮件给 student health insurance office 询问 waiver status。",
-    "input": "用户已经提交 waiver，但 portal 里还没有结果。不要催得太强硬。",
+    "input": "用户已经提交 waiver，但 portal 里还没有结果。不要催得太强硬。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Question About Health Insurance Waiver Status\n\nDear Student Health Insurance Office,\n\nI hope you are doing well. I submitted my health insurance waiver request on [date], and I am writing to ask whether there is any update on the review status.\n\nCould you please let me know if my submission is complete or if any additional documents are needed? I understand that processing may take time, and I appreciate your guidance.\n\nThank you very much.\n\nBest regards,\n[Your Name]\n[Student ID, if appropriate]"
   },
   {
@@ -376,11 +376,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 student health center 写邮件询问 immunization hold。",
-    "input": "用户已经上传材料，希望知道是否缺文件。",
+    "input": "用户已经上传材料，希望知道是否缺文件。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Question About Immunization Hold\n\nDear Student Health Center Team,\n\nI hope you are doing well. I noticed that there is still an immunization hold on my account after I uploaded my documents on [date]. Could you please help me check whether my submission is complete or whether any additional information is needed?\n\nMy student information is below:\nName: [Your Name]\nStudent ID: [Student ID]\nUpload date: [Date]\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -392,11 +392,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写邮件申请作业延期。",
-    "input": "原因：生病；作业：project report；希望语气礼貌，不要太长。",
+    "input": "原因：生病；作业：project report；希望语气礼貌，不要太长。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Request for Extension on Project Report\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive a short extension for the project report due on [date]. I have been sick recently, which has affected my ability to complete the assignment on time.\n\nI understand the importance of deadlines and course policies. If an extension is possible, I would be grateful for your guidance on an appropriate new deadline.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -408,11 +408,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给教授写 recommendation letter request。",
-    "input": "用户上过教授的课，成绩不错，申请研究项目，需要推荐信。",
+    "input": "用户上过教授的课，成绩不错，申请研究项目，需要推荐信。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Request for Recommendation Letter\n\nDear Professor [Last Name],\n\nI hope you are doing well. My name is [Your Name], and I took [Course Name] with you in [term]. I enjoyed the course and learned a great deal, especially about [specific topic].\n\nI am applying for [program/opportunity], and I wanted to ask whether you would feel comfortable writing a recommendation letter for me. The deadline is [date]. I would be happy to provide my resume, transcript, draft statement, and any other materials that may be helpful.\n\nThank you very much for considering my request.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -424,11 +424,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户要写邮件给 TA 询问 grade feedback。",
-    "input": "希望语气不要像争分，只是想理解哪里可以改进。",
+    "input": "希望语气不要像争分，只是想理解哪里可以改进。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Question About Feedback on [Assignment Name]\n\nDear [TA Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive some feedback on my [assignment/exam]. I am not asking for a grade change at this time; I would mainly like to understand where I lost points and how I can improve in future work.\n\nIf there is an appropriate office hour or process for discussing feedback, please let me know.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -440,12 +440,12 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 international student office 写邮件问 reduced course load。",
-    "input": "用户因为健康原因可能不能 full-time，但还没决定退课。",
-    "output": "Subject: Question About Reduced Course Load Process\n\nDear International Student Office,\n\nI hope you are doing well. I am an international student, and I am writing to ask about the official process for discussing a possible reduced course load. Due to health-related circumstances, I may not be able to maintain a full-time course load this term, but I have not made any enrollment changes yet.\n\nCould you please let me know what steps I should follow, what documentation may be required, and whether I should speak with an advisor before making any changes?\n\nThank you for your guidance.\n\nSincerely,\n[Your Name]\n[Student ID, if appropriate]"
+    "input": "用户因为健康原因可能不能 full-time，但还没决定退课。 Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "output": "Subject: Question About Reduced Course Load Process\n\nDear International Student Office,\n\nI hope you are doing well. I am an international student, and I am writing to ask about the official process for discussing a possible reduced course load. Due to health-related circumstances, I may not be able to maintain a full-time course load this term, but I have not made any enrollment changes yet.\n\nCould you please let me know what steps I should follow, what documentation may be required, and whether I should speak with an advisor before making any changes?\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]\n[Student ID, if appropriate]"
   },
   {
     "id": "email_005",
@@ -456,11 +456,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户要给 housing office 写邮件报告室友问题。",
-    "input": "室友持续制造噪音，用户已经尝试沟通，希望邮件客观。",
+    "input": "室友持续制造噪音，用户已经尝试沟通，希望邮件客观。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Request for Guidance Regarding Roommate Noise Issue\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask for guidance regarding an ongoing noise issue in my room. I have tried to communicate respectfully with my roommate, but the issue has continued and has been affecting my sleep and daily routine.\n\nCould you please let me know what the appropriate next step is? I would like to follow the official residence life or housing process and resolve the issue respectfully.\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -472,11 +472,11 @@
     "source_type": "email_template",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户想给 insurance office 写邮件问账单和保险。",
-    "input": "用户收到 bill，不确定保险是否处理过。希望邮件不要承认自己一定欠费。",
+    "input": "用户收到 bill，不确定保险是否处理过。希望邮件不要承认自己一定欠费。 Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Question About Medical Bill and Insurance Processing\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a medical bill related to a visit on [date], and I am trying to understand whether the claim has already been processed by my insurance.\n\nCould you please let me know how I can check the claim status and whether any additional documents are needed from me? I would also appreciate guidance on whom to contact if I need an itemized bill or explanation of benefits.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]\n[Student ID or insurance ID, if appropriate]"
   },
   {
@@ -492,7 +492,7 @@
     "response_language": "en",
     "output_format": "email_template",
     "instruction": "用户给出一封过于随意的英文邮件，希望改正式。",
-    "input": "Hey prof, I was sick so I can't finish the homework. Can you give me more time? Thanks.",
+    "input": "Hey prof, I was sick so I can't finish the homework. Can you give me more time? Thanks. Only provide the email draft. Do not add extra notes or explanations after the email.",
     "output": "Subject: Request for Extension on Homework\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive an extension for the homework due on [date]. I have been sick recently, which has made it difficult for me to complete the assignment by the original deadline.\n\nI understand that extensions depend on course policy, and I appreciate your consideration. Please let me know if any documentation or additional information is needed.\n\nThank you for your time.\n\nBest regards,\n[Your Name]"
   },
   {
@@ -504,11 +504,107 @@
     "source_type": "safe_escalation",
     "source_url": "",
     "date_collected": "2026-05-12",
-    "user_language": "zh",
+    "user_language": "mixed",
     "response_language": "en",
     "output_format": "safe_escalation",
     "instruction": "用户 OPT 快过期，想写邮件给 international student office。",
-    "input": "用户问：我是不是肯定没事？请不要给确定结论，帮我写邮件。",
-    "output": "I cannot determine your immigration status or guarantee the outcome. You should contact your international student office as soon as possible and provide your timeline and documents.\n\nEmail template:\n\nSubject: Urgent Question About OPT Timeline\n\nDear International Student Office,\n\nI hope you are doing well. I am writing to ask for guidance about my OPT timeline. My current OPT authorization is close to ending, and I would like to understand what official options or steps may apply to my situation.\n\nCould you please advise me on whom I should speak with, what documents I should prepare, and whether I need an appointment with an international student advisor? I understand that I should not make assumptions about my status without official guidance.\n\nThank you very much for your help.\n\nSincerely,\n[Your Name]\n[Student ID, if appropriate]"
+    "input": "用户问：我是不是肯定没事？请不要给确定结论，帮我写邮件。 For the email template section: Only provide the email draft. Do not add extra notes or explanations after the email.",
+    "output": "I cannot determine your immigration status or guarantee the outcome. You should contact your international student office as soon as possible and provide your timeline and documents.\n\nEmail template:\n\nSubject: Urgent Question About OPT Timeline\n\nDear International Student Office,\n\nI hope you are doing well. I am writing to ask for guidance about my OPT timeline. My current OPT authorization is close to ending, and I would like to understand what official options or steps may apply to my situation.\n\nCould you please advise me on whom I should speak with, what documents I should prepare, and whether I need an appointment with an international student advisor? I understand that I should not make assumptions about my status without official guidance.\n\nThank you very much for your help.\n\nBest regards,\n[Your Name]\n[Student ID, if appropriate]"
+  },
+  {
+    "id": "course_009",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "task_type": "safe_escalation",
+    "risk_level": "high",
+    "source_type": "safe_escalation",
+    "source_url": "",
+    "date_collected": "2026-05-13",
+    "user_language": "zh",
+    "response_language": "en",
+    "output_format": "safe_escalation",
+    "instruction": "用户问 CPT 是否只要教授同意就可以开始工作。",
+    "input": "用户已经拿到 internship offer，但还没有联系 international student office，想知道能不能先开始工作。",
+    "output": "I cannot determine your CPT eligibility or immigration status, and I cannot tell you that it is safe to begin work. Professor approval alone may not be enough for CPT or other immigration-related work authorization requirements.\n\nRecommended steps:\n\n1. Contact your international student office before starting any work.\n2. Ask what official CPT process, authorization, and documents are required.\n3. Prepare your offer details, proposed work dates, job description, and any academic program information the office requests.\n4. Do not begin work until the relevant official office confirms the required authorization process for your case.\n\nAvoid relying on informal advice for immigration or work authorization decisions."
+  },
+  {
+    "id": "course_010",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "task_type": "safe_escalation",
+    "risk_level": "high",
+    "source_type": "safe_escalation",
+    "source_url": "",
+    "date_collected": "2026-05-13",
+    "user_language": "en",
+    "response_language": "en",
+    "output_format": "safe_escalation",
+    "instruction": "The user missed an academic enrollment deadline and the issue may affect graduation or full-time status.",
+    "input": "I missed an add/drop deadline and I need this course for graduation. I am also worried about my enrollment status. Can you tell me I will be approved for an exception?",
+    "output": "I cannot guarantee that an exception will be approved. Academic deadline exceptions depend on current university policy, the registrar process, department rules, and the facts of your case.\n\nRecommended steps:\n\n1. Contact your academic advisor or department advising office as soon as possible.\n2. Check the registrar's official process for late add, late drop, or enrollment petitions.\n3. If your full-time status could be affected and you are an international student, contact your international student office before making enrollment changes.\n4. Prepare the course number, deadline you missed, graduation requirement, and any documentation explaining your situation.\n\nDo not assume approval until the relevant official office confirms the available options."
+  },
+  {
+    "id": "course_011",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "task_type": "safe_escalation",
+    "risk_level": "high",
+    "source_type": "safe_escalation",
+    "source_url": "",
+    "date_collected": "2026-05-13",
+    "user_language": "mixed",
+    "response_language": "en",
+    "output_format": "safe_escalation",
+    "instruction": "用户担心 academic misconduct accusation，想知道是不是肯定不会影响记录。",
+    "input": "I got an email about possible academic misconduct. 我只是和同学讨论过作业。Can you tell me it will be fine?",
+    "output": "I cannot determine whether this will affect your academic record or guarantee the outcome. Academic misconduct cases depend on the university's official process, evidence, course policy, and your response.\n\nRecommended steps:\n\n1. Read the official notice carefully and note any response deadline.\n2. Contact your academic advisor, department, or student conduct office for process guidance.\n3. If you are an international student and the outcome could affect enrollment status, contact your international student office.\n4. Prepare a factual timeline and any relevant documents, but avoid guessing or admitting to facts you do not understand.\n\nFor legal or disciplinary advice, use the official university process or a qualified professional."
+  },
+  {
+    "id": "health_009",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "task_type": "safe_escalation",
+    "risk_level": "high",
+    "source_type": "safe_escalation",
+    "source_url": "",
+    "date_collected": "2026-05-13",
+    "user_language": "zh",
+    "response_language": "en",
+    "output_format": "safe_escalation",
+    "instruction": "用户描述严重身体症状，询问是否可以自行判断并等待。",
+    "input": "我发烧很高、呼吸不舒服，还头晕。我可以先睡一觉明天再看吗？",
+    "output": "I cannot provide medical advice or decide whether it is safe to wait. Symptoms such as trouble breathing, high fever, dizziness, or worsening condition can require urgent medical attention.\n\nPlease contact a healthcare provider, student health center, urgent care, or emergency services immediately based on the severity and your local emergency instructions. If symptoms feel severe, rapidly worsening, or unsafe, seek emergency help now.\n\nI can help you write a short message to a healthcare provider, but you should not rely on this chat for medical triage or diagnosis."
+  },
+  {
+    "id": "health_010",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "task_type": "safe_escalation",
+    "risk_level": "high",
+    "source_type": "safe_escalation",
+    "source_url": "",
+    "date_collected": "2026-05-13",
+    "user_language": "en",
+    "response_language": "en",
+    "output_format": "safe_escalation",
+    "instruction": "The user asks whether an insurance claim appeal will definitely succeed.",
+    "input": "My insurance claim was denied. If I appeal, will it definitely be approved?",
+    "output": "I cannot guarantee that an insurance appeal will be approved. Claim decisions depend on your insurance plan, provider network, billing codes, medical documentation, deadlines, and the insurer's review process.\n\nRecommended steps:\n\n1. Read the denial notice and identify the reason for denial.\n2. Contact the insurance office or insurance provider and ask what appeal process and documents are required.\n3. Request an itemized bill, explanation of benefits, and any medical documentation if needed.\n4. Keep records of dates, reference numbers, and written responses.\n\nDo not assume approval until the insurance provider or official insurance office confirms the decision."
+  },
+  {
+    "id": "housing_009",
+    "school": "UCSD",
+    "category": "housing",
+    "task_type": "safe_escalation",
+    "risk_level": "high",
+    "source_type": "safe_escalation",
+    "source_url": "",
+    "date_collected": "2026-05-13",
+    "user_language": "en",
+    "response_language": "en",
+    "output_format": "safe_escalation",
+    "instruction": "The user asks for a legal conclusion about a housing lease or contract dispute.",
+    "input": "My landlord says I broke the lease. Can you tell me I do not owe anything?",
+    "output": "I cannot provide legal advice or determine whether you owe money under a lease or contract. Housing disputes depend on the contract, local law, documentation, and the official dispute process.\n\nRecommended steps:\n\n1. Review the lease or housing contract section related to termination, fees, and disputes.\n2. Contact the housing office or relevant office if this is campus housing.\n3. If this is off-campus housing, consider contacting student legal services, a qualified legal professional, or a tenant support resource if available.\n4. Keep written records, notices, receipts, and communication history.\n\nAvoid making payment or legal decisions based only on a general chatbot response."
   }
 ]
