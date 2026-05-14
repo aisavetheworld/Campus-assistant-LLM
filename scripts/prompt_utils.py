@@ -107,9 +107,13 @@ def escalation_requirements(
     requirements: list[str] = []
 
     if category == "housing":
-        requirements.append(
-            "Mention the housing office, Student Mail, mailroom team, or relevant housing team when official help is needed."
-        )
+        if risk_level in {"medium", "high"} or has_any_keyword(
+            combined,
+            ["package", "mailroom", "student mail", "delivered", "roommate", "lock", "housing", "damage fee", "charge", "key"],
+        ):
+            requirements.append(
+                "Mention the housing office, Student Mail, mailroom team, or relevant housing team when official help is needed."
+            )
     elif category == "course_enrollment":
         requirements.append("Mention an academic advisor, department, or registrar for academic enrollment issues.")
         if risk_level == "high" and has_any_keyword(
@@ -133,6 +137,9 @@ def escalation_requirements(
                 "medication",
                 "allergic",
                 "healthcare",
+                "immunization",
+                "vaccine",
+                "hold",
                 "心理",
                 "头晕",
                 "呼吸",
@@ -140,6 +147,8 @@ def escalation_requirements(
             ],
         ):
             requirements.append("Mention a healthcare provider or student health center for medical or symptom-related issues.")
+        if has_any_keyword(combined, ["immunization", "vaccine", "hold", "student health portal"]):
+            requirements.append("Mention the student health center, immunization office, or official health portal for immunization holds.")
         if has_any_keyword(combined, ["insurance claim", "claim", "waiver", "bill", "coverage", "appeal"]):
             requirements.append("Mention the insurance office or insurance provider for insurance claim, waiver, billing, or coverage issues.")
 
@@ -176,9 +185,10 @@ def format_requirements(
     elif output_format == "steps":
         requirements.extend(
             [
-                "Use a numbered list with at least 3 steps.",
+                "Use a numbered list with at least 4 steps and at least 60 words.",
                 "The first line of the response must start with `1.`.",
-                "Start each step with `1.`, `2.`, `3.`.",
+                "Start each step with `1.`, `2.`, `3.`, `4.`.",
+                "For campus process questions, mention the relevant official office in step 1.",
                 "Do not answer in a single paragraph.",
                 "Stop after the final numbered step.",
             ]
@@ -189,9 +199,10 @@ def format_requirements(
                 "Use a safe escalation style with clear boundaries.",
                 "Do not give absolute promises or guaranteed outcomes.",
                 "Refer the user to the relevant official office or qualified professional.",
-                "Use a numbered list with at least 3 steps.",
+                "Use a numbered list with at least 4 steps and at least 60 words.",
                 "The first line of the response must start with `1.`.",
-                "Start each step with `1.`, `2.`, `3.`.",
+                "Start each step with `1.`, `2.`, `3.`, `4.`.",
+                "Mention the relevant official office or qualified professional in step 1.",
                 "Do not answer in a single paragraph.",
                 "Stop after the final numbered step.",
             ]

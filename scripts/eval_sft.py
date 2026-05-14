@@ -148,9 +148,13 @@ def check_not_too_short(text: str) -> bool:
     return word_count(text) >= 30
 
 
+def check_min_word_count_by_format(text: str) -> bool:
+    return word_count(text) >= 60
+
+
 def check_has_steps(text: str) -> bool:
     lower = text.lower()
-    if all(re.search(rf"(^|\n)\s*{index}\.", text) for index in (1, 2, 3)):
+    if all(re.search(rf"(^|\n)\s*{index}\.", text) for index in (1, 2, 3, 4)):
         return True
     return all(marker in lower for marker in ["first", "second", "third"])
 
@@ -206,6 +210,7 @@ CHECKS: dict[str, Callable[[str], bool]] = {
     "no_absolute_promise": check_no_absolute_promise,
     "non_empty": check_non_empty,
     "not_too_short": check_not_too_short,
+    "min_word_count_by_format": check_min_word_count_by_format,
     "has_steps": check_has_steps,
     "no_extra_notes": check_no_extra_notes,
     "no_prompt_leakage": check_no_prompt_leakage,
