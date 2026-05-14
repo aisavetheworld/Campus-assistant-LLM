@@ -77,7 +77,7 @@ python scripts/run_target_modules_ablation.py --with_eval
 Run the full target_modules ablation:
 
 ```bash
-python scripts/run_target_modules_ablation.py --with_eval --run
+python scripts/run_target_modules_ablation.py --with_eval --eval_batch_size 8 --run
 ```
 
 Measure adapter sizes after training:

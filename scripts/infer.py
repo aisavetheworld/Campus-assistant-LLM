@@ -176,6 +176,83 @@ def generate_response(
     return decoded
 
 
+def build_generation_kwargs(
+    tokenizer: Any,
+    max_new_tokens: int,
+    temperature: float,
+    top_p: float,
+) -> dict[str, Any]:
+    """Build common generation kwargs for single and batched inference."""
+    generation_kwargs: dict[str, Any] = {
+        "max_new_tokens": max_new_tokens,
+        "pad_token_id": tokenizer.pad_token_id,
+        "eos_token_id": tokenizer.eos_token_id,
+    }
+    if temperature > 0:
+        generation_kwargs.update(
+            {
+                "do_sample": True,
+                "temperature": temperature,
+                "top_p": top_p,
+            }
+        )
+    else:
+        generation_kwargs["do_sample"] = False
+    return generation_kwargs
+
+
+def generate_responses_batch(
+    tokenizer: Any,
+    model: Any,
+    prompts: list[str],
+    device: torch.device,
+    max_new_tokens: int,
+    temperature: float,
+    top_p: float,
+    stop_at_extra_notes: bool = True,
+) -> list[tuple[str, dict[str, Any]]]:
+    """Generate responses for a batch of prompts and return per-sample diagnostics."""
+    if not prompts:
+        return []
+
+    input_device = first_parameter_device(model, device)
+    original_padding_side = getattr(tokenizer, "padding_side", "right")
+    tokenizer.padding_side = "left"
+    try:
+        inputs = tokenizer(prompts, return_tensors="pt", padding=True).to(input_device)
+    finally:
+        tokenizer.padding_side = original_padding_side
+
+    prompt_length = inputs["input_ids"].shape[-1]
+    generation_kwargs = build_generation_kwargs(
+        tokenizer=tokenizer,
+        max_new_tokens=max_new_tokens,
+        temperature=temperature,
+        top_p=top_p,
+    )
+
+    with torch.no_grad():
+        output_ids = model.generate(**inputs, **generation_kwargs)
+
+    responses: list[tuple[str, dict[str, Any]]] = []
+    for row in output_ids:
+        completion_ids = row[prompt_length:]
+        decoded = tokenizer.decode(completion_ids, skip_special_tokens=True).strip()
+        info = {
+            "raw_response_length": len(decoded),
+            "raw_response": decoded,
+            "was_truncated_by_stop_sequence": False,
+            "stop_sequence_used": None,
+            "repaired_stop_sequences": [],
+        }
+        if stop_at_extra_notes:
+            decoded, clean_info = clean_generation_with_info(decoded)
+            info.update(clean_info)
+        info["response_length"] = len(decoded)
+        responses.append((decoded, info))
+    return responses
+
+
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Run base or LoRA-adapter inference.")

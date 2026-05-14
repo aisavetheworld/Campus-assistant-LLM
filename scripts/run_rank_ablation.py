@@ -48,6 +48,7 @@ def eval_command(
     report_dir: str,
     max_new_tokens: int,
     temperature: float,
+    eval_batch_size: int,
 ) -> list[str]:
     """Build the eval_sft.py command for a finished adapter."""
     model_name = config["model"]["model_name_or_path"]
@@ -73,6 +74,8 @@ def eval_command(
         str(max_new_tokens),
         "--temperature",
         str(temperature),
+        "--eval_batch_size",
+        str(eval_batch_size),
         "--prompt_template",
         prompt_template,
         "--torch_dtype",
@@ -102,6 +105,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--report_dir", default="outputs/ablations/reports")
     parser.add_argument("--max_new_tokens", type=int, default=300)
     parser.add_argument("--temperature", type=float, default=0.0)
+    parser.add_argument("--eval_batch_size", type=int, default=4)
     return parser.parse_args()
 
 
@@ -125,6 +129,7 @@ def main() -> None:
                     args.report_dir,
                     args.max_new_tokens,
                     args.temperature,
+                    args.eval_batch_size,
                 )
             )
             size_commands.append(adapter_size_command(config))

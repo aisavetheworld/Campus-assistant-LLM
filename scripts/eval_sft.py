@@ -12,7 +12,7 @@ from typing import Any, Callable
 
 from tqdm import tqdm
 
-from infer import build_prompt, generate_response, load_model_and_tokenizer
+from infer import build_prompt, generate_responses_batch, load_model_and_tokenizer
 
 
 DANGEROUS_ABSOLUTE_PROMISES = [
@@ -234,6 +234,7 @@ def write_markdown(path: Path, report: dict[str, Any]) -> None:
         "# SFT Rule Evaluation Report",
         "",
         f"- Total samples: {report['summary']['total_samples']}",
+        f"- Eval batch size: {report['summary'].get('eval_batch_size', 1)}",
         f"- Total checks: {report['summary']['total_checks']}",
         f"- Passed checks: {report['summary']['passed_checks']}",
         f"- Pass rate: {report['summary']['pass_rate']:.2%}",
@@ -335,6 +336,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=0.9)
     parser.add_argument("--prompt_template", choices=["auto", "chat", "legacy"], default="auto")
+    parser.add_argument(
+        "--eval_batch_size",
+        type=int,
+        default=1,
+        help="Number of evaluation prompts to generate in one model.generate call.",
+    )
     parser.add_argument("--torch_dtype", default="auto")
     parser.add_argument("--trust_remote_code", action="store_true", default=True)
     parser.add_argument("--use_4bit", action="store_true")
@@ -344,6 +351,8 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     """Generate model responses and evaluate them with deterministic checks."""
     args = parse_args()
+    if args.eval_batch_size < 1:
+        raise ValueError("--eval_batch_size must be >= 1")
     eval_data = read_eval_data(Path(args.eval_file))
     tokenizer, model, device = load_model_and_tokenizer(args)
 
@@ -355,77 +364,86 @@ def main() -> None:
     raw_prompt_leakage_count = 0
     raw_prompt_leakage_ids = []
 
-    for sample in tqdm(eval_data, desc="Evaluating"):
-        expected_checks = sample.get("expected_checks", [])
-        prompt = build_prompt(
-            sample["instruction"],
-            sample.get("input", ""),
-            category=sample.get("category", "general"),
-            risk_level=sample.get("risk_level", "low"),
-            output_format=sample.get("output_format", "plain_answer"),
-            user_language=sample.get("user_language", "mixed"),
-            response_language=sample.get("response_language", "en"),
-            prompt_template=args.prompt_template,
-            tokenizer=tokenizer,
-            model_name_or_path=args.model_name_or_path,
-        )
-        response, generation_info = generate_response(
-            tokenizer=tokenizer,
-            model=model,
-            prompt=prompt,
-            device=device,
-            max_new_tokens=args.max_new_tokens,
-            temperature=args.temperature,
-            top_p=args.top_p,
-            return_generation_info=True,
-        )
-        checks = evaluate_response(response, expected_checks)
-        prompt_leakage = not check_no_prompt_leakage(response)
-        if prompt_leakage:
-            prompt_leakage_count += 1
-            prompt_leakage_ids.append(sample["id"])
-        raw_prompt_leakage = bool(generation_info.get("raw_prompt_leakage_detected"))
-        if raw_prompt_leakage:
-            raw_prompt_leakage_count += 1
-            raw_prompt_leakage_ids.append(sample["id"])
-        item_passed = sum(1 for passed in checks.values() if passed)
-        item_total = len(checks)
-        total_checks += item_total
-        passed_checks += item_passed
-        results.append(
-            {
-                "id": sample["id"],
-                "category": sample.get("category", ""),
-                "task_type": sample.get("task_type", ""),
-                "risk_level": sample.get("risk_level", ""),
-                "instruction": sample["instruction"],
-                "input": sample.get("input", ""),
-                "response": response,
-                "raw_response": generation_info.get("raw_response", response),
-                "response_length": len(response),
-                "response_word_count": word_count(response),
-                "raw_response_word_count": generation_info.get(
-                    "raw_response_word_count", word_count(generation_info.get("raw_response", response))
-                ),
-                "was_truncated_by_stop_sequence": generation_info[
-                    "was_truncated_by_stop_sequence"
-                ],
-                "stop_sequence_used": generation_info["stop_sequence_used"],
-                "is_prompt_leakage_stop": generation_info.get("is_prompt_leakage_stop", False),
-                "is_extra_note_stop": generation_info.get("is_extra_note_stop", False),
-                "is_early_truncation": generation_info.get("is_early_truncation", False),
-                "raw_response_length": generation_info["raw_response_length"],
-                "raw_prompt_leakage": raw_prompt_leakage,
-                "checks": checks,
-                "prompt_leakage": prompt_leakage,
-                "passed_count": item_passed,
-                "total_count": item_total,
-            }
-        )
+    with tqdm(total=len(eval_data), desc="Evaluating") as progress:
+        for start in range(0, len(eval_data), args.eval_batch_size):
+            batch = eval_data[start : start + args.eval_batch_size]
+            prompts = [
+                build_prompt(
+                    sample["instruction"],
+                    sample.get("input", ""),
+                    category=sample.get("category", "general"),
+                    risk_level=sample.get("risk_level", "low"),
+                    output_format=sample.get("output_format", "plain_answer"),
+                    user_language=sample.get("user_language", "mixed"),
+                    response_language=sample.get("response_language", "en"),
+                    prompt_template=args.prompt_template,
+                    tokenizer=tokenizer,
+                    model_name_or_path=args.model_name_or_path,
+                )
+                for sample in batch
+            ]
+            generated = generate_responses_batch(
+                tokenizer=tokenizer,
+                model=model,
+                prompts=prompts,
+                device=device,
+                max_new_tokens=args.max_new_tokens,
+                temperature=args.temperature,
+                top_p=args.top_p,
+            )
+
+            for sample, (response, generation_info) in zip(batch, generated):
+                expected_checks = sample.get("expected_checks", [])
+                checks = evaluate_response(response, expected_checks)
+                prompt_leakage = not check_no_prompt_leakage(response)
+                if prompt_leakage:
+                    prompt_leakage_count += 1
+                    prompt_leakage_ids.append(sample["id"])
+                raw_prompt_leakage = bool(generation_info.get("raw_prompt_leakage_detected"))
+                if raw_prompt_leakage:
+                    raw_prompt_leakage_count += 1
+                    raw_prompt_leakage_ids.append(sample["id"])
+                item_passed = sum(1 for passed in checks.values() if passed)
+                item_total = len(checks)
+                total_checks += item_total
+                passed_checks += item_passed
+                results.append(
+                    {
+                        "id": sample["id"],
+                        "category": sample.get("category", ""),
+                        "task_type": sample.get("task_type", ""),
+                        "risk_level": sample.get("risk_level", ""),
+                        "instruction": sample["instruction"],
+                        "input": sample.get("input", ""),
+                        "response": response,
+                        "raw_response": generation_info.get("raw_response", response),
+                        "response_length": len(response),
+                        "response_word_count": word_count(response),
+                        "raw_response_word_count": generation_info.get(
+                            "raw_response_word_count",
+                            word_count(generation_info.get("raw_response", response)),
+                        ),
+                        "was_truncated_by_stop_sequence": generation_info[
+                            "was_truncated_by_stop_sequence"
+                        ],
+                        "stop_sequence_used": generation_info["stop_sequence_used"],
+                        "is_prompt_leakage_stop": generation_info.get("is_prompt_leakage_stop", False),
+                        "is_extra_note_stop": generation_info.get("is_extra_note_stop", False),
+                        "is_early_truncation": generation_info.get("is_early_truncation", False),
+                        "raw_response_length": generation_info["raw_response_length"],
+                        "raw_prompt_leakage": raw_prompt_leakage,
+                        "checks": checks,
+                        "prompt_leakage": prompt_leakage,
+                        "passed_count": item_passed,
+                        "total_count": item_total,
+                    }
+                )
+            progress.update(len(batch))
 
     report = {
         "summary": {
             "total_samples": len(results),
+            "eval_batch_size": args.eval_batch_size,
             "total_checks": total_checks,
             "passed_checks": passed_checks,
             "pass_rate": passed_checks / total_checks if total_checks else 0.0,
