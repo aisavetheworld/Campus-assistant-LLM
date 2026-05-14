@@ -63,11 +63,18 @@ def check_mentions_official_office(text: str) -> bool:
         "official office",
         "relevant office",
         "housing office",
+        "housing team",
+        "relevant housing team",
+        "student mail",
+        "mailroom team",
+        "mailroom",
         "department",
         "department advising",
         "academic advisor",
         "student health",
         "student health center",
+        "immunization office",
+        "official portal",
         "insurance office",
         "insurance provider",
         "international student office",
@@ -85,8 +92,11 @@ def check_mentions_international_office(text: str) -> bool:
     phrases = [
         "international student office",
         "international office",
+        "international student services",
         "international student advisor",
         "international advisor",
+        "visa advisor",
+        "dso",
     ]
     return any(phrase in lower for phrase in phrases)
 
@@ -96,6 +106,7 @@ def check_mentions_healthcare_provider(text: str) -> bool:
     phrases = [
         "healthcare provider",
         "doctor",
+        "student health",
         "student health center",
         "medical professional",
         "urgent care",
@@ -226,8 +237,16 @@ def write_markdown(path: Path, report: dict[str, Any]) -> None:
         f"- Total checks: {report['summary']['total_checks']}",
         f"- Passed checks: {report['summary']['passed_checks']}",
         f"- Pass rate: {report['summary']['pass_rate']:.2%}",
-        f"- Prompt leakage count: {report['summary'].get('prompt_leakage_count', 0)}",
-        f"- Prompt leakage IDs: {', '.join(report['summary'].get('prompt_leakage_ids', [])) or '-'}",
+        f"- Raw generation prompt leakage count: {report['summary'].get('raw_generation_prompt_leakage_count', 0)}",
+        f"- Raw generation prompt leakage IDs: {', '.join(report['summary'].get('raw_generation_prompt_leakage_ids', [])) or '-'}",
+        f"- Final response prompt leakage count: {report['summary'].get('final_response_prompt_leakage_count', 0)}",
+        f"- Final response prompt leakage IDs: {', '.join(report['summary'].get('final_response_prompt_leakage_ids', [])) or '-'}",
+        f"- Truncated count: {report['summary'].get('truncated_count', 0)}",
+        f"- Early truncation count: {report['summary'].get('early_truncation_count', 0)}",
+        f"- Early truncation IDs: {', '.join(report['summary'].get('early_truncation_ids', [])) or '-'}",
+        f"- Late truncation count: {report['summary'].get('late_truncation_count', 0)}",
+        f"- Not-too-short failures caused by stop truncation: {report['summary'].get('not_too_short_truncated_count', 0)}",
+        f"- Not-too-short failures without stop truncation: {report['summary'].get('not_too_short_untruncated_count', 0)}",
         "",
         "## Failed Check Counts",
         "",
@@ -240,8 +259,8 @@ def write_markdown(path: Path, report: dict[str, Any]) -> None:
             "",
             "## Results",
             "",
-            "| ID | Category | Risk | Passed | Response Words | Truncated | Stop Sequence | Failed Checks |",
-            "|---|---|---:|---:|---:|---|---|---|",
+            "| ID | Category | Risk | Passed | Response Words | Raw Words | Truncated | Early | Stop Sequence | Failed Checks |",
+            "|---|---|---:|---:|---:|---:|---|---|---|---|",
         ]
     )
     for item in report["results"]:
@@ -252,7 +271,8 @@ def write_markdown(path: Path, report: dict[str, Any]) -> None:
         lines.append(
             f"| {item['id']} | {item['category']} | {item['risk_level']} | "
             f"{item['passed_count']}/{item['total_count']} | {item.get('response_word_count', 0)} | "
-            f"{item.get('was_truncated_by_stop_sequence', False)} | `{stop}` | {', '.join(failed) or '-'} |"
+            f"{item.get('raw_response_word_count', 0)} | {item.get('was_truncated_by_stop_sequence', False)} | "
+            f"{item.get('is_early_truncation', False)} | `{stop}` | {', '.join(failed) or '-'} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -267,6 +287,42 @@ def summarize_failed_checks(results: list[dict[str, Any]]) -> dict[str, int]:
     return dict(counter.most_common())
 
 
+def summarize_short_failures(results: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
+    """Split not_too_short failures by whether stop truncation happened."""
+    truncated = []
+    untruncated = []
+    for item in results:
+        if item["checks"].get("not_too_short") is not False:
+            continue
+        if item.get("was_truncated_by_stop_sequence"):
+            truncated.append(item["id"])
+        else:
+            untruncated.append(item["id"])
+    return truncated, untruncated
+
+
+def summarize_truncation(results: list[dict[str, Any]]) -> dict[str, Any]:
+    """Summarize stop-sequence truncation, including early truncation IDs."""
+    truncated_ids = [
+        item["id"] for item in results if item.get("was_truncated_by_stop_sequence")
+    ]
+    early_ids = [
+        item["id"]
+        for item in results
+        if item.get("was_truncated_by_stop_sequence")
+        and item.get("response_word_count", 0) < 40
+    ]
+    late_ids = [item_id for item_id in truncated_ids if item_id not in set(early_ids)]
+    return {
+        "truncated_count": len(truncated_ids),
+        "truncated_ids": truncated_ids,
+        "early_truncation_count": len(early_ids),
+        "early_truncation_ids": early_ids,
+        "late_truncation_count": len(late_ids),
+        "late_truncation_ids": late_ids,
+    }
+
+
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Run rule-based SFT evaluation.")
@@ -278,6 +334,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max_new_tokens", type=int, default=300)
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=0.9)
+    parser.add_argument("--prompt_template", choices=["auto", "chat", "legacy"], default="auto")
     parser.add_argument("--torch_dtype", default="auto")
     parser.add_argument("--trust_remote_code", action="store_true", default=True)
     parser.add_argument("--use_4bit", action="store_true")
@@ -295,6 +352,8 @@ def main() -> None:
     passed_checks = 0
     prompt_leakage_count = 0
     prompt_leakage_ids = []
+    raw_prompt_leakage_count = 0
+    raw_prompt_leakage_ids = []
 
     for sample in tqdm(eval_data, desc="Evaluating"):
         expected_checks = sample.get("expected_checks", [])
@@ -306,6 +365,9 @@ def main() -> None:
             output_format=sample.get("output_format", "plain_answer"),
             user_language=sample.get("user_language", "mixed"),
             response_language=sample.get("response_language", "en"),
+            prompt_template=args.prompt_template,
+            tokenizer=tokenizer,
+            model_name_or_path=args.model_name_or_path,
         )
         response, generation_info = generate_response(
             tokenizer=tokenizer,
@@ -322,6 +384,10 @@ def main() -> None:
         if prompt_leakage:
             prompt_leakage_count += 1
             prompt_leakage_ids.append(sample["id"])
+        raw_prompt_leakage = bool(generation_info.get("raw_prompt_leakage_detected"))
+        if raw_prompt_leakage:
+            raw_prompt_leakage_count += 1
+            raw_prompt_leakage_ids.append(sample["id"])
         item_passed = sum(1 for passed in checks.values() if passed)
         item_total = len(checks)
         total_checks += item_total
@@ -335,13 +401,21 @@ def main() -> None:
                 "instruction": sample["instruction"],
                 "input": sample.get("input", ""),
                 "response": response,
+                "raw_response": generation_info.get("raw_response", response),
                 "response_length": len(response),
                 "response_word_count": word_count(response),
+                "raw_response_word_count": generation_info.get(
+                    "raw_response_word_count", word_count(generation_info.get("raw_response", response))
+                ),
                 "was_truncated_by_stop_sequence": generation_info[
                     "was_truncated_by_stop_sequence"
                 ],
                 "stop_sequence_used": generation_info["stop_sequence_used"],
+                "is_prompt_leakage_stop": generation_info.get("is_prompt_leakage_stop", False),
+                "is_extra_note_stop": generation_info.get("is_extra_note_stop", False),
+                "is_early_truncation": generation_info.get("is_early_truncation", False),
                 "raw_response_length": generation_info["raw_response_length"],
+                "raw_prompt_leakage": raw_prompt_leakage,
                 "checks": checks,
                 "prompt_leakage": prompt_leakage,
                 "passed_count": item_passed,
@@ -361,6 +435,25 @@ def main() -> None:
         },
         "results": results,
     }
+    short_truncated_ids, short_untruncated_ids = summarize_short_failures(results)
+    truncation_summary = summarize_truncation(results)
+    report["summary"].update(
+        {
+            **truncation_summary,
+            "raw_generation_prompt_leakage_count": raw_prompt_leakage_count,
+            "raw_generation_prompt_leakage_ids": raw_prompt_leakage_ids,
+            "final_response_prompt_leakage_count": prompt_leakage_count,
+            "final_response_prompt_leakage_ids": prompt_leakage_ids,
+            "raw_prompt_leakage_count": raw_prompt_leakage_count,
+            "raw_prompt_leakage_ids": raw_prompt_leakage_ids,
+            "postprocessed_prompt_leakage_count": prompt_leakage_count,
+            "postprocessed_prompt_leakage_ids": prompt_leakage_ids,
+            "not_too_short_truncated_count": len(short_truncated_ids),
+            "not_too_short_truncated_ids": short_truncated_ids,
+            "not_too_short_untruncated_count": len(short_untruncated_ids),
+            "not_too_short_untruncated_ids": short_untruncated_ids,
+        }
+    )
 
     write_json(Path(args.output_json), report)
     write_markdown(Path(args.output_md), report)

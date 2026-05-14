@@ -9,9 +9,11 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+import yaml
 from tqdm import tqdm
 
 from prompt_utils import build_prompt_from_sample
+from prompt_utils import resolve_prompt_template
 
 
 REQUIRED_FIELDS = [
@@ -100,15 +102,54 @@ def deduplicate(samples: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return unique
 
 
-def process_samples(samples: list[dict[str, Any]], eos_marker: str) -> list[dict[str, Any]]:
+def load_yaml_config(path: str) -> dict[str, Any]:
+    """Load optional YAML config values used by data processing."""
+    config_path = Path(path)
+    if not config_path.exists():
+        return {}
+    with config_path.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"Config must be a YAML mapping: {path}")
+    return data
+
+
+def load_chat_tokenizer(model_name_or_path: str, trust_remote_code: bool) -> Any:
+    """Load tokenizer for chat-template rendering."""
+    try:
+        from transformers import AutoTokenizer
+    except ImportError as exc:  # pragma: no cover
+        raise RuntimeError("prompt_template='chat' requires transformers to load the tokenizer.") from exc
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name_or_path,
+        trust_remote_code=trust_remote_code,
+    )
+    if not hasattr(tokenizer, "apply_chat_template"):
+        raise ValueError(f"Tokenizer does not support apply_chat_template: {model_name_or_path}")
+    return tokenizer
+
+
+def process_samples(
+    samples: list[dict[str, Any]],
+    *,
+    eos_marker: str,
+    prompt_template: str,
+    tokenizer: Any | None,
+    model_name_or_path: str,
+) -> list[dict[str, Any]]:
     """Preserve metadata and add the final SFT text field."""
     processed = []
     for sample in tqdm(samples, desc="Processing samples"):
         item = dict(sample)
+        item["prompt_template"] = prompt_template
         item["text"] = build_prompt_from_sample(
             sample,
             output=sample["output"],
             eos_marker=eos_marker,
+            prompt_template=prompt_template,
+            tokenizer=tokenizer,
+            model_name_or_path=model_name_or_path,
         )
         processed.append(item)
     return processed
@@ -169,6 +210,9 @@ def print_stats(
             Counter(row["response_language"] for row in processed)
         ),
         "output_format_distribution": dict(Counter(row["output_format"] for row in processed)),
+        "prompt_template_distribution": dict(
+            Counter(row.get("prompt_template", "legacy") for row in processed)
+        ),
         "average_output_length": round(average_length(processed, "output"), 2),
         "average_text_length": round(average_length(processed, "text"), 2),
     }
@@ -178,11 +222,24 @@ def print_stats(
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(description="Build SFT train/eval JSONL files.")
+    parser.add_argument("--config", default="configs/sft_lora.yaml")
     parser.add_argument("--input_file", default="data/raw/sft_seed.json")
     parser.add_argument("--train_output", default="data/processed/sft_train.jsonl")
     parser.add_argument("--eval_output", default="data/processed/sft_eval.jsonl")
     parser.add_argument("--eval_ratio", type=float, default=0.2)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument(
+        "--prompt_template",
+        choices=["auto", "chat", "legacy"],
+        default=None,
+        help="Prompt format for the SFT text field. Defaults to config value, then auto.",
+    )
+    parser.add_argument(
+        "--model_name_or_path",
+        default=None,
+        help="Tokenizer/model name used when prompt_template resolves to chat.",
+    )
+    parser.add_argument("--trust_remote_code", action="store_true", default=None)
     parser.add_argument(
         "--eos_marker",
         default="<|endoftext|>",
@@ -194,6 +251,28 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     """Build processed SFT data from raw metadata samples."""
     args = parse_args()
+    config = load_yaml_config(args.config)
+    config_model = config.get("model", {}) if isinstance(config.get("model", {}), dict) else {}
+    config_data = config.get("data", {}) if isinstance(config.get("data", {}), dict) else {}
+
+    model_name_or_path = (
+        args.model_name_or_path
+        or config_model.get("model_name_or_path")
+        or "Qwen/Qwen2.5-1.5B-Instruct"
+    )
+    prompt_template_arg = args.prompt_template or config_data.get("prompt_template", "auto")
+    prompt_template = resolve_prompt_template(prompt_template_arg, model_name_or_path)
+    trust_remote_code = (
+        bool(args.trust_remote_code)
+        if args.trust_remote_code is not None
+        else bool(config_model.get("trust_remote_code", True))
+    )
+    tokenizer = None
+    eos_marker = args.eos_marker
+    if prompt_template == "chat":
+        tokenizer = load_chat_tokenizer(model_name_or_path, trust_remote_code)
+        eos_marker = ""
+
     raw_path = Path(args.input_file)
     raw_samples = read_json_list(raw_path)
 
@@ -201,7 +280,13 @@ def main() -> None:
         validate_sample(sample, index)
 
     unique_samples = deduplicate(raw_samples)
-    processed = process_samples(unique_samples, args.eos_marker)
+    processed = process_samples(
+        unique_samples,
+        eos_marker=eos_marker,
+        prompt_template=prompt_template,
+        tokenizer=tokenizer,
+        model_name_or_path=model_name_or_path,
+    )
     train_rows, eval_rows = split_train_eval(processed, args.eval_ratio, args.seed)
 
     write_jsonl(Path(args.train_output), train_rows)

@@ -8,6 +8,7 @@ data:
   train_file: "data/processed/sft_train.jsonl"
   eval_file: "data/processed/sft_eval.jsonl"
   text_field: "text"
+  prompt_template: "chat"
   max_seq_length: 1024
   packing: false
 

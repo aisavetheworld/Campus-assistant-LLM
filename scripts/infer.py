@@ -12,7 +12,7 @@ from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from prompt_utils import build_prompt as build_metadata_prompt
-from prompt_utils import truncate_with_stop_info
+from prompt_utils import clean_generation_with_info
 
 
 def str_to_bool(value: str | bool) -> bool:
@@ -35,6 +35,9 @@ def build_prompt(
     output_format: str = "plain_answer",
     user_language: str = "mixed",
     response_language: str = "en",
+    prompt_template: str = "auto",
+    tokenizer: Any | None = None,
+    model_name_or_path: str = "",
 ) -> str:
     """Create the inference prompt matching the SFT training template."""
     return build_metadata_prompt(
@@ -45,6 +48,9 @@ def build_prompt(
         output_format=output_format,
         user_language=user_language,
         response_language=response_language,
+        prompt_template=prompt_template,
+        tokenizer=tokenizer,
+        model_name_or_path=model_name_or_path,
     )
 
 
@@ -156,13 +162,14 @@ def generate_response(
     decoded = tokenizer.decode(completion_ids, skip_special_tokens=True).strip()
     info = {
         "raw_response_length": len(decoded),
+        "raw_response": decoded,
         "was_truncated_by_stop_sequence": False,
         "stop_sequence_used": None,
+        "repaired_stop_sequences": [],
     }
     if stop_at_extra_notes:
-        decoded, was_truncated, stop_used = truncate_with_stop_info(decoded)
-        info["was_truncated_by_stop_sequence"] = was_truncated
-        info["stop_sequence_used"] = stop_used
+        decoded, clean_info = clean_generation_with_info(decoded)
+        info.update(clean_info)
     info["response_length"] = len(decoded)
     if return_generation_info:
         return decoded, info
@@ -181,6 +188,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output_format", default="plain_answer")
     parser.add_argument("--user_language", default="mixed")
     parser.add_argument("--response_language", default="en")
+    parser.add_argument("--prompt_template", choices=["auto", "chat", "legacy"], default="auto")
     parser.add_argument("--max_new_tokens", type=int, default=300)
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=0.9)
@@ -203,6 +211,9 @@ def main() -> None:
         output_format=args.output_format,
         user_language=args.user_language,
         response_language=args.response_language,
+        prompt_template=args.prompt_template,
+        tokenizer=tokenizer,
+        model_name_or_path=args.model_name_or_path,
     )
     response = generate_response(
         tokenizer=tokenizer,
