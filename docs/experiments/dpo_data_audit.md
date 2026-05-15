@@ -37,9 +37,9 @@
 
 ## Quality Statistics
 
-- Average chosen word count: 60.76
-- Average rejected word count: 13.82
-- Average chosen/rejected length ratio: 4.67
+- Average chosen word count: 60.88
+- Average rejected word count: 38.18
+- Average chosen/rejected length ratio: 1.67
 - Chosen missing official office when required: 0
 - Chosen bad marker count: 0
 
@@ -56,11 +56,10 @@
 | Flaw | Count |
 |---|---:|
 | `extra_notes` | 6 |
-| `missing_steps` | 40 |
-| `no_official_office` | 38 |
-| `overconfident_claim` | 6 |
-| `poor_email_format` | 12 |
-| `too_short` | 49 |
+| `missing_steps` | 7 |
+| `no_official_office` | 35 |
+| `overconfident_claim` | 4 |
+| `poor_email_format` | 9 |
 
 ## Known Limitations
 
