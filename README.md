@@ -179,20 +179,28 @@ Checks include email formatting, safe escalation language, official office refer
 
 ## DPO Placeholder
 
-Project 1 includes DPO seed pairs but does not train DPO yet.
+Project 1 includes prepared DPO preference data but does not train DPO yet.
 
-```bash
-python scripts/build_dpo_data.py \
-  --input_file data/dpo/dpo_seed.json
-```
+The current DPO data is used to stage a future `SFT-only` vs `SFT+DPO` comparison. It targets:
 
-Optional future-use JSONL export:
+- `steps_plus_email` completeness;
+- safer CPT/OPT/visa escalation;
+- safer medical and insurance escalation;
+- housing office / Student Mail escalation;
+- concise professional email quality.
 
 ```bash
 python scripts/build_dpo_data.py \
   --input_file data/dpo/dpo_seed.json \
-  --output_jsonl data/dpo/dpo_train.jsonl
+  --train_output data/dpo/dpo_train.jsonl \
+  --eval_output data/dpo/dpo_eval.jsonl \
+  --eval_ratio 0.2 \
+  --seed 42
 ```
+
+This validates DPO seed pairs, audits preference quality, creates `formatted_prompt`, and writes an 80/20 train/eval split for future TRL `DPOTrainer` use.
+
+DPO training is intentionally not implemented yet.
 
 ## References / Engineering Inspiration
 
