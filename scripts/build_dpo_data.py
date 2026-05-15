@@ -4,11 +4,12 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
 
-REQUIRED_FIELDS = ["id", "prompt", "chosen", "rejected"]
+REQUIRED_FIELDS = ["id", "category", "risk_level", "prompt", "chosen", "rejected"]
 
 
 def read_json_list(path: Path) -> list[dict[str, Any]]:
@@ -76,6 +77,8 @@ def main() -> None:
 
     stats = {
         "pair_count": len(rows),
+        "category_distribution": dict(Counter(row["category"] for row in rows)),
+        "risk_level_distribution": dict(Counter(row["risk_level"] for row in rows)),
         "average_prompt_length": round(average_length(rows, "prompt"), 2),
         "average_chosen_length": round(average_length(rows, "chosen"), 2),
         "average_rejected_length": round(average_length(rows, "rejected"), 2),

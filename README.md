@@ -15,6 +15,16 @@ Project 1 focuses only on the training layer:
 - DPO data placeholders for later preference alignment.
 - No RAG, no vLLM, no FastAPI, and no full web app in this phase.
 
+## Project 1 Status
+
+- SFT pipeline complete.
+- LoRA rank ablation complete; rank `32` is the selected rank.
+- Target modules ablation complete.
+- Final high-quality SFT config: `configs/final_sft_r32_attn_mlp.yaml`.
+- Final target modules: `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`.
+- Lightweight backup config: `configs/ablations/sft_r32_qv.yaml`.
+- DPO preference data preparation is next; DPO training is not implemented yet.
+
 ## Why This Project Exists
 
 International students often need help translating vague campus problems into clear next steps and polite English communication. The goal is not to replace official offices, advisors, healthcare providers, or legal professionals. The goal is to teach the model a reliable behavior pattern: clarify, structure, draft, and escalate when risk is high.
