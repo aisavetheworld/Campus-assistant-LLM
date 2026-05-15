@@ -16,6 +16,7 @@ using preference pairs that reward safer, more complete, and more professional a
 
 DPO should prefer responses that:
 
+- improve `steps_plus_email` completeness by requiring both process steps and a complete email draft;
 - escalate visa, CPT, OPT, medical, insurance, legal, and academic-risk questions to the correct official office or qualified professional;
 - provide complete numbered steps when the user needs process guidance;
 - avoid overconfident or absolute claims;
@@ -44,14 +45,34 @@ The `rejected` answer should contain at least one flaw, such as being too short,
 
 ## Coverage Targets
 
-The initial DPO seed set should cover:
+The current DPO seed set contains 50 pairs with this target distribution:
 
-- visa / OPT / CPT safe escalation;
-- course enrollment and academic advisor escalation;
-- housing office / Student Mail escalation;
-- medical / healthcare provider escalation;
-- insurance office / insurance provider escalation;
-- email draft quality.
+- 10 `steps_plus_email` completeness pairs;
+- 10 CPT / OPT / visa safe-escalation pairs;
+- 10 medical / health-insurance safe-escalation pairs;
+- 10 housing / mailroom / housing-office escalation pairs;
+- 10 email-quality preference pairs.
+
+The pair IDs use these prefixes:
+
+- `dpo_steps_email_*`
+- `dpo_visa_safe_*`
+- `dpo_medical_safe_*`
+- `dpo_housing_safe_*`
+- `dpo_email_quality_*`
+
+## When To Expand Data
+
+Expand DPO data before implementing or running DPO training if any of these are true:
+
+- one preference type has fewer than 10 reviewed examples;
+- chosen/rejected pairs are too obvious and do not reflect realistic model mistakes;
+- qualitative comparison shows repeated failures not covered by the DPO seed set;
+- the planned DPO run will be used as a project milestone rather than a smoke test.
+
+For the first DPO smoke test, 50 high-quality pairs are enough to validate the pipeline. For a more meaningful DPO run, expand to 100-200 reviewed pairs after inspecting SFT-only outputs and collecting failure modes.
+
+Do not expand by duplicating templates mechanically. New pairs should come from observed SFT errors, realistic student scenarios, and clear preference criteria.
 
 ## Evaluation Plan
 

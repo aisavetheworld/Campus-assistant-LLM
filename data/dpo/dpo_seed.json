@@ -1,46 +1,126 @@
 [
   {
-    "id": "dpo_visa_opt_001",
+    "id": "dpo_steps_email_001",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "用户说包裹显示 delivered 但 mailroom 找不到，希望得到处理步骤和英文邮件模板。",
+    "chosen": "1. Confirm the tracking number, delivery notification, recipient name, and expected pickup location.\n2. Contact Student Mail, the mailroom team, or the housing office and ask them to check the internal delivery record.\n3. Avoid assuming the package is lost until the official office verifies the status.\n\nSubject: Question About Missing Package\n\nDear Mailroom Team,\n\nI hope you are doing well. My package was marked as delivered, but I have not been able to locate it at the mailroom. Could you please help me check the internal delivery record?\n\nTracking number: [Tracking Number]\nRecipient name: [Your Name]\nDelivery date: [Date]\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Missing Package\n\nDear Mailroom,\n\nMy package says delivered but I cannot find it. Please check.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_002",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "用户宿舍门锁坏了，需要处理步骤和给 housing office 的英文邮件。",
+    "chosen": "1. Do not rely on a temporary fix if the door cannot close or lock safely.\n2. Contact the housing office, maintenance team, or residential staff and report the issue as safety-related.\n3. Include your building, room, what is broken, and whether you need urgent access or safety support.\n\nSubject: Urgent Maintenance Request for Room Door Lock\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to report a problem with my room door lock. The door does not close securely, and I am concerned about safety.\n\nCould you please let me know the next steps or help submit an urgent maintenance request?\n\nBest regards,\n[Your Name]",
+    "rejected": "Use tape for now and email housing later."
+  },
+  {
+    "id": "dpo_steps_email_003",
+    "category": "course_enrollment",
+    "risk_level": "low",
+    "prompt": "Student is on a waitlist and wants steps plus an email to ask whether waitlisted students may attend class.",
+    "chosen": "1. Check the enrollment system and course page for any official waitlist attendance instructions.\n2. Email the professor politely and ask whether waitlisted students may attend while waiting for a seat.\n3. If this affects your schedule or graduation plan, contact the department or academic advisor for official enrollment guidance.\n\nSubject: Question About Attending Class While on the Waitlist\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am currently on the waitlist for [Course Number/Name] and wanted to ask whether waitlisted students may attend class while waiting for a seat.\n\nThank you for your time and guidance.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Waitlist\n\nDear Professor,\n\nCan I come to class even though I am waitlisted?\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_004",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student received an insurance waiver rejection and wants next steps plus an email to the insurance office.",
+    "chosen": "1. Review the rejection notice and identify whether the issue is missing information, coverage mismatch, or documentation format.\n2. Contact the insurance office or insurance provider and ask whether correction or appeal is available.\n3. Prepare your policy documents, rejection message, and student information before sending the email.\n\nSubject: Question About Insurance Waiver Rejection\n\nDear Insurance Office,\n\nI hope you are doing well. I received a notice that my insurance waiver was not approved, and I would like to ask what information may be missing or whether there is a correction or appeal process.\n\nCould you please let me know the next steps?\n\nBest regards,\n[Your Name]",
+    "rejected": "Your waiver was rejected. Ask insurance to fix it."
+  },
+  {
+    "id": "dpo_steps_email_005",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "用户和 roommate 有冲突，需要处理步骤和给 housing office 的英文邮件。",
+    "chosen": "1. Write down the specific issues, dates, and any previous attempts to resolve the conflict calmly.\n2. Contact your RA, residential life staff, or housing office before moving out or making housing changes.\n3. Ask about mediation, room-change options, documentation, and any housing contract implications.\n\nSubject: Request for Guidance on Roommate Conflict\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask for guidance about an ongoing roommate conflict. I would like to understand the appropriate process before making any housing changes.\n\nCould you please let me know whether mediation or a room-change request is available?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Roommate Problem\n\nDear Housing,\n\nI want to move out immediately. Please change my room.\n\nBest regards,\n[Name]\n\nNote: Add more details if needed."
+  },
+  {
+    "id": "dpo_steps_email_006",
+    "category": "course_enrollment",
+    "risk_level": "medium",
+    "prompt": "用户错过 add/drop deadline，需要步骤和给 academic advisor 的邮件。",
+    "chosen": "1. Do not assume an exception is available or guaranteed.\n2. Contact your academic advisor, department, or registrar to ask whether there is an official late add/drop or petition process.\n3. Prepare the course number, deadline missed, reason, and any supporting documentation.\n\nSubject: Question About Missed Add/Drop Deadline\n\nDear Academic Advisor,\n\nI hope you are doing well. I recently realized that I missed the add/drop deadline for [Course Number]. I understand that exceptions may not be guaranteed, but I would like to ask whether there is an official process I should follow.\n\nCould you please advise me on the next steps?\n\nBest regards,\n[Your Name]",
+    "rejected": "Ask your professor to approve it. That should fix the deadline issue."
+  },
+  {
+    "id": "dpo_steps_email_007",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "用户上传了 immunization documents 但 hold 没解除，需要步骤和英文邮件。",
+    "chosen": "1. Check the official health or immunization portal to see whether your documents are pending, rejected, or missing information.\n2. Contact the student health center or immunization office and ask what is needed to clear the hold.\n3. Include your student ID, upload date, document type, and any portal message.\n\nSubject: Question About Immunization Hold Status\n\nDear Student Health Center,\n\nI hope you are doing well. I uploaded my immunization documents on [date], but my hold has not been cleared yet. Could you please let me know whether anything is missing or if further action is needed?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Immunization\n\nDear Office,\n\nPlease remove my hold. I uploaded everything.\n\nBest regards,\n[Name]"
+  },
+  {
+    "id": "dpo_steps_email_008",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student received a housing damage charge and wants steps plus an email to dispute it politely.",
+    "chosen": "1. Review the charge details and gather photos, move-in records, maintenance tickets, or prior messages.\n2. Contact the housing office through the official dispute or review process instead of refusing payment without confirmation.\n3. Keep your email factual and ask what documentation is needed.\n\nSubject: Question About Housing Damage Charge\n\nDear Housing Office,\n\nI hope you are doing well. I received a housing damage charge and would like to ask how I can request a review or clarification.\n\nCould you please let me know what documentation I should provide and what the official process is?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Damage Charge\n\nDear Housing,\n\nI did not cause this, so I will not pay it.\n\nBest regards,\n[Name]"
+  },
+  {
+    "id": "dpo_steps_email_009",
+    "category": "course_enrollment",
+    "risk_level": "medium",
+    "prompt": "Student wants to ask if a course can count toward major requirements and needs steps plus an email.",
+    "chosen": "1. Check your degree audit, course catalog, or official major requirement page first.\n2. Contact your academic advisor or department to confirm whether the course can satisfy the requirement.\n3. Include the course number, syllabus if available, term, and the requirement you hope it will satisfy.\n\nSubject: Question About Course Applying to Major Requirements\n\nDear Academic Advisor,\n\nI hope you are doing well. I am considering taking [Course Number/Name] and would like to ask whether it can count toward my major requirements.\n\nCould you please let me know how I should confirm this officially?\n\nBest regards,\n[Your Name]",
+    "rejected": "It sounds related to your major, so it should count. Email your advisor if you want."
+  },
+  {
+    "id": "dpo_steps_email_010",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student wants to ask the insurance office whether a medical bill has been processed through insurance, without admitting they owe it.",
+    "chosen": "1. Do not assume the bill is final until you confirm claim processing status.\n2. Check the insurance portal for a claim number, explanation of benefits, or pending status.\n3. Contact the insurance office or insurance provider with the bill date, provider name, and claim information.\n\nSubject: Question About Medical Bill and Insurance Processing\n\nDear Insurance Office,\n\nI hope you are doing well. I received a medical bill and would like to ask whether it has been processed through my insurance.\n\nCould you please let me know what information or documents I should provide to check the claim status?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Bill\n\nDear Insurance Office,\n\nI owe this bill and need you to pay it. Please fix it.\n\nBest regards,\n[Name]"
+  },
+  {
+    "id": "dpo_visa_safe_001",
     "category": "course_enrollment",
     "risk_level": "high",
     "prompt": "用户问：我 OPT 快过期了，但还没拿到新 offer，我是不是肯定没事？",
-    "chosen": "1. I cannot determine your immigration status or guarantee the outcome.\n2. Contact your international student office as soon as possible and explain your OPT timeline, current employment status, and any pending plans.\n3. Prepare relevant documents, such as your current authorization dates, job-search timeline, and any notices you have received, so the office can give official guidance.",
+    "chosen": "1. I cannot determine your immigration status or guarantee the outcome.\n2. Contact your international student office as soon as possible and explain your OPT timeline, current employment status, and any pending plans.\n3. Prepare relevant documents, such as your authorization dates, job-search timeline, and any official notices, so the office can give guidance.",
     "rejected": "You are probably fine. Just wait and do not worry about it."
   },
   {
-    "id": "dpo_visa_opt_002",
+    "id": "dpo_visa_safe_002",
     "category": "course_enrollment",
     "risk_level": "high",
-    "prompt": "Student asks: My OPT application is pending. Can I assume I will be approved and make travel plans?",
-    "chosen": "1. I cannot guarantee OPT approval or advise you to rely on a pending application as if it were approved.\n2. Before making travel or employment decisions, contact your international student office and ask what risks and documents you should consider.\n3. Keep copies of your application receipt, current status documents, and any university instructions so you can ask a precise question.",
-    "rejected": "Yes, if it is pending you should be fine. You can make plans now."
+    "prompt": "Student asks whether a pending OPT application means they can make travel plans.",
+    "chosen": "1. I cannot guarantee OPT approval or advise you to treat a pending application as approved.\n2. Contact the international student office before making travel or employment decisions.\n3. Keep your receipt notice, current status documents, travel dates, and any university instructions ready for the office.",
+    "rejected": "Pending usually means it will be approved, so travel should be fine."
   },
   {
-    "id": "dpo_visa_cpt_001",
+    "id": "dpo_visa_safe_003",
     "category": "course_enrollment",
     "risk_level": "high",
-    "prompt": "用户问：我拿到 internship offer 了，可以先开始工作再补 CPT 吗？",
-    "chosen": "1. Do not start off-campus work until you have confirmed the official authorization requirements.\n2. Contact your international student office before the start date and ask what approvals are required for CPT.\n3. Also check with your academic department or advisor if the internship must connect to a course or degree requirement.",
-    "rejected": "You can start first because the offer is already confirmed. CPT paperwork can usually be fixed later."
+    "prompt": "用户拿到 internship offer，问能不能先开始工作再补 CPT。",
+    "chosen": "1. Do not start off-campus work until you confirm the official authorization requirements.\n2. Contact the international student office before the start date and ask what approvals are required for CPT.\n3. Also check with your academic department or advisor if the internship must connect to coursework or degree requirements.",
+    "rejected": "You can start first because the offer is confirmed. CPT paperwork can be fixed later."
   },
   {
-    "id": "dpo_visa_cpt_002",
+    "id": "dpo_visa_safe_004",
     "category": "course_enrollment",
     "risk_level": "high",
     "prompt": "Student asks whether professor approval alone is enough for CPT.",
-    "chosen": "1. Professor approval alone may not be enough for CPT or immigration-related authorization.\n2. Contact the international student office for the official CPT process and required timing.\n3. If the internship is tied to coursework, also confirm academic requirements with your department or academic advisor.",
+    "chosen": "1. Professor approval alone may not be enough for CPT or immigration-related authorization.\n2. Contact the international student office for the official CPT process, timing, and required documents.\n3. If the internship is tied to a course, also confirm academic requirements with your department or academic advisor.",
     "rejected": "If your professor says yes, that should be enough. You do not need to contact anyone else."
   },
   {
-    "id": "dpo_visa_status_001",
+    "id": "dpo_visa_safe_005",
     "category": "course_enrollment",
     "risk_level": "high",
-    "prompt": "用户问：我 drop 一门课以后低于 full-time，会不会一定影响身份？",
-    "chosen": "1. I cannot determine your visa status or give a definite status conclusion.\n2. Before dropping the course, contact the international student office and explain how many units you would have after the drop.\n3. Also contact your academic advisor or registrar to understand enrollment options and official deadlines.",
+    "prompt": "用户 drop 一门课后可能低于 full-time，问会不会一定影响身份。",
+    "chosen": "1. I cannot determine your visa status or give a definite status conclusion.\n2. Before dropping the course, contact the international student office and explain how many units you would have after the drop.\n3. Also contact your academic advisor or registrar to understand enrollment options, deadlines, and official academic consequences.",
     "rejected": "It will not affect your status as long as you explain it later."
   },
   {
-    "id": "dpo_visa_fulltime_001",
+    "id": "dpo_visa_safe_006",
     "category": "course_enrollment",
     "risk_level": "high",
     "prompt": "Mixed question: I might be under full-time this quarter. Can I just add any random class later?",
@@ -48,103 +128,39 @@
     "rejected": "Yes, just add any easy class later. It should be okay."
   },
   {
-    "id": "dpo_course_waitlist_001",
-    "category": "course_enrollment",
-    "risk_level": "medium",
-    "prompt": "用户想知道 waitlist 上能不能直接去上课，并想问 professor。",
-    "chosen": "1. Check the official enrollment system first to confirm your waitlist position and whether the course has any attendance instructions.\n2. Email the professor politely to ask whether waitlisted students may attend while waiting.\n3. If the answer affects your degree progress, also contact the department or academic advisor for official enrollment guidance.",
-    "rejected": "Just show up to class and tell the professor you are interested."
-  },
-  {
-    "id": "dpo_course_prereq_001",
-    "category": "course_enrollment",
-    "risk_level": "medium",
-    "prompt": "Student asks if they can ignore a prerequisite because they already know the material.",
-    "chosen": "1. Do not assume you can ignore the prerequisite based only on self-study.\n2. Check the official course listing and contact the department or academic advisor to ask about prerequisite clearance.\n3. If needed, prepare evidence such as prior coursework, syllabi, or placement information.",
-    "rejected": "If you know the material, just enroll. Prerequisites are usually flexible."
-  },
-  {
-    "id": "dpo_course_deadline_001",
-    "category": "course_enrollment",
-    "risk_level": "medium",
-    "prompt": "用户错过 add/drop deadline，问还有没有办法。",
-    "chosen": "1. I cannot promise that an exception will be approved.\n2. Contact the registrar, department, or academic advisor and ask whether any official exception process exists.\n3. Prepare a short explanation, relevant dates, and supporting documentation before contacting them.",
-    "rejected": "Deadlines can usually be waived if you ask nicely."
-  },
-  {
-    "id": "dpo_course_misconduct_001",
+    "id": "dpo_visa_safe_007",
     "category": "course_enrollment",
     "risk_level": "high",
-    "prompt": "用户收到 academic misconduct notice，问是不是只要道歉就没事。",
-    "chosen": "1. I cannot predict the outcome or tell you that an apology will resolve the case.\n2. Carefully read the official notice and contact the student conduct office, academic advisor, or relevant department for process guidance.\n3. Keep your response factual, meet all stated deadlines, and consider asking about student support resources.",
-    "rejected": "Just apologize and say you did not mean it. They will probably drop it."
+    "prompt": "Student asks if unpaid remote work for a company outside campus is safe without authorization.",
+    "chosen": "1. I cannot determine whether unpaid remote work is allowed in your immigration situation.\n2. Contact the international student office before starting any off-campus work, paid or unpaid.\n3. Prepare the role description, company location, compensation details, expected hours, and start date for official review.",
+    "rejected": "If it is unpaid and remote, it should not count as work. You can do it."
   },
   {
-    "id": "dpo_course_requirement_001",
+    "id": "dpo_visa_safe_008",
     "category": "course_enrollment",
-    "risk_level": "medium",
-    "prompt": "用户问某门课能不能算进 major requirement。",
-    "chosen": "1. I cannot verify degree applicability without official degree rules.\n2. Check your degree audit or official catalog, then contact your academic advisor or department for confirmation.\n3. Include the course number, term, syllabus if available, and the requirement you hope it will satisfy.",
-    "rejected": "If it sounds related to your major, it should count."
+    "risk_level": "high",
+    "prompt": "用户问 OPT unemployment days 快用完了，是不是找 volunteer 就能解决。",
+    "chosen": "1. I cannot confirm whether a volunteer role will resolve OPT unemployment concerns.\n2. Contact your international student office immediately and ask what kinds of activity may or may not count under official rules.\n3. Prepare your unemployment timeline, role description, organization details, and any offer or volunteer documentation.",
+    "rejected": "Any volunteer work should solve the unemployment days problem."
   },
   {
-    "id": "dpo_course_exam_conflict_001",
+    "id": "dpo_visa_safe_009",
     "category": "course_enrollment",
-    "risk_level": "medium",
-    "prompt": "Student has a final exam conflict and wants advice.",
-    "chosen": "1. Review the official exam schedule and course syllabus to confirm the conflict.\n2. Contact the professor as early as possible with the course names, exam times, and a concise explanation.\n3. If the conflict involves official scheduling rules, contact the department or registrar for the correct process.",
-    "rejected": "Skip one exam and explain later. Professors usually understand."
-  },
-  {
-    "id": "dpo_housing_package_001",
-    "category": "housing",
-    "risk_level": "low",
-    "prompt": "用户说包裹显示 delivered 但 Student Mail / mailroom 找不到。",
-    "chosen": "1. Confirm the tracking number, delivery notification, recipient name, and pickup location.\n2. Contact Student Mail, the mailroom team, or the housing office and ask them to check their internal system.\n3. Avoid assuming the package is lost until the office verifies the delivery record.",
-    "rejected": "The mailroom lost it. Tell them they must reimburse you."
-  },
-  {
-    "id": "dpo_housing_lock_001",
-    "category": "housing",
-    "risk_level": "medium",
-    "prompt": "用户宿舍门锁坏了，问能不能先用胶带固定。",
-    "chosen": "1. Do not rely on a temporary fix if the door cannot close or lock safely.\n2. Contact the housing office, maintenance team, or residential staff and report it as a safety-related issue.\n3. Include your building, room, a brief description, and whether you need urgent access or safety support.",
-    "rejected": "Tape should be fine for one night. Submit a request later."
-  },
-  {
-    "id": "dpo_housing_roommate_001",
-    "category": "housing",
-    "risk_level": "medium",
-    "prompt": "用户和 roommate 冲突，想直接搬出去。",
-    "chosen": "1. Document the issue calmly, including dates and specific concerns.\n2. Contact your RA, residential life staff, or housing office before making housing changes.\n3. Ask about mediation, room-change procedures, and any contract implications.",
-    "rejected": "Just move out if you are uncomfortable. You can tell housing later."
-  },
-  {
-    "id": "dpo_housing_charge_001",
-    "category": "housing",
-    "risk_level": "medium",
-    "prompt": "Student received a housing damage charge and thinks it is wrong.",
-    "chosen": "1. Review the charge details and gather photos, move-in records, or prior maintenance requests.\n2. Contact the housing office or relevant housing team through the official process to ask how to dispute the charge.\n3. Keep the message factual and avoid admitting responsibility if you are asking for clarification.",
-    "rejected": "Refuse to pay and say they cannot prove it."
-  },
-  {
-    "id": "dpo_housing_contract_001",
-    "category": "housing",
     "risk_level": "high",
-    "prompt": "用户问能不能直接 break housing contract，因为不想住了。",
-    "chosen": "1. I cannot determine your contract obligations or guarantee that cancellation will be approved.\n2. Contact the housing office and ask about the official contract cancellation or appeal process.\n3. Review the contract terms and prepare your reason and supporting documents before making a decision.",
-    "rejected": "You can just leave if you no longer want to live there."
+    "prompt": "Student wants to reduce course load because of stress and asks if it is automatically allowed.",
+    "chosen": "1. Do not assume a reduced course load is automatically allowed for visa/status purposes.\n2. Contact the international student office before reducing units and ask whether authorization is required.\n3. Also contact an academic advisor or student support office to discuss academic options and documentation.",
+    "rejected": "Stress is a valid reason, so you can reduce your course load and explain later."
   },
   {
-    "id": "dpo_housing_payment_001",
-    "category": "housing",
+    "id": "dpo_visa_safe_010",
+    "category": "course_enrollment",
     "risk_level": "high",
-    "prompt": "用户 housing payment 逾期，问是不是肯定不会影响 housing status。",
-    "chosen": "1. I cannot guarantee that an overdue housing payment will have no consequences.\n2. Contact the housing office or billing office immediately to ask about your balance, deadlines, and payment options.\n3. Keep records of payment confirmations and any written communication from the office.",
-    "rejected": "It should not affect anything. Just pay whenever you can."
+    "prompt": "用户收到 SEVIS/status-related email，看不懂，问是不是可以忽略。",
+    "chosen": "1. Do not ignore a status-related or SEVIS-related email.\n2. Contact your international student office promptly and ask them to explain what action, deadline, or document is required.\n3. Save the email, screenshots, dates, and any related enrollment or employment records before contacting them.",
+    "rejected": "If you do not understand it, wait for another reminder. It is probably not urgent."
   },
   {
-    "id": "dpo_health_chest_001",
+    "id": "dpo_medical_safe_001",
     "category": "health_insurance",
     "risk_level": "high",
     "prompt": "用户问：我 chest pain and dizziness，可以明天再去看医生吗？",
@@ -152,7 +168,7 @@
     "rejected": "It is likely stress. You can wait until tomorrow and see if it gets better."
   },
   {
-    "id": "dpo_health_medication_001",
+    "id": "dpo_medical_safe_002",
     "category": "health_insurance",
     "risk_level": "high",
     "prompt": "Student asks whether they should stop prescribed medication because they feel better.",
@@ -160,7 +176,7 @@
     "rejected": "If you feel better, you can stop taking it and restart if symptoms return."
   },
   {
-    "id": "dpo_health_fever_001",
+    "id": "dpo_medical_safe_003",
     "category": "health_insurance",
     "risk_level": "high",
     "prompt": "用户高烧、呼吸不适，问能不能只喝水休息。",
@@ -168,7 +184,7 @@
     "rejected": "Drink water and rest. You should be fine in a day."
   },
   {
-    "id": "dpo_health_allergy_001",
+    "id": "dpo_medical_safe_004",
     "category": "health_insurance",
     "risk_level": "high",
     "prompt": "Student reports swelling and trouble breathing after eating food.",
@@ -176,15 +192,15 @@
     "rejected": "Take an allergy pill and wait. It is probably not serious."
   },
   {
-    "id": "dpo_health_immunization_001",
+    "id": "dpo_medical_safe_005",
     "category": "health_insurance",
     "risk_level": "medium",
     "prompt": "用户上传了 immunization documents，但 hold 还没解除。",
-    "chosen": "1. Check the official health or immunization portal to confirm whether documents are marked as submitted, pending, or rejected.\n2. Contact the student health center or immunization office and ask what is missing.\n3. Include your student ID, upload date, document type, and any portal message.",
+    "chosen": "1. Check the official health or immunization portal to confirm whether documents are pending, rejected, or missing information.\n2. Contact the student health center or immunization office and ask what is needed to clear the hold.\n3. Include your student ID, upload date, document type, and any portal message.",
     "rejected": "Just wait. Holds usually disappear automatically."
   },
   {
-    "id": "dpo_insurance_waiver_001",
+    "id": "dpo_medical_safe_006",
     "category": "health_insurance",
     "risk_level": "medium",
     "prompt": "用户问 insurance waiver 被拒是不是肯定没办法。",
@@ -192,7 +208,7 @@
     "rejected": "If it was rejected, there is nothing you can do."
   },
   {
-    "id": "dpo_insurance_claim_001",
+    "id": "dpo_medical_safe_007",
     "category": "health_insurance",
     "risk_level": "high",
     "prompt": "用户问 urgent care 账单是不是肯定会被保险报销。",
@@ -200,7 +216,111 @@
     "rejected": "Yes, student insurance should cover urgent care. You do not need to contact anyone."
   },
   {
-    "id": "dpo_email_extension_001",
+    "id": "dpo_medical_safe_008",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student asks if they can diagnose a rash from an online image and skip the clinic.",
+    "chosen": "1. I cannot diagnose a rash from an online description or image.\n2. Contact a healthcare provider, student health center, or clinic if the rash is painful, spreading, infected-looking, or concerning.\n3. Prepare symptom duration, photos, medication history, and exposure details for the medical visit.",
+    "rejected": "It looks minor, so you probably do not need a clinic visit."
+  },
+  {
+    "id": "dpo_medical_safe_009",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "用户想找 in-network clinic，但不知道保险怎么确认。",
+    "chosen": "1. Check the official insurance portal or provider directory for in-network clinic information.\n2. Contact the insurance office or insurance provider to confirm coverage before scheduling if you are unsure.\n3. Ask the clinic to verify your plan and keep records of any confirmation you receive.",
+    "rejected": "Any clinic near campus should probably accept student insurance."
+  },
+  {
+    "id": "dpo_medical_safe_010",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student has severe anxiety symptoms and asks if they should just wait until finals are over.",
+    "chosen": "1. I cannot decide whether it is safe for you to wait.\n2. Contact a healthcare provider, student health center, counseling service, urgent care, or emergency support if symptoms feel severe or unsafe.\n3. If you may harm yourself or cannot stay safe, seek immediate emergency help according to local instructions.",
+    "rejected": "Wait until finals are over because stress is normal for students."
+  },
+  {
+    "id": "dpo_housing_safe_001",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "用户说包裹显示 delivered 但 Student Mail / mailroom 找不到。",
+    "chosen": "1. Confirm the tracking number, delivery notification, recipient name, and pickup location.\n2. Contact Student Mail, the mailroom team, or the housing office and ask them to check the internal system.\n3. Avoid assuming the package is lost until the office verifies the delivery record.",
+    "rejected": "The mailroom lost it. Tell them they must reimburse you."
+  },
+  {
+    "id": "dpo_housing_safe_002",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "用户宿舍门锁坏了，问能不能先用胶带固定。",
+    "chosen": "1. Do not rely on a temporary fix if the door cannot close or lock safely.\n2. Contact the housing office, maintenance team, or residential staff and report it as a safety-related issue.\n3. Include your building, room, a brief description, and whether you need urgent access or safety support.",
+    "rejected": "Tape should be fine for one night. Submit a request later."
+  },
+  {
+    "id": "dpo_housing_safe_003",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "用户和 roommate 冲突，想直接搬出去。",
+    "chosen": "1. Document the issue calmly, including dates and specific concerns.\n2. Contact your RA, residential life staff, or housing office before making housing changes.\n3. Ask about mediation, room-change procedures, and any contract implications.",
+    "rejected": "Just move out if you are uncomfortable. You can tell housing later."
+  },
+  {
+    "id": "dpo_housing_safe_004",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student received a housing damage charge and thinks it is wrong.",
+    "chosen": "1. Review the charge details and gather photos, move-in records, or prior maintenance requests.\n2. Contact the housing office or relevant housing team through the official process to ask how to dispute the charge.\n3. Keep the message factual and avoid admitting responsibility if you are asking for clarification.",
+    "rejected": "Refuse to pay and say they cannot prove it."
+  },
+  {
+    "id": "dpo_housing_safe_005",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "用户问能不能直接 break housing contract，因为不想住了。",
+    "chosen": "1. I cannot determine your contract obligations or guarantee that cancellation will be approved.\n2. Contact the housing office and ask about the official contract cancellation or appeal process.\n3. Review the contract terms and prepare your reason and supporting documents before making a decision.",
+    "rejected": "You can just leave if you no longer want to live there."
+  },
+  {
+    "id": "dpo_housing_safe_006",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "用户 housing payment 逾期，问是不是肯定不会影响 housing status。",
+    "chosen": "1. I cannot guarantee that an overdue housing payment will have no consequences.\n2. Contact the housing office or billing office immediately to ask about your balance, deadlines, and payment options.\n3. Keep records of payment confirmations and any written communication from the office.",
+    "rejected": "It should not affect anything. Just pay whenever you can."
+  },
+  {
+    "id": "dpo_housing_safe_007",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student lost their room key and asks if they can borrow a friend's key for a few days.",
+    "chosen": "1. Do not rely on another student's key or bypass housing access rules.\n2. Contact the housing office, front desk, or residential staff to ask about the official replacement process.\n3. Ask about temporary access, identification requirements, and any replacement fee or timeline before taking action.",
+    "rejected": "Borrowing a friend's key for a few days is fine if you are careful."
+  },
+  {
+    "id": "dpo_housing_safe_008",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "用户的 package 可能被别人拿走了，问能不能直接指责 roommate。",
+    "chosen": "1. Do not accuse a roommate without verification.\n2. Contact Student Mail, the mailroom team, or housing office to confirm the package pickup record.\n3. If you still suspect a housing issue, document facts and ask residential staff or the housing office about the appropriate next step.",
+    "rejected": "Tell your roommate you know they took it and demand payment."
+  },
+  {
+    "id": "dpo_housing_safe_009",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student has repeated noise issues and wants to know what to do.",
+    "chosen": "1. Document dates, times, and the type of noise issue without exaggerating.\n2. If safe, try a respectful conversation or use the residential conflict process.\n3. Contact your RA, residential life staff, or housing office if the issue continues or affects your ability to live safely.",
+    "rejected": "Make noise back so they understand how it feels."
+  },
+  {
+    "id": "dpo_housing_safe_010",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "用户收到 housing violation notice，问是不是不回复也没事。",
+    "chosen": "1. Do not ignore an official housing violation notice.\n2. Read the notice carefully and contact the housing office or relevant housing team to understand the process, deadline, and response options.\n3. Keep your response factual and save copies of all communications.",
+    "rejected": "If the notice is not serious, you can ignore it and wait."
+  },
+  {
+    "id": "dpo_email_quality_001",
     "category": "email_drafting",
     "risk_level": "low",
     "prompt": "用户想给教授写邮件申请 project report 延期，原因是生病。只需要邮件本体。",
@@ -208,15 +328,15 @@
     "rejected": "Hey professor, I am sick and cannot do the project. Please give me more time.\n\nNote: You can customize this email."
   },
   {
-    "id": "dpo_email_waitlist_001",
+    "id": "dpo_email_quality_002",
     "category": "email_drafting",
     "risk_level": "low",
     "prompt": "Student wants an email asking a professor whether waitlisted students may attend class.",
-    "chosen": "Subject: Question About Attending Class While on the Waitlist\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am currently on the waitlist for [Course Number/Name] and wanted to ask whether waitlisted students are allowed to attend class while waiting for a seat.\n\nThank you for your time and guidance.\n\nBest regards,\n[Your Name]",
+    "chosen": "Subject: Question About Attending Class While on the Waitlist\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am currently on the waitlist for [Course Number/Name] and wanted to ask whether waitlisted students may attend class while waiting for a seat.\n\nThank you for your time and guidance.\n\nBest regards,\n[Your Name]",
     "rejected": "Can I come to class even though I am waitlisted? Thanks."
   },
   {
-    "id": "dpo_email_housing_001",
+    "id": "dpo_email_quality_003",
     "category": "housing",
     "risk_level": "medium",
     "prompt": "用户想给 housing office 写邮件报告 room lock issue。只需要邮件本体。",
@@ -224,7 +344,7 @@
     "rejected": "Subject: Lock\n\nFix my door lock as soon as possible.\n\nExplanation: This is short and direct."
   },
   {
-    "id": "dpo_email_insurance_001",
+    "id": "dpo_email_quality_004",
     "category": "health_insurance",
     "risk_level": "medium",
     "prompt": "Student needs an email asking the insurance office about a medical bill status without admitting they owe the amount.",
@@ -232,11 +352,51 @@
     "rejected": "Subject: Bill\n\nDear Insurance Office,\n\nI owe this bill and need you to pay it. Please fix it.\n\nBest regards,\n[Name]\n\nNote: Add your details before sending."
   },
   {
-    "id": "dpo_email_international_office_001",
+    "id": "dpo_email_quality_005",
     "category": "email_drafting",
     "risk_level": "high",
     "prompt": "用户想给 international student office 写邮件问 CPT start date authorization。只需要邮件本体。",
     "chosen": "Subject: Question About CPT Authorization and Start Date\n\nDear International Student Office,\n\nI hope you are doing well. I recently received an internship offer and would like to ask about the official CPT authorization process before confirming my start date.\n\nCould you please let me know what steps I should complete and what documents I should prepare before beginning any off-campus work?\n\nBest regards,\n[Your Name]",
     "rejected": "Subject: CPT\n\nDear Office,\n\nI already plan to start work soon. Please approve my CPT quickly.\n\nBest regards,\n[Name]"
+  },
+  {
+    "id": "dpo_email_quality_006",
+    "category": "email_drafting",
+    "risk_level": "low",
+    "prompt": "Student wants to request a recommendation letter from a professor.",
+    "chosen": "Subject: Request for Recommendation Letter\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether you would be willing to write a recommendation letter for my [program/application]. I enjoyed taking [Course Name] with you and believe your perspective would be very helpful.\n\nI would be happy to provide my resume, draft statement, deadline, and any other materials you may need.\n\nBest regards,\n[Your Name]",
+    "rejected": "Professor, can you write me a recommendation letter soon? I need it for an application."
+  },
+  {
+    "id": "dpo_email_quality_007",
+    "category": "email_drafting",
+    "risk_level": "low",
+    "prompt": "用户想给 professor 写邮件解释生病缺课，并询问 missed class materials。",
+    "chosen": "Subject: Request for Missed Class Materials\n\nDear Professor [Last Name],\n\nI hope you are doing well. I was unable to attend class on [date] because I was sick. I wanted to ask whether there are any lecture notes, slides, or materials I should review to catch up.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Sick\n\nDear Professor,\n\nI missed class because I was sick. What did I miss?\n\nThanks."
+  },
+  {
+    "id": "dpo_email_quality_008",
+    "category": "email_drafting",
+    "risk_level": "medium",
+    "prompt": "Student wants to ask the department about prerequisite clearance.",
+    "chosen": "Subject: Question About Prerequisite Clearance\n\nDear Department Advising Team,\n\nI hope you are doing well. I am interested in enrolling in [Course Number/Name], but I am unsure whether I meet the prerequisite requirement.\n\nCould you please let me know what documents or information I should provide to request prerequisite clearance?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Prereq\n\nCan you clear me for the class? I know the material already.\n\nNote: Send this to the department."
+  },
+  {
+    "id": "dpo_email_quality_009",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "用户想给 mailroom 写邮件询问包裹 pickup location。",
+    "chosen": "Subject: Question About Package Pickup Location\n\nDear Mailroom Team,\n\nI hope you are doing well. I received a delivery notification for my package, but I am not sure where I should pick it up.\n\nCould you please help me confirm the pickup location?\n\nTracking number: [Tracking Number]\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Package\n\nWhere is my package? Please tell me.\n\nBest regards"
+  },
+  {
+    "id": "dpo_email_quality_010",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student wants an email asking whether a clinic is in-network.",
+    "chosen": "Subject: Question About In-Network Clinic Coverage\n\nDear Insurance Office,\n\nI hope you are doing well. I am considering visiting [Clinic Name] and would like to ask whether it is in-network under my student insurance plan.\n\nCould you please let me know how I can confirm coverage before scheduling an appointment?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Clinic\n\nIs this clinic covered? Please answer quickly.\n\nExplanation: This email is short and direct."
   }
 ]
