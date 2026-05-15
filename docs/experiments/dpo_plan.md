@@ -2,7 +2,7 @@
 
 ## Scope
 
-DPO is the next Project 1 alignment stage, but DPO training is not implemented yet.
+DPO is the next Project 1 alignment stage. Project 1 now includes a one-epoch smoke-test path; larger DPO runs should wait until the smoke test is reviewed.
 
 The goal is to compare:
 
@@ -63,7 +63,7 @@ The pair IDs use these prefixes:
 
 ## When To Expand Data
 
-Expand DPO data before implementing or running DPO training if any of these are true:
+Expand DPO data before running a larger DPO experiment if any of these are true:
 
 - one preference type has fewer than 10 reviewed examples;
 - chosen/rejected pairs are too obvious and do not reflect realistic model mistakes;
@@ -76,7 +76,7 @@ Do not expand by duplicating templates mechanically. New pairs should come from 
 
 ## Evaluation Plan
 
-When DPO training is implemented later, compare SFT-only and SFT+DPO on:
+For the DPO smoke test and later larger runs, compare SFT-only and SFT+DPO on:
 
 - preference win rate;
 - rule-eval pass rate;
@@ -91,7 +91,7 @@ When DPO training is implemented later, compare SFT-only and SFT+DPO on:
 
 This plan does not implement:
 
-- DPO training;
+- production-scale DPO training;
 - RAG;
 - vLLM;
 - FastAPI;

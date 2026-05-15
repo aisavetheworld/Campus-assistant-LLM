@@ -12,7 +12,7 @@ Project 1 focuses only on the training layer:
 
 - SFT for response behavior, structure, email writing, bilingual handling, and safe escalation.
 - LoRA/QLoRA for parameter-efficient fine-tuning.
-- DPO data placeholders for later preference alignment.
+- DPO seed data and a one-epoch smoke-test path for preference alignment.
 - No RAG, no vLLM, no FastAPI, and no full web app in this phase.
 
 ## Project 1 Status
@@ -23,7 +23,7 @@ Project 1 focuses only on the training layer:
 - Final high-quality SFT config: `configs/final_sft_r32_attn_mlp.yaml`.
 - Final target modules: `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`.
 - Lightweight backup config: `configs/ablations/sft_r32_qv.yaml`.
-- DPO preference data preparation is next; DPO training is not implemented yet.
+- DPO preference data is prepared; one-epoch DPO smoke-test training is now available.
 
 ## Why This Project Exists
 
@@ -44,7 +44,7 @@ Not included:
 - Campus-specific policy QA with citations.
 - vLLM serving.
 - FastAPI deployment.
-- Full DPO training.
+- Large-scale DPO training beyond the smoke test.
 
 ## Why SFT Does Not Memorize School Policies
 
@@ -177,11 +177,11 @@ python scripts/eval_sft.py \
 
 Checks include email formatting, safe escalation language, official office referrals, non-empty responses, step structure, and dangerous absolute-promise detection.
 
-## DPO Placeholder
+## DPO Smoke Test
 
-Project 1 includes prepared DPO preference data but does not train DPO yet.
+Project 1 includes prepared DPO preference data and a one-epoch smoke-test path for `SFT-only` vs `SFT+DPO` comparison.
 
-The current DPO data is used to stage a future `SFT-only` vs `SFT+DPO` comparison. It targets:
+The current DPO data targets:
 
 - `steps_plus_email` completeness;
 - safer CPT/OPT/visa escalation;
@@ -198,9 +198,24 @@ python scripts/build_dpo_data.py \
   --seed 42
 ```
 
-This validates DPO seed pairs, audits preference quality, creates `formatted_prompt`, and writes an 80/20 train/eval split for future TRL `DPOTrainer` use.
+This validates DPO seed pairs, audits preference quality, creates `formatted_prompt`, and writes an 80/20 train/eval split for TRL `DPOTrainer`.
 
-DPO training is intentionally not implemented yet.
+Run the DPO smoke test:
+
+```bash
+python scripts/train_dpo.py --config configs/dpo_lora.yaml
+```
+
+Evaluate DPO preference win rate:
+
+```bash
+python scripts/eval_dpo_preference.py \
+  --model_name_or_path Qwen/Qwen2.5-1.5B-Instruct \
+  --adapter_path outputs/dpo_r32_attn_mlp_v1 \
+  --eval_file data/dpo/dpo_eval.jsonl \
+  --output_json outputs/dpo_r32_attn_mlp_v1/preference_eval.json \
+  --output_md outputs/dpo_r32_attn_mlp_v1/preference_eval.md
+```
 
 ## References / Engineering Inspiration
 

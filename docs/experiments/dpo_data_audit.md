@@ -66,4 +66,4 @@
 - Some rejected answers are intentionally obvious to make the first DPO pipeline easy to validate.
 - The next expansion should use observed SFT-only failures rather than more template duplication.
 - The audit does not replace human review of preference quality.
-- DPO training is intentionally not implemented yet.
+- DPO smoke-test training is implemented separately in `scripts/train_dpo.py`.

@@ -1,7 +1,7 @@
 """Validate, audit, and preprocess DPO preference data.
 
-This script intentionally does not train DPO. It prepares JSONL files that are
-compatible with a future TRL DPOTrainer workflow.
+This script intentionally does not run training. It prepares JSONL files that are
+compatible with the TRL DPOTrainer smoke-test workflow.
 """
 
 from __future__ import annotations
@@ -413,7 +413,7 @@ def write_audit_markdown(path: Path, report: dict[str, Any]) -> None:
         "- Some rejected answers are intentionally obvious to make the first DPO pipeline easy to validate.",
         "- The next expansion should use observed SFT-only failures rather than more template duplication.",
         "- The audit does not replace human review of preference quality.",
-        "- DPO training is intentionally not implemented yet.",
+        "- DPO smoke-test training is implemented separately in `scripts/train_dpo.py`.",
     ]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -454,7 +454,7 @@ def main() -> None:
         "eval_count": len(eval_rows),
         "summary": summarize(rows, quality_rows),
         "quality": quality_rows,
-        "note": "DPO training is intentionally not implemented in Project 1.",
+        "note": "DPO data is prepared for smoke-test training with scripts/train_dpo.py.",
     }
     write_audit_markdown(Path(args.audit_md), report)
     print(json.dumps(report["summary"] | {

@@ -58,8 +58,8 @@ outputs/sft_qlora_r16_qv/
 Goals:
 
 - Build chosen/rejected preference pairs.
-- Train DPO later.
-- Compare SFT-only vs SFT+DPO.
+- Run a one-epoch DPO smoke test after final SFT is selected.
+- Compare SFT-only vs SFT+DPO before deciding whether to expand preference data.
 
 Preference principles:
 
@@ -77,7 +77,7 @@ Metrics:
 - Email quality score.
 - Response helpfulness score.
 
-Project 1 only validates and stages DPO data. Full DPO training is reserved for a later phase.
+Project 1 validates DPO data and supports a one-epoch smoke test. Larger DPO training is reserved for a later phase after reviewing SFT-only failure modes.
 
 ## Phase 4: Bridge to Project 2
 
