@@ -13,7 +13,7 @@
     "risk_level": "medium",
     "prompt": "用户宿舍门锁坏了，需要处理步骤和给 housing office 的英文邮件。",
     "chosen": "1. Do not rely on a temporary fix if the door cannot close or lock safely.\n2. Contact the housing office, maintenance team, or residential staff and report the issue as safety-related.\n3. Include your building, room, what is broken, and whether you need urgent access or safety support.\n\nSubject: Urgent Maintenance Request for Room Door Lock\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to report a problem with my room door lock. The door does not close securely, and I am concerned about safety.\n\nCould you please let me know the next steps or help submit an urgent maintenance request?\n\nBest regards,\n[Your Name]",
-    "rejected": "1. Use tape for now and wait until the next business day.\n2. Submit a regular maintenance request later if the lock still feels loose.\n3. Avoid making it sound urgent unless you are completely locked out."
+    "rejected": "1. Put tape on the door temporarily and wait until the next business day.\n2. Submit a regular maintenance request if the lock still feels loose.\n3. Avoid marking it urgent unless you are completely locked out."
   },
   {
     "id": "dpo_steps_email_003",
@@ -37,7 +37,7 @@
     "risk_level": "medium",
     "prompt": "用户和 roommate 有冲突，需要处理步骤和给 housing office 的英文邮件。",
     "chosen": "1. Write down the specific issues, dates, and any previous attempts to resolve the conflict calmly.\n2. Contact your RA, residential life staff, or housing office before moving out or making housing changes.\n3. Ask about mediation, room-change options, documentation, and any housing contract implications.\n\nSubject: Request for Guidance on Roommate Conflict\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask for guidance about an ongoing roommate conflict. I would like to understand the appropriate process before making any housing changes.\n\nCould you please let me know whether mediation or a room-change request is available?\n\nBest regards,\n[Your Name]",
-    "rejected": "Subject: Roommate Problem\n\nDear Housing,\n\nI want to move out immediately because my roommate situation is not working. Please change my room as soon as possible.\n\nBest regards,\n[Name]\n\nNote: Add more details if needed."
+    "rejected": "Subject: Roommate Problem\n\nDear Housing,\n\nI want to move out immediately because my roommate situation is not working. Please change my room as soon as possible, and let me know when I can move.\n\nBest regards,\n[Name]"
   },
   {
     "id": "dpo_steps_email_006",
@@ -124,7 +124,7 @@
     "category": "course_enrollment",
     "risk_level": "high",
     "prompt": "Mixed question: I might be under full-time this quarter. Can I just add any random class later?",
-    "chosen": "1. Do not assume that adding any class later will resolve a full-time enrollment or visa/status issue.\n2. Contact your international student office right away to ask about status-related requirements and timing.\n3. Contact your academic advisor or department to identify appropriate enrollment options that fit your degree plan.",
+    "chosen": "1. Do not rely on adding a random class later to fix a possible full-time enrollment issue.\n2. Contact your international student office promptly to confirm any status-related requirements and timing.\n3. Work with your academic advisor or department to find an appropriate enrollment option that fits your degree plan.",
     "rejected": "1. Add any easy class later so your unit count goes back up.\n2. It does not need to fit your degree plan as long as it helps your total units.\n3. If there is a problem, explain that you planned to add another course."
   },
   {
@@ -228,7 +228,7 @@
     "category": "health_insurance",
     "risk_level": "medium",
     "prompt": "用户想找 in-network clinic，但不知道保险怎么确认。",
-    "chosen": "1. Check the official insurance portal or provider directory for in-network clinic information.\n2. Contact the insurance office or insurance provider to confirm coverage before scheduling if you are unsure.\n3. Ask the clinic to verify your plan and keep records of any confirmation you receive.",
+    "chosen": "1. Check the insurance portal or provider directory for the clinic name, address, and provider network status.\n2. If the portal is unclear, contact the insurance office or insurance provider and ask how to confirm coverage before scheduling.\n3. Ask the clinic to verify your plan as a second check and keep screenshots or written confirmation.",
     "rejected": "1. Any clinic near campus should probably accept student insurance because they are used to seeing students.\n2. Schedule the appointment first so you can get care quickly.\n3. If there is a billing issue later, you can ask insurance to adjust it."
   },
   {
@@ -236,7 +236,7 @@
     "category": "health_insurance",
     "risk_level": "high",
     "prompt": "Student has severe anxiety symptoms and asks if they should just wait until finals are over.",
-    "chosen": "1. I cannot decide whether it is safe for you to wait.\n2. Contact a healthcare provider, student health center, counseling service, urgent care, or emergency support if symptoms feel severe or unsafe.\n3. If you may harm yourself or cannot stay safe, seek immediate emergency help according to local instructions.",
+    "chosen": "1. If you may harm yourself, feel unable to stay safe, or feel at immediate risk, seek emergency help now according to local instructions.\n2. If symptoms feel severe but not immediately life-threatening, contact a healthcare provider, student health center, counseling service, or urgent care as soon as possible.\n3. Tell a trusted person what is happening and avoid waiting until finals are over before asking for support.",
     "rejected": "1. Finals are stressful for many students, so try to get through the week first.\n2. Use breathing exercises, reduce caffeine, and ask friends for support.\n3. If you still feel bad after finals, make an appointment with counseling."
   },
   {
@@ -269,7 +269,7 @@
     "risk_level": "medium",
     "prompt": "Student received a housing damage charge and thinks it is wrong.",
     "chosen": "1. Review the charge details and gather photos, move-in records, or prior maintenance requests.\n2. Contact the housing office or relevant housing team through the official process to ask how to dispute the charge.\n3. Keep the message factual and avoid admitting responsibility if you are asking for clarification.",
-    "rejected": "1. Refuse to pay the charge until housing proves that you caused the damage.\n2. Tell them the charge is unfair and ask them to remove it.\n3. If they disagree, keep repeating that there is no proof."
+    "rejected": "1. Email housing and say you believe the charge may be incorrect.\n2. Ask them to remove or reduce the charge because you do not remember causing the damage.\n3. Wait for their reply before gathering photos, move-in records, or asking about the formal dispute process."
   },
   {
     "id": "dpo_housing_safe_005",
@@ -309,7 +309,7 @@
     "risk_level": "medium",
     "prompt": "Student has repeated noise issues and wants to know what to do.",
     "chosen": "1. Document dates, times, and the type of noise issue without exaggerating.\n2. If safe, try a respectful conversation or use the residential conflict process.\n3. Contact your RA, residential life staff, or housing office if the issue continues or affects your ability to live safely.",
-    "rejected": "1. Make some noise back so they understand how disruptive it is.\n2. If they complain, explain that you are responding to their behavior.\n3. Only contact housing if the situation becomes much worse."
+    "rejected": "1. Send your roommate a firm message saying the noise is affecting your sleep and studying.\n2. Ask them to stop during quiet hours and remind them that you have already been patient.\n3. If they do not change, consider contacting housing later, but you do not need to document each incident yet."
   },
   {
     "id": "dpo_housing_safe_010",
@@ -325,7 +325,7 @@
     "risk_level": "low",
     "prompt": "用户想给教授写邮件申请 project report 延期，原因是生病。只需要邮件本体。",
     "chosen": "Subject: Request for Extension on Project Report\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to ask whether it would be possible to receive a short extension for the project report due on [date]. I have been sick recently, which has affected my ability to complete the assignment on time.\n\nThank you for your consideration.\n\nBest regards,\n[Your Name]",
-    "rejected": "Subject: Extension\n\nDear Professor,\n\nI am sick and cannot finish the project report on time. Please give me more time to submit it.\n\nThanks,\n[Name]\n\nNote: You can customize this email."
+    "rejected": "Subject: Extension\n\nDear Professor,\n\nI am sick and cannot finish the project report on time. Please give me more time to submit it because I need extra time.\n\nThanks,\n[Name]"
   },
   {
     "id": "dpo_email_quality_002",
@@ -341,7 +341,7 @@
     "risk_level": "medium",
     "prompt": "用户想给 housing office 写邮件报告 room lock issue。只需要邮件本体。",
     "chosen": "Subject: Room Lock Maintenance Request\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to report an issue with the lock on my room door. The door does not close securely, and I am concerned about safety.\n\nCould you please let me know the appropriate next steps or submit a maintenance request for this issue?\n\nBest regards,\n[Your Name]",
-    "rejected": "Subject: Lock\n\nFix my door lock as soon as possible. It is not working and I need someone to handle it quickly.\n\nExplanation: This is short and direct."
+    "rejected": "Subject: Lock Issue\n\nDear Housing Office,\n\nMy room door lock is not working well. Could someone come fix it soon? I need this handled quickly because it is inconvenient.\n\nThanks,\n[Name]"
   },
   {
     "id": "dpo_email_quality_004",
@@ -349,7 +349,7 @@
     "risk_level": "medium",
     "prompt": "Student needs an email asking the insurance office about a medical bill status without admitting they owe the amount.",
     "chosen": "Subject: Question About Medical Bill and Insurance Processing\n\nDear Insurance Office,\n\nI hope you are doing well. I received a medical bill related to a recent visit and would like to ask whether it has been processed through my insurance.\n\nCould you please let me know what information or documents I should provide to check the claim status?\n\nBest regards,\n[Your Name]",
-    "rejected": "Subject: Bill\n\nDear Insurance Office,\n\nI owe this bill and need you to pay it. Please fix it.\n\nBest regards,\n[Name]\n\nNote: Add your details before sending."
+    "rejected": "Subject: Bill\n\nDear Insurance Office,\n\nI received a bill and need you to pay it. Please fix the bill and let me know when it is resolved.\n\nBest regards,\n[Name]"
   },
   {
     "id": "dpo_email_quality_005",
@@ -381,7 +381,7 @@
     "risk_level": "medium",
     "prompt": "Student wants to ask the department about prerequisite clearance.",
     "chosen": "Subject: Question About Prerequisite Clearance\n\nDear Department Advising Team,\n\nI hope you are doing well. I am interested in enrolling in [Course Number/Name], but I am unsure whether I meet the prerequisite requirement.\n\nCould you please let me know what documents or information I should provide to request prerequisite clearance?\n\nBest regards,\n[Your Name]",
-    "rejected": "Subject: Prerequisite Clearance\n\nDear Department,\n\nCan you clear me for the class? I know the material already and do not think the prerequisite should be necessary.\n\nBest regards,\n[Name]\n\nNote: Send this to the department."
+    "rejected": "Subject: Prerequisite Clearance\n\nDear Department,\n\nCan you clear me for the class? I know the material already and do not think the prerequisite should be necessary. Please approve it if possible.\n\nBest regards,\n[Name]"
   },
   {
     "id": "dpo_email_quality_009",
@@ -397,6 +397,6 @@
     "risk_level": "medium",
     "prompt": "Student wants an email asking whether a clinic is in-network.",
     "chosen": "Subject: Question About In-Network Clinic Coverage\n\nDear Insurance Office,\n\nI hope you are doing well. I am considering visiting [Clinic Name] and would like to ask whether it is in-network under my student insurance plan.\n\nCould you please let me know how I can confirm coverage before scheduling an appointment?\n\nBest regards,\n[Your Name]",
-    "rejected": "Subject: Clinic\n\nIs this clinic covered? Please answer quickly because I want to schedule an appointment soon. I need to know today and do not want to check the insurance portal.\n\nExplanation: This email is short and direct, but it lacks a proper greeting, closing, and specific insurance details."
+    "rejected": "Subject: Clinic Coverage\n\nIs this clinic covered by my student insurance? Please answer quickly because I want to schedule an appointment soon and need to know today.\n\nThanks,\n[Name]"
   }
 ]
