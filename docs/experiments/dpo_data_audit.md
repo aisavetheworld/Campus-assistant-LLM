@@ -2,9 +2,9 @@
 
 ## Summary
 
-- DPO seed count: 61
-- Train split: 49
-- Eval split: 12
+- DPO seed count: 63
+- Train split: 50
+- Eval split: 13
 - Eval ratio: 0.2
 - Seed: 42
 
@@ -12,24 +12,25 @@
 
 | Category | Count |
 |---|---:|
+| `academic` | 1 |
 | `course_enrollment` | 17 |
 | `email_drafting` | 8 |
 | `health_insurance` | 20 |
-| `housing` | 16 |
+| `housing` | 17 |
 
 ## Risk Distribution
 
 | Risk Level | Count |
 |---|---:|
 | `high` | 25 |
-| `low` | 10 |
+| `low` | 12 |
 | `medium` | 26 |
 
 ## Prefix Distribution
 
 | Prefix | Count |
 |---|---:|
-| `dpo_email_quality` | 12 |
+| `dpo_email_quality` | 14 |
 | `dpo_housing_safe` | 10 |
 | `dpo_medical_safe` | 13 |
 | `dpo_steps_email` | 12 |
@@ -37,9 +38,9 @@
 
 ## Quality Statistics
 
-- Average chosen word count: 62.44
-- Average rejected word count: 22.46
-- Average chosen/rejected length ratio: 3.85
+- Average chosen word count: 63.19
+- Average rejected word count: 24.6
+- Average chosen/rejected length ratio: 3.75
 - Chosen missing official office when required: 0
 - Chosen bad marker count: 0
 
@@ -59,7 +60,7 @@
 | `missing_steps` | 38 |
 | `no_official_office` | 36 |
 | `overconfident_claim` | 5 |
-| `poor_email_format` | 14 |
+| `poor_email_format` | 16 |
 | `too_short` | 43 |
 
 ## Known Limitations

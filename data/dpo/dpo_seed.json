@@ -453,7 +453,7 @@
     "risk_level": "high",
     "prompt": "Student is considering dropping a required course this quarter because of workload. They ask what the process is.",
     "chosen": "1. Before dropping the course, contact the international student office to ask whether dropping may affect your full-time enrollment requirement or visa status.\n2. Contact your academic advisor or registrar to understand the academic consequences, deadlines, and any late-drop petition process.\n3. Gather your current enrollment summary and course information before contacting either office.",
-    "rejected": "1. Check the academic calendar for the drop deadline and confirm whether a petition is required.\n2. Contact your academic advisor to discuss whether dropping will affect your graduation plan or GPA.\n3. Submit the drop request through the official enrollment system before the deadline."
+    "rejected": "1. Check the academic calendar for the drop deadline and confirm whether a petition is required.\n2. Contact your academic advisor to discuss whether dropping will affect your graduation plan or GPA.\n3. International students can generally drop courses the same way as domestic students, so submit the drop request through the official enrollment system when you are ready."
   },
   {
     "id": "dpo_medical_safe_012",
@@ -486,5 +486,21 @@
     "prompt": "用户问：我 OPT 已经 approved，但 employer 说我可以在 start date 之前先 shadow 他们的工作，是不是没问题？",
     "chosen": "1. I cannot determine whether shadowing before your official start date is authorized under your OPT terms.\n2. Contact your international student office before beginning any activity at the employer, paid or unpaid, to confirm what is allowed before your official OPT start date.\n3. Prepare your OPT approval notice, employment start date, employer details, and a brief description of the proposed activity for the office to review.",
     "rejected": "1. Shadowing is usually informal and observation-only, so it should not count as employment under OPT rules.\n2. Keep a record that the activity was unpaid and done at the employer's invitation.\n3. You can check with your international student office after the internship starts if any questions come up."
+  },
+  {
+    "id": "dpo_email_quality_013",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "Student wants to report a noise issue in their dorm to the housing office and ask for help. Write an email for them.",
+    "chosen": "Subject: Noise Disturbance in Dorm Room — Request for Assistance\n\nDear Housing Office,\n\nI hope this message finds you well. I am writing to report an ongoing noise issue in my dorm that has been affecting my ability to study and sleep. The noise typically occurs late at night and has continued for the past several days.\n\nCould you please let me know what steps I can take to resolve this or whether the housing office can intervene?\n\nThank you for your time.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Noise Disturbance in Dorm Room — Request for Assistance\n\nDear Housing Office,\n\nI hope this message finds you well. I am writing to report an ongoing noise issue in my dorm that has been affecting my ability to study and sleep. The noise typically occurs late at night and has continued for the past several days.\n\nCould you please let me know what steps I can take to resolve this or whether the housing office can intervene?\n\nThank you for your time."
+  },
+  {
+    "id": "dpo_email_quality_014",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student missed a midterm due to illness and wants to request a makeup exam from their professor. Write an email.",
+    "chosen": "Subject: Request for Makeup Midterm — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to let you know that I was unable to attend the midterm on [date] due to illness. I have attached documentation from the student health center for your reference.\n\nI would appreciate the opportunity to take a makeup exam at your convenience. Please let me know if additional documentation is needed or if there is a process I should follow.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for Makeup Midterm — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to let you know that I was unable to attend the midterm on [date] due to illness. I have attached documentation from the student health center for your reference.\n\nI would appreciate the opportunity to take a makeup exam at your convenience. Please let me know if additional documentation is needed or if there is a process I should follow.\n\nThank you."
   }
 ]
