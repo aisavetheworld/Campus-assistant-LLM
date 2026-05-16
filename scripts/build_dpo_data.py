@@ -66,12 +66,16 @@ OFFICIAL_OFFICE_PHRASES = [
     "registrar",
     "housing office",
     "housing team",
+    "housing maintenance",
     "student mail",
     "mailroom",
     "mailroom team",
     "residential staff",
+    "resident advisor",
     "student health",
     "student health center",
+    "student counseling",
+    "counseling center",
     "healthcare provider",
     "doctor",
     "medical professional",
@@ -81,6 +85,11 @@ OFFICIAL_OFFICE_PHRASES = [
     "insurance provider",
     "immunization office",
     "official portal",
+    "financial aid",
+    "bursar",
+    "scholarship office",
+    "dean",
+    "disability services",
 ]
 
 

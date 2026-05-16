@@ -502,5 +502,709 @@
     "prompt": "Student missed a midterm due to illness and wants to request a makeup exam from their professor. Write an email.",
     "chosen": "Subject: Request for Makeup Midterm — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to let you know that I was unable to attend the midterm on [date] due to illness. I have attached documentation from the student health center for your reference.\n\nI would appreciate the opportunity to take a makeup exam at your convenience. Please let me know if additional documentation is needed or if there is a process I should follow.\n\nBest regards,\n[Your Name]",
     "rejected": "Subject: Request for Makeup Midterm — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to let you know that I was unable to attend the midterm on [date] due to illness. I have attached documentation from the student health center for your reference.\n\nI would appreciate the opportunity to take a makeup exam at your convenience. Please let me know if additional documentation is needed or if there is a process I should follow.\n\nThank you."
+  },
+  {
+    "id": "dpo_email_quality_015",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student received a grade they believe is incorrect and wants to email the professor requesting a review.",
+    "chosen": "Subject: Request for Grade Review — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to respectfully request a review of my grade for [assignment or exam] in [Course Name]. I believe there may be an error, and I would appreciate the opportunity to discuss it with you.\n\nCould we schedule a time to meet during your office hours or at your convenience?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for Grade Review — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to respectfully request a review of my grade for [assignment or exam] in [Course Name]. I believe there may be an error, and I would appreciate the opportunity to discuss it with you.\n\nCould we schedule a time to meet during your office hours or at your convenience?\n\nBest regards,\n[Your Name]\n\nNote: I have kept all of my original graded materials and am happy to provide them for reference."
+  },
+  {
+    "id": "dpo_email_quality_016",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to ask the financial aid office about the status of their scholarship renewal.",
+    "chosen": "Subject: Scholarship Renewal Status Inquiry\n\nDear Financial Aid Office,\n\nI hope you are doing well. I am writing to inquire about the status of my scholarship renewal for the upcoming academic year. I submitted the required materials on [date] and wanted to confirm whether any additional steps are needed on my part.\n\nThank you for your time.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Scholarship Renewal Status Inquiry\n\nDear Financial Aid Office,\n\nI hope you are doing well. I am writing to inquire about the status of my scholarship renewal for the upcoming academic year. I submitted the required materials on [date] and wanted to confirm whether any additional steps are needed on my part.\n\nThank you for your time.\n\nThank you."
+  },
+  {
+    "id": "dpo_email_quality_017",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student needs to request an official transcript from the registrar's office.",
+    "chosen": "Subject: Official Transcript Request\n\nDear Registrar's Office,\n\nI hope you are doing well. I am writing to request an official transcript to be sent to [recipient or institution]. Could you please let me know the process, any associated fees, and the expected processing time?\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Official Transcript Request\n\nDear Registrar's Office,\n\nI hope you are doing well. I am writing to request an official transcript to be sent to [recipient or institution]. Could you please let me know the process, any associated fees, and the expected processing time?\n\nThank you for your assistance.\n\nThanks,\n[Your Name]"
+  },
+  {
+    "id": "dpo_email_quality_018",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to email their academic advisor to ask whether a specific course satisfies a graduation requirement.",
+    "chosen": "Subject: Question About Course and Graduation Requirement\n\nDear [Advisor's Name],\n\nI hope you are doing well. I am writing to ask whether [Course Name] counts toward the [specific requirement] for my degree program. I want to confirm this before enrolling to make sure it will apply.\n\nCould you please let me know or point me to the right resource?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Question About Course and Graduation Requirement\n\nDear [Advisor's Name],\n\nI hope you are doing well. I am writing to ask whether [Course Name] counts toward the [specific requirement] for my degree program. I want to confirm this before enrolling to make sure it will apply.\n\nCould you please let me know or point me to the right resource?\n\nBest regards,\n[Your Name]\n\nNote: I have already reviewed the course catalog but the requirement description is not entirely clear to me."
+  },
+  {
+    "id": "dpo_email_quality_019",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to email the disability services office to request academic accommodations.",
+    "chosen": "Subject: Request for Academic Accommodations\n\nDear Disability Services Office,\n\nI hope you are doing well. I am writing to request academic accommodations for the current semester. I have a documented condition that affects my ability to complete certain academic tasks, and I would like to learn about the process for registering and receiving support.\n\nCould you please let me know the next steps?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for Academic Accommodations\n\nDear Disability Services Office,\n\nI hope you are doing well. I am writing to request academic accommodations for the current semester. I have a documented condition that affects my ability to complete certain academic tasks, and I would like to learn about the process for registering and receiving support.\n\nCould you please let me know the next steps?\n\nThank you for your time and consideration."
+  },
+  {
+    "id": "dpo_email_quality_020",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "Student wants to email the housing office to ask about leaving the dorm early due to a personal situation.",
+    "chosen": "Subject: Inquiry About Early Housing Contract Release\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask about the process for requesting an early release from my housing contract due to a personal circumstance. I would like to understand the steps involved, any documentation required, and any potential fees.\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Inquiry About Early Housing Contract Release\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to ask about the process for requesting an early release from my housing contract due to a personal circumstance. I would like to understand the steps involved, any documentation required, and any potential fees.\n\nThank you for your assistance.\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": "dpo_email_quality_021",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student needs to petition for a late course withdrawal and wants to draft an email to the dean's office.",
+    "chosen": "Subject: Petition for Late Course Withdrawal — [Course Name]\n\nDear Dean's Office,\n\nI hope you are doing well. I am writing to petition for a late withdrawal from [Course Name] this semester. Due to [brief reason], I was unable to withdraw by the standard deadline and am requesting that you consider my situation.\n\nI am happy to provide supporting documentation. Could you please let me know the process and any required materials?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Petition for Late Course Withdrawal — [Course Name]\n\nDear Dean's Office,\n\nI hope you are doing well. I am writing to petition for a late withdrawal from [Course Name] this semester. Due to [brief reason], I was unable to withdraw by the standard deadline and am requesting that you consider my situation.\n\nI am happy to provide supporting documentation. Could you please let me know the process and any required materials?\n\nBest regards,\n[Your Name]\n\nI understand this is past the normal deadline and appreciate your consideration of my circumstances."
+  },
+  {
+    "id": "dpo_email_quality_022",
+    "category": "course_enrollment",
+    "risk_level": "low",
+    "prompt": "Student has been on a class waitlist for two weeks and wants to follow up with the professor.",
+    "chosen": "Subject: Follow-Up on Waitlist Status — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to follow up on my waitlist status for [Course Name]. I have been on the waitlist for two weeks and wanted to check whether there is any update or whether I should take additional steps.\n\nThank you for your time.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Follow-Up on Waitlist Status — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to follow up on my waitlist status for [Course Name]. I have been on the waitlist for two weeks and wanted to check whether there is any update or whether I should take additional steps.\n\nThank you for your time.\n\nThanks!\n[Your Name]"
+  },
+  {
+    "id": "dpo_email_quality_023",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student's insurance claim was denied and they want to email the insurance office to start an appeal.",
+    "chosen": "Subject: Request to Appeal Denied Insurance Claim\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a denial notice for a claim I submitted on [date]. I would like to formally appeal this decision and ask for guidance on the appeal process and any documentation I need to provide.\n\nCould you please let me know the next steps?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request to Appeal Denied Insurance Claim\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a denial notice for a claim I submitted on [date]. I would like to formally appeal this decision and ask for guidance on the appeal process and any documentation I need to provide.\n\nCould you please let me know the next steps?\n\nThank you for your consideration."
+  },
+  {
+    "id": "dpo_email_quality_024",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student needs to request a travel signature on their I-20 before traveling home.",
+    "chosen": "Subject: Request for Travel Signature on I-20\n\nDear International Student Office,\n\nI hope you are doing well. I am writing to request a travel signature on my I-20 in preparation for an upcoming trip. I plan to travel on [approximate date] and would like to confirm the process and any lead time required.\n\nThank you for your help.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for Travel Signature on I-20\n\nDear International Student Office,\n\nI hope you are doing well. I am writing to request a travel signature on my I-20 in preparation for an upcoming trip. I plan to travel on [approximate date] and would like to confirm the process and any lead time required.\n\nThank you for your help.\n\nBest regards,\n[Your Name]\n\nNote: I need this completed as soon as possible in order to purchase my flight tickets."
+  },
+  {
+    "id": "dpo_email_quality_025",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student has an unexplained hold on their account from the registrar and wants to ask about it by email.",
+    "chosen": "Subject: Inquiry About Account Hold\n\nDear Registrar's Office,\n\nI hope you are doing well. I noticed an account hold that is preventing me from registering for classes. I am not sure what the hold is for and would like to understand what steps I need to take to resolve it.\n\nCould you please let me know the reason for the hold and what I need to do?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Inquiry About Account Hold\n\nDear Registrar's Office,\n\nI hope you are doing well. I noticed an account hold that is preventing me from registering for classes. I am not sure what the hold is for and would like to understand what steps I need to take to resolve it.\n\nCould you please let me know the reason for the hold and what I need to do?\n\nThank you."
+  },
+  {
+    "id": "dpo_email_quality_026",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to email a professor to ask for a recommendation letter for a graduate school application.",
+    "chosen": "Subject: Request for Recommendation Letter\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am applying to graduate programs this cycle and would like to ask whether you would be willing to write a recommendation letter on my behalf. I took [Course Name] with you in [semester] and found the experience very meaningful.\n\nIf you are able to help, I am happy to share my application materials, deadlines, and any other information that would be useful.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for Recommendation Letter\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am applying to graduate programs this cycle and would like to ask whether you would be willing to write a recommendation letter on my behalf. I took [Course Name] with you in [semester] and found the experience very meaningful.\n\nIf you are able to help, I am happy to share my application materials, deadlines, and any other information that would be useful.\n\nThanks!"
+  },
+  {
+    "id": "dpo_email_quality_027",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "Student submitted a housing maintenance request two weeks ago with no response and wants to follow up by email.",
+    "chosen": "Subject: Follow-Up on Maintenance Request — Room [Number]\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to follow up on a maintenance request I submitted on [date] regarding [brief description of issue] in room [number]. I have not yet received an update and wanted to check on the status.\n\nCould you please let me know when the repair is expected to be completed?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Follow-Up on Maintenance Request — Room [Number]\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to follow up on a maintenance request I submitted on [date] regarding [brief description of issue] in room [number]. I have not yet received an update and wanted to check on the status.\n\nCould you please let me know when the repair is expected to be completed?\n\nBest regards,\n[Your Name]\n\nThis issue is affecting my daily routine and I would appreciate a timely response."
+  },
+  {
+    "id": "dpo_email_quality_028",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to email their professor to ask whether using a particular citation method is appropriate for their assignment.",
+    "chosen": "Subject: Question About Citation Method for [Assignment Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am working on [assignment name] and wanted to confirm whether [citation format, e.g., APA or MLA] is acceptable or whether a specific format is required. I want to make sure I follow your expectations before I submit.\n\nThank you for your guidance.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Question About Citation Method for [Assignment Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am working on [assignment name] and wanted to confirm whether [citation format, e.g., APA or MLA] is acceptable or whether a specific format is required. I want to make sure I follow your expectations before I submit.\n\nThank you for your guidance.\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": "dpo_email_quality_029",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student is having financial difficulty and wants to email the bursar's office to ask about a tuition payment plan.",
+    "chosen": "Subject: Inquiry About Tuition Payment Plan Options\n\nDear Bursar's Office,\n\nI hope you are doing well. I am writing to ask whether a tuition payment plan is available for the current semester. I am experiencing some financial difficulty and would like to explore options for spreading my payments over the term.\n\nCould you please let me know what options are available and how to apply?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Inquiry About Tuition Payment Plan Options\n\nDear Bursar's Office,\n\nI hope you are doing well. I am writing to ask whether a tuition payment plan is available for the current semester. I am experiencing some financial difficulty and would like to explore options for spreading my payments over the term.\n\nCould you please let me know what options are available and how to apply?\n\nThank you."
+  },
+  {
+    "id": "dpo_email_quality_030",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to email a professor to express interest in joining their research lab.",
+    "chosen": "Subject: Interest in Research Opportunity in Your Lab\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am a [year] student in [program] and am very interested in the research your lab is conducting on [topic]. I would love to learn more about any available research opportunities and discuss how I might contribute.\n\nI have attached my CV for your review. Would you be open to a brief meeting at your convenience?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Interest in Research Opportunity in Your Lab\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am a [year] student in [program] and am very interested in the research your lab is conducting on [topic]. I would love to learn more about any available research opportunities and discuss how I might contribute.\n\nI have attached my CV for your review. Would you be open to a brief meeting at your convenience?\n\nBest regards,\n[Your Name]\n\nNote: I am also reaching out to other faculty in the department and would appreciate a timely response."
+  },
+  {
+    "id": "dpo_housing_safe_011",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student's package shows as delivered but they suspect it was stolen from the mailroom area. What should they do?",
+    "chosen": "1. Contact the mailroom and housing security immediately to report the suspected theft.\n2. Prepare the tracking number, delivery confirmation screenshot, and the time and date of the delivery notification.\n3. Ask the housing office about the incident report process and whether a police report is recommended.",
+    "rejected": "1. Contact the shipping carrier (FedEx, UPS, or USPS) and file a lost package claim since the carrier marked it delivered.\n2. Ask your RA or neighbors whether they saw the package or know where it might have gone.\n3. Contact the housing office only if the carrier investigation does not resolve the issue."
+  },
+  {
+    "id": "dpo_housing_safe_012",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "Student found mold on the wall of their dorm room. What should they do?",
+    "chosen": "1. Move belongings away from the affected area and photograph the mold before doing anything else.\n2. Contact housing maintenance immediately to report the issue — do not attempt to clean the mold yourself.\n3. Provide your room number and the location of the mold when reporting, and mention any respiratory symptoms you have noticed.",
+    "rejected": "1. Clean the mold using bleach diluted in water or a commercial mold remover to stop it from spreading.\n2. Open the windows to ventilate the room and reduce moisture.\n3. Contact housing if the mold returns after cleaning or if it covers a large area."
+  },
+  {
+    "id": "dpo_housing_safe_013",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "Student's dorm room has no heat in winter and the temperature is dropping. What should they do?",
+    "chosen": "1. Contact the housing office emergency maintenance line immediately — loss of heat in winter is an urgent issue.\n2. Document the approximate temperature in the room and when the heating stopped working.\n3. Ask housing whether emergency housing or temporary heating equipment is available while the repair is completed.",
+    "rejected": "1. Layer up with extra clothing and blankets to stay warm until the heat is fixed.\n2. Submit a maintenance request through the housing portal and mark it as urgent.\n3. Follow up with housing if no one has responded within two to three business days."
+  },
+  {
+    "id": "dpo_housing_safe_014",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "Water is leaking from the ceiling above the student's bed. What should they do?",
+    "chosen": "1. Move your belongings out from under the leak immediately and document the damage with photos.\n2. Contact the housing office emergency maintenance line now — water damage is urgent and can worsen quickly.\n3. Provide your room number, floor, and a description of the leak when calling, and ask whether you need to relocate temporarily.",
+    "rejected": "1. Place a bucket under the leak to catch the water and prevent it from spreading to the floor.\n2. Submit a maintenance request through the housing portal.\n3. Contact the housing office directly only if the leak becomes significantly worse or does not stop by the next morning."
+  },
+  {
+    "id": "dpo_housing_safe_015",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "Student found another student's mail in their mailbox. What should they do?",
+    "chosen": "1. Do not open the mail — opening someone else's mail is a federal offense regardless of intent.\n2. Contact the mailroom and let them know you have misdirected mail.\n3. Keep the mail sealed and bring it to the mailroom in person, or give it to your RA to return.",
+    "rejected": "1. Check whether the name on the mail matches anyone you know on your floor.\n2. If you recognize them, slip the mail under their door or hand it to them directly.\n3. If you do not know the recipient, open it to look for a return address so it can be forwarded."
+  },
+  {
+    "id": "dpo_housing_safe_016",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student discovered their roommate has brought an unauthorized pet into the dorm. What should they do?",
+    "chosen": "1. Contact your RA or the housing office to report the unauthorized animal — do not confront your roommate directly first.\n2. Prepare your room number, type of animal, and when it was brought in when reporting.\n3. Ask housing about the next steps and what the standard process is for addressing guest policy violations.",
+    "rejected": "1. Talk to your roommate directly and ask them to remove the pet as soon as possible.\n2. If your roommate refuses, contact your RA and ask them to help mediate the situation.\n3. Contact the housing office only if the RA mediation does not lead to a resolution."
+  },
+  {
+    "id": "dpo_housing_safe_017",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "A fire sprinkler in the student's dorm room leaked and soaked part of the room even though there was no fire. What should they do?",
+    "chosen": "1. Move belongings away from the water immediately and document the damage with photos before anything is cleaned.\n2. Contact the housing office emergency maintenance line right away — water from a sprinkler malfunction can cause significant damage.\n3. Provide your room number and describe the extent of the water damage when reporting.",
+    "rejected": "1. Use towels to absorb the water as quickly as possible to prevent further damage to the floor and furniture.\n2. Check whether the sprinkler head is still dripping and see if there is a shutoff valve nearby.\n3. Submit a maintenance report through the housing portal and note it as an emergency when you get the chance."
+  },
+  {
+    "id": "dpo_housing_safe_018",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student moved out of the dorm 35 days ago and has not received their security deposit back. What should they do?",
+    "chosen": "1. Contact the housing office in writing to request the status and itemized accounting of your deposit.\n2. Prepare your move-out date, forwarding address, and any move-out inspection documentation.\n3. Ask about the process and timeline for deposit return, and keep copies of all correspondence in case you need to escalate.",
+    "rejected": "1. Send a polite email to the housing office asking about the status of your deposit.\n2. Wait another week or two since processing often takes extra time at the end of the semester.\n3. Contact the housing office again only if you still have not received your deposit after 45 days."
+  },
+  {
+    "id": "dpo_housing_safe_019",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student's neighboring dorm room is loud every night, disrupting their sleep and study. What should they do?",
+    "chosen": "1. Document the dates, times, and nature of the noise before taking any action.\n2. Contact your RA or the housing office to report the ongoing issue and ask for mediation or intervention.\n3. Prepare specific examples to share with the RA, and ask about your options including a room transfer if the problem continues.",
+    "rejected": "1. Knock on your neighbor's door and ask them politely to keep the noise down at night.\n2. If they do not change their behavior, let your RA know and ask them to help mediate.\n3. Escalate to the housing office only if the RA's mediation does not work."
+  },
+  {
+    "id": "dpo_housing_safe_020",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "The shared refrigerator in the dorm common area has stopped working. What should the student do?",
+    "chosen": "1. Contact housing maintenance to report the broken refrigerator.\n2. Remove any food from the unit right away to prevent spoilage.\n3. Provide the location and floor number, and note how long the unit has been broken when submitting the report.",
+    "rejected": "1. Check whether the refrigerator is plugged in or whether the circuit breaker has tripped.\n2. Post a notice in the common area so other residents know the refrigerator is not working.\n3. Submit a work order through the housing portal and wait for maintenance to schedule a repair."
+  },
+  {
+    "id": "dpo_housing_safe_021",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "Student slipped on a wet hallway floor in their dorm building and was injured. What should they do?",
+    "chosen": "1. Seek medical attention first if you are injured.\n2. Document the scene with photos and note whether a wet floor sign was present.\n3. Report the incident to the housing office in writing immediately and ask about the formal incident report process.",
+    "rejected": "1. Make sure you are okay and rest if you feel pain.\n2. Let housing know there is a floor hazard so they can clean it up and prevent it from happening again.\n3. File an incident report with housing only if the injury turns out to be serious or you need documentation."
+  },
+  {
+    "id": "dpo_housing_safe_022",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "The elevator in the student's dorm building is broken and they live on an upper floor. What should they do?",
+    "chosen": "1. Report the broken elevator to housing maintenance right away.\n2. If you have a physical condition that makes using stairs a hardship, contact housing and disability services to ask about temporary accommodation.\n3. Provide your floor number and note whether all elevators are affected or just one when reporting.",
+    "rejected": "1. Use the stairs for now and leave a note on the elevator doors to inform other residents.\n2. Submit a maintenance request online through the housing portal.\n3. Follow up with housing if the elevator has not been repaired within 48 hours."
+  },
+  {
+    "id": "dpo_housing_safe_023",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student found ants or mice in their dorm room. What should they do?",
+    "chosen": "1. Seal all open food in containers and remove food from surfaces.\n2. Contact housing maintenance immediately to report the pest issue.\n3. Provide your room number and describe the type and location of the pest when reporting — do not apply pesticide yourself.",
+    "rejected": "1. Buy ant traps or mousetraps from a nearby store and place them in the affected areas.\n2. Seal any visible cracks near windows, baseboards, or doors to block entry points.\n3. Contact housing maintenance only if the problem has not improved after a few weeks of self-treatment."
+  },
+  {
+    "id": "dpo_housing_safe_024",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student's window latch is broken and the window will not lock. What should they do?",
+    "chosen": "1. Contact housing maintenance to report the broken latch — an unlockable window is a security concern.\n2. If you are on a ground floor or accessible floor, ask housing whether any interim measure is available while the repair is pending.\n3. Provide your room number and which window is affected when submitting the report.",
+    "rejected": "1. Use tape or a wedge to temporarily secure the window until maintenance can come and fix it.\n2. Submit a work order through the housing portal describing the broken latch.\n3. Follow up with housing if the repair has not been done within a week."
+  },
+  {
+    "id": "dpo_housing_safe_025",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "A laundry machine in the dorm damaged the student's clothes during a wash cycle. What should they do?",
+    "chosen": "1. Gather the damaged items and document what happened, including the machine number and cycle used.\n2. Contact housing management to report the malfunction and ask about the process for reimbursement or a claim.\n3. Provide the machine number, date and time of use, and a description of the damage when contacting housing.",
+    "rejected": "1. Check whether you used the correct machine settings and temperature for the type of fabric that was damaged.\n2. Let a housing staff member know that the machine may be malfunctioning so it can be checked.\n3. Contact the housing office about reimbursement only if you are certain the machine was at fault and not user error."
+  },
+  {
+    "id": "dpo_housing_safe_026",
+    "category": "housing",
+    "risk_level": "low",
+    "prompt": "Student and roommate have an ongoing conflict about room cleanliness. What should the student do?",
+    "chosen": "1. Contact your RA to ask for guidance or mediation before the situation escalates further.\n2. Prepare specific examples of the cleanliness issues and how they are affecting your living situation.\n3. Ask the RA about the process, including whether a roommate agreement or formal complaint is available.",
+    "rejected": "1. Talk to your roommate directly and clearly explain your expectations about cleanliness.\n2. If they are unresponsive, contact your RA to help mediate the conversation.\n3. Only involve the housing office if the RA's mediation does not lead to any improvement."
+  },
+  {
+    "id": "dpo_housing_safe_027",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student received a housing bill for damage they did not cause. What should they do?",
+    "chosen": "1. Contact the housing office in writing to dispute the charge and request the inspection report and supporting documentation.\n2. Prepare any photos from move-in and move-out, your signed check-in checklist, and any prior communication with housing.\n3. Ask about the formal dispute or appeal process and any applicable deadlines.",
+    "rejected": "1. Review your original move-in checklist to check whether the damage was already documented when you arrived.\n2. Send an email to the housing office explaining that you did not cause the damage.\n3. If they do not reverse the charge, contact student affairs for additional help navigating the dispute."
+  },
+  {
+    "id": "dpo_housing_safe_028",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student's roommate has had an unauthorized guest staying in the room for several weeks. What should the student do?",
+    "chosen": "1. Contact your RA or the housing office to report the situation and ask about the guest policy.\n2. Do not confront your roommate directly or attempt to remove the guest yourself.\n3. Prepare how long the guest has been staying and any relevant details when speaking with the RA.",
+    "rejected": "1. Talk to your roommate directly and remind them of the guest policy and the allowed length of stay.\n2. If they do not respond, ask your RA to step in and help communicate the policy.\n3. Escalate to the housing office only if the RA is unable to resolve the situation."
+  },
+  {
+    "id": "dpo_medical_safe_014",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student went to pick up a prescription and was told the cost is much higher than expected. What should they do?",
+    "chosen": "1. Do not pay until you have contacted your student health insurance office to confirm coverage and the correct copay.\n2. Ask the insurance office whether the prescription is covered, whether a prior authorization was required, and what the correct cost should be.\n3. Provide your insurance card, the prescription name, and the pharmacy's quoted price when calling.",
+    "rejected": "1. Ask the pharmacist whether a generic version of the medication is available at a lower cost.\n2. Check whether a discount card such as GoodRx applies to bring the price down.\n3. Contact your insurance office only if the pharmacist confirms that the cost is inconsistent with your plan."
+  },
+  {
+    "id": "dpo_medical_safe_015",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student tried to schedule counseling but the waitlist is several weeks long. What should they do?",
+    "chosen": "1. Contact the student counseling center and ask about crisis support options, same-day check-ins, or referrals to off-campus providers covered by your insurance.\n2. Ask whether a brief check-in with a counselor is available while you remain on the waitlist.\n3. Prepare your student ID and insurance information when calling.",
+    "rejected": "1. Look into online therapy platforms as a faster alternative to waiting for on-campus counseling.\n2. Reach out to a trusted friend, advisor, or family member for support while you wait.\n3. Stay on the waitlist and contact the counseling center again if your situation becomes significantly worse."
+  },
+  {
+    "id": "dpo_medical_safe_016",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student is not sure whether to go to urgent care or the emergency room for their current symptoms. What should they do?",
+    "chosen": "1. Contact the student health center and describe your symptoms — they can advise whether urgent care or the ER is appropriate for your situation.\n2. If the health center is closed and symptoms are severe such as chest pain, difficulty breathing, or loss of consciousness, go to the ER immediately.\n3. Do not delay seeking care while trying to decide — your health and safety come first.",
+    "rejected": "1. Search your symptoms online to assess how serious they seem based on medical information.\n2. Go to urgent care first since it is generally faster and significantly cheaper than the ER.\n3. If the urgent care provider determines you need more intensive care, they will refer you to the ER at that point."
+  },
+  {
+    "id": "dpo_medical_safe_017",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student's insurance denied a pre-authorization request for a specialist visit. What should they do?",
+    "chosen": "1. Contact your student health insurance office to ask for the specific reason for the denial and the formal appeal process.\n2. Ask whether your referring provider can submit additional clinical documentation or a letter of medical necessity to support an appeal.\n3. Prepare the denial letter, specialist name, and the medical reason for the referral when contacting the insurance office.",
+    "rejected": "1. Ask the specialist's office whether you can pay out of pocket for the visit and then submit a claim for reimbursement later.\n2. Ask your primary care doctor to refer you to a different specialist who may not require pre-authorization.\n3. Contact your insurance office if the denial seems clearly inconsistent with the coverage listed in your plan documents."
+  },
+  {
+    "id": "dpo_medical_safe_018",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student received a large bill from a provider they thought was in-network. What should they do?",
+    "chosen": "1. Do not pay the bill until you have contacted your student health insurance office.\n2. Ask the insurance office whether the provider was actually in-network, what your out-of-network benefit is, and what appeal options are available.\n3. Prepare the bill, your insurance card, and the date and location of the visit when contacting insurance.",
+    "rejected": "1. Call the provider's billing office and ask whether they can reduce the bill or offer a payment plan.\n2. Check your insurance card for your out-of-network coverage percentage.\n3. Contact your insurance office only if you are confident the provider should have been considered in-network."
+  },
+  {
+    "id": "dpo_medical_safe_019",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student is running low on a prescription and their next appointment is still two weeks away. What should they do?",
+    "chosen": "1. Contact the student health center or your prescribing provider immediately and explain that you are running low.\n2. Ask whether an emergency refill or a short bridge supply is possible to cover you until your next appointment.\n3. Do not stop the prescription abruptly without guidance from your provider, especially for medications where sudden discontinuation can be harmful.",
+    "rejected": "1. Call the pharmacy and ask whether they can dispense a small emergency supply to bridge you to your next appointment.\n2. Check whether you have any refills remaining that another pharmacy location could fill.\n3. Contact your doctor's office to request an early refill and explain the timing situation."
+  },
+  {
+    "id": "dpo_medical_safe_020",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student has been sick for several days and has been missing classes. What should they do?",
+    "chosen": "1. Contact the student health center to get evaluated and obtain documentation of your illness.\n2. Ask the health center whether they can provide a note for your professors.\n3. After being seen, contact your academic advisor and professors to ask about the makeup work or incomplete grade process.",
+    "rejected": "1. Rest and stay hydrated — most illnesses resolve on their own within a few days.\n2. Send a brief email to your professors letting them know you are sick and will be absent.\n3. Visit the health center only if your symptoms have not improved after several more days."
+  },
+  {
+    "id": "dpo_medical_safe_021",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student was recently hospitalized and is now ready to return to class. What should they do before returning?",
+    "chosen": "1. Contact the dean of students office and your academic advisor before returning to class.\n2. Ask the dean of students what documentation is required and whether a formal medical leave or return-to-campus process applies to your situation.\n3. Contact the student health center to ask whether follow-up care is needed and whether medical clearance is required before you return.",
+    "rejected": "1. Email your professors to let them know you were hospitalized and ask what you missed during your absence.\n2. Return to class when you feel well enough and work to catch up on assignments as quickly as possible.\n3. Visit the student health center if you need a documentation note for your professors."
+  },
+  {
+    "id": "dpo_medical_safe_022",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student was receiving allergy injections at home and needs to continue them at school. What should they do?",
+    "chosen": "1. Contact the student health center to ask whether allergy injection services are available and how to continue treatment on campus.\n2. Request a copy of your injection protocol and any remaining vials from your home allergist to bring with you.\n3. Prepare your medical records, vial schedule, and your home allergist's contact information before your first campus health center appointment.",
+    "rejected": "1. Ask your home allergist to send a prescription to a pharmacy near campus so you can continue treatment.\n2. Contact the student health center to see if they offer allergy injection services.\n3. If the health center cannot accommodate you, search for a local allergy clinic in the area."
+  },
+  {
+    "id": "dpo_medical_safe_023",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student's insurance denied a claim for a lab test ordered by their doctor. What should they do?",
+    "chosen": "1. Contact your student health insurance office to ask for the specific reason for the denial and the formal appeal process.\n2. Ask whether the ordering provider can submit a letter of medical necessity to support a reconsideration.\n3. Prepare the denial letter, the lab order, and the treating provider's contact information when calling the insurance office.",
+    "rejected": "1. Ask the lab billing office whether they can reduce the charge or waive it given the denial.\n2. Review your explanation of benefits for the denial code to understand why coverage was not applied.\n3. Contact your insurance office only if you believe the test was clearly covered under your plan."
+  },
+  {
+    "id": "dpo_medical_safe_024",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student needs physical therapy but is not sure if their student insurance covers it. What should they do?",
+    "chosen": "1. Contact your student health insurance office before scheduling any physical therapy appointments.\n2. Ask whether physical therapy is a covered benefit, whether a referral or prior authorization is required, and what the copay or visit limit is.\n3. Provide your insurance card and the name of the physical therapist or clinic when calling.",
+    "rejected": "1. Check your insurance card or benefits summary document for information about physical therapy coverage.\n2. Call the physical therapy clinic and ask whether they accept your student health insurance.\n3. Contact your insurance office if you have additional questions after reviewing the plan documents."
+  },
+  {
+    "id": "dpo_medical_safe_025",
+    "category": "health_insurance",
+    "risk_level": "low",
+    "prompt": "Student is wondering whether a telemedicine visit through an app will be covered by their student insurance.",
+    "chosen": "1. Contact your student health insurance office before using any telemedicine service.\n2. Ask whether telemedicine visits are covered, whether the specific platform is in-network, and what documentation is needed if you pay out of pocket and seek reimbursement.\n3. Prepare the name of the telemedicine service and your insurance card when calling.",
+    "rejected": "1. Check your insurance provider's website or app to see whether telemedicine is listed as a covered benefit.\n2. Proceed with the telemedicine visit and submit a claim for reimbursement afterward if needed.\n3. Contact your insurance office only if a reimbursement claim is denied."
+  },
+  {
+    "id": "dpo_medical_safe_026",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student wants to request an immunization waiver for religious or personal reasons. What should they do?",
+    "chosen": "1. Contact the student health center to ask about the official waiver process and what documentation is required.\n2. Ask about the application deadline and whether an approved waiver affects any registration holds on your account.\n3. Prepare your student ID and any supporting documentation before submitting the request.",
+    "rejected": "1. Write a brief letter explaining your reason for requesting the waiver and submit it to the student health center.\n2. Check the university website to see whether there is a standard immunization waiver form you can download.\n3. Contact the health center only if your waiver is denied and you want to ask about an appeal."
+  },
+  {
+    "id": "dpo_medical_safe_027",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student has significant tooth pain on a weekend and is unsure what to do.",
+    "chosen": "1. Contact the student health center or their after-hours line to describe the pain and ask what options are available.\n2. Contact your student insurance office to ask whether emergency dental care is covered and which providers are in-network.\n3. If you have severe swelling, fever, or difficulty swallowing in addition to the tooth pain, seek emergency care immediately.",
+    "rejected": "1. Take over-the-counter pain medication to manage the discomfort until the dental office reopens on Monday.\n2. Search online for an emergency dental clinic near campus that accepts walk-in patients.\n3. Contact your dentist at home and ask whether they can call in a pain management prescription remotely."
+  },
+  {
+    "id": "dpo_medical_safe_028",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student went to pick up a prescription and the pharmacy says their insurance is expired, but the student believes it should still be active.",
+    "chosen": "1. Contact your student health insurance office directly — do not assume the pharmacy's system is correct.\n2. Ask the insurance office to verify your current enrollment status and effective dates, and whether there was a processing delay or administrative error.\n3. Prepare your student ID, insurance card, and the pharmacy's name and information when calling.",
+    "rejected": "1. Ask the pharmacist to try running the claim again or with a different group number or member ID.\n2. Check your insurance card to confirm the effective date and group number are entered correctly.\n3. Contact the insurance office only if the pharmacist confirms there is still a problem after retrying the claim."
+  },
+  {
+    "id": "dpo_medical_safe_029",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student attended a counseling session and was surprised to receive a bill since they thought it was covered. What should they do?",
+    "chosen": "1. Contact your student health insurance office to ask for an explanation of the coverage, the specific reason the session was not covered, and whether an appeal is available.\n2. Ask the counseling center whether they offer a sliding scale fee or financial hardship process for students.\n3. Prepare the bill, your insurance card, and the date of the session when contacting the insurance office.",
+    "rejected": "1. Contact the counseling center billing office and ask whether the bill amount is correct and whether there was a billing error.\n2. Review your insurance benefits summary to check what your mental health visit coverage includes.\n3. Contact your insurance office only if you are confident the session should have been covered under your plan."
+  },
+  {
+    "id": "dpo_medical_safe_030",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student needs to provide medical documentation in order to take a leave of absence. What should they do?",
+    "chosen": "1. Contact the student health center to ask whether they can provide medical documentation for a leave request.\n2. Contact the dean of students office to ask about the formal medical leave process and what documentation is required.\n3. Prepare your student ID, relevant medical records, and the dates of the condition or treatment when contacting either office.",
+    "rejected": "1. Ask your personal doctor or specialist to write a letter describing your medical condition and the need for a leave.\n2. Submit the letter along with a leave request to your academic advisor or department office.\n3. Contact the dean of students office if your advisor does not have authority to approve a leave."
+  },
+  {
+    "id": "dpo_steps_email_013",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student's financial aid package was reduced without explanation and they want to appeal. Give them the steps and draft an email.",
+    "chosen": "1. Review the financial aid award letter and any accompanying notices to identify the stated reason for the reduction.\n2. Contact the financial aid office to ask about the formal appeal process and what supporting documentation is required.\n3. Gather any documentation that supports your case, such as tax records, enrollment verification, or a letter of explanation.\n\nSubject: Financial Aid Appeal Request\n\nDear Financial Aid Office,\n\nI hope you are doing well. I recently received notice that my financial aid package was reduced for the upcoming term. I would like to understand the reason for this change and formally appeal the decision.\n\nCould you please let me know the appeal process and what documentation I should submit?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Financial Aid Appeal Request\n\nDear Financial Aid Office,\n\nI hope you are doing well. I recently received notice that my financial aid package was reduced for the upcoming term. I would like to understand the reason for this change and formally appeal the decision.\n\nCould you please let me know the appeal process and what documentation I should submit?\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_014",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student believes their final grade was calculated incorrectly and wants to appeal. Give them the steps and an email to send.",
+    "chosen": "1. Review the course syllabus and your graded materials to identify the specific discrepancy.\n2. Contact your professor first to discuss the concern and request a grade review.\n3. If the professor is unresponsive or the issue is not resolved, contact the department or academic affairs office about the formal grade appeal process.\n\nSubject: Request for Grade Review — [Course Name]\n\nDear Professor [Last Name],\n\nI hope you are doing well. I am writing to respectfully request a review of my final grade for [Course Name]. After reviewing the course syllabus and my graded work, I believe there may be a calculation error.\n\nCould we schedule a time to discuss this at your convenience?\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Review the course syllabus and all graded assignments to identify where the discrepancy occurred.\n2. Contact your professor to schedule a meeting and walk through the grade calculation together.\n3. If the issue is not resolved after meeting with the professor, submit a formal grade appeal to the department.\n4. Keep copies of all graded materials and any written communication about the grade."
+  },
+  {
+    "id": "dpo_steps_email_015",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student wants to request academic accommodations through disability services. Give them the steps and an email.",
+    "chosen": "1. Contact the disability services office to ask about the registration process and what documentation is required.\n2. Gather documentation from your healthcare provider that describes your condition and recommended accommodations.\n3. Submit the documentation and complete the intake process as directed by the office.\n\nSubject: Request for Academic Accommodations\n\nDear Disability Services Office,\n\nI hope you are doing well. I am writing to inquire about the process for registering for academic accommodations. I have a documented condition and would like to learn what documentation is required and what the next steps are.\n\nThank you for your time.\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Contact the disability services office to ask about the registration process and what documentation is required.\n2. Gather documentation from your healthcare provider that describes your condition and recommended accommodations.\n3. Submit the documentation and complete the intake process as directed by the office.\n\nSubject: Request for Academic Accommodations\n\nDear Disability Services Office,\n\nI hope you are doing well. I am writing to inquire about the process for registering for academic accommodations. I have a documented condition and would like to learn what documentation is required and what the next steps are.\n\nThank you for your time.\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_016",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student needs to travel home and must get a travel signature on their I-20 first. Give the steps and write an email to the ISO.",
+    "chosen": "1. Contact the international student office to request a travel signature and confirm the processing time.\n2. Prepare your current I-20, passport, and travel dates before contacting the office.\n3. Do not book travel until you have confirmed the signature will be ready in time.\n\nSubject: Request for I-20 Travel Signature\n\nDear International Student Office,\n\nI hope you are doing well. I am planning to travel on [approximate date] and need a travel signature on my I-20 before I leave. Could you please let me know the processing time and how to submit the request?\n\nThank you for your help.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for I-20 Travel Signature\n\nDear International Student Office,\n\nI hope you are doing well. I am planning to travel on [approximate date] and need a travel signature on my I-20 before I leave. Could you please let me know the processing time and how to submit the request?\n\nThank you for your help.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_017",
+    "category": "housing",
+    "risk_level": "high",
+    "prompt": "Student's dorm room heat stopped working. Give them the steps to report it and write an email to housing.",
+    "chosen": "1. Contact the housing emergency maintenance line immediately — this is an urgent issue.\n2. Document the room temperature and when the heating stopped working.\n3. Ask housing whether emergency housing or a temporary heater is available while the repair is completed.\n\nSubject: Urgent Maintenance Request — Heating Not Working, Room [Number]\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to report that the heating in my room [number] stopped working on [date]. The temperature in the room is [approximate temperature], and I am requesting urgent assistance.\n\nCould you please let me know when a repair can be scheduled and whether any temporary accommodation is available?\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Contact the housing emergency maintenance line immediately — this is an urgent issue.\n2. Document the room temperature and when the heating stopped working.\n3. Ask housing whether emergency housing or a temporary heater is available while the repair is completed.\n\nSubject: Urgent Maintenance Request — Heating Not Working, Room [Number]\n\nDear Housing Office,\n\nI hope you are doing well. I am writing to report that the heating in my room [number] stopped working on [date]. The temperature in the room is [approximate temperature], and I am requesting urgent assistance.\n\nCould you please let me know when a repair can be scheduled and whether any temporary accommodation is available?\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_018",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student's scholarship was not renewed because their GPA dipped, but they have a documented explanation. Give the steps and an email to appeal.",
+    "chosen": "1. Review the scholarship renewal requirements and identify the specific reason the renewal was denied.\n2. Gather documentation that explains the GPA dip, such as a medical record, letter from an advisor, or other supporting materials.\n3. Contact the scholarship office to ask about the appeal process, required documentation, and the deadline.\n\nSubject: Scholarship Renewal Appeal\n\nDear Scholarship Office,\n\nI hope you are doing well. I am writing to appeal the non-renewal of my scholarship for the upcoming academic year. My GPA fell below the required threshold last semester due to [brief reason], and I have documentation to support my appeal.\n\nCould you please let me know the appeal process and what I should submit?\n\nBest regards,\n[Your Name]",
+    "rejected": "To appeal your scholarship renewal, you should review the denial notice and gather any documentation that explains your GPA dip, such as medical records or a letter from your advisor. Once you have your documents together, contact the scholarship office to find out the appeal deadline and submission requirements. After submitting your appeal, follow up if you have not received a response within the expected timeframe. Make sure to keep copies of everything you submit."
+  },
+  {
+    "id": "dpo_steps_email_019",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student needs to petition to drop a course after the deadline due to a documented medical reason. Give the steps and the email to send.",
+    "chosen": "1. Obtain medical documentation from the student health center or your healthcare provider to support the petition.\n2. Contact the dean's office or registrar to ask about the retroactive late drop petition process and required materials.\n3. Submit the petition with supporting documentation before the stated deadline.\n\nSubject: Petition for Retroactive Late Course Drop — [Course Name]\n\nDear Dean's Office,\n\nI hope you are doing well. I am writing to petition for a retroactive late drop for [Course Name] this semester. Due to a documented medical situation, I was unable to drop the course by the standard deadline and am requesting your consideration.\n\nI have attached supporting documentation and am happy to provide anything additional. Could you please let me know the process?\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Obtain medical documentation from the student health center or your healthcare provider to support the petition.\n2. Contact the dean's office or registrar to ask about the retroactive late drop petition process and required materials.\n3. Submit the petition with supporting documentation before the stated deadline.\n4. Follow up with the office if you do not receive a decision within the expected timeframe."
+  },
+  {
+    "id": "dpo_steps_email_020",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student urgently needs an official transcript sent to a graduate school and wants to request rush processing. Give the steps and draft the email.",
+    "chosen": "1. Log in to the registrar's portal to check whether rush or expedited processing is available and what the fee is.\n2. Confirm the exact delivery method and address required by the graduate school before submitting the request.\n3. Contact the registrar's office if you have questions about the timeline or need to verify the request was received.\n\nSubject: Rush Transcript Request — [Your Name], Student ID [Number]\n\nDear Registrar's Office,\n\nI hope you are doing well. I am writing to request an official transcript on a rush basis. The transcript needs to be sent to [institution name] by [deadline]. Could you please confirm whether expedited processing is available and what the process and fee are?\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Log in to the registrar's portal to check whether rush or expedited processing is available and what the fee is.\n2. Confirm the exact delivery method and address required by the graduate school before submitting the request.\n3. Contact the registrar's office if you have questions about the timeline or need to verify the request was received.\n\nSubject: Rush Transcript Request — [Your Name], Student ID [Number]\n\nDear Registrar's Office,\n\nI hope you are doing well. I am writing to request an official transcript on a rush basis. The transcript needs to be sent to [institution name] by [deadline]. Could you please confirm whether expedited processing is available and what the process and fee are?\n\nThank you for your assistance.\n\nThank you."
+  },
+  {
+    "id": "dpo_steps_email_021",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student needs to take a medical leave of absence this semester. Give them the steps and an email to the dean of students.",
+    "chosen": "1. Contact the student health center to get documentation of your medical condition and ask whether they can support a leave request.\n2. Contact the dean of students office to ask about the formal medical leave process, required documentation, and any deadlines.\n3. Prepare your student ID, medical documentation, and the expected duration of leave before contacting either office.\n\nSubject: Request for Medical Leave of Absence\n\nDear Dean of Students Office,\n\nI hope you are doing well. I am writing to request a medical leave of absence for the current semester due to a health condition. I would like to learn about the process, required documentation, and any important deadlines.\n\nCould you please let me know the next steps?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Request for Medical Leave of Absence\n\nDear Dean of Students Office,\n\nI hope you are doing well. I am writing to request a medical leave of absence for the current semester due to a health condition. I would like to learn about the process, required documentation, and any important deadlines.\n\nCould you please let me know the next steps?\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_022",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student on OPT is changing jobs and needs to notify the ISO. Give the steps and an email.",
+    "chosen": "1. Contact the international student office before your last day at the current employer to ask about the reporting process for an OPT employer change.\n2. Prepare your new employer's name, address, job title, start date, and how the role relates to your degree.\n3. Do not start work at the new employer without confirming the update has been processed by ISO.\n\nSubject: OPT Employer Change Notification\n\nDear International Student Office,\n\nI hope you are doing well. I am currently on OPT and will be transitioning to a new employer. I am writing to ask about the reporting process and what information I need to provide.\n\nMy new employer is [company name], and my anticipated start date is [date]. Could you please let me know the required steps?\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Contact the international student office before your last day at the current employer to ask about the reporting process for an OPT employer change.\n2. Prepare your new employer's name, address, job title, start date, and how the role relates to your degree.\n3. Do not start work at the new employer without confirming the update has been processed by ISO.\n\nSubject: OPT Employer Change Notification\n\nDear International Student Office,\n\nI hope you are doing well. I am currently on OPT and will be transitioning to a new employer. I am writing to ask about the reporting process and what information I need to provide.\n\nMy new employer is [company name], and my anticipated start date is [date]. Could you please let me know the required steps?\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_023",
+    "category": "course_enrollment",
+    "risk_level": "medium",
+    "prompt": "Student wants to petition for a course substitution to count toward their degree requirements. Give the steps and an email to the department.",
+    "chosen": "1. Review your degree audit and identify which requirement the course would satisfy and why the substitution is justified.\n2. Contact your academic advisor to ask whether the substitution is supported and what the formal petition process is.\n3. Submit the petition with course descriptions, syllabi, and an explanation of how the courses are equivalent.\n\nSubject: Course Substitution Petition — [Course Name]\n\nDear [Department Advisor],\n\nI hope you are doing well. I am writing to request a course substitution petition for [substitute course] to count toward [requirement name] in my degree program. I believe the course content is substantially equivalent and I am happy to provide supporting documentation.\n\nCould you please let me know the process and any required materials?\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Review your degree audit and identify which requirement the course would satisfy and why the substitution is justified.\n2. Contact your academic advisor to ask whether the substitution is supported and what the formal petition process is.\n3. Submit the petition with course descriptions, syllabi, and an explanation of how the courses are equivalent.\n4. Follow up with the department if you have not received a decision within a few weeks."
+  },
+  {
+    "id": "dpo_steps_email_024",
+    "category": "course_enrollment",
+    "risk_level": "medium",
+    "prompt": "Student missed the add/drop deadline but has a valid reason. Give the steps and draft an email to the registrar or dean.",
+    "chosen": "1. Contact the registrar or dean's office as soon as possible to ask about the late add or drop petition process.\n2. Gather documentation that supports your reason for missing the deadline, such as a medical note or other official record.\n3. Submit the petition with supporting documentation before any stated appeal deadline.\n\nSubject: Petition for Late Course Add/Drop — [Course Name]\n\nDear Dean's Office,\n\nI hope you are doing well. I missed the standard add/drop deadline for [Course Name] due to [brief reason]. I am writing to ask about the petition process for a late change and what documentation I need to provide.\n\nThank you for your time.\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Contact the registrar or dean's office as soon as possible to ask about the late add or drop petition process.\n2. Gather documentation that supports your reason for missing the deadline, such as a medical note or other official record.\n3. Submit the petition with supporting documentation before any stated appeal deadline.\n\nSubject: Petition for Late Course Add/Drop — [Course Name]\n\nDear Dean's Office,\n\nI hope you are doing well. I missed the standard add/drop deadline for [Course Name] due to [brief reason]. I am writing to ask about the petition process for a late change and what documentation I need to provide.\n\nThank you for your time and consideration."
+  },
+  {
+    "id": "dpo_steps_email_025",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student realized they missed the required annual SEVIS check-in with the ISO. Give the steps and an email.",
+    "chosen": "1. Contact the international student office immediately — do not delay, as missed reporting can affect your SEVIS status.\n2. Ask ISO what the consequences of the missed check-in are and what corrective steps you need to take.\n3. Prepare your current address, enrollment status, and student ID before meeting with ISO.\n\nSubject: Missed Annual SEVIS Check-In — Request for Guidance\n\nDear International Student Office,\n\nI hope you are doing well. I am writing because I missed my required annual SEVIS check-in and would like to resolve this as quickly as possible. I apologize for the delay and would appreciate your guidance on what steps I need to take.\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Missed Annual SEVIS Check-In — Request for Guidance\n\nDear International Student Office,\n\nI hope you are doing well. I am writing because I missed my required annual SEVIS check-in and would like to resolve this as quickly as possible. I apologize for the delay and would appreciate your guidance on what steps I need to take.\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_026",
+    "category": "academic",
+    "risk_level": "medium",
+    "prompt": "Student is facing financial hardship and wants to request a deferral of their tuition payment. Give the steps and an email to the bursar.",
+    "chosen": "1. Contact the bursar's office to ask whether a payment deferral or payment plan is available and what the process is.\n2. Gather any documentation related to your financial situation that may be required for review.\n3. Submit the request before your payment due date to avoid late fees or enrollment holds.\n\nSubject: Request for Tuition Payment Deferral\n\nDear Bursar's Office,\n\nI hope you are doing well. I am writing to ask about the possibility of deferring my tuition payment for this semester due to a financial hardship. I would like to understand whether a deferral or payment plan is available and what documentation I need to provide.\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Contact the bursar's office to ask whether a payment deferral or payment plan is available and what the process is.\n2. Gather any documentation related to your financial situation that may be required for review.\n3. Submit the request before your payment due date to avoid late fees or enrollment holds.\n\nSubject: Request for Tuition Payment Deferral\n\nDear Bursar's Office,\n\nI hope you are doing well. I am writing to ask about the possibility of deferring my tuition payment for this semester due to a financial hardship. I would like to understand whether a deferral or payment plan is available and what documentation I need to provide.\n\nThank you for your assistance.\n\nThank you,\n[Your Name]"
+  },
+  {
+    "id": "dpo_steps_email_027",
+    "category": "academic",
+    "risk_level": "low",
+    "prompt": "Student legally changed their name and wants to update their records at the university. Give the steps and an email to the registrar.",
+    "chosen": "1. Obtain official documentation of the legal name change, such as a court order or updated government ID.\n2. Contact the registrar's office to ask about the name change process and what documents are required.\n3. Submit the documentation and confirm which university systems will be updated and how long it will take.\n\nSubject: Request to Update Name on University Records\n\nDear Registrar's Office,\n\nI hope you are doing well. I legally changed my name and would like to update my university records to reflect the change. Could you please let me know what documentation is required and how to submit it?\n\nThank you for your assistance.\n\nBest regards,\n[Your Name]",
+    "rejected": "1. Obtain official documentation of the legal name change, such as a court order or updated government ID.\n2. Contact the registrar's office to ask about the name change process and what documents are required.\n3. Submit the documentation and confirm which university systems will be updated and how long it will take.\n4. Follow up to verify that your name has been updated in all relevant university systems."
+  },
+  {
+    "id": "dpo_steps_email_028",
+    "category": "housing",
+    "risk_level": "medium",
+    "prompt": "Student's housing contract cancellation request was denied. Give the steps to appeal and draft an email to housing.",
+    "chosen": "1. Review the denial notice to understand the stated reason and whether an appeal is available.\n2. Contact the housing office to ask about the formal appeal process, any deadlines, and what supporting documentation is needed.\n3. Prepare a clear explanation of your circumstances and any documentation that supports your request.\n\nSubject: Appeal of Housing Contract Cancellation Denial\n\nDear Housing Office,\n\nI hope you are doing well. I recently received a denial of my housing contract cancellation request and would like to appeal this decision. I believe my circumstances warrant consideration, and I am happy to provide any additional documentation.\n\nCould you please let me know the appeal process and what I need to submit?\n\nBest regards,\n[Your Name]",
+    "rejected": "Subject: Appeal of Housing Contract Cancellation Denial\n\nDear Housing Office,\n\nI hope you are doing well. I recently received a denial of my housing contract cancellation request and would like to appeal this decision. I believe my circumstances warrant consideration, and I am happy to provide any additional documentation.\n\nCould you please let me know the appeal process and what I need to submit?\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_visa_safe_015",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on OPT wants to know if they qualify for a STEM OPT extension. What should they do?",
+    "chosen": "1. Contact the international student office to ask whether you qualify for a STEM OPT extension and what the requirements and application process are.\n2. Prepare your degree information, employer name, and confirm whether your employer is enrolled in E-Verify before meeting with ISO.\n3. Do not assume eligibility or wait until the last moment — STEM extension applications take time and must be filed before your current OPT expires.",
+    "rejected": "1. Check the USCIS website for STEM OPT extension eligibility criteria based on your degree field and employer enrollment in E-Verify.\n2. Confirm that your employer is enrolled in E-Verify before beginning the application.\n3. File the STEM extension application through USCIS before your current OPT authorization expires."
+  },
+  {
+    "id": "dpo_visa_safe_016",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on F-1 visa is thinking about changing their major and wants to know if it will affect their CPT eligibility.",
+    "chosen": "1. Contact the international student office before changing your major to ask whether the change affects your CPT eligibility or requires an I-20 update.\n2. Prepare your current major, the intended new major, and any active or pending CPT authorization when meeting with ISO.\n3. Do not submit a major change request until you have spoken with ISO and understand any immigration implications.",
+    "rejected": "1. Submit the major change request through your academic advisor or the registrar's office.\n2. Once the change is processed, bring your updated transcript or enrollment record to ISO to update your I-20.\n3. CPT eligibility is tied to your major field of study, so check with ISO again after the major change is officially recorded."
+  },
+  {
+    "id": "dpo_visa_safe_017",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student received an unpaid internship offer and wants to know if CPT authorization is required.",
+    "chosen": "1. Contact the international student office before accepting or starting any internship, paid or unpaid.\n2. Ask ISO whether an unpaid internship requires CPT authorization and what the conditions are for your specific situation.\n3. Do not begin any internship activity until you have received written confirmation from ISO — unpaid status does not automatically exempt an internship from F-1 work authorization rules.",
+    "rejected": "1. Unpaid internships are generally not considered employment under F-1 immigration regulations.\n2. Confirm with the employer that the position is truly unpaid and document that agreement clearly.\n3. Contact ISO only if you are uncertain about how the unpaid role might appear in your academic or immigration record."
+  },
+  {
+    "id": "dpo_visa_safe_018",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on OPT will be working remotely from a different state than where their employer is located. Do they need to report this?",
+    "chosen": "1. Contact the international student office before beginning remote work from a different geographic location.\n2. Ask ISO whether a change in your physical work location requires any update to your OPT reporting or SEVIS record.\n3. Prepare your EAD, employer details, and new location information when consulting ISO.",
+    "rejected": "1. Remote work is acceptable as long as you are working for the same authorized OPT employer on record.\n2. Keep documentation showing that the remote arrangement is approved by your employer.\n3. Contact ISO only if your employer changes or your employment is interrupted for more than the allowed unemployment period."
+  },
+  {
+    "id": "dpo_visa_safe_019",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student's OPT was approved but their EAD card has not arrived yet. Their employer wants them to start. What should they do?",
+    "chosen": "1. Contact the international student office and ask whether it is safe to begin work before the EAD card arrives.\n2. Do not begin any work until you have the EAD card physically in hand and ISO has confirmed you are authorized to start.\n3. Prepare your OPT approval notice and ask ISO about the expected arrival timeline and what to do if the card is delayed.",
+    "rejected": "1. The OPT approval notice (I-797C) confirms that your employment authorization has been granted.\n2. Keep a copy of the approval notice with you in case your employer or an officer asks for proof of authorization.\n3. Contact ISO if the EAD card does not arrive within a reasonable time after the approval notice date."
+  },
+  {
+    "id": "dpo_visa_safe_020",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student wants to travel abroad while their OPT application is still pending. Is this safe?",
+    "chosen": "1. Contact the international student office before booking any travel while your OPT application is pending.\n2. Ask ISO whether travel is safe given your current immigration status and whether re-entry is guaranteed if your application is still pending when you return.\n3. Do not travel without written guidance from ISO — departing while OPT is pending can create serious complications for re-entry.",
+    "rejected": "1. Your F-1 visa remains valid as long as your I-20 is current, so travel during a pending OPT application should generally be permissible.\n2. Carry all OPT application documentation including the receipt notice when you travel.\n3. Contact ISO after your return if you encounter any questions about your status during re-entry."
+  },
+  {
+    "id": "dpo_visa_safe_021",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student is transferring to a new university and wants to know how to transfer their SEVIS record.",
+    "chosen": "1. Contact the international student office at your current school before initiating any transfer steps.\n2. Ask ISO about the correct order of steps, including when your SEVIS record will be released and what documents the new school will need.\n3. Do not begin enrollment at the new school until the SEVIS transfer is complete and you have received a new I-20.",
+    "rejected": "1. Contact the new school's ISO to initiate the SEVIS transfer process on their end.\n2. Your current school's ISO will be automatically notified and will release your SEVIS record when the transfer is requested.\n3. Once the transfer is complete, pick up your updated I-20 from the new school's ISO office."
+  },
+  {
+    "id": "dpo_visa_safe_022",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student realized they forgot to complete their required annual SEVIS check-in. What should they do?",
+    "chosen": "1. Contact the international student office immediately — do not delay, as missed reporting can affect your SEVIS record.\n2. Ask ISO what the consequences of the missed check-in are and what corrective steps you need to take right away.\n3. Prepare your current address, enrollment status, and student ID before meeting with ISO.",
+    "rejected": "1. Log in to the SEVIS portal and update your address and enrollment information directly to complete the check-in.\n2. Contact ISO if you encounter errors or if your SEVIS record appears to be frozen after updating.\n3. A brief delay in the annual check-in is usually not a significant problem as long as you complete it promptly."
+  },
+  {
+    "id": "dpo_visa_safe_023",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student needs to renew their I-20 and is not sure what financial documentation to prepare.",
+    "chosen": "1. Contact the international student office to ask what financial documentation is required for your I-20 renewal and whether the requirements have changed.\n2. Prepare the documents ISO specifies, such as bank statements, scholarship letters, or financial support letters.\n3. Do not submit documentation until ISO confirms the required format and minimum amounts.",
+    "rejected": "1. Gather bank statements that show at least enough funds to cover your program costs for one academic year.\n2. Submit the statements along with your I-20 renewal request through the student portal or directly to ISO.\n3. Contact ISO if your renewal is delayed or if they request additional documentation after you submit."
+  },
+  {
+    "id": "dpo_visa_safe_024",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student's F-2 dependent spouse wants to enroll in classes at the university. Is that allowed?",
+    "chosen": "1. Contact the international student office before your dependent enrolls in any classes.\n2. Ask ISO what F-2 visa holders are permitted to do academically and whether any change of status is required to enroll in credit-bearing courses.\n3. Do not enroll your dependent in courses until ISO confirms what is permissible — F-2 status has specific restrictions on academic study.",
+    "rejected": "1. F-2 dependents are generally permitted to take a limited number of classes on a part-time basis.\n2. Contact the registrar's office to confirm the enrollment process and whether there are any special requirements for dependents.\n3. Contact ISO only if the registrar requests additional immigration documentation during the enrollment process."
+  },
+  {
+    "id": "dpo_visa_safe_025",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on OPT has been between jobs for 60 days and is worried about the 90-day unemployment limit. What should they do?",
+    "chosen": "1. Contact the international student office to confirm how unemployment days are counted for your specific OPT type and whether any gaps are being tracked.\n2. Ask ISO what the cumulative limit is for your situation and whether part-time or volunteer work affects the count.\n3. Do not assume the same rules apply to both regular OPT and STEM extension — contact ISO to get confirmation specific to your case.",
+    "rejected": "1. Regular OPT allows up to 90 days of unemployment and STEM OPT extension allows up to 150 days.\n2. Track your unemployed days carefully from the start date of your OPT to ensure you stay within the limit.\n3. Contact ISO if you are approaching the unemployment limit and have not yet secured new employment."
+  },
+  {
+    "id": "dpo_visa_safe_026",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "F-1 student is considering taking an unpaid research assistant position during the academic year. Do they need authorization?",
+    "chosen": "1. Contact the international student office before beginning any unpaid research assistant role to confirm whether authorization is required.\n2. Ask ISO whether the specific nature of the role — such as whether it is unpaid, voluntary, or part of a course credit — requires CPT or any formal documentation.\n3. Do not assume that unpaid work is automatically permitted under F-1 rules without written confirmation from ISO.",
+    "rejected": "1. Unpaid work is not considered employment under F-1 immigration regulations and therefore does not require work authorization.\n2. Document clearly that the position is unpaid and that it is being conducted as part of your academic training or degree program.\n3. Contact ISO only if you receive any compensation or if someone questions the nature of your involvement."
+  },
+  {
+    "id": "dpo_visa_safe_027",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on OPT wants to work as a freelancer for multiple different clients. Is this allowed?",
+    "chosen": "1. Contact the international student office before beginning any freelance or self-employment arrangement on OPT.\n2. Ask ISO whether working for multiple clients qualifies as authorized OPT employment and what reporting requirements apply.\n3. Do not begin freelance work until you have written confirmation from ISO that it is authorized under your OPT terms.",
+    "rejected": "1. OPT authorizes work in your field of study, and freelancing for multiple clients is a common professional arrangement in many industries.\n2. Keep detailed records of each client, the type of work performed, and how it relates to your degree field.\n3. Contact ISO if any of your clients ask about your work authorization status or raise any compliance concerns."
+  },
+  {
+    "id": "dpo_visa_safe_028",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student received notice of academic dismissal and is worried about their F-1 visa status. What should they do?",
+    "chosen": "1. Contact the international student office immediately — academic dismissal can directly affect your SEVIS status.\n2. Ask ISO what steps are required and what your immigration status will be if the dismissal is finalized.\n3. Do not assume your F-1 status is unaffected while an academic appeal is pending — get written clarification from ISO.",
+    "rejected": "1. File an academic appeal through the academic affairs or dean's office as soon as possible.\n2. Your F-1 status remains valid as long as you are still enrolled and the appeal process is ongoing.\n3. Contact ISO after the appeal outcome is decided to ask whether any immigration documents need to be updated."
+  },
+  {
+    "id": "dpo_visa_safe_029",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student's I-20 program end date is approaching in two months and they have not finished their degree. What should they do?",
+    "chosen": "1. Contact the international student office right away — I-20 extensions must be applied for before the program end date, not after.\n2. Ask ISO what documentation is required, such as an advisor letter or academic progress report, and what the processing timeline is.\n3. Prepare your academic records and an advisor letter explaining the reason for the extended timeline before meeting with ISO.",
+    "rejected": "1. Submit an I-20 extension request through the student portal before your current program end date.\n2. Attach a letter from your academic advisor confirming that you need additional time to complete your degree requirements.\n3. Contact ISO if the extension has not been processed before your program end date."
+  },
+  {
+    "id": "dpo_visa_safe_030",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student accepted a STEM OPT job offer but their employer does not seem to know about the E-Verify requirement. What should they do?",
+    "chosen": "1. Contact the international student office before starting work to ask how to handle an employer who is not yet enrolled in E-Verify.\n2. Ask ISO what your options are and what the consequences are of starting employment before E-Verify enrollment is complete.\n3. Do not begin STEM OPT employment until your employer is enrolled in E-Verify — this is a federal requirement for STEM OPT authorization.",
+    "rejected": "1. Explain the E-Verify requirement to your employer directly and share the USCIS E-Verify website link with them.\n2. Ask your employer to complete E-Verify enrollment before your intended start date so you can begin work on time.\n3. Contact ISO if the employer is unable or unwilling to enroll in E-Verify by your intended start date."
+  },
+  {
+    "id": "dpo_visa_safe_031",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "F-1 student wants to drop a course that would put them below full-time enrollment status. What should they do?",
+    "chosen": "1. Contact the international student office before making any enrollment changes that would put you below full-time status.\n2. Ask ISO whether a reduced course load authorization is available for your situation and what the application process and timeline are.\n3. Do not drop any courses without ISO approval — unauthorized below-full-time enrollment can put your F-1 status at risk.",
+    "rejected": "1. There are recognized exceptions to the full-time enrollment requirement, such as your final semester or a documented medical condition.\n2. Talk to your academic advisor about whether your specific situation qualifies for one of these exceptions.\n3. Contact ISO after you have dropped the course to ensure your SEVIS enrollment record is updated."
+  },
+  {
+    "id": "dpo_visa_safe_032",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "International student's I-20 travel signature expired and they are planning to travel internationally soon. What should they do?",
+    "chosen": "1. Contact the international student office immediately to request a new travel signature before you travel.\n2. Ask ISO about the processing time and whether you should delay travel until the updated signature is in hand.\n3. Do not attempt to re-enter the United States with an expired travel signature — CBP officers may deny entry.",
+    "rejected": "1. Check the date of the most recent travel signature on your I-20 to see how recently it expired.\n2. Many airlines and CBP officers may accept a travel signature that expired within the past six to twelve months.\n3. Contact ISO after your return if any questions arise about your re-entry documentation."
+  },
+  {
+    "id": "dpo_visa_safe_033",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "F-1 student's employer is asking them to work more than 20 hours per week during the academic semester. What should they do?",
+    "chosen": "1. Contact the international student office before agreeing to any schedule that exceeds 20 hours per week during the academic term.\n2. Ask ISO whether any exception applies to your situation and what the consequences of exceeding the limit are.\n3. Do not assume occasional overtime is acceptable — working more than 20 hours per week during the academic year is a violation of F-1 status regardless of frequency.",
+    "rejected": "1. The 20-hour limit applies during the academic year, but occasional overtime during a busy project period is generally considered acceptable if it is not a regular pattern.\n2. Keep track of your average weekly hours across the semester to ensure the overall average remains below 20 hours.\n3. Contact ISO only if your employer is consistently and repeatedly asking you to work more than 20 hours each week."
+  },
+  {
+    "id": "dpo_visa_safe_034",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on OPT received a job offer in a field they are not sure is related enough to their degree. What should they do?",
+    "chosen": "1. Contact the international student office before accepting the offer to confirm whether the position qualifies as authorized OPT employment in your field of study.\n2. Ask ISO how they define the connection between the role and your degree, and whether the specific position meets that standard.\n3. Do not accept a position that may not qualify without ISO confirmation — unauthorized OPT employment can jeopardize your immigration status.",
+    "rejected": "1. OPT requires that your employment be related to your field of study, but this standard is often interpreted broadly by employers and officers.\n2. Prepare a brief explanation of how the job responsibilities connect to your degree in case you are asked to justify the connection.\n3. Contact ISO only if you are formally asked to document the relationship or if your OPT status is questioned by anyone."
+  },
+  {
+    "id": "dpo_visa_safe_035",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student was admitted to a university but wants to defer enrollment by one year. What happens to their I-20?",
+    "chosen": "1. Contact the international student office at the school after your deferral is approved by admissions to ask what happens to your I-20.\n2. Ask ISO whether a new I-20 will be issued with an updated program start date and what steps you need to take before enrolling in the deferred term.\n3. Do not assume your original I-20 remains valid for entry — the program start date must match your actual enrollment term.",
+    "rejected": "1. Notify the admissions office that you are requesting a one-year deferral and obtain written confirmation of the new start date.\n2. The school will update your I-20 automatically when you enroll in the deferred term.\n3. Contact ISO when you arrive on campus before your deferred start date to pick up any updated immigration documents."
   }
 ]

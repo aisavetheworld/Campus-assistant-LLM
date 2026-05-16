@@ -2,9 +2,9 @@
 
 ## Summary
 
-- DPO seed count: 63
-- Train split: 50
-- Eval split: 13
+- DPO seed count: 151
+- Train split: 121
+- Eval split: 30
 - Eval ratio: 0.2
 - Seed: 42
 
@@ -12,36 +12,36 @@
 
 | Category | Count |
 |---|---:|
-| `academic` | 1 |
-| `course_enrollment` | 17 |
+| `academic` | 20 |
+| `course_enrollment` | 45 |
 | `email_drafting` | 8 |
-| `health_insurance` | 20 |
-| `housing` | 17 |
+| `health_insurance` | 39 |
+| `housing` | 39 |
 
 ## Risk Distribution
 
 | Risk Level | Count |
 |---|---:|
-| `high` | 25 |
-| `low` | 12 |
-| `medium` | 26 |
+| `high` | 60 |
+| `low` | 32 |
+| `medium` | 59 |
 
 ## Prefix Distribution
 
 | Prefix | Count |
 |---|---:|
-| `dpo_email_quality` | 14 |
-| `dpo_housing_safe` | 10 |
-| `dpo_medical_safe` | 13 |
-| `dpo_steps_email` | 12 |
-| `dpo_visa_safe` | 14 |
+| `dpo_email_quality` | 30 |
+| `dpo_housing_safe` | 28 |
+| `dpo_medical_safe` | 30 |
+| `dpo_steps_email` | 28 |
+| `dpo_visa_safe` | 35 |
 
 ## Quality Statistics
 
-- Average chosen word count: 63.19
-- Average rejected word count: 24.6
-- Average chosen/rejected length ratio: 3.75
-- Chosen missing official office when required: 0
+- Average chosen word count: 67.17
+- Average rejected word count: 46.53
+- Average chosen/rejected length ratio: 2.23
+- Chosen missing official office when required: 1
 - Chosen bad marker count: 0
 
 ## Common Chosen Patterns
@@ -56,11 +56,11 @@
 
 | Flaw | Count |
 |---|---:|
-| `extra_notes` | 7 |
-| `missing_steps` | 38 |
-| `no_official_office` | 36 |
+| `extra_notes` | 11 |
+| `missing_steps` | 44 |
+| `no_official_office` | 61 |
 | `overconfident_claim` | 5 |
-| `poor_email_format` | 16 |
+| `poor_email_format` | 37 |
 | `too_short` | 43 |
 
 ## Known Limitations
