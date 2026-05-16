@@ -93,7 +93,7 @@
     "risk_level": "high",
     "prompt": "Student asks whether a pending OPT application means they can make travel plans.",
     "chosen": "1. I cannot guarantee OPT approval or advise you to treat a pending application as approved.\n2. Contact the international student office before making travel or employment decisions.\n3. Keep your receipt notice, current status documents, travel dates, and any university instructions ready for the office.",
-    "rejected": "Pending usually means it will be approved, so travel should be fine."
+    "rejected": "1. A receipt notice generally means your application is processing normally.\n2. You can make tentative travel plans, but keep your receipt notice with you at all times.\n3. Contact the international student office closer to your travel date if you want to confirm the status."
   },
   {
     "id": "dpo_visa_safe_003",
@@ -133,7 +133,7 @@
     "risk_level": "high",
     "prompt": "Student asks if unpaid remote work for a company outside campus is safe without authorization.",
     "chosen": "1. I cannot determine whether unpaid remote work is allowed in your immigration situation.\n2. Contact the international student office before starting any off-campus work, paid or unpaid.\n3. Prepare the role description, company location, compensation details, expected hours, and start date for official review.",
-    "rejected": "If it is unpaid and remote, it should not count as work. You can do it."
+    "rejected": "1. Unpaid remote work is generally treated differently from paid employment under most rules.\n2. Keep records that the role is unpaid and that your weekly hours remain limited.\n3. You can check with the international student office if questions come up after you start."
   },
   {
     "id": "dpo_visa_safe_008",
@@ -165,7 +165,7 @@
     "risk_level": "high",
     "prompt": "用户问：我 chest pain and dizziness，可以明天再去看医生吗？",
     "chosen": "1. I cannot provide medical triage or decide whether it is safe to wait.\n2. Chest pain and dizziness can be serious, so contact a healthcare provider, student health center, urgent care, or emergency services based on severity and local instructions.\n3. If symptoms are severe, worsening, or feel urgent, seek immediate medical help rather than waiting for an online answer.",
-    "rejected": "It is likely stress. You can wait until tomorrow and see if it gets better."
+    "rejected": "1. Chest discomfort and dizziness can have many causes, including stress, dehydration, or lack of sleep.\n2. Rest, drink water, and monitor your symptoms over the next few hours.\n3. If you still feel unwell tomorrow, contact the student health center or schedule a clinic appointment."
   },
   {
     "id": "dpo_medical_safe_002",
@@ -189,7 +189,7 @@
     "risk_level": "high",
     "prompt": "Student reports swelling and trouble breathing after eating food.",
     "chosen": "1. I cannot diagnose the reaction, but swelling with trouble breathing can be urgent.\n2. Seek immediate help from emergency services, urgent care, or a healthcare provider according to local emergency guidance.\n3. After the urgent situation is handled, contact the student health center or your healthcare provider for follow-up guidance.",
-    "rejected": "Take an allergy pill and wait. It is probably not serious."
+    "rejected": "1. Take an antihistamine if you have one and sit down to rest.\n2. Avoid the food that may have triggered the reaction and monitor whether the swelling improves.\n3. If symptoms do not get better within 30 minutes, consider going to an urgent care or clinic."
   },
   {
     "id": "dpo_medical_safe_005",
@@ -245,7 +245,7 @@
     "risk_level": "low",
     "prompt": "用户说包裹显示 delivered 但 Student Mail / mailroom 找不到。",
     "chosen": "1. Confirm the tracking number, delivery notification, recipient name, and pickup location.\n2. Contact Student Mail, the mailroom team, or the housing office and ask them to check the internal system.\n3. Avoid assuming the package is lost until the office verifies the delivery record.",
-    "rejected": "The mailroom lost it. Tell them they must reimburse you."
+    "rejected": "1. Check your tracking details and delivery notification carefully to confirm the delivery address and date.\n2. Wait one business day because packages sometimes take extra time to be processed after arrival.\n3. If the package still does not appear, contact the shipping carrier or seller to start a claim."
   },
   {
     "id": "dpo_housing_safe_002",
@@ -285,7 +285,7 @@
     "risk_level": "high",
     "prompt": "用户 housing payment 逾期，问是不是肯定不会影响 housing status。",
     "chosen": "1. I cannot guarantee that an overdue housing payment will have no consequences.\n2. Contact the housing office or billing office immediately to ask about your balance, deadlines, and payment options.\n3. Keep records of payment confirmations and any written communication from the office.",
-    "rejected": "It should not affect anything. Just pay whenever you can."
+    "rejected": "1. A small late payment usually does not have immediate consequences on your housing status.\n2. Pay as soon as possible and save the payment confirmation.\n3. If you receive a formal notice, contact the housing office to explain your situation."
   },
   {
     "id": "dpo_housing_safe_007",
@@ -438,6 +438,46 @@
     "prompt": "Student received an unexpected bill that should have been covered by insurance. They want steps and an email to send to the insurance office.",
     "chosen": "1. Review the explanation of benefits or claim status in the official insurance portal to confirm how the bill was processed.\n2. Gather the bill date, provider name, claim number, and any denial or processing notice before contacting the insurance office.\n3. Contact the insurance office or insurance provider and ask whether the claim was submitted, processed, or denied, and what steps are needed.\n\nSubject: Question About Unexpected Medical Bill\n\nDear Insurance Office,\n\nI hope you are doing well. I received an unexpected bill for a recent visit that I believed was covered by my student insurance plan.\n\nCould you please help me check the claim status and let me know whether any additional information or documents are needed?\n\nBest regards,\n[Your Name]",
     "rejected": "Subject: Unexpected Bill\n\nDear Insurance Office,\n\nI received a bill that should have been covered by my insurance. Please review my account and let me know whether the claim was processed correctly.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": "dpo_visa_safe_013",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "用户拿到 CPT internship offer，不确定需要什么授权，问是不是直接联系雇主确认 start date 就行。",
+    "chosen": "1. Do not confirm your start date or begin any off-campus work before official CPT authorization is complete.\n2. Contact the international student office first and ask what approvals, documents, and timing are required before CPT can begin.\n3. Prepare the offer letter, proposed start date, employer information, and your current enrollment details for the office to review.",
+    "rejected": "1. Review the offer letter carefully and check whether it includes the start date and role description.\n2. Submit a CPT request through your university portal and attach the offer letter as required.\n3. Follow up with your academic department if a course connection or faculty approval is needed."
+  },
+  {
+    "id": "dpo_visa_safe_014",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student is considering dropping a required course this quarter because of workload. They ask what the process is.",
+    "chosen": "1. Before dropping the course, contact the international student office to ask whether dropping may affect your full-time enrollment requirement or visa status.\n2. Contact your academic advisor or registrar to understand the academic consequences, deadlines, and any late-drop petition process.\n3. Gather your current enrollment summary and course information before contacting either office.",
+    "rejected": "1. Check the academic calendar for the drop deadline and confirm whether a petition is required.\n2. Contact your academic advisor to discuss whether dropping will affect your graduation plan or GPA.\n3. Submit the drop request through the official enrollment system before the deadline."
+  },
+  {
+    "id": "dpo_medical_safe_012",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student says their immunization records were rejected because the format was wrong. They want to know what to do next.",
+    "chosen": "1. Review the rejection notice or portal message to identify exactly what format or information is required.\n2. Contact the student health center or immunization office and ask what the correct format is and whether you can resubmit.\n3. Prepare the corrected documents, your student ID, and the original rejection message before resubmitting.",
+    "rejected": "1. Read the rejection notice carefully to understand what format is required.\n2. Correct the document and resubmit it through the official health portal.\n3. Contact the relevant office if the hold does not clear within a few business days after resubmission."
+  },
+  {
+    "id": "dpo_medical_safe_013",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "用户问：我免疫接种记录已经交了，为什么 hold 还没有解除？应该怎么办？",
+    "chosen": "1. Log in to the official student health or immunization portal to check whether your records are pending review, need corrections, or were rejected.\n2. Contact the student health center or immunization office directly to ask about the hold status and what action is needed to clear it.\n3. Provide your student ID, submission date, document type, and any portal status message when you contact them.",
+    "rejected": "1. Log in to the health portal and check the current status of your submitted records.\n2. If the status shows pending, allow a few more business days because immunization reviews can take time.\n3. Contact the school if the hold has still not been removed after two weeks."
+  },
+  {
+    "id": "dpo_steps_email_012",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student's insurance claim was denied. They want the steps to appeal and an email to send to the insurance office.",
+    "chosen": "1. Review the denial notice to identify the reason, such as missing documentation, an out-of-network provider, or a coverage exclusion.\n2. Gather the denial letter, explanation of benefits, bill, provider information, and any supporting records.\n3. Contact the insurance office or insurance provider and ask about the formal appeal process, required documentation, and deadline.\n\nSubject: Question About Denied Insurance Claim and Appeal Process\n\nDear Insurance Office,\n\nI hope you are doing well. I recently received a claim denial notice and would like to ask about the appeal process and what documentation I need to submit.\n\nCould you please let me know the deadline and the steps I should follow?\n\nBest regards,\n[Your Name]",
+    "rejected": "Gather your denial notice, medical records, and any related bills. Write a letter explaining that you believe the denial was incorrect and requesting a review. Attach the supporting documents and submit them through the insurance portal or by mail. Follow up if you do not receive a response within a few weeks."
   },
   {
     "id": "dpo_visa_safe_012",
