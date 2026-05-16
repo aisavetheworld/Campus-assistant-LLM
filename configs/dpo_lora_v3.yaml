@@ -1,0 +1,53 @@
+model:
+  model_name_or_path: "Qwen/Qwen2.5-1.5B-Instruct"
+  sft_adapter_path: "outputs/final_sft_r32_attn_mlp"
+  reference_model_mode: "separate"  # separate or trainer_managed
+  trust_remote_code: true
+  use_4bit: false
+  torch_dtype: "bfloat16"
+
+data:
+  train_file: "data/dpo/dpo_train.jsonl"
+  eval_file: "data/dpo/dpo_eval.jsonl"
+  prompt_field: "formatted_prompt"
+  chosen_field: "chosen"
+  rejected_field: "rejected"
+  prompt_template: "chat"
+  max_prompt_length: 768
+  max_length: 1280
+  add_eos_to_responses: true
+
+training:
+  output_dir: "outputs/dpo_r32_attn_mlp_v3"
+  beta: 0.1
+  num_train_epochs: 1
+  per_device_train_batch_size: 2
+  per_device_eval_batch_size: 2
+  gradient_accumulation_steps: 4
+  learning_rate: 0.000005
+  logging_steps: 1
+  eval_strategy: "steps"
+  eval_steps: 20
+  save_strategy: "steps"
+  save_steps: 20
+  save_total_limit: 2
+  gradient_checkpointing: true
+  report_to: "none"
+  seed: 42
+
+lora:
+  r: 32
+  lora_alpha: 64
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+note: "DPO v2 smoke-test config using the targeted DPO data revision."
