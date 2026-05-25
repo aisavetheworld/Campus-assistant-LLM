@@ -92,14 +92,16 @@ def extract_preference(data: dict | None) -> dict:
     if data is None:
         return {"win_rate": "N/A", "wins": "N/A", "total": "N/A", "chosen_score": "N/A", "rejected_score": "N/A", "margin": "N/A"}
     summary = data.get("summary", {})
-    chosen = summary.get("avg_chosen_score", float("nan"))
-    rejected = summary.get("avg_rejected_score", float("nan"))
+    chosen = summary.get("average_chosen_score", float("nan"))
+    rejected = summary.get("average_rejected_score", float("nan"))
     try:
         margin = round(chosen - rejected, 4)
     except TypeError:
         margin = "N/A"
+    raw_wr = summary.get("chosen_win_rate", None)
+    win_rate = round(raw_wr * 100, 2) if isinstance(raw_wr, float) else "N/A"
     return {
-        "win_rate": summary.get("win_rate_pct", "N/A"),
+        "win_rate": win_rate,
         "wins": summary.get("chosen_wins", "N/A"),
         "total": summary.get("total_pairs", "N/A"),
         "chosen_score": round(chosen, 4) if isinstance(chosen, float) else "N/A",
@@ -117,13 +119,15 @@ def extract_rule(data: dict | None) -> dict:
             "mentions_official_office": "N/A", "has_closing": "N/A",
         }
     summary = data.get("summary", {})
-    failed_counts = data.get("failed_check_counts", {})
+    failed_counts = summary.get("failed_check_counts", {})
+    raw_pr = summary.get("pass_rate", None)
+    pass_rate = round(raw_pr * 100, 2) if isinstance(raw_pr, float) else "N/A"
     return {
         "passed": summary.get("passed_checks", "N/A"),
         "total": summary.get("total_checks", "N/A"),
-        "pass_rate": summary.get("pass_rate_pct", "N/A"),
-        "leakage": summary.get("prompt_leakage_count", "N/A"),
-        "truncation": summary.get("truncated_count", "N/A"),
+        "pass_rate": pass_rate,
+        "leakage": summary.get("final_response_prompt_leakage_count", 0),
+        "truncation": summary.get("truncated_count", 0),
         "no_extra_notes": failed_counts.get("no_extra_notes", 0),
         "mentions_international_office": failed_counts.get("mentions_international_office", 0),
         "mentions_official_office": failed_counts.get("mentions_official_office", 0),
