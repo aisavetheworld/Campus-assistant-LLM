@@ -1,0 +1,145 @@
+[
+  {
+    "source_id": "ucsd_student_mail_001",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["package_missing", "mailroom_guidance", "student_mail", "package_tracking"],
+    "notes": "Official source for student package and mail questions. Covers mailroom hours, package pickup procedures, and lost package reporting."
+  },
+  {
+    "source_id": "ucsd_housing_maintenance_001",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Housing Maintenance Requests",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["maintenance_request", "repair_request", "housing_office_contact"],
+    "notes": "Official UCSD Housing maintenance request process. Covers how to submit requests, response time expectations, and urgent repair escalation."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_001",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Housing Assignment and Room Changes",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["room_assignment", "room_change_request", "housing_contract"],
+    "notes": "Official UCSD Housing room assignment process, room change request procedures, and contract information."
+  },
+  {
+    "source_id": "ucsd_registrar_add_drop_001",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Add/Drop and Enrollment Deadlines",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["add_drop_deadline", "enrollment_deadline", "late_drop", "waitlist"],
+    "notes": "Official registrar page for add/drop deadlines, waitlist policies, and enrollment period information. Deadlines change each quarter."
+  },
+  {
+    "source_id": "ucsd_registrar_waitlist_001",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Waitlist Policy",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["waitlist", "waitlist_enrollment", "waitlist_removal"],
+    "notes": "Official registrar policy on how waitlists work, when automatic enrollment occurs, and student responsibilities."
+  },
+  {
+    "source_id": "ucsd_ucship_waiver_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP Waiver Process",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["insurance_waiver", "ship_waiver", "waiver_deadline", "waiver_eligibility"],
+    "notes": "Official UC SHIP insurance waiver process. Covers eligibility requirements, waiver deadlines (change each year), and submission steps."
+  },
+  {
+    "source_id": "ucsd_ucship_coverage_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP Coverage and Benefits",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["insurance_coverage", "ship_benefits", "insurance_claims", "coverage_period"],
+    "notes": "Official UC SHIP coverage details, benefits summary, and how to file a claim."
+  },
+  {
+    "source_id": "ucsd_shs_immunization_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "Student Health Services — Immunization Requirements",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["immunization", "vaccination_requirement", "health_clearance"],
+    "notes": "Official SHS immunization requirements for enrollment. Covers required vaccines, documentation submission, and compliance deadlines."
+  },
+  {
+    "source_id": "ucsd_shs_appointments_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "Student Health Services — Appointments and Care",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["shs_appointment", "primary_care", "mental_health", "healthcare_referral"],
+    "notes": "Official SHS page for booking appointments, available services, referral process, and urgent care guidance."
+  },
+  {
+    "source_id": "ucsd_iseo_cpt_001",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Curricular Practical Training (CPT)",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["cpt_eligibility", "cpt_application", "cpt_authorization", "work_authorization"],
+    "notes": "Official ISEO CPT eligibility requirements, application process, and timeline. CPT rules and deadlines are binding and should come directly from this source."
+  },
+  {
+    "source_id": "ucsd_iseo_opt_001",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Optional Practical Training (OPT)",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["opt_eligibility", "opt_application", "opt_timeline", "stem_opt"],
+    "notes": "Official ISEO OPT application process, STEM OPT extension, and timeline. Model must not make authoritative statements about OPT approval without citing this source."
+  },
+  {
+    "source_id": "ucsd_iseo_visa_status_001",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Maintaining F-1 Status",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["f1_status", "sevis", "full_time_enrollment", "reduced_course_load", "status_violation"],
+    "notes": "Official ISEO guidance on maintaining F-1 student status, full-time enrollment requirements, and reduced course load exceptions."
+  },
+  {
+    "source_id": "ucsd_iseo_general_001",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "International Students and Programs Office (ISEO)",
+    "url": "",
+    "source_type": "official_webpage",
+    "date_collected": "",
+    "usable_for": ["iseo_contact", "international_office", "general_international_guidance"],
+    "notes": "ISEO main page. Contact info, office hours, advising appointment booking for international students."
+  }
+]

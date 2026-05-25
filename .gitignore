@@ -4,6 +4,9 @@ __pycache__/
 .venv/
 outputs/*
 !outputs/.gitkeep
+!outputs/rag_eval/
+outputs/rag_eval/*
+!outputs/rag_eval/.gitkeep
 *.log
 .DS_Store
 .ipynb_checkpoints/

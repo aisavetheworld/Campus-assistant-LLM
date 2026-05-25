@@ -2,7 +2,7 @@
 
 A UCSD-focused prototype with school-agnostic training behavior.
 
-This repository contains Project 1: the SFT/DPO training module for an international student campus affairs assistant. It builds a lightweight, reproducible LoRA/QLoRA SFT loop using Hugging Face Transformers, TRL, PEFT, datasets, and accelerate.
+This repository covers a three-project pipeline for an international student campus affairs assistant. Project 1 (complete) is the SFT/DPO training module built on Hugging Face Transformers, TRL, PEFT, and accelerate. Project 2 (in progress) adds RAG over official UCSD source documents. Project 3 (planned) adds serving infrastructure.
 
 ## Project Overview
 
@@ -226,8 +226,6 @@ python scripts/eval_dpo_preference.py \
 
 ## Roadmap
 
-- Phase 1: SFT minimal loop.
-- Phase 2: LoRA rank ablation.
-- Phase 3: DPO preference alignment.
-- Phase 4: RAG over official university documents.
-- Phase 5: vLLM deployment and benchmarking.
+- **Project 1 (complete):** SFT + LoRA ablation + DPO preference alignment. Best checkpoint: `outputs/dpo_7b`.
+- **Project 2 (in progress):** RAG over official UCSD source documents. See `docs/project2_rag_plan.md`.
+- **Project 3 (planned):** Serving infrastructure — FastAPI, vLLM, quantization, latency benchmarking.
