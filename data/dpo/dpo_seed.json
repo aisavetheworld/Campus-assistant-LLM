@@ -1206,5 +1206,53 @@
     "prompt": "Student was admitted to a university but wants to defer enrollment by one year. What happens to their I-20?",
     "chosen": "1. Contact the international student office at the school after your deferral is approved by admissions to ask what happens to your I-20.\n2. Ask ISO whether a new I-20 will be issued with an updated program start date and what steps you need to take before enrolling in the deferred term.\n3. Do not assume your original I-20 remains valid for entry — the program start date must match your actual enrollment term.",
     "rejected": "1. Notify the admissions office that you are requesting a one-year deferral and obtain written confirmation of the new start date.\n2. The school will update your I-20 automatically when you enroll in the deferred term.\n3. Contact ISO when you arrive on campus before your deferred start date to pick up any updated immigration documents."
+  },
+  {
+    "id": "dpo_visa_safe_036",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student on OPT has only two weeks left and has not received a job offer yet. They ask if their immigration status will be fine.",
+    "chosen": "1. Contact the international student office immediately to ask what happens to your status when OPT expires without employment.\n2. Ask ISO whether any grace period applies after OPT expiration, what your options are, and whether you need to take any action before the expiration date.\n3. Do not assume your status will be unaffected — OPT expiration without authorized employment has specific consequences that ISO must clarify for your situation.",
+    "rejected": "1. OPT has a 60-day grace period after the end date, so you are definitely fine even without a job offer right now.\n2. Use the remaining time to continue applying and keep records of your job search activities.\n3. Contact ISO after your OPT expires if you still do not have an offer so they can advise on next steps."
+  },
+  {
+    "id": "dpo_visa_safe_037",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student wants to start a CPT internship and says their professor has already agreed to supervise. They ask if they can start working now.",
+    "chosen": "1. Contact the international student office before starting any work — professor approval alone does not authorize CPT employment.\n2. Ask ISO what documents are required to authorize CPT, how long the process takes, and whether your I-20 needs to be updated before you begin.\n3. Do not start working until ISO has issued a CPT authorization on your I-20 — working without authorization is a serious immigration violation regardless of professor approval.",
+    "rejected": "1. Since your professor has agreed to supervise, you should be fine to begin your internship while the paperwork is being processed.\n2. Notify ISO that your CPT is starting and ask them to update your I-20 as soon as possible.\n3. Keep a copy of your professor's approval email in case you are asked to document the academic connection of the internship."
+  },
+  {
+    "id": "dpo_medical_safe_031",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student's insurance claim was denied and they ask whether filing an appeal will definitely get it approved.",
+    "chosen": "1. Contact your student health insurance office to ask for the specific reason the claim was denied and what documentation is required to support an appeal.\n2. Ask ISO or the insurance office what the appeal timeline and success criteria are, and whether a patient advocate or student services office can assist you.\n3. File the appeal with all requested documentation, but note that approval cannot be guaranteed — the outcome depends on your plan terms and the reason for denial.",
+    "rejected": "1. Insurance companies are required to review appeals fairly, so you will be approved as long as the original service was medically necessary.\n2. Write a clear letter explaining why the claim should be covered and attach any supporting documents from your doctor.\n3. Contact the insurance office only if your appeal is denied a second time."
+  },
+  {
+    "id": "dpo_medical_safe_032",
+    "category": "health_insurance",
+    "risk_level": "medium",
+    "prompt": "Student has private insurance from their home country and wants to know if their waiver application is guaranteed to be approved.",
+    "chosen": "1. Contact the student health insurance office to ask what documentation is required for a waiver and what criteria your home-country plan must meet.\n2. Ask the insurance office to review your plan details before you submit the waiver, so you know whether your coverage is likely to qualify.\n3. Do not assume the waiver will be approved — each plan is evaluated individually against the school's requirements, and approval is not guaranteed.",
+    "rejected": "1. As long as your home-country insurance provides comparable coverage to the school plan, your waiver will be approved without issues.\n2. Submit your insurance documents along with the waiver application before the deadline.\n3. Contact the insurance office only if your waiver is denied and you need to understand the reason."
+  },
+  {
+    "id": "dpo_visa_safe_038",
+    "category": "course_enrollment",
+    "risk_level": "high",
+    "prompt": "Student made an error on a university form that they worry may affect their visa status. They ask if their status will be fine.",
+    "chosen": "1. Contact the international student office as soon as possible to explain the error and ask whether it has any effect on your immigration status or SEVIS record.\n2. Ask ISO what corrective steps are needed, whether the form needs to be resubmitted, and whether you should take any action before your next travel or enrollment deadline.\n3. Do not assume this will not affect your status — ISO must assess the specific error to confirm whether any immigration record needs to be corrected.",
+    "rejected": "1. Administrative form errors at the university level typically do not affect your visa status directly.\n2. Contact the relevant university office to correct the form and keep a copy of the corrected version for your records.\n3. This will not affect your status as long as your I-20 and SEVIS record remain accurate."
+  },
+  {
+    "id": "dpo_medical_safe_033",
+    "category": "health_insurance",
+    "risk_level": "high",
+    "prompt": "Student is about to undergo a medical procedure and asks if their insurance will definitely cover it.",
+    "chosen": "1. Contact your student health insurance office before the procedure to ask whether the specific procedure is covered under your plan and whether pre-authorization is required.\n2. Ask the insurance office for written confirmation of coverage or a pre-authorization number before scheduling, so you are not surprised by a bill afterward.\n3. Do not assume the procedure will be covered — coverage depends on your specific plan terms, the provider being in-network, and whether pre-authorization was obtained.",
+    "rejected": "1. Most student health insurance plans cover medically necessary procedures, so you will be approved as long as your doctor says it is necessary.\n2. Schedule the procedure with an in-network provider to ensure the best coverage under your plan.\n3. Contact the insurance office after the procedure if you receive a bill that seems incorrect."
   }
 ]
