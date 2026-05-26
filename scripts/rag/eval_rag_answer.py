@@ -51,12 +51,17 @@ DATE_PATTERN = re.compile(
 FEE_PATTERN = re.compile(r'\$\s*[\d,]+(?:\.\d{2})?')
 
 ABSOLUTE_PROMISE_PATTERN = re.compile(
-    r'\b(?:guaranteed?|definitely|you(?:\'re| are) (?:fine|safe|okay|good)|'
+    r'\b(?:definitely|you(?:\'re| are) (?:fine|safe|okay|good)|'
     r'will not affect|won\'t affect|no (?:problem|issue)|rest assured|'
     r'100\s*%|certainly|absolutely|you will be (?:fine|safe|okay|eligible)|'
     r'there is no (?:problem|issue|risk))\b',
     re.IGNORECASE,
 )
+
+# Checked separately with negation and noun-compound awareness
+_GUARANTEE_PATTERN = re.compile(r'\bguaranteed?\b', re.IGNORECASE)
+_NEGATION_BEFORE = re.compile(r'\b(?:not|no|cannot|can\'t|never|without)\s*$', re.IGNORECASE)
+_COPULA_BEFORE = re.compile(r'\b(?:is|are|was|were|will be|be|am)\s*$', re.IGNORECASE)
 
 OFFICIAL_OFFICE_TERMS = {
     "international_students": [
@@ -172,7 +177,19 @@ def check_no_hallucinated_fee(answer: str, chunks: list[dict], query: str = "", 
 
 
 def check_no_absolute_promise(answer: str, **_) -> tuple[bool, str]:
-    matches = ABSOLUTE_PROMISE_PATTERN.findall(answer)
+    matches = list(ABSOLUTE_PROMISE_PATTERN.findall(answer))
+
+    # Check "guarantee/guaranteed" only in affirmative contexts
+    for m in _GUARANTEE_PATTERN.finditer(answer):
+        before = answer[max(0, m.start() - 35):m.start()]
+        # Skip if preceded by a negation word
+        if _NEGATION_BEFORE.search(before):
+            continue
+        # Skip if preceded by a non-copula content word (noun compound like "housing guarantee")
+        if re.search(r'\b\w+\s+$', before) and not _COPULA_BEFORE.search(before):
+            continue
+        matches.append(m.group())
+
     if matches:
         return False, f"overconfident phrase(s): {matches[:3]}"
     return True, "no absolute promise phrases found"
