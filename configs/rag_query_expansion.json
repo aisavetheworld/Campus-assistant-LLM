@@ -1,0 +1,103 @@
+{
+  "permission code": [
+    "instructor approval",
+    "department approval",
+    "add class approval"
+  ],
+  "authorization code": [
+    "permission code",
+    "instructor approval",
+    "department approval"
+  ],
+  "without a W": [
+    "withdrawal",
+    "withdraw",
+    "drop after deadline",
+    "transcript notation"
+  ],
+  "W grade": [
+    "withdrawal",
+    "withdraw",
+    "drop after deadline",
+    "transcript notation"
+  ],
+  "Pass/No Pass": [
+    "grading option",
+    "grade option",
+    "letter grade change"
+  ],
+  "grade option": [
+    "grading option",
+    "pass no pass",
+    "letter grade",
+    "change grading option"
+  ],
+  "below full-time": [
+    "reduced course load",
+    "RCL",
+    "full-time enrollment requirement"
+  ],
+  "reduce units": [
+    "reduced course load",
+    "RCL",
+    "below full-time enrollment",
+    "full-time enrollment"
+  ],
+  "F-1 visa": [
+    "health insurance requirement",
+    "UC SHIP",
+    "insurance waiver",
+    "international student health insurance"
+  ],
+  "F-1 insurance": [
+    "health insurance requirement",
+    "UC SHIP",
+    "insurance waiver",
+    "international student health insurance"
+  ],
+  "SHIP waiver": [
+    "waiver eligibility",
+    "waiver requirements",
+    "proof of insurance",
+    "comparable coverage"
+  ],
+  "waiver criteria": [
+    "waiver eligibility",
+    "waiver requirements",
+    "proof of insurance",
+    "comparable coverage"
+  ],
+  "insurance do I need": [
+    "waiver criteria",
+    "waiver eligibility",
+    "comparable coverage",
+    "out-of-pocket maximum"
+  ],
+  "qualify": [
+    "waiver criteria",
+    "waiver eligibility",
+    "eligibility requirements"
+  ],
+  "can I waive": [
+    "waiver criteria",
+    "waiver eligibility",
+    "waiver requirements",
+    "comparable coverage"
+  ],
+  "late fee": [
+    "late waiver",
+    "missed deadline",
+    "late submission penalty"
+  ],
+  "CPT": [
+    "curricular practical training",
+    "employment authorization",
+    "work authorization",
+    "internship authorization"
+  ],
+  "OPT": [
+    "optional practical training",
+    "post-completion OPT",
+    "employment authorization"
+  ]
+}

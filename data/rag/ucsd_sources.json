@@ -4,10 +4,15 @@
     "school": "UCSD",
     "category": "housing",
     "title": "Student Mail",
-    "url": "",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/resources/index.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["package_missing", "mailroom_guidance", "student_mail", "package_tracking"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "package_missing",
+      "mailroom_guidance",
+      "student_mail",
+      "package_tracking"
+    ],
     "notes": "Official source for student package and mail questions. Covers mailroom hours, package pickup procedures, and lost package reporting."
   },
   {
@@ -15,10 +20,14 @@
     "school": "UCSD",
     "category": "housing",
     "title": "Housing Maintenance Requests",
-    "url": "",
+    "url": "https://hdhfacilities.ucsd.edu/fix-it/index.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["maintenance_request", "repair_request", "housing_office_contact"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "maintenance_request",
+      "repair_request",
+      "housing_office_contact"
+    ],
     "notes": "Official UCSD Housing maintenance request process. Covers how to submit requests, response time expectations, and urgent repair escalation."
   },
   {
@@ -26,10 +35,14 @@
     "school": "UCSD",
     "category": "housing",
     "title": "Housing Assignment and Room Changes",
-    "url": "",
+    "url": "https://hdhughousing.ucsd.edu/faq/index.html#housing-eligibility",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["room_assignment", "room_change_request", "housing_contract"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "room_assignment",
+      "room_change_request",
+      "housing_contract"
+    ],
     "notes": "Official UCSD Housing room assignment process, room change request procedures, and contract information."
   },
   {
@@ -37,10 +50,15 @@
     "school": "UCSD",
     "category": "course_enrollment",
     "title": "Add/Drop and Enrollment Deadlines",
-    "url": "",
+    "url": "https://students.ucsd.edu/academics/enroll/quarterly-timeline.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["add_drop_deadline", "enrollment_deadline", "late_drop", "waitlist"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "add_drop_deadline",
+      "enrollment_deadline",
+      "late_drop",
+      "waitlist"
+    ],
     "notes": "Official registrar page for add/drop deadlines, waitlist policies, and enrollment period information. Deadlines change each quarter."
   },
   {
@@ -51,7 +69,11 @@
     "url": "",
     "source_type": "official_webpage",
     "date_collected": "",
-    "usable_for": ["waitlist", "waitlist_enrollment", "waitlist_removal"],
+    "usable_for": [
+      "waitlist",
+      "waitlist_enrollment",
+      "waitlist_removal"
+    ],
     "notes": "Official registrar policy on how waitlists work, when automatic enrollment occurs, and student responsibilities."
   },
   {
@@ -59,10 +81,15 @@
     "school": "UCSD",
     "category": "health_insurance",
     "title": "UC SHIP Waiver Process",
-    "url": "",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["insurance_waiver", "ship_waiver", "waiver_deadline", "waiver_eligibility"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_waiver",
+      "ship_waiver",
+      "waiver_deadline",
+      "waiver_eligibility"
+    ],
     "notes": "Official UC SHIP insurance waiver process. Covers eligibility requirements, waiver deadlines (change each year), and submission steps."
   },
   {
@@ -70,10 +97,15 @@
     "school": "UCSD",
     "category": "health_insurance",
     "title": "UC SHIP Coverage and Benefits",
-    "url": "",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/index.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["insurance_coverage", "ship_benefits", "insurance_claims", "coverage_period"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_coverage",
+      "ship_benefits",
+      "insurance_claims",
+      "coverage_period"
+    ],
     "notes": "Official UC SHIP coverage details, benefits summary, and how to file a claim."
   },
   {
@@ -81,10 +113,14 @@
     "school": "UCSD",
     "category": "health_insurance",
     "title": "Student Health Services — Immunization Requirements",
-    "url": "",
+    "url": "https://studenthealth.ucsd.edu/resources/health-requirements/index.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["immunization", "vaccination_requirement", "health_clearance"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "immunization",
+      "vaccination_requirement",
+      "health_clearance"
+    ],
     "notes": "Official SHS immunization requirements for enrollment. Covers required vaccines, documentation submission, and compliance deadlines."
   },
   {
@@ -92,10 +128,15 @@
     "school": "UCSD",
     "category": "health_insurance",
     "title": "Student Health Services — Appointments and Care",
-    "url": "",
+    "url": "https://studenthealth.ucsd.edu/appointments/index.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["shs_appointment", "primary_care", "mental_health", "healthcare_referral"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "shs_appointment",
+      "primary_care",
+      "mental_health",
+      "healthcare_referral"
+    ],
     "notes": "Official SHS page for booking appointments, available services, referral process, and urgent care guidance."
   },
   {
@@ -106,7 +147,12 @@
     "url": "",
     "source_type": "official_webpage",
     "date_collected": "",
-    "usable_for": ["cpt_eligibility", "cpt_application", "cpt_authorization", "work_authorization"],
+    "usable_for": [
+      "cpt_eligibility",
+      "cpt_application",
+      "cpt_authorization",
+      "work_authorization"
+    ],
     "notes": "Official ISEO CPT eligibility requirements, application process, and timeline. CPT rules and deadlines are binding and should come directly from this source."
   },
   {
@@ -117,7 +163,12 @@
     "url": "",
     "source_type": "official_webpage",
     "date_collected": "",
-    "usable_for": ["opt_eligibility", "opt_application", "opt_timeline", "stem_opt"],
+    "usable_for": [
+      "opt_eligibility",
+      "opt_application",
+      "opt_timeline",
+      "stem_opt"
+    ],
     "notes": "Official ISEO OPT application process, STEM OPT extension, and timeline. Model must not make authoritative statements about OPT approval without citing this source."
   },
   {
@@ -125,10 +176,16 @@
     "school": "UCSD",
     "category": "international_students",
     "title": "ISEO — Maintaining F-1 Status",
-    "url": "",
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/checklist.html",
     "source_type": "official_webpage",
-    "date_collected": "",
-    "usable_for": ["f1_status", "sevis", "full_time_enrollment", "reduced_course_load", "status_violation"],
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "f1_status",
+      "sevis",
+      "full_time_enrollment",
+      "reduced_course_load",
+      "status_violation"
+    ],
     "notes": "Official ISEO guidance on maintaining F-1 student status, full-time enrollment requirements, and reduced course load exceptions."
   },
   {
@@ -139,7 +196,751 @@
     "url": "",
     "source_type": "official_webpage",
     "date_collected": "",
-    "usable_for": ["iseo_contact", "international_office", "general_international_guidance"],
+    "usable_for": [
+      "iseo_contact",
+      "international_office",
+      "general_international_guidance"
+    ],
     "notes": "ISEO main page. Contact info, office hours, advising appointment booking for international students."
+  },
+  {
+    "source_id": "ucsd_iseo_visa_status_002",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — iSelfCheck",
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/iselfcheck.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "f1_status",
+      "reentry_us",
+      "iselfcheck"
+    ],
+    "notes": "iSelfCheck process for F-1 students re-entering the US."
+  },
+  {
+    "source_id": "ucsd_iseo_visa_status_003",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Update Contact Information",
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/update-contact.html#update-your-current-us-address",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "f1_status",
+      "address_update",
+      "contact_update"
+    ],
+    "notes": "How to update US address and contact info with ISEO to maintain F-1 status."
+  },
+  {
+    "source_id": "ucsd_iseo_visa_status_004",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Other Status Changes",
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/other-changes.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "f1_status",
+      "program_extension",
+      "major_change",
+      "level_change"
+    ],
+    "notes": "F-1 status changes: program extension, major change, degree level change, etc."
+  },
+  {
+    "source_id": "ucsd_iseo_visa_status_005",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Enrollment Requirements",
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/enrollment.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "f1_status",
+      "full_time_enrollment",
+      "reduced_course_load"
+    ],
+    "notes": "F-1 full-time enrollment requirements and reduced course load exceptions."
+  },
+  {
+    "source_id": "ucsd_iseo_visa_status_006",
+    "school": "UCSD",
+    "category": "international_students",
+    "title": "ISEO — Form I-20 and 212(e)",
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/212e.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "f1_status",
+      "i20",
+      "212e",
+      "exchange_visitor"
+    ],
+    "notes": "I-20 and 212(e) two-year home residency requirement information."
+  },
+  {
+    "source_id": "ucsd_student_mail_002",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Grad Housing: Mesa Nueva / Nuevo West",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/mesa-nueva-nuevo-west.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance",
+      "package_tracking"
+    ],
+    "notes": "Mailroom info for Mesa Nueva and Nuevo West grad housing."
+  },
+  {
+    "source_id": "ucsd_student_mail_003",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Grad Housing: Nuevo East",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/nuevo-east.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance",
+      "package_tracking"
+    ],
+    "notes": "Mailroom info for Nuevo East grad housing."
+  },
+  {
+    "source_id": "ucsd_student_mail_004",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Grad Housing: One Miramar Street",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/one-miramar-street.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance",
+      "package_tracking"
+    ],
+    "notes": "Mailroom info for One Miramar Street grad housing."
+  },
+  {
+    "source_id": "ucsd_student_mail_005",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Undergrad Housing Overview",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance",
+      "package_tracking"
+    ],
+    "notes": "Undergrad housing mailroom overview."
+  },
+  {
+    "source_id": "ucsd_student_mail_006",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Seventh College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/seventh-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Seventh College."
+  },
+  {
+    "source_id": "ucsd_student_mail_007",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — ERC",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/erc.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Eleanor Roosevelt College."
+  },
+  {
+    "source_id": "ucsd_student_mail_008",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Marshall College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/marshall-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Marshall College."
+  },
+  {
+    "source_id": "ucsd_student_mail_009",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Pangea Apartments",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/pangea-apts.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Pangea Apartments."
+  },
+  {
+    "source_id": "ucsd_student_mail_010",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Warren College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/warren-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Warren College."
+  },
+  {
+    "source_id": "ucsd_student_mail_011",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Muir College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/muir-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Muir College."
+  },
+  {
+    "source_id": "ucsd_student_mail_012",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Sixth College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/sixth-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Sixth College."
+  },
+  {
+    "source_id": "ucsd_student_mail_013",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — PCW",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/pcw.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Pepper Canyon West."
+  },
+  {
+    "source_id": "ucsd_student_mail_014",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Pepper Canyon East",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/pepper-canyon-east-apartments.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Pepper Canyon East."
+  },
+  {
+    "source_id": "ucsd_student_mail_015",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Matthew Apartments",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/matthew-apartments.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Matthew Apartments."
+  },
+  {
+    "source_id": "ucsd_student_mail_016",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Revelle College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/revelle-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Revelle College."
+  },
+  {
+    "source_id": "ucsd_student_mail_017",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Rita Atkinson",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/rita-atkinson.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Rita Atkinson Residences."
+  },
+  {
+    "source_id": "ucsd_student_mail_018",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "Student Mail — Eighth College",
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/eighth-college.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "student_mail",
+      "mailroom_guidance"
+    ],
+    "notes": "Mailroom address and hours for Eighth College."
+  },
+  {
+    "source_id": "ucsd_housing_maintenance_002",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Facilities — Maintenance Services",
+    "url": "https://hdhfacilities.ucsd.edu/maintenance/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "maintenance_request",
+      "repair_request"
+    ],
+    "notes": "HDH maintenance services overview."
+  },
+  {
+    "source_id": "ucsd_housing_maintenance_003",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Facilities — Custodial Services",
+    "url": "https://hdhfacilities.ucsd.edu/custodial/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "maintenance_request",
+      "custodial"
+    ],
+    "notes": "HDH custodial services information."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_002",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Undergrad Housing — Contract Rates",
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/rates.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "housing_contract",
+      "room_rates",
+      "housing_cost"
+    ],
+    "notes": "Official UCSD housing contract rate tables for undergrad on-campus housing. Covers room types and quarterly costs."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_003",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Undergrad Housing — Living On Campus",
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "room_assignment",
+      "housing_contract",
+      "living_on_campus"
+    ],
+    "notes": "Overview of living on campus, policies, and resources."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_004",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Undergrad Housing — Waitlist",
+    "url": "https://hdhughousing.ucsd.edu/waitlist/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "housing_waitlist",
+      "room_assignment"
+    ],
+    "notes": "Housing waitlist process and information."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_005",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Undergrad Housing — Contact Us",
+    "url": "https://hdhughousing.ucsd.edu/contact-us/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "housing_office_contact"
+    ],
+    "notes": "HDH undergrad housing contact information."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_006",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Undergrad Housing — Room Selection",
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "room_assignment",
+      "room_change_request",
+      "room_selection"
+    ],
+    "notes": "Room selection process and timeline."
+  },
+  {
+    "source_id": "ucsd_registrar_add_drop_002",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Enrollment Overview",
+    "url": "https://students.ucsd.edu/academics/enroll/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "enrollment_deadline",
+      "add_drop_deadline",
+      "enrollment_process"
+    ],
+    "notes": "General enrollment overview and process."
+  },
+  {
+    "source_id": "ucsd_registrar_add_drop_003",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Enrollment Calendar 2025",
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/calendars/2025.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "add_drop_deadline",
+      "enrollment_deadline",
+      "quarter_dates"
+    ],
+    "notes": "Official 2025 enrollment calendar with specific dates and deadlines."
+  },
+  {
+    "source_id": "ucsd_ucship_waiver_002",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Waiver Criteria",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/waiver-criteria.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_waiver",
+      "waiver_eligibility",
+      "ship_waiver"
+    ],
+    "notes": "Detailed waiver eligibility criteria and requirements."
+  },
+  {
+    "source_id": "ucsd_ucship_waiver_003",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Waiver Planning",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/planning.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_waiver",
+      "waiver_deadline",
+      "ship_waiver"
+    ],
+    "notes": "Waiver planning guidance and timeline."
+  },
+  {
+    "source_id": "ucsd_ucship_waiver_004",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — ACA Requirements for Waiver",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/aca-requirements.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_waiver",
+      "waiver_eligibility",
+      "aca_requirements"
+    ],
+    "notes": "ACA (Affordable Care Act) requirements for UC SHIP waiver eligibility."
+  },
+  {
+    "source_id": "ucsd_ucship_coverage_002",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Plan Changes",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/changes.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_coverage",
+      "ship_benefits",
+      "coverage_period"
+    ],
+    "notes": "UC SHIP plan changes and updates."
+  },
+  {
+    "source_id": "ucsd_housing_assignment_007",
+    "school": "UCSD",
+    "category": "housing",
+    "title": "HDH Undergrad Housing — Contract Process",
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/contract-process.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "housing_contract",
+      "housing_application",
+      "room_assignment"
+    ],
+    "notes": "Official UCSD on-campus housing contract process: eligibility, steps to apply, cancellation policy, and key deadlines."
+  },
+  {
+    "source_id": "ucsd_ucship_use_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — How to Use Your Plan",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_usage",
+      "ship_benefits",
+      "coverage_how_to"
+    ],
+    "notes": "Overview of how to use UC SHIP: finding providers, using SHS, referrals, and coverage basics."
+  },
+  {
+    "source_id": "ucsd_ucship_use_002",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Medical Plan Details",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/medical-plan.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_coverage",
+      "ship_benefits",
+      "mental_health",
+      "medical_services"
+    ],
+    "notes": "Detailed UC SHIP medical plan benefits including mental health, vision, dental, and specialist coverage."
+  },
+  {
+    "source_id": "ucsd_ucship_maf_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Medical Assistance Fund",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/medical-assistance-fund.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "financial_assistance",
+      "ship_benefits",
+      "coverage_gap"
+    ],
+    "notes": "UC SHIP Medical Assistance Fund for students with out-of-pocket costs beyond coverage."
+  },
+  {
+    "source_id": "ucsd_ucship_outside_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Outside Area Coverage",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/outside-area.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_coverage",
+      "out_of_area",
+      "emergency_care"
+    ],
+    "notes": "UC SHIP coverage when traveling or living outside the San Diego area."
+  },
+  {
+    "source_id": "ucsd_ucship_committee_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Committee",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/uc-ship-committee.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "ship_governance"
+    ],
+    "notes": "UC SHIP committee membership and governance information. Lower direct student utility."
+  },
+  {
+    "source_id": "ucsd_ucship_faq_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Frequently Asked Questions",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/faq.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "waiver",
+      "insurance_coverage",
+      "ship_benefits",
+      "international_students",
+      "enrollment"
+    ],
+    "notes": "Official UC SHIP FAQ covering waiver eligibility, F-1 students, coverage details, and enrollment. High coverage breadth."
+  },
+  {
+    "source_id": "ucsd_ucship_nonregistered_001",
+    "school": "UCSD",
+    "category": "health_insurance",
+    "title": "UC SHIP — Non-Registered Students",
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/index.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": [
+      "insurance_enrollment",
+      "leave_of_absence",
+      "non_registered"
+    ],
+    "notes": "UC SHIP coverage options for students on leave of absence or not currently registered."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_001",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — About Grades",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/about.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["grading_system", "grade_notation", "W_grade", "incomplete"],
+    "notes": "Overview of UCSD grading system, grade notations including W (withdrawal), I (incomplete), and NP."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_002",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Academic Standing",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/academic-standing.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["academic_standing", "probation", "disqualification"],
+    "notes": "Academic standing requirements, probation policies, and disqualification conditions."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_003",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Grade Appeal",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/appeal-a-grade.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["grade_appeal", "dispute_grade"],
+    "notes": "Process and deadlines for appealing a final grade at UCSD."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_004",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Calculate GPA",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/calculate-gpa.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["gpa_calculation", "grade_points"],
+    "notes": "How to calculate GPA at UCSD, grade point values, and cumulative vs. quarterly GPA."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_005",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Change Grading Option (Graduate)",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/change-grading-grad.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["grade_option", "change_grading", "graduate_grading"],
+    "notes": "How graduate students change their grading option (letter grade, S/U) and associated deadlines."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_006",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Remove Incomplete Grade",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/request-remove-incomplete.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["incomplete_grade", "remove_incomplete", "I_grade"],
+    "notes": "Process for resolving an Incomplete (I) grade, deadlines, and what happens if not resolved."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_007",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Pass/Not Pass Grade",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/pass-not-pass-grade.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["pass_no_pass", "grade_option", "P_NP"],
+    "notes": "Pass/Not Pass grading option: eligibility, how to request, deadlines, and impact on GPA and academic standing."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_008",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Satisfactory/Unsatisfactory Grade",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/satisfactory-unsatisfactory-grade.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["S_U_grade", "satisfactory_unsatisfactory", "grade_option"],
+    "notes": "S/U grading option for graduate students: eligibility, deadlines, and impact."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_009",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Grading System",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/grading-system.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["grading_system", "grade_scale", "W_grade", "withdrawal"],
+    "notes": "Full UCSD grading scale, grade point values, W (withdrawal) notation, and NP/I/IP grades explained."
+  },
+  {
+    "source_id": "ucsd_registrar_grades_010",
+    "school": "UCSD",
+    "category": "course_enrollment",
+    "title": "Registrar — Change Grading Option (Undergraduate)",
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/change-grading-undergrad.html",
+    "source_type": "official_webpage",
+    "date_collected": "2026-05-25",
+    "usable_for": ["grade_option", "change_grading", "pass_no_pass", "letter_grade"],
+    "notes": "How undergrads change grading option between letter grade and P/NP, deadlines, and restrictions."
   }
 ]
