@@ -142,17 +142,28 @@ def check_no_hallucinated_deadline(answer: str, chunks: list[dict], **_) -> tupl
     return True, f"all {len(answer_dates)} date(s) traceable to retrieved context"
 
 
-def check_no_hallucinated_fee(answer: str, chunks: list[dict], **_) -> tuple[bool, str]:
+def _normalize_fee(fee: str) -> str:
+    """Strip $, commas, spaces → bare digits for comparison."""
+    return re.sub(r'[$,\s]', '', fee)
+
+
+def check_no_hallucinated_fee(answer: str, chunks: list[dict], query: str = "", **_) -> tuple[bool, str]:
     answer_fees = set(FEE_PATTERN.findall(answer))
     if not answer_fees:
         return True, "no fee amounts found in answer"
 
+    # Amounts the student mentioned in their own question are not hallucinations
+    query_fees = set(_normalize_fee(f) for f in FEE_PATTERN.findall(query))
+
     context_text = " ".join(c.get("text", "") for c in chunks)
+    context_fees = set(_normalize_fee(f) for f in FEE_PATTERN.findall(context_text))
+
     hallucinated = []
     for fee in answer_fees:
-        # Normalize: remove spaces between $ and digits
-        fee_norm = re.sub(r'\$\s*', '$', fee)
-        if fee_norm not in context_text and fee not in context_text:
+        norm = _normalize_fee(fee)
+        if norm in query_fees:
+            continue  # model echoed the student's own figure — not a hallucination
+        if norm not in context_fees:
             hallucinated.append(fee)
 
     if hallucinated:
