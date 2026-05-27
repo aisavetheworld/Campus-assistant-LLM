@@ -300,8 +300,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--expansion_config", default=str(EXPANSION_CONFIG))
     parser.add_argument("--hybrid", action="store_true",
                         help="Use hybrid FAISS+BM25 retrieval instead of dense-only")
-    parser.add_argument("--alpha", type=float, default=0.7,
-                        help="Hybrid alpha: weight for dense score (default: 0.7)")
+    parser.add_argument("--alpha", type=float, default=0.8,
+                        help="Hybrid alpha: weight for dense score (default: 0.8)")
     return parser.parse_args()
 
 

@@ -73,7 +73,7 @@ def retrieve_hybrid(
     chunks: list[dict],
     model: SentenceTransformer,
     bm25: BM25Okapi,
-    alpha: float = 0.5,
+    alpha: float = 0.8,
     top_k: int = 5,
     dedup_source: bool = True,
     use_query_expansion: bool = False,
@@ -136,7 +136,7 @@ def retrieve_hybrid(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--query", required=True)
-    parser.add_argument("--alpha", type=float, default=0.5,
+    parser.add_argument("--alpha", type=float, default=0.8,
                         help="Dense weight. 1.0=dense only, 0.0=BM25 only.")
     parser.add_argument("--top_k", type=int, default=5)
     parser.add_argument("--index_dir", default=str(INDEX_DIR))
