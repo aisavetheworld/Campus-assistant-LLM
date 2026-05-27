@@ -1,0 +1,85 @@
+Welcome to TritonGPT: AI-Powered Support
+
+TritonGPT changes the way you access information and resources at UC San Diego. Whether you're looking for quick answers, tailored advice, or help navigating UC San Diego's vast resources, TritonGPT is your go-to platform.
+
+What is TritonGPT?
+
+TritonGPT is UC San Diego’s AI platform, hosted securely on campus infrastructure at the San Diego Supercomputer Center. Designed specifically for our campus community, TritonGPT leverages the latest AI technology to provide fast, accurate, and personalized support.
+
+Why use TritonGPT?
+
+Fast and Reliable: Get instant answers to your questions, 24/7.
+
+UCSD-Specific: TritonGPT is trained on UC San Diego’s unique resources and policies, ensuring accurate and relevant responses.
+
+Secure and Private: Hosted on campus infrastructure, your data stays safe and secure.
+
+Tips for getting the most out of TritonGPT
+
+Be Specific : The more detailed your prompt, the better TritonGPT can assist you.
+
+Explore Use Cases : Use TritonGPT for brainstorming ideas, summarizing content, or even drafting emails and presentations.
+
+Verify Sources: Always review the source links provided in responses for additional context and to confirm information directly.
+
+Provide Feedback : Click thumbs-up or thumbs-down and share comments after receiving responses, and help TritonGPT improve.
+
+How TritonGPT's AI Assistants can help you
+
+Unique AI Assistants are custom-built upon the TritonGPT platform, and are continually refined to ensure that they offer the best and most appropriate responses to our campus community. The assistants you'll probably use most often are:
+
+UC San Diego Assistant: Designed to provide information and support related to UC San Diego's policies, procedures, and campus life
+
+UC San Diego Assistant: Designed to provide information and support related to UC San Diego's policies, procedures, and campus life
+
+General AI Assistant: Focused on supporting users with writing, editing, and generating content (not UCSD-specific).
+
+General AI Assistant: Focused on supporting users with writing, editing, and generating content (not UCSD-specific).
+
+Use prompts like these to generate responses tailored to the distinct capabilities of each AI Assistant:
+
+UC San Diego Assistant
+
+Inquire about academic programs and majors, like "What majors are similar to Computer Science?"
+
+Find information on campus resources, such as "Where can I find mental health support services on campus?"
+
+Get details on student organizations and activities, like "How do I join a student club or organization?
+
+Locate vegan, vegetarian, or other dietary meal options on campus.
+
+Find definitions for UCSD-specific acronyms or terms (e.g., "What does OSD stand for?")
+
+Find information on UC San Diego's strategic plan and goals.
+
+Ask about student conduct and accountability policies.
+
+General AI Assistant
+
+Get suggestions for study techniques and strategies, like "How can I improve my memory retention?"
+
+Ask for help with math or scientific concepts, like "Explain the concept of..."
+
+Create study guides or flashcards from your class notes.
+
+Brainstorm ideas for group projects, club activities, or event planning.
+
+Draft professional cover letters or resumes for internships and job applications.
+
+Get recommendations for books or resources on a topic, such as "What are some good books on..."
+
+Practice conversational dialogue or language skills, like "Can we have a conversation in..."
+
+Access TritonGPT
+
+TritonGPT is currently available for faculty, staff, and students within UC San Diego Campus and Health Sciences.
+
+Sign In: tritongpt.ucsd.edu
+
+TritonGPT is a tool to assist you, but it’s not a substitute for professional advice. Always verify critical information before making decisions.
+
+TritonGPT is a tool to assist you, but it’s not a substitute for professional advice. Always verify critical information before making decisions.
+
+For academic use, make sure your instructor has authorized the use of AI tools like TritonGPT.
+
+For academic use, make sure your instructor has authorized the use of AI tools like TritonGPT.

@@ -1,0 +1,253 @@
+Student Services
+
+Preparing for Graduation
+
+SEVIS Transfer Out
+
+Transferring SEVIS Record to New Institution
+
+If you wish to transfer your F or J SEVIS record from UC San Diego to a new institution of study, you must request your SEVIS record transfer from ISEO. Note, the information below does not apply for students who are changing degree level and beginning a new program of study at UC San Diego.
+
+Learn About the SEVIS Transfer Out Process
+
+What is a SEVIS Record?
+
+Each international student is issued a unique SEVIS ID Number associated with a 'SEVIS Record' in the Student and Exchange Visitor Information System (SEVIS). SEVIS is a web-based system that tracks and monitors F, M, and J nonimmigrants and their dependents throughout the duration of their programs. SEVIS allows institutions to print and generate your Form I-20 or Form DS-2019 based on the information present on your SEVIS Record.
+
+You can find your SEVIS ID number in the top left-hand corner of your Form I-20, or top right-hand corner of your Form DS-2019 . It's a unique identifier that starts with the letter "N". A SEVIS Record, under certain conditions, can be transferred between U.S. institutions. A SEVIS Record, upon the request of a student, can be transferred from one U.S. institution to another, preserving the same SEVIS ID Number.
+
+What does it mean to transfer my SEVIS Record to another institution?
+
+Many students think the term ‘Transfer’ only applies to the transferring of academic credits or units from one school to another. For example, transferring 60 units/credits from a Community College to UC San Diego. However, for international students, the terms ‘SEVIS Transfer’, ‘Transferring my SEVIS Record’, or ‘Releasing my SEVIS Record’ can actually mean something different!
+
+If you will be ending or have ended your F-1 or J-1 program at UC San Diego and have been offered admission into another U.S. institution, you may be eligible to 'transfer-out' your SEVIS Record, or ask that UC San Diego electronically release your SEVIS Record to another institution to begin a new program of study. UC San Diego in this process is referred to as your Transfer-Out Institution while your new school is referred to as your Transfer-In Institution.
+
+After you've considered your specific timeline, you can submit a request for UC San Diego to release your SEVIS Record on a specific date, known as your 'SEVIS Release Date'. On this SEVIS Release date, your new school will have the ability to complete the transfer process and issue you a Form I-20 or Form DS-2019, with the same SEVIS ID Number reflecting your new program details. Students must contact their new school to complete the steps to request a new I-20/DS-2019, as this is NOT automatic.
+
+What happens when my SEVIS Record is transferred out/released?
+
+On the SEVIS Release Date, or when ISEO processes your request, whichever is later, the following will take place:
+
+Your UC San Diego I-20/DS-2019 will be deactivated.
+
+You must request a new I-20/DS-2109 from your new school .
+
+You must use the new institution’s I-20/DS-2019 for travel and re-entry into the U.S.
+
+Any employment authorization under the UC San Diego I-20/DS-2019 will be invalid.
+
+J-1 students must report to their new institution within thirty (30) days of your transfer date for SEVIS validation.
+
+STEP 1: Gain Admission to a New School
+
+Applying for Admission to New Schools
+
+The process of applying for admission to a new school in the U.S. can vary. It is a student's responsibility to complete the admission process and receive a written (or digital) notice of acceptance. If you don't know where to start, explore the following resources:
+
+Study in the States: School Search
+
+UC San Diego Career Center: Get into Grad School
+
+Information to Collect from New School
+
+Acceptance Letter: Written (or digital) notice of acceptance to another Student and Exchange Visitor Program (SEVP)-certified school. This can be an acceptance letter, admission letter or email, or any documentation issued directly from the new school confirming you have been accepted into a new program of study.
+
+If you are an F-1 student: Please ask the International Student Advisor (also known as a Designated School Official (DSO)) at your new school for the following information: Program Start Date and Start of Classes: Confirmation of your new school’s program start date and the start of classes. At some schools, these may be the same date; at other schools, these may be two different dates! Make sure you ask the International Office at your new school, what will be your program start date, and what will be your start of classes. “Start of Classes” is sometimes also referred to as “Initial Session Date”. SEVIS School Code: The Student and Exchange Visitor Information System (SEVIS) school code for the transfer-in school. This is a unique code to each institution. Ask your new school for this code to ensure accuracy.
+
+Program Start Date and Start of Classes: Confirmation of your new school’s program start date and the start of classes. At some schools, these may be the same date; at other schools, these may be two different dates! Make sure you ask the International Office at your new school, what will be your program start date, and what will be your start of classes. “Start of Classes” is sometimes also referred to as “Initial Session Date”.
+
+SEVIS School Code: The Student and Exchange Visitor Information System (SEVIS) school code for the transfer-in school. This is a unique code to each institution. Ask your new school for this code to ensure accuracy.
+
+If you are a J-1 student: Please ask the International Student Advisor (also known as an Alternate Responsible Officer (ARO)) at your new school for the following information: Program Start Date: Confirmation of the date your program will start at your new school. SEVIS Program Number: The Student and Exchange Visitor Information System (SEVIS) exchange visitor program number for the transfer-in school. This is a unique code to each institution. Ask your new school for this code to ensure accuracy.
+
+Program Start Date: Confirmation of the date your program will start at your new school.
+
+SEVIS Program Number: The Student and Exchange Visitor Information System (SEVIS) exchange visitor program number for the transfer-in school. This is a unique code to each institution. Ask your new school for this code to ensure accuracy.
+
+Transfer Verification or Transfer Clearance Forms
+
+To facilitate your admissions paperwork, here are some tips on locating the information that may be requested from your new school:
+
+SEVIS ID : Your SEVIS number can be found on the top of your most recently issued Form I-20 or DS-2019 . The SEVIS Number or SEVIS ID starts with "N", usually with "N00". UC San Diego’s SEVIS School Code (F-1 students only): UC San Diego’s SEVIS School Code can be found in the “School Information” box on the first page of your Form I-20 , under “School Code and Approval Date” . Program Number (J-1 students only): Your Program Number is can be found in Section 2 toward the top of your Form DS-2019. This number starts with a "P". SEVIS Status & Release Date : If eligible, upon request. ISEO will only process SEVIS transfer out requests for students who have maintained F-1 or J-1 status and have an ACTIVE SEVIS record. You will receive an email from iPortal when your transfer out request has been successfully processed. You are welcome to download this support letter reflecting UC San Diego's policy . Work Authorization & Dates: It is your responsibility to provide prior or current proof of work authorization. Provide prior Form I-20s showing CPT Approval on Page 2 or a valid OPT/STEM OPT EAD Card. For J-1 students, provide DS-2019s showing Academic Training authorization. Drop Below Full Course Load Authorization: It is your responsibility to provide prior or current proof of authorized Reduced Course Loads. Provide prior Form I-20s showing RCL Approval on Page 2. Attendance Dates: Request Enrollment Verification or Transcripts from the Office of the Registrar. DSO/ARO Contact Information: Advisor Name: "International Services and Engagement Office" or the DSO on your most recently issued I-20/DS-2019 Advisor Email: iStudents@ucsd.edu Advisor Phone Number: 858-534-3730
+
+SEVIS ID : Your SEVIS number can be found on the top of your most recently issued Form I-20 or DS-2019 . The SEVIS Number or SEVIS ID starts with "N", usually with "N00".
+
+UC San Diego’s SEVIS School Code (F-1 students only): UC San Diego’s SEVIS School Code can be found in the “School Information” box on the first page of your Form I-20 , under “School Code and Approval Date” .
+
+Program Number (J-1 students only): Your Program Number is can be found in Section 2 toward the top of your Form DS-2019. This number starts with a "P".
+
+SEVIS Status & Release Date : If eligible, upon request. ISEO will only process SEVIS transfer out requests for students who have maintained F-1 or J-1 status and have an ACTIVE SEVIS record. You will receive an email from iPortal when your transfer out request has been successfully processed. You are welcome to download this support letter reflecting UC San Diego's policy .
+
+SEVIS Status & Release Date : If eligible, upon request. ISEO will only process SEVIS transfer out requests for students who have maintained F-1 or J-1 status and have an ACTIVE SEVIS record. You will receive an email from iPortal when your transfer out request has been successfully processed. You are welcome to download this support letter reflecting UC San Diego's policy .
+
+Work Authorization & Dates: It is your responsibility to provide prior or current proof of work authorization. Provide prior Form I-20s showing CPT Approval on Page 2 or a valid OPT/STEM OPT EAD Card. For J-1 students, provide DS-2019s showing Academic Training authorization.
+
+Work Authorization & Dates: It is your responsibility to provide prior or current proof of work authorization. Provide prior Form I-20s showing CPT Approval on Page 2 or a valid OPT/STEM OPT EAD Card. For J-1 students, provide DS-2019s showing Academic Training authorization.
+
+Drop Below Full Course Load Authorization: It is your responsibility to provide prior or current proof of authorized Reduced Course Loads. Provide prior Form I-20s showing RCL Approval on Page 2.
+
+Drop Below Full Course Load Authorization: It is your responsibility to provide prior or current proof of authorized Reduced Course Loads. Provide prior Form I-20s showing RCL Approval on Page 2.
+
+Attendance Dates: Request Enrollment Verification or Transcripts from the Office of the Registrar.
+
+Attendance Dates: Request Enrollment Verification or Transcripts from the Office of the Registrar.
+
+DSO/ARO Contact Information: Advisor Name: "International Services and Engagement Office" or the DSO on your most recently issued I-20/DS-2019 Advisor Email: iStudents@ucsd.edu Advisor Phone Number: 858-534-3730
+
+DSO/ARO Contact Information:
+
+Advisor Name: "International Services and Engagement Office" or the DSO on your most recently issued I-20/DS-2019
+
+Advisor Email: iStudents@ucsd.edu
+
+Advisor Phone Number: 858-534-3730
+
+STEP 2: Determine Eligibility to Transfer Out Your SEVIS Record
+
+How do I know if I am eligible to Transfer my SEVIS Record?
+
+In order to be eligible for a SEVIS transfer, you must meet ALL of these requirements within your category:
+
+F-1 Students Enrolled (or enrolled within the last 60 days):
+
+Active Status: You must be maintaining F visa status at UC San Diego and currently enrolled or enrolled within the last 60 days ( are within your F-1 60-day grace period).
+
+Admission : You must have been admitted by the transfer-in school (and have documentation of proof of admission). In addition, you must have discussed the transfer-in timeline with your transfer-in school.
+
+5-Month Rule: The program start date at the transfer-in school must begin at the next available term or session, which must be no more than 5 months (152 days) from the true program end date on your Form I-20 or DS-2019. Note, your true program end date will align with the last day of enrollment,  on-campus employment, or defense date, whichever is later. The start date at your new school is generally the Initial Session Start Date ( start date of classes/instruction start date) at your new institution. If you're not sure, check in with your new school to clarify this date. Students graduating in Winter Quarter should double check if their new program is starting within 5 months from the end to their studies at UC San Diego. If you never attended UC San Diego, the start date at the new school must be within 30 days of arrival into the U.S.
+
+Students graduating in Winter Quarter should double check if their new program is starting within 5 months from the end to their studies at UC San Diego.
+
+If you never attended UC San Diego, the start date at the new school must be within 30 days of arrival into the U.S.
+
+F-1 students on Pending/Approved OPT or STEM OPT:
+
+Active Status: You must be maintaining F visa status at UC San Diego and currently on authorized OPT/STEM OPT or are currently in your F-1 60-day grace period.
+
+5-Month Rule: You must be able to start classes at the transfer-in school within 5 months (152 days) of the transfer release date set by UC San Diego, or the date the OPT/STEM OPT authorization ends, whichever is earlier. The start date at your new school is generally the
+
+Initial Session Start Date ( start date of classes/instruction start date) at your new institution. If you're not sure, check in with your new school to clarify this date.
+
+End of Employment: You will no longer continue employment associated with your Transfer-Out Institution, or UC San Diego, and understand you will lose authorization for OPT/STEM OPT on the transfer release date.
+
+J-1 students Enrolled or on Academic Training (AT):
+
+Active in Program : You are currently within your program dates listed on your Form DS-2019. Note, J-1 students cannot transfer during their 30-day grace period and must transfer before their program end date.
+
+30-Day Rule: The program start date at the transfer-in school must begin at the next available term or session, which must be no more than  30 days from the true program end date on your Form I-20 or DS-2019. Note, your true program end date will align with the last day of enrollment,  on-campus employment, or defense date, whichever is later. The start date at your new school is generally the Initial Session Start Date ( start date of classes/instruction start date). If you're not sure, check in with your new school to clarify this date.
+
+Not Pending Waiver: J-1 students who have applied to the U.S. Department of State for a waiver of the two-year home residency requirement and have been approved are not eligible to transfer.
+
+What should I do if I am NOT eligible for a SEVIS transfer?
+
+Students who wish to start a new program of study at a new school and are not eligible for a SEVIS  transfer should consider departing within their grace period and requesting a new F-1 Form I-20 or J-1 Form DS-2019 from their new school to seek re-entry within 30 days of their new program start date.
+
+If you are not eligible for a SEVIS Transfer, it is best to discuss next steps with an ISEO Advisor, in addition to the international student advising office at your new school.
+
+STEP 3: Determine your SEVIS Record Release Date
+
+Understanding your SEVIS Record Release Date
+
+After you've considered your specific timeline, you can submit a request for UC San Diego to release your SEVIS Record on a specific date, known as your 'SEVIS Release Date'. On this SEVIS Release date, your new school will have the ability to complete the transfer process and issue you a Form I-20 or Form DS-2019, with the same SEVIS ID Number reflecting your new program details.
+
+Once your SEVIS Record is released, ISEO will no longer be able to make any updates to your SEVIS record. The following happens on your SEVIS Release Date:
+
+Hosting Institution: Your UC San Diego I-20/DS-2019 will be deactivated and UC San Diego can longer access your record. Your new school will now host and advise you on visa matters related to maintaining your visa status. You must contact your new school to complete the steps to request a new I-20/DS-2019, as this is NOT automatic. NOTE FOR J-1 STUDENTS: J-1 students must report to their new school within thirty (30) days of your transfer date for SEVIS validation.
+
+NOTE FOR J-1 STUDENTS: J-1 students must report to their new school within thirty (30) days of your transfer date for SEVIS validation.
+
+Travel: You may remain in the U.S. even after your grace period ends, while you wait for your new program to begin. If you are outside of the U.S. or are planning to travel and re-enter, you must use the new school's I-20/DS-2019 to seek re-entry to the U.S.
+
+Employment: All authorized employment under the Transfer-Out Institution, or UC San Diego's Form I-20/DS-2019, will end (OPT, CPT, AT, On-Campus Employment). Students who wish to seek employment should discuss options with their new school.
+
+Choosing your SEVIS Record Release Date
+
+Students are responsible for choosing their own SEVIS Record Release Date. When choosing, consider the following dates as well as the guidelines below as it relates to your particular situation.
+
+Students Completing Program of Study
+
+F-1 Students Enrolled (or enrolled within the last 60 days) :
+
+The SEVIS Release Date should be after the last day of enrollment/on-campus employment/defense date in your final quarter at UC San Diego and before the last day of your 60 day grace period.
+
+You can request your SEVIS record release from ISEO after you have received an acceptance letter from your new institution. Submit your Transfer Our request at least 10 days before the end of your 60 day grace period.
+
+J-1 Students Enrolled:
+
+The SEVIS Release Date should be after the last day of your final quarter at UC San Diego but before the program end date listed on your DS-2019.
+
+You can request your SEVIS record release from ISEO after you have received an acceptance letter from your new institution. Submit your Transfer Our request at least five days before the end date listed on your DS-2019.
+
+Students on Post-completion OPT/STEM OPT/AT
+
+F-1 Students on pending/approved OPT/STEM OPT:
+
+Students who are maintaining status on post-completion OPT may use any release date during the OPT period or may choose a date before the last day of your 60 day grace period upon completion of OPT. Note that a SEVIS record cannot be transferred if the student has exceeded the unemployment day limit.
+
+Your OPT employment authorization will end automatically after your SEVIS record is released to the new institution, even if your EAD card has not expired.
+
+J-1 Students on Academic Training (AT):
+
+Students who are on post-completion Academic Training may use any release date during the Academic Training period, but before the last date of their DS-2019 end date.
+
+Your Academic Training employment authorization will end automatically after your SEVIS record is released to the new institution.
+
+Students Dismissed due to Suspension or Academic Disqualification
+
+Students who have been dismissed from the UC San Diego due to suspension or academic disqualification must request their SEVIS record release from ISEO within one of the following timelines (whichever is later):
+
+15 calendar days after the disqualification or suspension notice, or
+
+15 calendar days from the date of an disqualification or suspension appeal denial, or
+
+15 calendar days after the quarter end date of your last enrolled term, or
+
+15 calendar days after the quarter start date of the quarter of suspension.
+
+You may verify this date with an International Student Advisor .
+
+Students Withdrawing from their Program
+
+Students who are in good standing and have been authorized to withdraw from their program of study may be eligible to transfer their SEVIS record. Note, students who withdraw in the middle of the quarter must choose a SEVIS record release date that that falls within 15 calendar days after their last date of enrollment or the add deadline for the quarter, whichever is later.
+
+You may verify this date with an International Student Advisor .
+
+STEP 4: Submit a Transfer Out Request with ISEO
+
+Students can submit their Transfer Out Request ahead of time so ISEO can schedule a future release.
+
+Find the Ending your Visa Status at UC San Diego category in the left menu. Select the SEVIS Transfer Out Request option .
+
+Select the SEVIS Transfer Out Request option .
+
+Upload a PDF copy of your a dmission letter or admission email from your new school.
+
+Indicate your requested SEVIS Record Release Date. Indicate the SEVIS School Code (F-1) or Program Number (J-1) of your new school so that UC San Diego can transfer your record out to the correct institution: Each institution that has been approved to accept and issue I-20/DS-2019 forms for F/J students is assigned a unique specific code. For F-1 host institutions, this is called a SEVIS School Code. For J-1 sponsor institutions, this is called a Program Number. Please ask the International Student Advisor or Designated School Official (F-1)/Alternate Responsible Officer (J-1) at your new school for the code and/or Program Number as applicable.
+
+Indicate the SEVIS School Code (F-1) or Program Number (J-1) of your new school so that UC San Diego can transfer your record out to the correct institution:
+
+Each institution that has been approved to accept and issue I-20/DS-2019 forms for F/J students is assigned a unique specific code. For F-1 host institutions, this is called a SEVIS School Code. For J-1 sponsor institutions, this is called a Program Number.
+
+Please ask the International Student Advisor or Designated School Official (F-1)/Alternate Responsible Officer (J-1) at your new school for the code and/or Program Number as applicable.
+
+Submit the required eForm. You will receive a confirmation email when your request has been successfully submitted.
+
+ISEO has an average processing time of 10 business days . You will be notified via email when your request is complete. You are expected to maintain your F-1 or J-1 status with UC San Diego all through your SEVIS Record release date.
+
+You are expected to maintain your F-1 or J-1 status with UC San Diego all through your SEVIS Record release date.
+
+Changes to your Transfer Out Plans
+
+If you submit your Transfer Out Request to ISEO but then decide you would like your SEVIS record released on a different date , contact ISEO at least 10 business days before the SEVIS release date so that we may act accordingly. If we do not hear from you before your SEVIS release date, your record will be transferred and you will need to contact your new institution regarding any questions you may have about your SEVIS record.
+
+STEP 5: Follow Up With Your New School to Complete the Transfer In Process
+
+Once UC San Diego processes the transfer-out request and your release date is present, your UC San Diego I-20/DS-2019 will be deactivated and UC San Diego can longer access your record. Your new school will now host and advise you on visa matters related to maintaining your visa status, travel, and employment. You must contact your new school to complete the steps to request a new I-20/DS-2019, as this is NOT automatic.
+
+Preparing for Graduation
+
+Program Completion
+
+SEVIS Transfer Out
+
+UC San Diego Alumni

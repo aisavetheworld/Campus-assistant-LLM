@@ -1,0 +1,4251 @@
+{
+  "ucsd_blink_0001": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/add-drop-change.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 120
+  },
+  "ucsd_blink_0002": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/calendars/2026.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 1149
+  },
+  "ucsd_blink_0004": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/index.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 107
+  },
+  "ucsd_blink_0005": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/over-enrollment.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 362
+  },
+  "ucsd_blink_0006": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/payment.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 157
+  },
+  "ucsd_blink_0007": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/preauthorize.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 963
+  },
+  "ucsd_blink_0008": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/start.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 106
+  },
+  "ucsd_blink_0009": {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/week3.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 111
+  },
+  "ucsd_blink_0011": {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/about.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 266
+  },
+  "ucsd_blink_0012": {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/index.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 85
+  },
+  "ucsd_blink_0013": {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/subject-codes.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 529
+  },
+  "ucsd_blink_0014": {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/times.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "date_fetched": "2026-05-26",
+    "word_count": 185
+  },
+  "ucsd_fas_0001": {
+    "url": "https://fas.ucsd.edu//applying/financial-aid-application-tips/ca-dream-act-tips.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 592
+  },
+  "ucsd_fas_0002": {
+    "url": "https://fas.ucsd.edu//applying/financial-aid-application-tips/fafsa-tips.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1634
+  },
+  "ucsd_fas_0003": {
+    "url": "https://fas.ucsd.edu//applying/financial-aid-application-tips/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 128
+  },
+  "ucsd_fas_0004": {
+    "url": "https://fas.ucsd.edu//applying/get-started/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 88
+  },
+  "ucsd_fas_0005": {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/eligibility-enrollment-requirements.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 866
+  },
+  "ucsd_fas_0006": {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/how-you-receive-your-financial-aid.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1539
+  },
+  "ucsd_fas_0007": {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 955
+  },
+  "ucsd_fas_0008": {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/packaging-policy.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 676
+  },
+  "ucsd_fas_0009": {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/timeline.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 2416
+  },
+  "ucsd_fas_0010": {
+    "url": "https://fas.ucsd.edu//applying/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 246
+  },
+  "ucsd_fas_0011": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/hope-scholars.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1183
+  },
+  "ucsd_fas_0012": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/how-you-receive-your-financial-aid.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 2123
+  },
+  "ucsd_fas_0013": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1333
+  },
+  "ucsd_fas_0014": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/packaging-policy.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1115
+  },
+  "ucsd_fas_0015": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/requirements-for-aid-eligibility.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1154
+  },
+  "ucsd_fas_0016": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/timeline-current-undergrads.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 2598
+  },
+  "ucsd_fas_0017": {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/timeline-prospective-undergrads.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 2616
+  },
+  "ucsd_fas_0018": {
+    "url": "https://fas.ucsd.edu//contact/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 196
+  },
+  "ucsd_fas_0019": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/global-policy/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 551
+  },
+  "ucsd_fas_0020": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/graduate-students/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 533
+  },
+  "ucsd_fas_0021": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 441
+  },
+  "ucsd_fas_0022": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/other-self-supporting/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 704
+  },
+  "ucsd_fas_0023": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/rady-school/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 540
+  },
+  "ucsd_fas_0024": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/undergraduates/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 448
+  },
+  "ucsd_fas_0025": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/undergraduates/tuition-stability-plan/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 481
+  },
+  "ucsd_fas_0026": {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/undergraduates/tuition-stability-plan/undergraduates/undergraduates_2023-2024_cont2.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 448
+  },
+  "ucsd_fas_0027": {
+    "url": "https://fas.ucsd.edu//faqs/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 11815
+  },
+  "ucsd_fas_0028": {
+    "url": "https://fas.ucsd.edu//forms/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 943
+  },
+  "ucsd_fas_0029": {
+    "url": "https://fas.ucsd.edu//heerf/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 349
+  },
+  "ucsd_fas_0030": {
+    "url": "https://fas.ucsd.edu//index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 428
+  },
+  "ucsd_fas_0031": {
+    "url": "https://fas.ucsd.edu//resources/federal-updates/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 2572
+  },
+  "ucsd_fas_0032": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/consumer-information/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1745
+  },
+  "ucsd_fas_0033": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-aid-estimator/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 295
+  },
+  "ucsd_fas_0034": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-aid-terms/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 3893
+  },
+  "ucsd_fas_0035": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-literacy/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 521
+  },
+  "ucsd_fas_0036": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-tips-for-students/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1108
+  },
+  "ucsd_fas_0037": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 182
+  },
+  "ucsd_fas_0038": {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/online-resources/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 518
+  },
+  "ucsd_fas_0039": {
+    "url": "https://fas.ucsd.edu//resources/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 180
+  },
+  "ucsd_fas_0040": {
+    "url": "https://fas.ucsd.edu//resources/sap/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 751
+  },
+  "ucsd_fas_0041": {
+    "url": "https://fas.ucsd.edu//resources/summer-session/cost-of-attendance.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 969
+  },
+  "ucsd_fas_0042": {
+    "url": "https://fas.ucsd.edu//resources/summer-session/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 58
+  },
+  "ucsd_fas_0043": {
+    "url": "https://fas.ucsd.edu//resources/summer-session/summer-aid.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1528
+  },
+  "ucsd_fas_0044": {
+    "url": "https://fas.ucsd.edu//resources/withdrawing/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 2575
+  },
+  "ucsd_fas_0045": {
+    "url": "https://fas.ucsd.edu//types/grants/grants-for-graduates.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 493
+  },
+  "ucsd_fas_0046": {
+    "url": "https://fas.ucsd.edu//types/grants/grants-for-undergraduates.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1450
+  },
+  "ucsd_fas_0047": {
+    "url": "https://fas.ucsd.edu//types/grants/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 118
+  },
+  "ucsd_fas_0048": {
+    "url": "https://fas.ucsd.edu//types/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 338
+  },
+  "ucsd_fas_0049": {
+    "url": "https://fas.ucsd.edu//types/loans/california-dream.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 576
+  },
+  "ucsd_fas_0050": {
+    "url": "https://fas.ucsd.edu//types/loans/federal-direct-loans-program.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 3483
+  },
+  "ucsd_fas_0051": {
+    "url": "https://fas.ucsd.edu//types/loans/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 870
+  },
+  "ucsd_fas_0052": {
+    "url": "https://fas.ucsd.edu//types/loans/private-loan-programs.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1479
+  },
+  "ucsd_fas_0053": {
+    "url": "https://fas.ucsd.edu//types/loans/receiving-your-loan.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 435
+  },
+  "ucsd_fas_0054": {
+    "url": "https://fas.ucsd.edu//types/loans/repaying-your-student-loan.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1473
+  },
+  "ucsd_fas_0055": {
+    "url": "https://fas.ucsd.edu//types/loans/short-term-emergency-loans.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 181
+  },
+  "ucsd_fas_0056": {
+    "url": "https://fas.ucsd.edu//types/loans/university-undergraduate-loans.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 648
+  },
+  "ucsd_fas_0057": {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/alan-pattee.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 597
+  },
+  "ucsd_fas_0058": {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 342
+  },
+  "ucsd_fas_0059": {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/prepaid-educational-savings-plans-and-trusts.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 410
+  },
+  "ucsd_fas_0060": {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/tuition-benefit-plans.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 217
+  },
+  "ucsd_fas_0061": {
+    "url": "https://fas.ucsd.edu//types/scholarships/chancellors-scholarships-for-entering-freshmen.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 642
+  },
+  "ucsd_fas_0062": {
+    "url": "https://fas.ucsd.edu//types/scholarships/continuing-undergraduate-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 5728
+  },
+  "ucsd_fas_0063": {
+    "url": "https://fas.ucsd.edu//types/scholarships/entering-freshmen.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1421
+  },
+  "ucsd_fas_0064": {
+    "url": "https://fas.ucsd.edu//types/scholarships/entering-transfer-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 530
+  },
+  "ucsd_fas_0065": {
+    "url": "https://fas.ucsd.edu//types/scholarships/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 768
+  },
+  "ucsd_fas_0066": {
+    "url": "https://fas.ucsd.edu//types/scholarships/middle-class-scholarship.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 730
+  },
+  "ucsd_fas_0067": {
+    "url": "https://fas.ucsd.edu//types/scholarships/outside-agency-scholarships.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 430
+  },
+  "ucsd_fas_0068": {
+    "url": "https://fas.ucsd.edu//types/scholarships/receiving-scholarship-funds-from-non-ucsd-organizations.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 858
+  },
+  "ucsd_fas_0069": {
+    "url": "https://fas.ucsd.edu//types/scholarships/regents-scholarships-for-entering-freshmen.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 534
+  },
+  "ucsd_fas_0070": {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-ge-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1106
+  },
+  "ucsd_fas_0071": {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-gs-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1476
+  },
+  "ucsd_fas_0072": {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-oap-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1103
+  },
+  "ucsd_fas_0073": {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-other-programs.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 765
+  },
+  "ucsd_fas_0074": {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-uceap-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 1579
+  },
+  "ucsd_fas_0075": {
+    "url": "https://fas.ucsd.edu//types/study-abroad/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 612
+  },
+  "ucsd_fas_0076": {
+    "url": "https://fas.ucsd.edu//types/work-study/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "date_fetched": "2026-05-26",
+    "word_count": 396
+  },
+  "ucsd_grad_0001": {
+    "url": "https://grad.ucsd.edu/academics/degree-proposals/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1009
+  },
+  "ucsd_grad_0003": {
+    "url": "https://grad.ucsd.edu/academics/enrolling/in-absentia.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1347
+  },
+  "ucsd_grad_0004": {
+    "url": "https://grad.ucsd.edu/academics/enrolling/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 458
+  },
+  "ucsd_grad_0005": {
+    "url": "https://grad.ucsd.edu/academics/enrolling/leave-absence-withdrawal.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 998
+  },
+  "ucsd_grad_0006": {
+    "url": "https://grad.ucsd.edu/academics/enrolling/readmission.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 799
+  },
+  "ucsd_grad_0007": {
+    "url": "https://grad.ucsd.edu/academics/enrolling/retroactive-enrollment.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 796
+  },
+  "ucsd_grad_0008": {
+    "url": "https://grad.ucsd.edu/academics/enrolling/visiting-exchange.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1398
+  },
+  "ucsd_grad_0009": {
+    "url": "https://grad.ucsd.edu/academics/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 269
+  },
+  "ucsd_grad_0010": {
+    "url": "https://grad.ucsd.edu/academics/merkin/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 6772
+  },
+  "ucsd_grad_0011": {
+    "url": "https://grad.ucsd.edu/academics/merkin/merkin-graduate-fellows.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 7880
+  },
+  "ucsd_grad_0012": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/academic-standing-probation.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 972
+  },
+  "ucsd_grad_0013": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/duplication-degree.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 496
+  },
+  "ucsd_grad_0014": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/grade-changes.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 605
+  },
+  "ucsd_grad_0015": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3462
+  },
+  "ucsd_grad_0016": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/programreviews.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 699
+  },
+  "ucsd_grad_0017": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/repetition.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 311
+  },
+  "ucsd_grad_0018": {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/transferring-credit.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 347
+  },
+  "ucsd_grad_0019": {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/degree-completion.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 4491
+  },
+  "ucsd_grad_0020": {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/dissertation-thesis-manual.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3295
+  },
+  "ucsd_grad_0021": {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/dissertation-thesis-submission.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1896
+  },
+  "ucsd_grad_0022": {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/dissertation-thesis-template.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 316
+  },
+  "ucsd_grad_0023": {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 317
+  },
+  "ucsd_grad_0024": {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/advancing-to-candidacy.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1319
+  },
+  "ucsd_grad_0025": {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/committees.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3078
+  },
+  "ucsd_grad_0026": {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 177
+  },
+  "ucsd_grad_0027": {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/pre-candidacy.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 564
+  },
+  "ucsd_grad_0028": {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/spring-evaluations.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 609
+  },
+  "ucsd_grad_0029": {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/time-to-doctorate-policy.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 589
+  },
+  "ucsd_grad_0030": {
+    "url": "https://grad.ucsd.edu/academics/student-faq/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 4404
+  },
+  "ucsd_grad_0031": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-admitted-student.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 704
+  },
+  "ucsd_grad_0032": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-application-fee.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 509
+  },
+  "ucsd_grad_0033": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-funding.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 168
+  },
+  "ucsd_grad_0034": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-gender-identity.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 470
+  },
+  "ucsd_grad_0035": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-general-application.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1011
+  },
+  "ucsd_grad_0036": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-international-applicant.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 310
+  },
+  "ucsd_grad_0037": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-jdps.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 396
+  },
+  "ucsd_grad_0038": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-letters-of-recommendation.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 476
+  },
+  "ucsd_grad_0039": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-test-scores.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1250
+  },
+  "ucsd_grad_0040": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-transcripts.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 869
+  },
+  "ucsd_grad_0041": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-undocumented.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 170
+  },
+  "ucsd_grad_0042": {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 155
+  },
+  "ucsd_grad_0043": {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/before-you-arrive.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 863
+  },
+  "ucsd_grad_0044": {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/do-immediately.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 896
+  },
+  "ucsd_grad_0045": {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 420
+  },
+  "ucsd_grad_0046": {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/international-students.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 939
+  },
+  "ucsd_grad_0047": {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/undocumented-students.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1028
+  },
+  "ucsd_grad_0048": {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/when-you-arrive.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 497
+  },
+  "ucsd_grad_0049": {
+    "url": "https://grad.ucsd.edu/admissions/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 306
+  },
+  "ucsd_grad_0050": {
+    "url": "https://grad.ucsd.edu/admissions/programs.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 461
+  },
+  "ucsd_grad_0051": {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 290
+  },
+  "ucsd_grad_0052": {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/request-information.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 157
+  },
+  "ucsd_grad_0053": {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/research-experiences.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 933
+  },
+  "ucsd_grad_0054": {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/why-choose-uc-san-diego.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 921
+  },
+  "ucsd_grad_0055": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/academic-transcripts.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 586
+  },
+  "ucsd_grad_0056": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/income-eligibility-guidlines.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 213
+  },
+  "ucsd_grad_0057": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 731
+  },
+  "ucsd_grad_0058": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/exam-requirements.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 306
+  },
+  "ucsd_grad_0059": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 336
+  },
+  "ucsd_grad_0060": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1130
+  },
+  "ucsd_grad_0061": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/exam-scores-international.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 262
+  },
+  "ucsd_grad_0062": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 772
+  },
+  "ucsd_grad_0063": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/visa-information.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 291
+  },
+  "ucsd_grad_0064": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/policies/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 979
+  },
+  "ucsd_grad_0065": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/policies/university-policies.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 370
+  },
+  "ucsd_grad_0066": {
+    "url": "https://grad.ucsd.edu/admissions/requirements/statement-of-purpose.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 623
+  },
+  "ucsd_grad_0067": {
+    "url": "https://grad.ucsd.edu/admissions/security-report.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 324
+  },
+  "ucsd_grad_0068": {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/academic-student-employees.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 673
+  },
+  "ucsd_grad_0069": {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/ase-employment-types.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1289
+  },
+  "ucsd_grad_0070": {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/ase-fee-payment-info.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 534
+  },
+  "ucsd_grad_0071": {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 197
+  },
+  "ucsd_grad_0072": {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/international-tas.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 852
+  },
+  "ucsd_grad_0073": {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/new-employee-orientation.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2043
+  },
+  "ucsd_grad_0074": {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 180
+  },
+  "ucsd_grad_0075": {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/student-fica.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1741
+  },
+  "ucsd_grad_0076": {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/support-for-student-parents.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 757
+  },
+  "ucsd_grad_0077": {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/transitional-graduate-student-employment-pilot-program.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 508
+  },
+  "ucsd_grad_0078": {
+    "url": "https://grad.ucsd.edu/financial/employment/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 193
+  },
+  "ucsd_grad_0079": {
+    "url": "https://grad.ucsd.edu/financial/employment/non-discrimination-statement.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 641
+  },
+  "ucsd_grad_0080": {
+    "url": "https://grad.ucsd.edu/financial/employment/opportunities/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 223
+  },
+  "ucsd_grad_0081": {
+    "url": "https://grad.ucsd.edu/financial/employment/opportunities/job-bulletin/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 324
+  },
+  "ucsd_grad_0082": {
+    "url": "https://grad.ucsd.edu/financial/employment/student-pay-rates.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 122
+  },
+  "ucsd_grad_0083": {
+    "url": "https://grad.ucsd.edu/financial/employment/support-eligibility.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1190
+  },
+  "ucsd_grad_0084": {
+    "url": "https://grad.ucsd.edu/financial/fellowships/arcs-scholars/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 78
+  },
+  "ucsd_grad_0085": {
+    "url": "https://grad.ucsd.edu/financial/fellowships/fellow-experiences/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 276
+  },
+  "ucsd_grad_0086": {
+    "url": "https://grad.ucsd.edu/financial/fellowships/fic/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 295
+  },
+  "ucsd_grad_0087": {
+    "url": "https://grad.ucsd.edu/financial/fellowships/idp.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 265
+  },
+  "ucsd_grad_0088": {
+    "url": "https://grad.ucsd.edu/financial/fellowships/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 353
+  },
+  "ucsd_grad_0089": {
+    "url": "https://grad.ucsd.edu/financial/fellowships/katzin-prize/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 463
+  },
+  "ucsd_grad_0090": {
+    "url": "https://grad.ucsd.edu/financial/financial-faq.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1021
+  },
+  "ucsd_grad_0091": {
+    "url": "https://grad.ucsd.edu/financial/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 386
+  },
+  "ucsd_grad_0092": {
+    "url": "https://grad.ucsd.edu/financial/news-updates.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 647
+  },
+  "ucsd_grad_0093": {
+    "url": "https://grad.ucsd.edu/financial/non-uc-visiting-grads/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2911
+  },
+  "ucsd_grad_0094": {
+    "url": "https://grad.ucsd.edu/financial/third-party-billing.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 202
+  },
+  "ucsd_grad_0095": {
+    "url": "https://grad.ucsd.edu/financial/tuition-fees.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 710
+  },
+  "ucsd_hdh_fac_0001": {
+    "url": "https://hdhfacilities.ucsd.edu",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 134
+  },
+  "ucsd_hdh_fac_0002": {
+    "url": "https://hdhfacilities.ucsd.edu/index.html",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 134
+  },
+  "ucsd_hdh_ug_0001": {
+    "url": "https://hdhughousing.ucsd.edu/dining-plan/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 31
+  },
+  "ucsd_hdh_ug_0002": {
+    "url": "https://hdhughousing.ucsd.edu/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 119
+  },
+  "ucsd_hdh_ug_0003": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/contract-process.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1813
+  },
+  "ucsd_hdh_ug_0004": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/important-dates.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 858
+  },
+  "ucsd_hdh_ug_0005": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 2394
+  },
+  "ucsd_hdh_ug_0006": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/priority.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 440
+  },
+  "ucsd_hdh_ug_0007": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/rates.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 3008
+  },
+  "ucsd_hdh_ug_0008": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/move-in/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 2523
+  },
+  "ucsd_hdh_ug_0009": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 2037
+  },
+  "ucsd_hdh_ug_0010": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/living-learning.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1215
+  },
+  "ucsd_hdh_ug_0011": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/room-type.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 591
+  },
+  "ucsd_hdh_ug_0012": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/community-policies.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 170
+  },
+  "ucsd_hdh_ug_0013": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/contact-us.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 201
+  },
+  "ucsd_hdh_ug_0014": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/families-friends.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 143
+  },
+  "ucsd_hdh_ug_0015": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/get-involved.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 197
+  },
+  "ucsd_hdh_ug_0016": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 311
+  },
+  "ucsd_hdh_ug_0017": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/pangea-apartments-reshalls/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 189
+  },
+  "ucsd_hdh_ug_0018": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/pepper-canyon-west/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1280
+  },
+  "ucsd_hdh_ug_0019": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/resident-resources.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 295
+  },
+  "ucsd_hdh_ug_0020": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/rita-atkinson/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 145
+  },
+  "ucsd_hdh_ug_0021": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/rita-atkinson/rita-atkinson.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 527
+  },
+  "ucsd_hdh_ug_0022": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/staff.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 12356
+  },
+  "ucsd_hdh_ug_0023": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/village-pepper-canyon/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 168
+  },
+  "ucsd_hdh_ug_0024": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/village-pepper-canyon/pepper-canyon-east-matthews-apartments.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 504
+  },
+  "ucsd_hdh_ug_0025": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/parent-portal/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1385
+  },
+  "ucsd_hdh_ug_0027": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/application.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 608
+  },
+  "ucsd_hdh_ug_0028": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/contracts.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 687
+  },
+  "ucsd_hdh_ug_0029": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/deadlines.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 2493
+  },
+  "ucsd_hdh_ug_0030": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/optional-housing.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1714
+  },
+  "ucsd_hdh_ug_0031": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/previews.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1002
+  },
+  "ucsd_hdh_ug_0032": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/services/accommodations.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 403
+  },
+  "ucsd_hdh_ug_0033": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/services/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 92
+  },
+  "ucsd_hdh_ug_0034": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/services/laundry.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 869
+  },
+  "ucsd_hdh_ug_0035": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/accelerate.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 2105
+  },
+  "ucsd_hdh_ug_0036": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 692
+  },
+  "ucsd_hdh_ug_0037": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/short-term.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 510
+  },
+  "ucsd_hdh_ug_0038": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/success.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 820
+  },
+  "ucsd_hdh_ug_0040": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/traditional.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1751
+  },
+  "ucsd_hdh_ug_0041": {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/uhac/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 398
+  },
+  "ucsd_iseo_0001": {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/scholar-services/h1b-e3-tn-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3562
+  },
+  "ucsd_iseo_0002": {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/scholar-services/j1-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2770
+  },
+  "ucsd_iseo_0003": {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/scholar-services/separation-departure.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1646
+  },
+  "ucsd_iseo_0004": {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/student-services/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3615
+  },
+  "ucsd_iseo_0005": {
+    "url": "https://iseo.ucsd.edu/campus-partners/training-workshops/student-services.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1309
+  },
+  "ucsd_iseo_0006": {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 123
+  },
+  "ucsd_iseo_0007": {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-scholar-orientation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1162
+  },
+  "ucsd_iseo_0008": {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-student-orientation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 148
+  },
+  "ucsd_iseo_0009": {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-student-orientation/itriton.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 374
+  },
+  "ucsd_iseo_0010": {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-student-orientation/orientation-assistant-program.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 270
+  },
+  "ucsd_iseo_0011": {
+    "url": "https://iseo.ucsd.edu/programs/iworkshops/employment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 697
+  },
+  "ucsd_iseo_0012": {
+    "url": "https://iseo.ucsd.edu/programs/iworkshops/maintenance-of-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 444
+  },
+  "ucsd_iseo_0013": {
+    "url": "https://iseo.ucsd.edu/resources/family-resources/j2/employment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1646
+  },
+  "ucsd_iseo_0014": {
+    "url": "https://iseo.ucsd.edu/scholar-services/h1b/ending-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 763
+  },
+  "ucsd_iseo_0015": {
+    "url": "https://iseo.ucsd.edu/scholar-services/h1b/extensions-amendments.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 725
+  },
+  "ucsd_iseo_0016": {
+    "url": "https://iseo.ucsd.edu/scholar-services/h1b/maintaining-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 799
+  },
+  "ucsd_iseo_0017": {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/h1b-e3-tn-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2009
+  },
+  "ucsd_iseo_0018": {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/j-1-ooc.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 542
+  },
+  "ucsd_iseo_0019": {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/j-travel-signature.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 955
+  },
+  "ucsd_iseo_0020": {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/j1-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2161
+  },
+  "ucsd_iseo_0021": {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/maintain-record.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 717
+  },
+  "ucsd_iseo_0022": {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/separation-departure.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1308
+  },
+  "ucsd_iseo_0023": {
+    "url": "https://iseo.ucsd.edu/scholar-services/j1/ending-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 342
+  },
+  "ucsd_iseo_0024": {
+    "url": "https://iseo.ucsd.edu/scholar-services/j1/extensions-amendments.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 109
+  },
+  "ucsd_iseo_0025": {
+    "url": "https://iseo.ucsd.edu/scholar-services/j1/maintaining-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 758
+  },
+  "ucsd_iseo_0026": {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/h1b-arrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 812
+  },
+  "ucsd_iseo_0027": {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/h1b-prearrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1385
+  },
+  "ucsd_iseo_0028": {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/j1-arrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1399
+  },
+  "ucsd_iseo_0029": {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/j1-prearrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3256
+  },
+  "ucsd_iseo_0030": {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/sevis.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 362
+  },
+  "ucsd_iseo_0031": {
+    "url": "https://iseo.ucsd.edu/scholar-services/other-visa/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 4004
+  },
+  "ucsd_iseo_0032": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/change-of-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1106
+  },
+  "ucsd_iseo_0033": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 92
+  },
+  "ucsd_iseo_0034": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/international.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3807
+  },
+  "ucsd_iseo_0035": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/travel-signature.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 301
+  },
+  "ucsd_iseo_0036": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-application.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1499
+  },
+  "ucsd_iseo_0037": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-delay.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3761
+  },
+  "ucsd_iseo_0038": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-i94.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 792
+  },
+  "ucsd_iseo_0039": {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-interview.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 801
+  },
+  "ucsd_iseo_0040": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/adq-suspension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 791
+  },
+  "ucsd_iseo_0041": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/change-of-level.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1844
+  },
+  "ucsd_iseo_0042": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/concurrent-enrollment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 803
+  },
+  "ucsd_iseo_0043": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 771
+  },
+  "ucsd_iseo_0044": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/gap-quarters.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 732
+  },
+  "ucsd_iseo_0045": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 142
+  },
+  "ucsd_iseo_0046": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/major-change.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 572
+  },
+  "ucsd_iseo_0047": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/rcl.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2435
+  },
+  "ucsd_iseo_0048": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/regaining-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 4153
+  },
+  "ucsd_iseo_0049": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/status-violation.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 311
+  },
+  "ucsd_iseo_0050": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/study-abroad.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 319
+  },
+  "ucsd_iseo_0051": {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/withdrawal.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 364
+  },
+  "ucsd_iseo_0052": {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/f1.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3544
+  },
+  "ucsd_iseo_0053": {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 138
+  },
+  "ucsd_iseo_0054": {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/j1.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2376
+  },
+  "ucsd_iseo_0055": {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/other.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 516
+  },
+  "ucsd_iseo_0056": {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/alumni.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 246
+  },
+  "ucsd_iseo_0057": {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/grace-periods.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 453
+  },
+  "ucsd_iseo_0058": {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 132
+  },
+  "ucsd_iseo_0059": {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/program-completion.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1280
+  },
+  "ucsd_iseo_0060": {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/transfer-out.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3894
+  },
+  "ucsd_iseo_0061": {
+    "url": "https://iseo.ucsd.edu/student-services/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 127
+  },
+  "ucsd_iseo_0062": {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/funding-requirements.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3964
+  },
+  "ucsd_iseo_0063": {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2111
+  },
+  "ucsd_iseo_0064": {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/processing-times.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 194
+  },
+  "ucsd_iseo_0065": {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/replacement-requests.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 625
+  },
+  "ucsd_iseo_0066": {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/verification-requests.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1659
+  },
+  "ucsd_iseo_0067": {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 168
+  },
+  "ucsd_iseo_0068": {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/visa-terminology.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1378
+  },
+  "ucsd_iseo_0069": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/degree-eap.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1941
+  },
+  "ucsd_iseo_0070": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/degree-gr.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1383
+  },
+  "ucsd_iseo_0071": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/degree-ug.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1452
+  },
+  "ucsd_iseo_0072": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 247
+  },
+  "ucsd_iseo_0073": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/prospective.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 435
+  },
+  "ucsd_iseo_0074": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/summer-session-alumni.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 646
+  },
+  "ucsd_iseo_0075": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/summer-session.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 4744
+  },
+  "ucsd_iseo_0076": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/advising-resources/advising.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 611
+  },
+  "ucsd_iseo_0077": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/advising-resources/faq.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 5381
+  },
+  "ucsd_iseo_0078": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/advising-resources/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 156
+  },
+  "ucsd_iseo_0079": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/ds-2019.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2252
+  },
+  "ucsd_iseo_0080": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/i-20.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2185
+  },
+  "ucsd_iseo_0081": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/immigration-resources/arrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1433
+  },
+  "ucsd_iseo_0082": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/immigration-resources/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 182
+  },
+  "ucsd_iseo_0083": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/immigration-resources/visa-eligibility.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 893
+  },
+  "ucsd_iseo_0084": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 302
+  },
+  "ucsd_iseo_0085": {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/visa.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 729
+  },
+  "ucsd_iseo_0086": {
+    "url": "https://iseo.ucsd.edu/student-services/returning-to-ucsd/gap-quarters.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1553
+  },
+  "ucsd_iseo_0087": {
+    "url": "https://iseo.ucsd.edu/student-services/returning-to-ucsd/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 133
+  },
+  "ucsd_iseo_0088": {
+    "url": "https://iseo.ucsd.edu/student-services/returning-to-ucsd/transfer-back.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2523
+  },
+  "ucsd_iseo_0089": {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/billing.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 298
+  },
+  "ucsd_iseo_0090": {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 884
+  },
+  "ucsd_iseo_0091": {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/organizations.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1011
+  },
+  "ucsd_iseo_0092": {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/services.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 424
+  },
+  "ucsd_iseo_0093": {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/spotlights.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1378
+  },
+  "ucsd_iseo_0094": {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/staff.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 43
+  },
+  "ucsd_iseo_0095": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/check-in.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 776
+  },
+  "ucsd_iseo_0096": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/domestic.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 213
+  },
+  "ucsd_iseo_0097": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/form-i94.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1963
+  },
+  "ucsd_iseo_0098": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 152
+  },
+  "ucsd_iseo_0099": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/international.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 2972
+  },
+  "ucsd_iseo_0100": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/travel-signature.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 452
+  },
+  "ucsd_iseo_0101": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/visa-application.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1871
+  },
+  "ucsd_iseo_0102": {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/visa-delay.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 5371
+  },
+  "ucsd_iseo_0103": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-cpt.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 4382
+  },
+  "ucsd_iseo_0104": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-economic-hardship.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 635
+  },
+  "ucsd_iseo_0105": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-intl-organization.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 515
+  },
+  "ucsd_iseo_0106": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-on-campus.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 945
+  },
+  "ucsd_iseo_0107": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/cap-gap.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 991
+  },
+  "ucsd_iseo_0108": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/completion.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1436
+  },
+  "ucsd_iseo_0109": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/faq.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 3448
+  },
+  "ucsd_iseo_0110": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 111
+  },
+  "ucsd_iseo_0111": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/initial.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 5079
+  },
+  "ucsd_iseo_0112": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/pre-completion.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1348
+  },
+  "ucsd_iseo_0113": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/stem-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 5846
+  },
+  "ucsd_iseo_0114": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-volunteer-internship.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 634
+  },
+  "ucsd_iseo_0115": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/find-employers.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 1351
+  },
+  "ucsd_iseo_0116": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 109
+  },
+  "ucsd_iseo_0117": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/j1-at.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 7084
+  },
+  "ucsd_iseo_0118": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/j1-on-campus.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 699
+  },
+  "ucsd_iseo_0119": {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/j1-volunteer-internship.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "date_fetched": "2026-05-26",
+    "word_count": 546
+  },
+  "ucsd_ucship_0001": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/billing.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 77
+  },
+  "ucsd_ucship_0002": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 57
+  },
+  "ucsd_ucship_0003": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/medi-cal.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 879
+  },
+  "ucsd_ucship_0004": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/mystudentchart-ucsd-health.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 180
+  },
+  "ucsd_ucship_0005": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/raft/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 413
+  },
+  "ucsd_ucship_0006": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/raft/labs.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 49
+  },
+  "ucsd_ucship_0008": {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/webinars.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 302
+  },
+  "ucsd_ucship_0009": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/billing.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 90
+  },
+  "ucsd_ucship_0010": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/changes.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 702
+  },
+  "ucsd_ucship_0011": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/faq.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 1764
+  },
+  "ucsd_ucship_0012": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/forms.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 104
+  },
+  "ucsd_ucship_0013": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 615
+  },
+  "ucsd_ucship_0014": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/medical-assistance-fund.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 316
+  },
+  "ucsd_ucship_0015": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/mobile-app.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 335
+  },
+  "ucsd_ucship_0016": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/after-graduation.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 108
+  },
+  "ucsd_ucship_0017": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/dependent-coverage.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 474
+  },
+  "ucsd_ucship_0018": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/grad-students-leave.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 381
+  },
+  "ucsd_ucship_0019": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 486
+  },
+  "ucsd_ucship_0020": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/outside-area.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 374
+  },
+  "ucsd_ucship_0021": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/uc-campuses.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 328
+  },
+  "ucsd_ucship_0022": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/uc-ship-committee.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 295
+  },
+  "ucsd_ucship_0023": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/dental-plan.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 158
+  },
+  "ucsd_ucship_0024": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 715
+  },
+  "ucsd_ucship_0025": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/medical-plan.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 743
+  },
+  "ucsd_ucship_0026": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/mental-health.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 69
+  },
+  "ucsd_ucship_0027": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/transgender-care.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 686
+  },
+  "ucsd_ucship_0028": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/vision-plan.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 100
+  },
+  "ucsd_ucship_0029": {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "date_fetched": "2026-05-26",
+    "word_count": 1386
+  },
+  "ucsd_shs_0001": {
+    "url": "https://studenthealth.ucsd.edu/about/contact/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 193
+  },
+  "ucsd_shs_0003": {
+    "url": "https://studenthealth.ucsd.edu/about/hippa.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 547
+  },
+  "ucsd_shs_0004": {
+    "url": "https://studenthealth.ucsd.edu/about/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 440
+  },
+  "ucsd_shs_0005": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/administration/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 114
+  },
+  "ucsd_shs_0006": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/behavioral/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 492
+  },
+  "ucsd_shs_0007": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 51
+  },
+  "ucsd_shs_0008": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/lab/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 144
+  },
+  "ucsd_shs_0009": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/medical-assistants/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 127
+  },
+  "ucsd_shs_0010": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/nurse-practitioners/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 1405
+  },
+  "ucsd_shs_0011": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/nurses/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 1184
+  },
+  "ucsd_shs_0012": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/optometrists/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 219
+  },
+  "ucsd_shs_0013": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/pharmacy/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 217
+  },
+  "ucsd_shs_0014": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/physicians/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 2420
+  },
+  "ucsd_shs_0015": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/registered-dietitians/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 735
+  },
+  "ucsd_shs_0016": {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/xray/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 109
+  },
+  "ucsd_shs_0017": {
+    "url": "https://studenthealth.ucsd.edu/about/wellness-prevention.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 771
+  },
+  "ucsd_shs_0018": {
+    "url": "https://studenthealth.ucsd.edu/appointments/animals.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 368
+  },
+  "ucsd_shs_0019": {
+    "url": "https://studenthealth.ucsd.edu/appointments/hours-location.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 436
+  },
+  "ucsd_shs_0020": {
+    "url": "https://studenthealth.ucsd.edu/appointments/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 579
+  },
+  "ucsd_shs_0021": {
+    "url": "https://studenthealth.ucsd.edu/appointments/online-scheduling.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 168
+  },
+  "ucsd_shs_0022": {
+    "url": "https://studenthealth.ucsd.edu/appointments/telehealth.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 468
+  },
+  "ucsd_shs_0023": {
+    "url": "https://studenthealth.ucsd.edu/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 529
+  },
+  "ucsd_shs_0024": {
+    "url": "https://studenthealth.ucsd.edu/resources/chaperone-policy/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 304
+  },
+  "ucsd_shs_0025": {
+    "url": "https://studenthealth.ucsd.edu/resources/emergency-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 719
+  },
+  "ucsd_shs_0026": {
+    "url": "https://studenthealth.ucsd.edu/resources/faq/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 2298
+  },
+  "ucsd_shs_0027": {
+    "url": "https://studenthealth.ucsd.edu/resources/forms/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 231
+  },
+  "ucsd_shs_0028": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-requirements/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 1575
+  },
+  "ucsd_shs_0029": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/acne/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 963
+  },
+  "ucsd_shs_0030": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/advance-directives/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 732
+  },
+  "ucsd_shs_0031": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/alcohol-drugs/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 78
+  },
+  "ucsd_shs_0032": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/anaphylaxis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 534
+  },
+  "ucsd_shs_0033": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/birth-control/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 2013
+  },
+  "ucsd_shs_0034": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/breast-testicular-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 354
+  },
+  "ucsd_shs_0035": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/bronchitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 196
+  },
+  "ucsd_shs_0036": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/common-cold/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 923
+  },
+  "ucsd_shs_0037": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/conjunctivitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 894
+  },
+  "ucsd_shs_0038": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/coronavirus/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 862
+  },
+  "ucsd_shs_0039": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/ears/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 867
+  },
+  "ucsd_shs_0040": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/emergency-contraception/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 356
+  },
+  "ucsd_shs_0041": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/flu/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 1225
+  },
+  "ucsd_shs_0042": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/gastroenteritis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 513
+  },
+  "ucsd_shs_0043": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/gerd/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 593
+  },
+  "ucsd_shs_0044": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hemorrhoids/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 730
+  },
+  "ucsd_shs_0045": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hepatitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 1121
+  },
+  "ucsd_shs_0046": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hiv/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 276
+  },
+  "ucsd_shs_0047": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hives/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 617
+  },
+  "ucsd_shs_0048": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hpv/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 603
+  },
+  "ucsd_shs_0049": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 369
+  },
+  "ucsd_shs_0050": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/lice/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 770
+  },
+  "ucsd_shs_0051": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/measles/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 844
+  },
+  "ucsd_shs_0052": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/medication-abortion/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 948
+  },
+  "ucsd_shs_0053": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/meningitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 504
+  },
+  "ucsd_shs_0054": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/molluscum/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 664
+  },
+  "ucsd_shs_0055": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/monkeypox/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 872
+  },
+  "ucsd_shs_0056": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/mrsa/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 558
+  },
+  "ucsd_shs_0057": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/mumps/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 902
+  },
+  "ucsd_shs_0058": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/painful-periods/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 435
+  },
+  "ucsd_shs_0059": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pcos/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 629
+  },
+  "ucsd_shs_0060": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pertussis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 863
+  },
+  "ucsd_shs_0061": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pid/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 441
+  },
+  "ucsd_shs_0062": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pms/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 925
+  },
+  "ucsd_shs_0063": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/poison-oak/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 724
+  },
+  "ucsd_shs_0064": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pregnancy-testing/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 445
+  },
+  "ucsd_shs_0065": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/tmj/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 569
+  },
+  "ucsd_shs_0066": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/urinary-tract-infections/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 790
+  },
+  "ucsd_shs_0067": {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/vaginal-infections/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 568
+  },
+  "ucsd_shs_0068": {
+    "url": "https://studenthealth.ucsd.edu/resources/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 85
+  },
+  "ucsd_shs_0069": {
+    "url": "https://studenthealth.ucsd.edu/resources/interpreter/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 467
+  },
+  "ucsd_shs_0070": {
+    "url": "https://studenthealth.ucsd.edu/resources/parents-families/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 665
+  },
+  "ucsd_shs_0071": {
+    "url": "https://studenthealth.ucsd.edu/resources/patient-rights/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 490
+  },
+  "ucsd_shs_0072": {
+    "url": "https://studenthealth.ucsd.edu/resources/videos/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 112
+  },
+  "ucsd_shs_0073": {
+    "url": "https://studenthealth.ucsd.edu/services/clinical-laboratory/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 750
+  },
+  "ucsd_shs_0074": {
+    "url": "https://studenthealth.ucsd.edu/services/cost/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 509
+  },
+  "ucsd_shs_0075": {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/hpv-vaccine.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 452
+  },
+  "ucsd_shs_0076": {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 954
+  },
+  "ucsd_shs_0077": {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/mpox-vaccine.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 450
+  },
+  "ucsd_shs_0078": {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/tdap.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 136
+  },
+  "ucsd_shs_0079": {
+    "url": "https://studenthealth.ucsd.edu/services/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 75
+  },
+  "ucsd_shs_0080": {
+    "url": "https://studenthealth.ucsd.edu/services/mental-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 533
+  },
+  "ucsd_shs_0081": {
+    "url": "https://studenthealth.ucsd.edu/services/nurses-clinic/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 835
+  },
+  "ucsd_shs_0082": {
+    "url": "https://studenthealth.ucsd.edu/services/nutrition/eating-disorders.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 1887
+  },
+  "ucsd_shs_0083": {
+    "url": "https://studenthealth.ucsd.edu/services/nutrition/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 406
+  },
+  "ucsd_shs_0084": {
+    "url": "https://studenthealth.ucsd.edu/services/optometry/exams-products.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 370
+  },
+  "ucsd_shs_0085": {
+    "url": "https://studenthealth.ucsd.edu/services/optometry/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 502
+  },
+  "ucsd_shs_0086": {
+    "url": "https://studenthealth.ucsd.edu/services/pharmacy/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 696
+  },
+  "ucsd_shs_0087": {
+    "url": "https://studenthealth.ucsd.edu/services/primary-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 401
+  },
+  "ucsd_shs_0088": {
+    "url": "https://studenthealth.ucsd.edu/services/radiology/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 255
+  },
+  "ucsd_shs_0089": {
+    "url": "https://studenthealth.ucsd.edu/services/reproductive-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 954
+  },
+  "ucsd_shs_0090": {
+    "url": "https://studenthealth.ucsd.edu/services/sexual-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 461
+  },
+  "ucsd_shs_0091": {
+    "url": "https://studenthealth.ucsd.edu/services/sexual-health/sti-testing.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 614
+  },
+  "ucsd_shs_0092": {
+    "url": "https://studenthealth.ucsd.edu/services/transgender-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 917
+  },
+  "ucsd_shs_0093": {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/ab/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 82
+  },
+  "ucsd_shs_0094": {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/eap/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 183
+  },
+  "ucsd_shs_0095": {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/ge/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 179
+  },
+  "ucsd_shs_0096": {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/gs/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 182
+  },
+  "ucsd_shs_0097": {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 315
+  },
+  "ucsd_shs_0098": {
+    "url": "https://studenthealth.ucsd.edu/services/urgent-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "date_fetched": "2026-05-26",
+    "word_count": 809
+  },
+  "ucsd_students_0001": {
+    "url": "https://students.ucsd.edu/academics/academic-activity/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 218
+  },
+  "ucsd_students_0002": {
+    "url": "https://students.ucsd.edu/academics/advising/career-planning/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 86
+  },
+  "ucsd_students_0003": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/about-diplomas.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 156
+  },
+  "ucsd_students_0004": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-audits.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 355
+  },
+  "ucsd_students_0005": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-graduate-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 90
+  },
+  "ucsd_students_0006": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-undergraduates.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 234
+  },
+  "ucsd_students_0007": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/digital-diplomas.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 235
+  },
+  "ucsd_students_0008": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 41
+  },
+  "ucsd_students_0009": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/latin-honors.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 335
+  },
+  "ucsd_students_0010": {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/replacement-diplomas.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 310
+  },
+  "ucsd_students_0011": {
+    "url": "https://students.ucsd.edu/academics/advising/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 230
+  },
+  "ucsd_students_0012": {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/change-graduate-major.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 81
+  },
+  "ucsd_students_0013": {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/declare-minor.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 408
+  },
+  "ucsd_students_0014": {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/declare-or-change-major.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 359
+  },
+  "ucsd_students_0015": {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 96
+  },
+  "ucsd_students_0016": {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1380
+  },
+  "ucsd_students_0017": {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/upper-division-course-overlap.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 62
+  },
+  "ucsd_students_0018": {
+    "url": "https://students.ucsd.edu/academics/enroll/academic-calendars.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 125
+  },
+  "ucsd_students_0019": {
+    "url": "https://students.ucsd.edu/academics/enroll/calendar25-26.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1160
+  },
+  "ucsd_students_0020": {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/add-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 413
+  },
+  "ucsd_students_0021": {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/checklist.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 236
+  },
+  "ucsd_students_0022": {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/drop-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 330
+  },
+  "ucsd_students_0023": {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 36
+  },
+  "ucsd_students_0024": {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/waitlist-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 352
+  },
+  "ucsd_students_0025": {
+    "url": "https://students.ucsd.edu/academics/enroll/seminars/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 102
+  },
+  "ucsd_students_0026": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/how-to-repeat-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 832
+  },
+  "ucsd_students_0027": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 100
+  },
+  "ucsd_students_0028": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/individual-classes-at-ucsd.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 725
+  },
+  "ucsd_students_0029": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/parttime-halftime-study/halftime-study.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 861
+  },
+  "ucsd_students_0030": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/parttime-halftime-study/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 141
+  },
+  "ucsd_students_0031": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/parttime-halftime-study/part-time-study.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1371
+  },
+  "ucsd_students_0032": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/return-to-ucsd.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 994
+  },
+  "ucsd_students_0033": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special-studies-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 555
+  },
+  "ucsd_students_0034": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/classes-at-csu.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 128
+  },
+  "ucsd_students_0035": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/classes-at-other-uc-campuses.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 300
+  },
+  "ucsd_students_0036": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/cross-campus-uconline.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1121
+  },
+  "ucsd_students_0037": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 160
+  },
+  "ucsd_students_0038": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/intercampus-visitor.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1427
+  },
+  "ucsd_students_0039": {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/transfer-courses.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1825
+  },
+  "ucsd_students_0040": {
+    "url": "https://students.ucsd.edu/academics/enroll/summer-session/campus-changes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 286
+  },
+  "ucsd_students_0041": {
+    "url": "https://students.ucsd.edu/academics/enroll/summer-session/how-to-enroll-visitors.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 415
+  },
+  "ucsd_students_0042": {
+    "url": "https://students.ucsd.edu/academics/enroll/summer-session/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 454
+  },
+  "ucsd_students_0043": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/add-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 413
+  },
+  "ucsd_students_0044": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/before-enrolling-in-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 362
+  },
+  "ucsd_students_0045": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/change-grading-option.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 387
+  },
+  "ucsd_students_0046": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/checklist.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 578
+  },
+  "ucsd_students_0047": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/community-college-csu-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 896
+  },
+  "ucsd_students_0048": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/drop-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 273
+  },
+  "ucsd_students_0049": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/enroll-in-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 242
+  },
+  "ucsd_students_0050": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/how-to-get-ready-for-the-quarter.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 617
+  },
+  "ucsd_students_0051": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 65
+  },
+  "ucsd_students_0052": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/non-ucsd-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 314
+  },
+  "ucsd_students_0053": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/undergrad-class-levels.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 100
+  },
+  "ucsd_students_0054": {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/waitlist.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 397
+  },
+  "ucsd_students_0055": {
+    "url": "https://students.ucsd.edu/academics/enroll/where-to-buy-textbooks.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 79
+  },
+  "ucsd_students_0056": {
+    "url": "https://students.ucsd.edu/academics/enroll/withdrawal/graduate-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 94
+  },
+  "ucsd_students_0057": {
+    "url": "https://students.ucsd.edu/academics/enroll/withdrawal/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 60
+  },
+  "ucsd_students_0058": {
+    "url": "https://students.ucsd.edu/academics/enroll/withdrawal/undergraduates.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1424
+  },
+  "ucsd_students_0059": {
+    "url": "https://students.ucsd.edu/academics/enroll/writing-requirement/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 205
+  },
+  "ucsd_students_0060": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/about.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 539
+  },
+  "ucsd_students_0061": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/final-exam-responsibilities.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 510
+  },
+  "ucsd_students_0062": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/final-exam-schedule.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 457
+  },
+  "ucsd_students_0063": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 65
+  },
+  "ucsd_students_0064": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/about.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 395
+  },
+  "ucsd_students_0065": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/academic-standing.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 314
+  },
+  "ucsd_students_0066": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/appeal-a-grade.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 360
+  },
+  "ucsd_students_0067": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/calculate-gpa.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 282
+  },
+  "ucsd_students_0068": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/change-grading-grad.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 236
+  },
+  "ucsd_students_0069": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/change-grading-undergrad.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 316
+  },
+  "ucsd_students_0070": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/check-your-grades.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 156
+  },
+  "ucsd_students_0071": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/grading-system.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 270
+  },
+  "ucsd_students_0072": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 88
+  },
+  "ucsd_students_0073": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/pass-not-pass-grade.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 688
+  },
+  "ucsd_students_0074": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/request-remove-incomplete.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 658
+  },
+  "ucsd_students_0075": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/satisfactory-unsatisfactory-grade.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 207
+  },
+  "ucsd_students_0076": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 221
+  },
+  "ucsd_students_0077": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/faq.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 437
+  },
+  "ucsd_students_0078": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 65
+  },
+  "ucsd_students_0079": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/ordering-instructions.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 388
+  },
+  "ucsd_students_0080": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/request-transcript.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1321
+  },
+  "ucsd_students_0081": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/request-verification.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 951
+  },
+  "ucsd_students_0082": {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/social-login.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 609
+  },
+  "ucsd_students_0083": {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/grad-programs-ucsd.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 250
+  },
+  "ucsd_students_0084": {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/grad-school-prep/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 511
+  },
+  "ucsd_students_0085": {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 114
+  },
+  "ucsd_students_0086": {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/planning.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 119
+  },
+  "ucsd_students_0087": {
+    "url": "https://students.ucsd.edu/academics/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 160
+  },
+  "ucsd_students_0088": {
+    "url": "https://students.ucsd.edu/academics/research/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 284
+  },
+  "ucsd_students_0089": {
+    "url": "https://students.ucsd.edu/academics/success/campus-resources/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 403
+  },
+  "ucsd_students_0090": {
+    "url": "https://students.ucsd.edu/academics/success/dine-with-a-prof.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1534
+  },
+  "ucsd_students_0091": {
+    "url": "https://students.ucsd.edu/academics/success/english-esl.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 562
+  },
+  "ucsd_students_0092": {
+    "url": "https://students.ucsd.edu/academics/success/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 93
+  },
+  "ucsd_students_0093": {
+    "url": "https://students.ucsd.edu/academics/success/tips.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 764
+  },
+  "ucsd_students_0094": {
+    "url": "https://students.ucsd.edu/academics/success/tutoring-study-programs.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 1753
+  },
+  "ucsd_students_0095": {
+    "url": "https://students.ucsd.edu/academics/success/writing-programs.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 314
+  },
+  "ucsd_students_0096": {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/emergency-numbers2.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 119
+  },
+  "ucsd_students_0097": {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 403
+  },
+  "ucsd_students_0098": {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/police-services/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 121
+  },
+  "ucsd_students_0099": {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/triton-alert.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 376
+  },
+  "ucsd_students_0100": {
+    "url": "https://students.ucsd.edu/campus-services/dining/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 182
+  },
+  "ucsd_students_0101": {
+    "url": "https://students.ucsd.edu/campus-services/housing/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 208
+  },
+  "ucsd_students_0102": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 90
+  },
+  "ucsd_students_0103": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/moving-out.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 272
+  },
+  "ucsd_students_0104": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/offcampus-housing.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 229
+  },
+  "ucsd_students_0105": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/offcampus-rental-forms.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 113
+  },
+  "ucsd_students_0106": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/responsibilities.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 647
+  },
+  "ucsd_students_0107": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/responsible-neighbor.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 436
+  },
+  "ucsd_students_0108": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/security-deposits.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 643
+  },
+  "ucsd_students_0109": {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/tips.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 427
+  },
+  "ucsd_students_0110": {
+    "url": "https://students.ucsd.edu/campus-services/housing/residence-life.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 53
+  },
+  "ucsd_students_0111": {
+    "url": "https://students.ucsd.edu/campus-services/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 178
+  },
+  "ucsd_students_0112": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/commuterfridge.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 156
+  },
+  "ucsd_students_0113": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 267
+  },
+  "ucsd_students_0114": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/lockers.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 75
+  },
+  "ucsd_students_0115": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/lounges.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 234
+  },
+  "ucsd_students_0116": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/holidays.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 258
+  },
+  "ucsd_students_0117": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 69
+  },
+  "ucsd_students_0118": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/park-off.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 262
+  },
+  "ucsd_students_0119": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/park-on.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 162
+  },
+  "ucsd_students_0120": {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/ways-to-commute.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 352
+  },
+  "ucsd_students_0121": {
+    "url": "https://students.ucsd.edu/campus-services/personal/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 762
+  },
+  "ucsd_students_0122": {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 108
+  },
+  "ucsd_students_0123": {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 267
+  },
+  "ucsd_students_0124": {
+    "url": "https://students.ucsd.edu/campus-services/technology/adobe.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 95
+  },
+  "ucsd_students_0125": {
+    "url": "https://students.ucsd.edu/campus-services/technology/campus-study-locations.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 2149
+  },
+  "ucsd_students_0126": {
+    "url": "https://students.ucsd.edu/campus-services/technology/computers/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 239
+  },
+  "ucsd_students_0127": {
+    "url": "https://students.ucsd.edu/campus-services/technology/computers/pac.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 345
+  },
+  "ucsd_students_0128": {
+    "url": "https://students.ucsd.edu/campus-services/technology/computers/responsibilities.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 241
+  },
+  "ucsd_students_0129": {
+    "url": "https://students.ucsd.edu/campus-services/technology/copy-photo.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 82
+  },
+  "ucsd_students_0130": {
+    "url": "https://students.ucsd.edu/campus-services/technology/help.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 97
+  },
+  "ucsd_students_0131": {
+    "url": "https://students.ucsd.edu/campus-services/technology/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 179
+  },
+  "ucsd_students_0132": {
+    "url": "https://students.ucsd.edu/campus-services/technology/tritongpt/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 606
+  },
+  "ucsd_students_0133": {
+    "url": "https://students.ucsd.edu/campus-services/technology/tritongpt/privacy.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 589
+  },
+  "ucsd_students_0134": {
+    "url": "https://students.ucsd.edu/campus-services/technology/tritongpt/terms.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 866
+  },
+  "ucsd_students_0135": {
+    "url": "https://students.ucsd.edu/finances/fees/registration/schedule-of-refunds.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 348
+  },
+  "ucsd_students_0136": {
+    "url": "https://students.ucsd.edu/finances/veterans/non-resident.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 492
+  },
+  "ucsd_students_0137": {
+    "url": "https://students.ucsd.edu/my-tritonlink/tools/tool-help/addresses.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 137
+  },
+  "ucsd_students_0138": {
+    "url": "https://students.ucsd.edu/my-tritonlink/tools/tool-help/schedule-of-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 322
+  },
+  "ucsd_students_0139": {
+    "url": "https://students.ucsd.edu/well-being/wellness-resources/student-parents/housing.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 84
+  },
+  "ucsd_students_0140": {
+    "url": "https://students.ucsd.edu/well-being/wellness-resources/student-parents/ug-priority-enrollment.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "date_fetched": "2026-05-26",
+    "word_count": 226
+  }
+}

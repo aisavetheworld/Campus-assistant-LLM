@@ -1,0 +1,43 @@
+Triton Alert Emergency Notifications
+
+Triton Alert Emergency Notifications
+
+Learn how the Triton Alert emergency notification system works.
+
+The UC San Diego Triton Alert emergency notification system uses a phone and email notification system, operated by a third-party company, Everbridge™, to keep the campus community updated in emergency situations. These communications are carried out through the use of email and SMS (text messaging). Notifications are managed through two separate user portals:
+
+Your UC San Diego email account is already registered to receive Triton Alert emergency email notifications if you are part of the campus community (e.g., students, academics, and staff). You must, however, add your phone devices if you wish to receive SMS (text messaging).
+
+Students use the Student Triton Alert emergency notification portal
+
+Faculty and staff use the Faculty/Staff Triton Alert emergency notification portal
+
+Affiliates and guests are to text “TRITONALERT” to 888777 in order to receive Triton Alert emergency notifications. Affiliates are typically defined as visiting scholars or grads, post-grads or -docs, volunteers, retirees, family members of students or clergy.
+
+All Triton Alert users are responsible for maintaining their account profiles (e.g., add or remove devices, update phone numbers, opt-out status, etc.).
+
+Please visit the Triton Alert FAQ for more information.
+
+Students, academics and staff
+
+Students – Log into the Triton Alert emergency notification portal by selecting a sign in option and using your UC San Diego username and password .
+
+Faculty and Staff – Log into the Triton Alert emergency notification portal by selecting a sign in option and using your UC San Diego username and password.
+
+Be sure to include a phone number if you wish to receive an SMS. You can also remove your number if you wish to not receive notifications.
+
+For additional help, contact emergency@ucsd.edu .
+
+Affiliates and guests
+
+Sign up for Triton Alert SMS messaging to your phone by texting TRITONALERT to 888777.
+
+Once enrolled via text, affiliates will receive an option to also receive alerts via email by adding their email address
+
+Affiliate and guest users will be automatically unsubscribed every year with an option to subscribe again by texting TRITONALERT to 888777.
+
+For additional help, contact emergency@ucsd.edu .
+
+Questions? Contact the Emergency Management Team .
+
+Note: This page has a friendly link that's easy to remember: http://blink.ucsd.edu/go/tritonalert

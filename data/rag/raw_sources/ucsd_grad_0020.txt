@@ -1,0 +1,279 @@
+Preparing to Graduate
+
+Dissertation & Thesis Manual
+
+Preparation and Submission Manual Overview
+
+Doctoral Dissertations and Master's Theses
+
+Doctoral dissertations and master’s theses submitted to UC San Diego must meet the requirements set by the Graduate Council of the University of California San Diego for the degree candidate to be eligible for a graduate degree. A doctoral dissertation must be the result of original research conducted in the candidate’s specialization and must be approved in its entirety by the student’s doctoral committee. A master’s thesis must be a significant research work that must be approved in its entirety by the master’s committee.
+
+The final version of the dissertation/thesis must conform to the details outlined in the " Preparation and Submission Manual for Doctoral Dissertations and Master's Theses. " For reference, we have provided some highlights below, but please refer to the full PDF Manual for complete instructions.
+
+We have also made a template available as an initial resource to assist students with proper formatting.
+
+Co-author permission letters are submitted electronically via the Kuali Permission Letter Submission Form . (see section below, "Use of Published Material," for additional information)
+
+As of April 2026, all electronic theses and dissertations (ETDs) must conform to WCAG 2.1 Level AA web accessibility requirements prior to submission in order to comply with nondiscrimination provisions outlined in Title II of the Americans with Disabilities Act.
+
+PDFs should contain code or markup language that ensure the content is navigable and readable by screen readers or other assistive technology. As part of the degree completion process, students must ensure their dissertation/thesis PDF meets these requirements by using an Accessibility Checker such as those included in Adobe Acrobat Pro or in Microsoft Word. These requirements ensure that ETDs are accessible to individuals with disabilities.
+
+The following are the key components of accessible PDFs.
+
+Important note: GEPA recommends applying these components to your manuscript in your authoring tool (e.g. Microsoft Word) before you convert the document to PDF (further information is provided here from ProQuest: Preparing Your Manuscript for Submission and How do I create a PDF file )
+
+Make sure there is no password protection on the PDF
+
+Ensure that security settings allow printing
+
+PDF tags : Ensure that a PDF document can be read and navigated by assistive technology. Tags include Headings, Lists, Links, Tables, Paragraphs, and other document elements.
+
+Tables : PDF must have table headers for columns and rows. Reading order : Ensure that tags and headings are ordered to support the logical reading order.
+
+Tables : PDF must have table headers for columns and rows.
+
+Reading order : Ensure that tags and headings are ordered to support the logical reading order.
+
+Alternative text (“Alt-Text”) : Ensures that all images, figures, or other visual elements are described. Refer to the Section 508 guide to authoring meaningful alternative text for best practices.
+
+Colors : UC San Diego requires that all text be black. If color is used in figures/illustrations/maps, choose colors with sufficient contrast, and do not rely on color alone to convey information. Use a contrast checker like this one from Web AIM .
+
+Metadata (file properties) : Add document description such as author, title, and language.
+
+LaTeX accessibility
+
+Manuscripts authored in LaTeX or similar TeX engines are usually untagged and inaccessible to screen readers. Additional accessibility packages and steps are required to ensure that you can export an accessible PDF.
+
+Instructions on creating an accessible, tagged PDF from the LaTeX Tagging Project: Using LaTeX to produce accessible PDF
+
+Using LaTeX to produce accessible PDF
+
+.Advice from the University of South Carolina and The Ohio State University for making LaTeX documents accessible, including title and section headings, alt text, and data tables: Creating accessible LaTeX documents LaTeX Accessibility Guide
+
+Creating accessible LaTeX documents
+
+LaTeX Accessibility Guide
+
+An overview of some technical challenges faced by software, including TeX engines and LaTeX, in producing tagged and accessible PDF files: An introduction to tagged PDF files: internals and the challenges of accessibility
+
+An introduction to tagged PDF files: internals and the challenges of accessibility
+
+Additional Resources
+
+PDF accessibility (Web Accessibility in Mind)
+
+Create accessible digital products (US General Services Administration: Section 508)
+
+Eight-step PDF accessibility checklist (Deque)
+
+Please note, it is the responsibility of the students to ensure their ETDs meet accessibility requirements.
+
+Specifications and Formatting
+
+The margins of your thesis/dissertation should be from 1" on all sides. (Slightly larger margins are acceptable, but should be a minimum of 1 inch.)
+
+Font and Font Sizes
+
+A font size of at least 10 must be used for the text; students may choose one of the following font sizes: 10pt, 11pt or 12pt. Standard fonts are Arial, Century Gothic, Helvetica, or Times New Roman. A consistent font must be used throughout the entire dissertation or thesis.
+
+All page numbers are centered at the bottom of the page, 0.5” from the bottom edge.
+
+Except where noted below, each page of the entire dissertation or thesis must be numbered consecutively; pages should be numbered according to the following standards:
+
+Neither the title page nor the blank or copyright page is to be numbered; however, the two pages are counted when numbering the preliminary pages that follow.
+
+The dissertation/thesis approval page is always numbered as page “iii”.
+
+The preliminary pages following the title and blank or copyright pages must be numbered consecutively beginning with lower case Roman numeral “iii” on the dissertation/thesis approval page. All preliminary pages are to be numbered using lower case Roman numerals (following the title and blank or copyright pages, begin with iii, iv, v, vi, etc.). This includes the dissertation/thesis approval page, dedication, epigraph, table of contents, list of abbreviations, list of symbols, list of illustrations, list of figures, list of schemes, list of tables, list of photographs, preface, acknowledgements, vita (required for doctoral dissertations), and the abstract. The page numbers must be placed at the bottom of the page and centered 0.5” from the bottom.
+
+The main body of the text and any back matter must be numbered consecutively with Arabic numerals beginning with “1” (1, 2, 3, etc.), including text, illustrative materials, notes, appendices and bibliography. All pages are numbered at the bottom of the page and centered.
+
+Correct pagination (no missing pages, blank pages, or duplicate numbers or pages) is required for the doctoral dissertation or master’s thesis to be acceptable.
+
+All textual materials in the main body of text should be double-spaced. Long quotations, footnotes, text that appears within figures or tables or maps, and captions may be single-spaced.
+
+The first line of each paragraph must be indented one 0.5” tab.
+
+Page Organization
+
+Preliminary Pages
+
+Except for the title page and blank or copyright page, all preliminary pages are numbered with lower case Roman numerals at the center bottom of the page. Pages are numbered in sequence, and page numbers are centered and placed 0.5” from the bottom of the page.
+
+The name of the conferring institution – UNIVERSITY OF CALIFORNIA SAN DIEGO – appears in all capital letters at the top of the page.
+
+The title should be specific, unambiguous, and descriptive of the research, with easily identifiable key words that will ensure electronic retrieval.
+
+Scientific titles must use words, not symbols, formulas, superscripts or Greek letters.
+
+Doctoral students should refer to their document as a dissertation. Master’s students should refer to their document as a thesis.
+
+“in” should be all lowercase and on a line alone.
+
+The degree title listed should be the title that UC San Diego will actually confer; if unsure, contact your Graduate Coordinator.
+
+“by” should be all lowercase and on a line alone.
+
+Students may use either their legal or lived name as it is listed on the UC San Diego official record and remain consistent throughout the document
+
+All committee members must be listed, chair first, using the title Professor. If professor is not applicable to all committee members, list all names without any titles. Use double spacing between “Committee in Charge” and the chair’s name. Alphabetize all members after chair and single space all names. Indent all committee members 0.5” from “Committee in Charge”. (This section is the only section of the title page that is not centered.)
+
+Degree year: Students must use the year of the quarter of degree conferral.
+
+The title page is not numbered; it is counted as page “i” in the numbering of the preliminary pages. The title and blank or copyright pages are the only manuscript pages without page numbers.
+
+Dissertation/Thesis Approval Page
+
+This page is always numbered page iii. Page numbers from here forward in the preliminary pages of the document will vary for individual students, depending on which of the optional pages described below students choose to include. The numbers must be internally consistent for the document.
+
+There is no header on the dissertation/thesis approval page. The text at the top of the page is either left justified or fully justified. The text at the bottom of the page is centered. All information should be centered on the page vertically.
+
+Effective November 2020, faculty signatures are not collected on the dissertation/thesis approval page. Faculty committee member approval is captured on the combined Final Report Form (this form is initiated and managed by the department/program graduate coordinator). Students should check with their department/program graduate coordinator to verify that the combined form is being used. The formatted page iii must still be included in the dissertation/thesis and must follow the format described above.
+
+All dissertations or theses are required to have a table of contents. List the page number that each section first appears on. Use proper capitalization and include header and sectional titles exactly as they appear within the dissertation or thesis (for example, if “Chapter” is used in the text headers, it must be used in the Table of Contents).
+
+If illustrations such as figures, tables, graphs, maps, diagrams, photos, etc., are scattered throughout, make a separate “List of Figures,” “List of Tables,” “List of Graphs,” etc. to follow the table of contents.
+
+For students who submit supplemental files, a separate “List of Supplemental Files” is required. If all the files are of one media type, use a more specific heading for your list, e.g. “List of Supplemental Videos” or “List of Supplemental Sound Recordings.” The file(s) should be labeled with the student’s last name and a title that is descriptive of the file content.
+
+Acknowledgements
+
+The acknowledgements, along with any other preliminary sections or parts of the dissertation or thesis, must be reviewed and approved by the committee members.
+
+See the section “Using Published Material” (in the full PDF manual, and in the excerpted section below) if any portion of the dissertation or thesis is co-authored, published, submitted for publication, or is being prepared for publication. A paragraph acknowledging all co-authors and publishers is required in the acknowledgements page and as the last paragraph of text at the end of each applicable chapter.
+
+Permission letters from the committee chair and all co-authors must be submitted electronically via the Kuali permission letter submission form prior to or the day of the student’s final document review . See the full manual for sample letters and additional information. Click here for step by step instructions and an overview of the Kuali form.
+
+An abstract should provide a clear impression of the content and major divisions of the dissertation or thesis. Abstracts of doctoral dissertations must not exceed 350 words; master’s theses abstracts must not exceed 250 words.
+
+Figures and Tables
+
+All figures and tables must be accompanied by a caption. Captions for figures go below the figure. Captions for tables go above the table.
+
+All figures and tables must have their captions formatted the same, ie numbering, spacing, bold/italicized text, text alignment (left, centered, justified), font.
+
+Figures/tables and their captions need to fit on one page and within the page margins. If they cannot fit on one page, then format the captions as a facing caption, where the caption goes on the page before the figure/table.
+
+Examples of Special Formatting Requirements
+
+Page 1 includes the entire figure/table caption (with no other paragraph text) followed by the figure/table itself on page 2.
+
+Multiple Page Figures/Tables
+
+If figures/tables extend over multiple pages, then the caption must be repeated on each page that the figure/table appears with ", Continued" added. Table column headers must also be repeated on each page.
+
+Appendices and References
+
+Appendices typically contain supporting material such as data sheets, questionnaire samples, illustrations, maps, charts, etc. Appendices may be single-spaced.
+
+References/Bibliography/Works Cited
+
+The format of the references and/or bibliography should follow that of the student’s discipline and should be consistent throughout the dissertation/thesis.
+
+All authors must be listed. Do not depersonalize non-primary authors by referring to them in the bibliography as et al.
+
+Bibliographies, references, and works cited are to be single-spaced with a double space between entries, and should be the last entry in each chapter or in the dissertation/thesis.
+
+Use of Published Material and Co-Author Permissions
+
+If students are using material which has been submitted for publication or has been published, students must read the full text that follows and see the manual for additional details.
+
+Students must obtain permission letters from all co-authors, including committee members and UCSD faculty. Students submit the co-author letters to GEPA electronically via the Kuali permission letter submission form for any chapter or portion of a chapter in the dissertation or thesis to which one or more of the following applies:
+
+Students have co-authors (regardless of whether or not students are submitting it for publication);
+
+The chapter or portion thereof is being prepared for publication;
+
+The chapter or portion thereof has been submitted for publication;
+
+The chapter or portion thereof has been published.
+
+If approved by the committee members, reports of research undertaken during graduate study at UC San Diego that have been published or submitted for publication in appropriate media may be accepted in their printed form in full or in part as the dissertation or thesis.
+
+If the material has co-authors other than the committee chair, the student must obtain permission letters from all co-authors giving their approval for the co-authored material to be used. This must be done even if copyright has been retained.  Students need to determine if the publisher’s permission is also required. Students collect their signed co-author permission letters and cover letter from their committee chair and submit electronically via the Kuali permission letter submission form prior to or the day of their final document review with GEPA.
+
+Click here for a sample/template of the cover letter from the committee chair and the permission letter(s) from co-author(s).
+
+Click here for step by step instructions and an overview of the Kuali form.
+
+Copyright and Publishing Options
+
+All students receive copyright when creating and publishing their dissertation/thesis.
+
+Proquest offers to file for additional copyright with the US Copyright Office for a fee. Students can file for additional copyright through Proquest or on their own through the US Copyright Office .
+
+Publishing Options
+
+Your dissertation/thesis is published in two different libraries, Proquest and eScholarship.
+
+Proquest offers two publishing options: traditional and open access. Traditional = your paper can only be accessed if someone has access to Proquest or pays to access your paper. The default option. Open access = your paper is available to anyone on the internet for free. You would have to pay a fee for this option.
+
+Traditional = your paper can only be accessed if someone has access to Proquest or pays to access your paper. The default option.
+
+Open access = your paper is available to anyone on the internet for free. You would have to pay a fee for this option.
+
+eScholarship is the University of California's digital library. All papers are open access in eScholarship.
+
+Dissertation and Thesis Release Form (Embargo)
+
+Students, with approval from their committee chair, may choose to immediately publish or put an embargo/delay on publishing their dissertation/thesis. The default option is immediate publication.
+
+If an embargo is chosen, the options are for a 1 or 2 year delay. (Note: Students in the MFA in Writing program are required to have a 10 year embargo).
+
+If the embargo needs to be extended, a request from the committee chair must be submitted to the Assistant Dean of Academic Affairs via email before the embargo expires . Dissertations/theses cannot be re-embargoed once the embargo expires.
+
+Your embargo choice must match in Proquest and on the dissertation/thesis release form . The release form must be signed by the student and the committee chair and must be uploaded as part of the submission to ProQuest.
+
+Please note: If you delay the release of your work, access to the full text of your work will be delayed for the period that you specify. However, the citation and abstract of your work will be available through ProQuest and through the UC California Digital Library (eScholarship).
+
+Dissertation and Thesis Release Form (Embargo Form)
+
+Students, with approval from their committee chair, may choose to immediately publish or put an embargo/delay on publishing their dissertation/thesis. The default option is immediate publication.
+
+Embargo options are for a 1 or 2 year delay. (Note: Students in the MFA in Writing program are required to have a 10 year embargo).
+
+Your embargo choice must match in Proquest and on the dissertation/thesis release form . The release form must be signed by the student and the committee chair and must be uploaded as part of the submission to ProQuest.
+
+Please note: If you delay the release of your work, access to the full text of your work will be delayed for the period that you specify. However, the citation and abstract of your work will be available through ProQuest and through the UC California Digital Library (eScholarship).
+
+Embargo Extension: If the embargo needs to be extended beyond initial embargo period, a request from the committee chair (with endorsement from the department chair / program director) must be submitted to the Assistant Dean of Academic Affairs via email before the embargo expires . The request must specify the reason for the additional time and how long the embargo should continue. Dissertations/theses cannot be re-embargoed once the embargo expires. Please see the Policy on Open Access for Theses and Dissertations: https://policy.ucop.edu/doc/2000688/ .
+
+For further questions about doctoral dissertation or master’s thesis formatting, students may contact the appropriate GEPA Academic Affairs Advisor .
+
+Master’s thesis formatting questions:
+
+Sinai Cota, sicota@ucsd.edu: Education Studies, Materials Science, Mechanical and Aerospace Engineering
+
+Kelsey Darvin, k2darvin@ucsd.edu : Astronomy, Biological Sciences,  Electrical and Computer Engineering, Mathematics, Physics, Structural Engineering, Scripps Institution of Oceanography
+
+Sara Miceli , smiceli@ucsd.edu :  Biomedical Sciences, Biostatistics, Data Science, Neurosciences, Public Health
+
+Karen Villavicencio, kvillavicencio@ucsd.edu : All Arts & Humanities and Social Sciences, Bioengineering, Bioinformatics, Chemistry, Chemical Engineering, NanoEngineering, Computer Science and Engineering
+
+Doctor of Philosophy dissertation formatting questions:
+
+Kelsey Darvin , k2darvin@ucsd.edu: Structural Engineering
+
+Eliese Maxwell , etmaxwell@ucsd.edu : all other PhD programs (except those listed)
+
+Sara Miceli , smiceli@ucsd.edu: Biomedical Sciences, Biostatistics, Neurosciences, Public Health, Rady
+
+Karen Villavicencio , kvillavicencio@ucsd.edu: Chemical Engineering, NanoEngineering
+
+Doctor of Musical Arts, Doctor of Education , all joint PhD programs with SDSU formatting questions:
+
+Sara Miceli , smiceli@ucsd.edu
+
+To begin the process of filing for your master’s thesis or doctoral degree, please submit the online form, “ File for Doctoral/Master’s (Thesis) Degree Form .” See Degree Completion for detailed instructions.
+
+Non Discrimination Statement : In accordance with applicable Federal and State law and University policy, the University of California does not discriminate, or grant preferences, on the basis of race, color, national origin, religion, sex, disability, and/or other protected categories. More information about Proposition 209 can be found here . More information about the University of California Anti-Discrimination Policy can be found here.
+
+Preparing to Graduate
+
+Degree Completion
+
+Dissertation & Thesis Submission
+
+Dissertation & Thesis Manual
+
+Dissertation & Thesis Template

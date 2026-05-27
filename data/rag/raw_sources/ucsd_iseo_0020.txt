@@ -1,0 +1,269 @@
+Scholar Services
+
+iServices Instructions for Scholars
+
+J-1 Extension Request
+
+J-1 Extension Requests
+
+Please use this page as a resource on submitting J-1 extension applications in iServices . Your Department must initiate this process. Once they have, you will receive an e-mail from iServices inviting you to log in and fill in your information. In the iServices scholar portal, you will see a pending request on the Home page. Instructions will be provided within the forms. Below is additional information that can help you prepare for your request.
+
+Prepare Required Documents
+
+J-1 Documents Quick List
+
+Valid passport , with at least 6 months of validity Valid passport for child(ren) or spouse, if applicable
+
+Valid passport for child(ren) or spouse, if applicable
+
+I-94 from your most recent entry to the US I-94 from the most recent entry for your child(ren) or spouse, if applicable
+
+I-94 from the most recent entry for your child(ren) or spouse, if applicable
+
+Visa used for most recent entry to the US
+
+Curriculum Vitae (CV) , resume, or biosketch
+
+Funding Documentation If you are receiving funding from UC San Diego, this will be provided to us by your department We require funding documentation to be from within the last 6 months - you may need to provide an updated bank statement or organizational support letter
+
+If you are receiving funding from UC San Diego, this will be provided to us by your department
+
+We require funding documentation to be from within the last 6 months - you may need to provide an updated bank statement or organizational support letter
+
+iServices Processing
+
+NOTE: Always click the link at the top of each eform listed as MAIN PAGE| FORM NAME to return the to other eforms within the group INSTEAD of pressing the back arrow in the web browser. Dont forget to click submit after completing each eform.
+
+Remote work : U.S. Department of State guidance limits remote participation of J-1 Exchange Visitors in their programs to 40% of their time. J-1 Exchange Visitors are required to be on-campus or at their non-residential worksite at least three of five days a week.
+
+Remote work : U.S. Department of State guidance limits remote participation of J-1 Exchange Visitors in their programs to 40% of their time. J-1 Exchange Visitors are required to be on-campus or at their non-residential worksite at least three of five days a week.
+
+Recharge Fee: If your department has indicated that you are responsible for the recharge fee, you will receive an email prompting you to complete the payment.
+
+Recharge Fee: If your department has indicated that you are responsible for the recharge fee, you will receive an email prompting you to complete the payment.
+
+Log in to iServices
+
+Your J-1 extension request will be initiated by your department.
+
+Once your department initiates the request, you will receive an email invitation from ischolars@ucsd.edu to log into the system and provide your information and documents.
+
+Please click on the provided Link to Update Information and provide the following information:
+
+iServices ID number (provided in email)
+
+Limited Access Pin Number (provided in email)
+
+Please be sure to save your login information that is emailed to you so that you can continue to access your request.
+
+Once logged in, your current requests will appear, and you can select the request to access your eforms.
+
+Trouble logging in? Please email ischolars@ucsd.edu if you encounter errors or difficulties accessing your record.
+
+Extension J-1Personal Information
+
+When completing this form, please make sure to use standard roman characters: characters with accents cannot be read by the iServices system and may cause errors in the submitted information.
+
+Passport and Biographical Information
+
+Passport Information
+
+Has your name changed? Please make sure to review your new passport when completing this information!
+
+All name information should be entered as it is shown on the MRZ. Please use ALL CAPS for your family or last name.  Example:
+
+Last Name: LASTNAME
+
+First name: Given Name
+
+After providing your passport information, including the passport number, dates, and issuing country, you will also be asked to upload a copy of the biographical page of your passport.
+
+Multiple names will be divided by one "<" bracket. Make sure to include your full last name and first name!
+
+You may see names referred to by different terms. The "last name" is also known as a "surname" or "family name," while the "first name" is your "given name."
+
+Your middle name may be part of your "given name." These will also be separated by one ">" on the MRZ
+
+For further information regarding naming conventions visit the Department of Homeland Security naming standards page .
+
+Your passport should be valid for a minimum of 6 months into the future at all times
+
+Please make sure to enter your gender as it is indicated on your passport
+
+If you have a new preferred name you would like to share with ISEO, please select Yes and provide your updates. ISEO will use your preferred name and gender to address you whenever your legal/passport name is not required.
+
+For more information please visit ISEO's Gender Recognition Act information section .
+
+Local U.S. Address Residential Address
+
+Your address should auto-populate in your new extension request. If your address has changed, please update it now so that we are able to update SEVIS.
+
+Extension J-1 Immigration Information/H-1B Extension Immigration Information
+
+You will be asked to provide your most recent I-94 entry document and information for yourself and any applicable J-2 dependents.
+
+Additionally, please let us know if you have any of the following:
+
+A pending or approved I-130
+
+A pending or approved I-140
+
+U.S. Department of State Waiver Recommendation
+
+I-612 Waiver Approval
+
+Extension J-1 Financial Information and Submission
+
+iServices will ask you if dependents will be joining you for your extension appointment.
+
+If you plan on having your dependents with you inside the U.S. who will need a dependent status , please add their information in iServices. Our office will issue J2 DS-2019 for them.
+
+Minimum Funding Requirements
+
+At minimum, scholars must be able to demonstrate:
+
+$2,400 per month for the J-1 Scholar
+
+$800 additional per month if accompanied by a J-2 Spouse
+
+$400 additional per month for each child, if accompanied by a J-2 Child
+
+Dependent Information
+
+Important: You will be asked if you would like to end your J-2 dependent's status. Please only indicate this if your dependents have departed the US and there is no possibility of their return in J-2 status. If your dependents have left the US for a temporary trip or may be returning, their J-2 status should not be ended.
+
+Source of Funding
+
+In iServices, you will be asked to indicate what type(s) of funding you will be receiving.
+
+Will you receive UC San Diego funding?
+
+You can select "Yes" if funding is being distributed to you by UC San Diego, regardless of the grant source
+
+Typically this is associated with Postdoctoral Scholar-Employee (3252) and Postdoctoral Scholar-Fellow appointments (3253)
+
+Your department will provide your appointment letter, offer, or UC San Diego funding documentation to ISEO
+
+Please note: If you are in a 3254 appointment (Paid Direct) and being paid directly by an outside organization, this funding should not be listed as Program Sponsored funds.
+
+Will you receive U.S. Government funding?
+
+Funding is only considered U.S. Government funding if it is paid directly to you and/or is intended specifically for international exchange. NIH or other federal agency grants paid to PIs to fund research projects would not be considered government funding for the purposes of the J-1.
+
+Will you receive International Organization funding?
+
+International Organizations include organizations that cross international borders, such as the United Nations
+
+International Organization funding is rare. If you are not sure if an organization qualifies as an International Organization, please enter this funding as Other Organization funding.
+
+Will you receive funding from your home country government?
+
+If your home country government is providing you with funding directly, select "Yes."
+
+Will you receive funding from another organization?
+
+If you are receiving salary from your employer while here at UC San Diego, this counts as organizational funding.
+
+You can use this option if you are receiving funding from a company, academic institution, or non-federal government agency. Scholarships or fellowships which are not from UC San Diego also can be listed in this space.
+
+A personal bank statement or tax statement cannot be submitted as proof of this type of funding.
+
+Will you be using personal funds (including funds from family members or friends)?
+
+Personal funding should only be listed after all other sources of funding are provided, and are considered supplemental to other listed funding sources.
+
+If only personal funds are included in the request, this is an indication to ISEO that there are NO additional funding sources. Excluding additional funding sources, such as salary or scholarships, could be seen as a misrepresentation of program funding source.
+
+Documentation must show liquid funds: we cannot accept stocks, bonds, investments, or credit cards.
+
+If you are being sponsored by an individual besides yourself, they should include a letter of sponsorship, indicating that they are willing to fund you during your time at UC San Diego. This documentation should include dates (or duration) of the program, and be accompanied by proof of liquid funds.
+
+Acceptable Funding Documentation
+
+Funding documentation should clearly indicate the amount which you will be receiving, and the dates during which it will be received.
+
+Some examples of acceptable funding include:
+
+UC San Diego Funding Offer letter
+
+Government or Organizational Funding A letter from the organization or office showing the amount you will receive, and the dates during which you will receive it A letter from your employer stating you will still receive your salary while abroad at UC San Diego, and including the amount you will receive, and the duration of funding A scholarship document clearly outlining the amount of the scholarship, you as the recipient, and when it will be issued
+
+A letter from the organization or office showing the amount you will receive, and the dates during which you will receive it
+
+A letter from your employer stating you will still receive your salary while abroad at UC San Diego, and including the amount you will receive, and the duration of funding
+
+A scholarship document clearly outlining the amount of the scholarship, you as the recipient, and when it will be issued
+
+Personal Funding A bank statement no older than 6 months showing liquid funds A bank statement from an individual sponsor no older than 6 months showing liquid funds, including a statement of sponsorship
+
+A bank statement no older than 6 months showing liquid funds
+
+A bank statement from an individual sponsor no older than 6 months showing liquid funds, including a statement of sponsorship
+
+Credit card documentation
+
+Investments, stocks, or other non-liquid funding
+
+Letters or documents that do not clearly indicate your name or the dates
+
+Letters or statements over 6 months old that were used to prove your initial funding
+
+Department Processing and Submission to ISEO
+
+Once you have completed the above eforms, your department will receive a notification prompting them to review your submission, finish their eforms, and finalize the request and submit to ISEO. If you have questions about the status of your request, please reach out to your department contact first.
+
+The scholar will be cc'd on the confirmation email for final submission.
+
+Once we receive your request, we will review all the information and documentation, and let you and your department know if we require anything additional.
+
+We offer two types of processing:
+
+Standard Processing: 15 business days from submission of complete request. Requested start date must be at least 15 days out from submission of complete request.
+
+15 business days from submission of complete request.
+
+Requested start date must be at least 15 days out from submission of complete request.
+
+RUSH Processing: Additional fee required 5 business days from submission of complete request.
+
+Additional fee required
+
+5 business days from submission of complete request.
+
+We cannot accept requests to waive the rush fee
+
+Please submit the fully completed J-1 extension request no less than 15 business days prior to the current J-1 end date to ensure that we are able to extend the appointment in time
+
+We treat every request with care! If you have friends or colleagues also going through the J-1 request process at UC San Diego, you may receive your documentation on different days. This is because our office works with nearly 2,000 international scholars, and our processing may change based on workloads or case specifics. Our guaranteed time for all scholars will be within 15 business days from the date we receive all requested items.
+
+iServices Instructions for Scholars
+
+Initial J-1 Requests
+
+J-1 Extension Request
+
+H-1B/E-3/TN Initial Requests
+
+H-1B/E-3/TN Extension/Amendment Requests
+
+Register with ISEO
+
+J-1 Scholar Insurance Verification
+
+J-1/J-2 Travel Signature
+
+J-1 Scholar Out of Country Notification
+
+Update Contact Information
+
+Replacement DS-2019
+
+J-1 Student Intern
+
+J-1 Occasional Lecture/Consultation
+
+Separation/Departure/Transfer Out
+
+Change to Permanent Residency
+
+Other Status Registration

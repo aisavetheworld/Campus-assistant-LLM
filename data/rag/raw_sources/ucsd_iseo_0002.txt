@@ -1,0 +1,279 @@
+iServices Instructions
+
+Scholar Services
+
+J-1 Extension Request
+
+J-1 Scholar Extension Request
+
+Finding a Current Scholar's Record
+
+Log into the iServices portal and select the "Departmental Services" page.
+
+Please note that there are two ways for a department user to access a scholar's profile.
+
+Please note that there are two ways for a department user to access a scholar's profile.
+
+Select on my " My Current Cases " under the LISTS section. Clicking the scholar's name you are searching for will populate a page titled "Work on Application", which will list of all potential requests a departmental user can submit.
+
+Select on my " My Current Cases " under the LISTS section.
+
+Clicking the scholar's name you are searching for will populate a page titled "Work on Application", which will list of all potential requests a departmental user can submit.
+
+Clicking the scholar's name you are searching for will populate a page titled "Work on Application", which will list of all potential requests a departmental user can submit.
+
+Locate the J-1 Scholar Extension Request under the TASKS section. Connect to the scholar record by entering their iServices ID and date of birth . NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you not have a scholar ID saved you can either: Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Locate the J-1 Scholar Extension Request under the TASKS section.
+
+Connect to the scholar record by entering their iServices ID and date of birth . NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you not have a scholar ID saved you can either: Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Connect to the scholar record by entering their iServices ID and date of birth .
+
+NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you not have a scholar ID saved you can either: Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you not have a scholar ID saved you can either:
+
+Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or
+
+Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or
+
+Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Begin J-1 Scholar Extension Application
+
+Departmental users are required to complete a series of eforms within the J-1 Scholar Extension Request group.
+
+NOTE: Always click the link at the top of each e-form listed as MAIN PAGE| TEMPID | SCHOLAR NAME to return the to other eforms within the group INSTEAD of pressing the back arrow in the web browser.
+
+Extension J-1 Scholar Request Initiation
+
+Submitting this first individual eform will send an automated email to the scholar with the access URL to the portal and a login.
+
+Submitting this first individual eform will send an automated email to the scholar with the access URL to the portal and a login.
+
+The scholar can then begin completing their eforms in tandem with you completing the departmental eforms.
+
+The scholar can then begin completing their eforms in tandem with you completing the departmental eforms.
+
+Extension J-1 Department Update Program Information
+
+New Appointment End Date : It is key that the new program end date must match the appointment letter uploaded within this e-form. The start and end dates will be printed on the DS-2019.
+
+New Appointment End Date : It is key that the new program end date must match the appointment letter uploaded within this e-form.
+
+The start and end dates will be printed on the DS-2019.
+
+The start and end dates will be printed on the DS-2019.
+
+Appointment Title: If the scholar has a second appointment title you may upload an additional appointment letter if applicable. Note: Postdoc appointment letters would indicate the different appointments on the same letter.
+
+Appointment Title: If the scholar has a second appointment title you may upload an additional appointment letter if applicable.
+
+Note: Postdoc appointment letters would indicate the different appointments on the same letter.
+
+Note: Postdoc appointment letters would indicate the different appointments on the same letter.
+
+Paid Position: Indicating full-time or part-time will populate different instructions to processing within the eform, depending on the circumstances.
+
+Paid Position: Indicating full-time or part-time will populate different instructions to processing within the eform, depending on the circumstances.
+
+Tenure-Track: The J-1 Research Scholar and Professor categories prohibit their use for persons holding tenured or tenure-track positions. You will need to request H-1B status instead for this individual.
+
+Tenure-Track: The J-1 Research Scholar and Professor categories prohibit their use for persons holding tenured or tenure-track positions.
+
+You will need to request H-1B status instead for this individual.
+
+You will need to request H-1B status instead for this individual.
+
+Appointment Period : The appointment length informs the appropriate J Category Selection. If there is the expectation that the scholar will extend their program beyond six months, we recommend they come in the "Research Scholar" category rather than the "Short Term Scholar" category .
+
+Appointment Period : The appointment length informs the appropriate J Category Selection.
+
+If there is the expectation that the scholar will extend their program beyond six months, we recommend they come in the "Research Scholar" category rather than the "Short Term Scholar" category .
+
+If there is the expectation that the scholar will extend their program beyond six months, we recommend they come in the "Research Scholar" category rather than the "Short Term Scholar" category .
+
+Description of the Research Activity: Please provide a clear description of the research activity the scholar will continue to pursue. (There is not character limit within this text field)
+
+Description of the Research Activity: Please provide a clear description of the research activity the scholar will continue to pursue. (There is not character limit within this text field)
+
+Insurance Coverage Information: The J-1 category requires the Exchange Visitor to have minimum levels of insurance coverage. The UCSD CORE plan does NOT meet the J-1 coverage requirements.
+
+Insurance Coverage Information:
+
+The J-1 category requires the Exchange Visitor to have minimum levels of insurance coverage.
+
+The J-1 category requires the Exchange Visitor to have minimum levels of insurance coverage.
+
+The UCSD CORE plan does NOT meet the J-1 coverage requirements.
+
+The UCSD CORE plan does NOT meet the J-1 coverage requirements.
+
+Extension J-1 Department Update Site of Activity
+
+Remote Worksite: If the scholar will perform remote work at their private residence must be entered as a "secondary site of activity" see form: "New J-1 Additional Site of Activitiy."
+
+Remote Worksite: If the scholar will perform remote work at their private residence must be entered as a "secondary site of activity" see form: "New J-1 Additional Site of Activitiy."
+
+Primary Worksite: A drop down selection is provided with the most common sites of activity, or the option to provide an “Other” worksite and it's address information.
+
+Primary Worksite: A drop down selection is provided with the most common sites of activity, or the option to provide an “Other” worksite and it's address information.
+
+Extension J-1 Department Update Secondary Site of Activity
+
+Secondary Site of Activity: This e-form may be submitted multiple times, depending on the number of appropriate additional worksites. Only one address per form is allowed, so if a scholar has three secondary sites of activity, please submit this form three times for those different locations.
+
+Secondary Site of Activity: This e-form may be submitted multiple times, depending on the number of appropriate additional worksites.
+
+Only one address per form is allowed, so if a scholar has three secondary sites of activity, please submit this form three times for those different locations.
+
+Only one address per form is allowed, so if a scholar has three secondary sites of activity, please submit this form three times for those different locations.
+
+Extension J-1 Department Faculty Sponsor Certification
+
+Medical Degree Confirmation: Indicating whether the scholar has a medical degree or not is required.
+
+Medical Degree Confirmation: Indicating whether the scholar has a medical degree or not is required.
+
+Faculty Sponsor: An email will be sent to the faculty sponsor with a link to complete a second approver e-form to provide confirmation. Once the faculty sponsor submits the Second Approver form, department contacts are notified via email what information the faculty sponsor has submitted.
+
+Faculty Sponsor: An email will be sent to the faculty sponsor with a link to complete a second approver e-form to provide confirmation.
+
+Once the faculty sponsor submits the Second Approver form, department contacts are notified via email what information the faculty sponsor has submitted.
+
+Once the faculty sponsor submits the Second Approver form, department contacts are notified via email what information the faculty sponsor has submitted.
+
+The "Extension J-1 Incidental Patient Contact" e-form will be LOCKED until the faculty sponsor submits the required information.
+
+Extension J-1 Incidental Patient Contact
+
+If the scholar has a medical degree: Select if there will be incidental patient contact or not based on the previous email response by the faculty sponsor. If there is incidental patient contact, a 5 point statement will be prompted for confirmation. If the scholar does not have a medical degree select N/A.
+
+If the scholar has a medical degree: Select if there will be incidental patient contact or not based on the previous email response by the faculty sponsor.
+
+If there is incidental patient contact, a 5 point statement will be prompted for confirmation.
+
+If there is incidental patient contact, a 5 point statement will be prompted for confirmation.
+
+If the scholar does not have a medical degree select N/A.
+
+If the scholar does not have a medical degree select N/A.
+
+Extension J-1 ISEO Processing Fee
+
+ISEO Processing Fee is required for J-1 Extension requests, see Online Payment Page with Instructions and fee breakdown.
+
+Standard Processing: 15 business days from submission of complete request. Requested start date must be at least 15 days out from submission of complete request.
+
+Standard Processing:
+
+15 business days from submission of complete request.
+
+15 business days from submission of complete request.
+
+Requested start date must be at least 15 days out from submission of complete request.
+
+Requested start date must be at least 15 days out from submission of complete request.
+
+RUSH Processing ( Additional fee required) 5 business days from submission of complete request. Requests received with no rush processing fee submitted will not receive rush processing. If paying a rush processing fee after a request has been submitted, the 5 business day processing time will begin upon receipt of the rush fee.
+
+RUSH Processing ( Additional fee required)
+
+5 business days from submission of complete request.
+
+Requests received with no rush processing fee submitted will not receive rush processing.
+
+Requests received with no rush processing fee submitted will not receive rush processing.
+
+If paying a rush processing fee after a request has been submitted, the 5 business day processing time will begin upon receipt of the rush fee.
+
+If paying a rush processing fee after a request has been submitted, the 5 business day processing time will begin upon receipt of the rush fee.
+
+NOTE: Institutional policy requires that departments pay the service fee for all persons appointed in Postdoctoral appointments.
+
+Review and Submission
+
+Financial Information Review
+
+When a scholar submits the "J-1 Initial Financial Information and Submission" eform, a second approver email is automatically sent to you (the departmental contact) with an embedded link to the "Funding Information Review" eform. Check your inbox or an email titled: "ACTION REQUIRED: Review Financial Information."
+
+Confirming the scholar's funding sources: The scholar eform requires them to upload all documents pertaining to any funding, aside from USCD paid appointments; however, ONLY departmental contacts will input numeric funding values. Allowing only the departmental contact to submit total funding amounts ensures the scholar's reported funding meets J-1 Exchange Visitors requirements.
+
+Confirming the scholar's funding sources: The scholar eform requires them to upload all documents pertaining to any funding, aside from USCD paid appointments; however, ONLY departmental contacts will input numeric funding values.
+
+Allowing only the departmental contact to submit total funding amounts ensures the scholar's reported funding meets J-1 Exchange Visitors requirements.
+
+Allowing only the departmental contact to submit total funding amounts ensures the scholar's reported funding meets J-1 Exchange Visitors requirements.
+
+J-1 Exchange Visitors are required to demonstrate minimum monthly funding as follows:
+
+J-1 Principal: $2400/month
+
+J-1 Principal: $2400/month
+
+J-2 Spouse: $800/month
+
+J-2 Spouse: $800/month
+
+J-2 Child (each): $400/month
+
+J-2 Child (each): $400/month
+
+Extension J-1 Department Submit Request to ISEO
+
+This final eform will remain locked until ALL previous scholar, department, and second approver e-forms have been submitted.
+
+Final Sign off of Sponsorship:
+
+Indicate if confirmation from a different departmental contact or a department chair is needed to complete this application. If yes, provide the appropriate contact information so a second approver email may be sent. If no, you may complete and submit this final eform.
+
+Indicate if confirmation from a different departmental contact or a department chair is needed to complete this application.
+
+If yes, provide the appropriate contact information so a second approver email may be sent.
+
+If yes, provide the appropriate contact information so a second approver email may be sent.
+
+If no, you may complete and submit this final eform.
+
+If no, you may complete and submit this final eform.
+
+Upon submission, the status of the request will change form "In Progress" to "Pending Office Approval" .
+
+Upon submission, the status of the request will change form "In Progress" to "Pending Office Approval" .
+
+ISEO Review and Approval
+
+Once submitted the assigned scholar advisor will review the submission.
+
+Once submitted the assigned scholar advisor will review the submission.
+
+If additional information/documentation is required, the advisor will reach out to the departmental contact or scholar via email before approving. If nothing additional is needed, they can process and approve the submission, attaching a DS-2019 as appropriate.
+
+If additional information/documentation is required, the advisor will reach out to the departmental contact or scholar via email before approving.
+
+If nothing additional is needed, they can process and approve the submission, attaching a DS-2019 as appropriate.
+
+If nothing additional is needed, they can process and approve the submission, attaching a DS-2019 as appropriate.
+
+Department Processing Frequently Asked Questions
+
+Scholar Services
+
+J-1 Initial Request
+
+J-1 Extension Request
+
+H-1B/E-3/TN Initial Request
+
+H-1B/E-3/TN Extension Requests
+
+Other Status Registration
+
+Separation or Departure
+
+Notify ISEO of Change to Permanent Residency
+
+Direct link to iServices

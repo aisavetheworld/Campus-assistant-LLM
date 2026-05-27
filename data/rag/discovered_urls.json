@@ -1,0 +1,5218 @@
+[
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/add-drop-change.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/calendars/2026.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/calendars/index.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/index.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/over-enrollment.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/payment.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/preauthorize.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/start.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/week3.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/grades.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/about.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/index.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/subject-codes.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/schedule-of-classes/times.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/financial-aid-application-tips/ca-dream-act-tips.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/financial-aid-application-tips/fafsa-tips.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/financial-aid-application-tips/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/get-started/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/eligibility-enrollment-requirements.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/how-you-receive-your-financial-aid.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/packaging-policy.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/graduate-students/timeline.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/hope-scholars.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/how-you-receive-your-financial-aid.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/packaging-policy.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/requirements-for-aid-eligibility.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/timeline-current-undergrads.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//applying/undergraduates/timeline-prospective-undergrads.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//contact/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/global-policy/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/graduate-students/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/other-self-supporting/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/rady-school/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/undergraduates/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/undergraduates/tuition-stability-plan/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//cost-of-attendance/undergraduates/tuition-stability-plan/undergraduates/undergraduates_2023-2024_cont2.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//faqs/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//forms/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//heerf/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/federal-updates/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/consumer-information/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-aid-estimator/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-aid-terms/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-literacy/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/financial-tips-for-students/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/helpful-tools/online-resources/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/sap/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/summer-session/cost-of-attendance.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/summer-session/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/summer-session/summer-aid.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//resources/withdrawing/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/grants/grants-for-graduates.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/grants/grants-for-undergraduates.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/grants/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/california-dream.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/federal-direct-loans-program.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/private-loan-programs.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/receiving-your-loan.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/repaying-your-student-loan.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/short-term-emergency-loans.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/loans/university-undergraduate-loans.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/alan-pattee.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/prepaid-educational-savings-plans-and-trusts.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/other-funding-sources/tuition-benefit-plans.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/chancellors-scholarships-for-entering-freshmen.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/continuing-undergraduate-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/entering-freshmen.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/entering-transfer-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/middle-class-scholarship.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/outside-agency-scholarships.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/receiving-scholarship-funds-from-non-ucsd-organizations.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/scholarships/regents-scholarships-for-entering-freshmen.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-ge-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-gs-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-oap-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-other-programs.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/study-abroad/financial-aid-for-uceap-students.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/study-abroad/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://fas.ucsd.edu//types/work-study/index.html",
+    "domain": "fas.ucsd.edu",
+    "category": "financial_aid",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/degree-proposals/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/degree-proposals/state-auth.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/enrolling/in-absentia.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/enrolling/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/enrolling/leave-absence-withdrawal.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/enrolling/readmission.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/enrolling/retroactive-enrollment.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/enrolling/visiting-exchange.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/merkin/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/merkin/merkin-graduate-fellows.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/academic-standing-probation.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/duplication-degree.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/grade-changes.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/programreviews.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/repetition.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/policies-procedures/transferring-credit.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/degree-completion.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/dissertation-thesis-manual.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/dissertation-thesis-submission.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/dissertation-thesis-template.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/preparing-to-graduate/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/advancing-to-candidacy.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/committees.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/pre-candidacy.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/spring-evaluations.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/progress-to-degree/time-to-doctorate-policy.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/academics/student-faq/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-admitted-student.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-application-fee.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-funding.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-gender-identity.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-general-application.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-international-applicant.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-jdps.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-letters-of-recommendation.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-test-scores.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-transcripts.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/faq-undocumented.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admission-faq/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/before-you-arrive.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/do-immediately.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/international-students.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/undocumented-students.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/admitted-students/when-you-arrive.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/programs.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/request-information.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/research-experiences.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/prospective-student/why-choose-uc-san-diego.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/academic-transcripts.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/income-eligibility-guidlines.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/application-fee-and-fee-waiver/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/exam-requirements.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/exam-scores-international.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/international-students/visa-information.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/policies/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/policies/university-policies.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/requirements/statement-of-purpose.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/admissions/security-report.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/academic-student-employees.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/ase-employment-types.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/ase-fee-payment-info.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/international-tas.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/ases/new-employee-orientation.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/student-fica.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/support-for-student-parents.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/benefits/transitional-graduate-student-employment-pilot-program.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/non-discrimination-statement.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/opportunities/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/opportunities/job-bulletin/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/student-pay-rates.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/employment/support-eligibility.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/fellowships/arcs-scholars/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/fellowships/fellow-experiences/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/fellowships/fic/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/fellowships/idp.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/fellowships/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/fellowships/katzin-prize/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/financial-faq.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/news-updates.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/non-uc-visiting-grads/index.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/third-party-billing.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://grad.ucsd.edu/financial/tuition-fees.html",
+    "domain": "grad.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhfacilities.ucsd.edu",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "bfs",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhfacilities.ucsd.edu/index.html",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/dining-plan/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/contract-process.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/important-dates.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/priority.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/housing-contract/rates.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/move-in/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/living-learning.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/room-type.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/community-policies.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/contact-us.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/families-friends.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/get-involved.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/pangea-apartments-reshalls/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/pepper-canyon-west/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/resident-resources.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/rita-atkinson/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/rita-atkinson/rita-atkinson.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/staff.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/village-pepper-canyon/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/neighborhoods/village/village-pepper-canyon/pepper-canyon-east-matthews-apartments.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/parent-portal/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/parent-portal/join.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/application.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/contracts.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/deadlines.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/optional-housing.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/previews.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/services/accommodations.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/services/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/services/laundry.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/accelerate.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/short-term.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/success.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/summer-dining.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/summer/traditional.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/uhac/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/scholar-services/h1b-e3-tn-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/scholar-services/j1-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/scholar-services/separation-departure.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/campus-partners/iservices-instructions/student-services/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/campus-partners/training-workshops/student-services.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-scholar-orientation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-student-orientation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-student-orientation/itriton.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iorientation/international-student-orientation/orientation-assistant-program.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iworkshops/employment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/programs/iworkshops/maintenance-of-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/resources/family-resources/j2/employment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/h1b/ending-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/h1b/extensions-amendments.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/h1b/maintaining-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/h1b-e3-tn-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/j-1-ooc.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/j-travel-signature.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/j1-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/maintain-record.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/iservices-instructions/separation-departure.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/j1/ending-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/j1/extensions-amendments.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/j1/maintaining-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/h1b-arrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/h1b-prearrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/j1-arrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/j1-prearrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/new-scholars/sevis.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/other-visa/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/change-of-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/international.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/travel-signature.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-application.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-delay.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-i94.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/scholar-services/travel-visa/visa-interview.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/adq-suspension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/change-of-level.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/concurrent-enrollment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/gap-quarters.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/major-change.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/rcl.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/regaining-status.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/status-violation.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/study-abroad.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changes-to-enrollment/withdrawal.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/f1.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/j1.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/changing-status/other.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/alumni.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/grace-periods.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/program-completion.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/graduation/transfer-out.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/funding-requirements.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/processing-times.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/replacement-requests.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/iservices-instructions/verification-requests.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/visa-terminology.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/degree-eap.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/degree-gr.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/degree-ug.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/prospective.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/summer-session-alumni.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/additional-resources/summer-session.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/advising-resources/advising.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/advising-resources/faq.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/advising-resources/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/ds-2019.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/i-20.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/immigration-resources/arrival.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/immigration-resources/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/immigration-resources/visa-eligibility.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/new-program/visa.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/returning-to-ucsd/gap-quarters.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/returning-to-ucsd/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/returning-to-ucsd/transfer-back.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/billing.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/organizations.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/services.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/spotlights.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/sponsored/staff.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/check-in.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/domestic.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/form-i94.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/international.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/travel-signature.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/visa-application.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/travel-visa/visa-delay.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-cpt.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-economic-hardship.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-intl-organization.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-on-campus.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/cap-gap.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/completion.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/faq.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/initial.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/pre-completion.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-opt/stem-extension.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/f1-volunteer-internship.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/find-employers.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/index.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/j1-at.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/j1-on-campus.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/working-in-us/j1-volunteer-internship.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/billing.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/medi-cal.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/mystudentchart-ucsd-health.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/raft/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/raft/labs.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/update.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/insurance-other/webinars.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/billing.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/changes.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/faq.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/forms.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/medical-assistance-fund.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/mobile-app.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/after-graduation.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/dependent-coverage.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/grad-students-leave.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/non-registered/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/outside-area.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/uc-campuses.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/uc-ship-committee.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/dental-plan.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/medical-plan.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/mental-health.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/transgender-care.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/use/vision-plan.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/index.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/contact/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/health-alerts.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/hippa.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/administration/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/behavioral/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/lab/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/medical-assistants/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/nurse-practitioners/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/nurses/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/optometrists/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/pharmacy/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/physicians/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/registered-dietitians/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/medical-teams/xray/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/about/wellness-prevention.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/appointments/animals.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/appointments/hours-location.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/appointments/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/appointments/online-scheduling.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/appointments/telehealth.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/chaperone-policy/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/emergency-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/faq/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/forms/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-requirements/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/acne/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/advance-directives/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/alcohol-drugs/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/anaphylaxis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/birth-control/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/breast-testicular-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/bronchitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/common-cold/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/conjunctivitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/coronavirus/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/ears/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/emergency-contraception/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/flu/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/gastroenteritis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/gerd/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hemorrhoids/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hepatitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hiv/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hives/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/hpv/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/lice/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/measles/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/medication-abortion/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/meningitis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/molluscum/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/monkeypox/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/mrsa/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/mumps/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/painful-periods/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pcos/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pertussis/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pid/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pms/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/poison-oak/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/pregnancy-testing/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/tmj/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/urinary-tract-infections/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/health-topics/vaginal-infections/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/interpreter/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/parents-families/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/patient-rights/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/resources/videos/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/clinical-laboratory/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/cost/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/hpv-vaccine.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/mpox-vaccine.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/immunizations/tdap.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/mental-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/nurses-clinic/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/nutrition/eating-disorders.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/nutrition/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/optometry/exams-products.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/optometry/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/pharmacy/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/primary-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/radiology/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/reproductive-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/sexual-health/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/sexual-health/sti-testing.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/transgender-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/ab/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/eap/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/ge/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/gs/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/travel-clinic/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://studenthealth.ucsd.edu/services/urgent-care/index.html",
+    "domain": "studenthealth.ucsd.edu",
+    "category": "student_health",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/academic-activity/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/career-planning/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/about-diplomas.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-audits.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-graduate-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/degree-undergraduates.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/digital-diplomas.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/latin-honors.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/degrees-diplomas/replacement-diplomas.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/change-graduate-major.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/declare-minor.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/declare-or-change-major.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/undergraduate-majors.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/advising/majors-minors/upper-division-course-overlap.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/academic-calendars.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/calendar25-26.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/add-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/checklist.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/drop-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/graduate-enrollment/waitlist-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/seminars/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/how-to-repeat-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/individual-classes-at-ucsd.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/parttime-halftime-study/halftime-study.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/parttime-halftime-study/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/parttime-halftime-study/part-time-study.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/return-to-ucsd.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special-studies-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/classes-at-csu.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/classes-at-other-uc-campuses.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/cross-campus-uconline.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/special/intercampus-visitor.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/special-enrollment/transfer-courses.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/summer-session/campus-changes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/summer-session/how-to-enroll-visitors.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/summer-session/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/add-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/before-enrolling-in-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/change-grading-option.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/checklist.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/community-college-csu-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/drop-a-class.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/enroll-in-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/how-to-get-ready-for-the-quarter.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/non-ucsd-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/undergrad-class-levels.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/undergraduate-enrollment/waitlist.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/where-to-buy-textbooks.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/withdrawal/graduate-students.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/withdrawal/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/withdrawal/undergraduates.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/writing-requirement/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/about.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/final-exam-responsibilities.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/final-exam-schedule.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/exams/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/about.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/academic-standing.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/appeal-a-grade.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/calculate-gpa.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/change-grading-grad.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/change-grading-undergrad.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/check-your-grades.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/grading-system.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/pass-not-pass-grade.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/request-remove-incomplete.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/grades/satisfactory-unsatisfactory-grade.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/faq.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/ordering-instructions.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/request-transcript.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/request-verification.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/exams-grades-transcripts/transcripts-verifications/social-login.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/grad-programs-ucsd.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/grad-school-prep/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/graduate-programs/planning.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/research/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/campus-resources/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/dine-with-a-prof.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/english-esl.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/tips.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/tutoring-study-programs.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/success/writing-programs.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/emergency-numbers2.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/police-services/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/campus-safety/triton-alert.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/dining/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/moving-out.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/offcampus-housing.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/offcampus-rental-forms.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/responsibilities.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/responsible-neighbor.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/security-deposits.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/offcampus/tips.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/housing/residence-life.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/commuterfridge.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/lockers.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/commuter/lounges.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/holidays.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/park-off.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/park-on.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/parking-transportation/ways-to-commute.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/personal/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/adobe.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/campus-study-locations.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/computers/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/computers/pac.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/computers/responsibilities.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/copy-photo.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/help.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/tritongpt/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/tritongpt/privacy.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/technology/tritongpt/terms.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/finances/fees/registration/schedule-of-refunds.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/finances/veterans/non-resident.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/my-tritonlink/tools/tool-help/addresses.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/my-tritonlink/tools/tool-help/schedule-of-classes.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/well-being/wellness-resources/student-parents/housing.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://students.ucsd.edu/well-being/wellness-resources/student-parents/ug-priority-enrollment.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": false
+  },
+  {
+    "url": "https://blink.ucsd.edu/instructors/courses/enrollment/calendars/2025.html",
+    "domain": "blink.ucsd.edu",
+    "category": "course_enrollment",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhfacilities.ucsd.edu/custodial/index.html",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhfacilities.ucsd.edu/fix-it/index.html",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhfacilities.ucsd.edu/maintenance/index.html",
+    "domain": "hdhfacilities.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/contact-us/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/faq/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/living-on-campus/room-selection/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://hdhughousing.ucsd.edu/waitlist/index.html",
+    "domain": "hdhughousing.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/212e.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/checklist.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/enrollment.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/iselfcheck.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/other-changes.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://iseo.ucsd.edu/student-services/maintaining-status/update-contact.html",
+    "domain": "iseo.ucsd.edu",
+    "category": "international_students",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/aca-requirements.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/planning.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://shwadmin.ucsd.edu/uc-ship/waive/waiver-criteria.html",
+    "domain": "shwadmin.ucsd.edu",
+    "category": "health_insurance",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/academics/enroll/quarterly-timeline.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/mesa-nueva-nuevo-west.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/nuevo-east.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/grad-housing/one-miramar-street.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/resources/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/eighth-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/erc.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/index.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/marshall-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/matthew-apartments.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/muir-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/pangea-apts.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/pcw.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/pepper-canyon-east-apartments.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/revelle-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/rita-atkinson.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/seventh-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/sixth-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  },
+  {
+    "url": "https://students.ucsd.edu/campus-services/student-mail/undergrad-housing/warren-college.html",
+    "domain": "students.ucsd.edu",
+    "category": "housing",
+    "discovery_method": "sitemap",
+    "depth": 0,
+    "already_known": true
+  }
+]

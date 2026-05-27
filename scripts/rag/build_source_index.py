@@ -5,14 +5,6 @@ Usage:
         --chunks_dir data/rag/processed_chunks \
         --index_dir data/rag/vector_store \
         --embedding_model sentence-transformers/all-MiniLM-L6-v2
-
-TODO:
-    - Load all JSONL files from chunks_dir
-    - Embed each chunk using the specified model
-    - Build a FAISS flat index (IndexFlatL2 or IndexFlatIP)
-    - Save index to index_dir/index.faiss
-    - Save chunk metadata (source_id, chunk_id, text, source_title, url) to index_dir/chunks.jsonl
-    - Print summary: total chunks indexed, embedding model, index size
 """
 
 from __future__ import annotations
@@ -21,6 +13,10 @@ import argparse
 import json
 import sys
 from pathlib import Path
+
+import faiss
+import numpy as np
+from sentence_transformers import SentenceTransformer
 
 
 def parse_args() -> argparse.Namespace:
@@ -35,7 +31,7 @@ def parse_args() -> argparse.Namespace:
 def load_chunks(chunks_dir: Path) -> list[dict]:
     chunks = []
     for path in sorted(chunks_dir.glob("*.jsonl")):
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if line:
@@ -53,19 +49,44 @@ def main() -> None:
         sys.exit(1)
 
     index_dir.mkdir(parents=True, exist_ok=True)
-    chunks = load_chunks(chunks_dir)
 
+    print("Loading chunks...")
+    chunks = load_chunks(chunks_dir)
     if not chunks:
         print("No chunks found. Run chunk_sources.py first.")
         sys.exit(0)
+    print(f"  {len(chunks)} chunks loaded")
 
-    print(f"Loaded {len(chunks)} chunks from {chunks_dir}")
+    print(f"Loading embedding model: {args.embedding_model}")
+    model = SentenceTransformer(args.embedding_model)
 
-    # TODO: implement embedding + FAISS index build
-    raise NotImplementedError(
-        "build_source_index not yet implemented. "
-        "Install sentence-transformers and faiss-cpu, then implement embedding loop and index.add()."
+    texts = [c["text"] for c in chunks]
+    print(f"Embedding {len(texts)} chunks (batch_size={args.batch_size})...")
+    embeddings = model.encode(
+        texts,
+        batch_size=args.batch_size,
+        show_progress_bar=True,
+        convert_to_numpy=True,
+        normalize_embeddings=True,
     )
+    print(f"  Embedding shape: {embeddings.shape}")
+
+    dim = embeddings.shape[1]
+    index = faiss.IndexFlatIP(dim)  # inner product = cosine similarity (embeddings are normalized)
+    index.add(embeddings.astype(np.float32))
+    print(f"  FAISS index built: {index.ntotal} vectors, dim={dim}")
+
+    index_path = index_dir / "index.faiss"
+    faiss.write_index(index, str(index_path))
+    print(f"  Saved index → {index_path}")
+
+    chunks_out = index_dir / "chunk_metadata.jsonl"
+    with open(chunks_out, "w", encoding="utf-8") as f:
+        for chunk in chunks:
+            f.write(json.dumps(chunk, ensure_ascii=False) + "\n")
+    print(f"  Saved chunk metadata → {chunks_out}")
+
+    print(f"\nDone. {index.ntotal} vectors indexed.")
 
 
 if __name__ == "__main__":

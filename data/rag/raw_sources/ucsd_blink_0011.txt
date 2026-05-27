@@ -1,0 +1,37 @@
+Student/ Class Info
+
+Course Management
+
+Schedule of Classes
+
+About the Schedule of Classes
+
+About the Schedule of Classes
+
+Learn about the different roles and processes required to create the Schedule of Classes each quarter.
+
+If you schedule academic classes for a department, program, or college, learn about the key roles and processes involved in creating the Schedule of Classes :
+
+The Scheduling Office, which serves as coordinator for the Schedule of Classes: Requests that departments submit the "Schedule Build," which provides the details of the class offerings in an electronic format, along with other supplementary information such as facilities requests and text. Delivers the final submission of class information (the Schedule List report) for department review before posting the final Schedule of Classes online.
+
+Requests that departments submit the "Schedule Build," which provides the details of the class offerings in an electronic format, along with other supplementary information such as facilities requests and text.
+
+Delivers the final submission of class information (the Schedule List report) for department review before posting the final Schedule of Classes online.
+
+Department and program advisors provide the details of the schedule. For each academic department, these details include entries on modification sheets showing: Department name Course titles and subject codes Course numbers Section information Instruction types Enrollment limits Days and times Building name Room number Instructor name(s) Instructor PID(s) Subtitles Specific unit values for variable unit courses
+
+Course titles and subject codes
+
+Section information
+
+Instruction types
+
+Enrollment limits
+
+Instructor name(s)
+
+Instructor PID(s)
+
+Specific unit values for variable unit courses
+
+For more details, see How To Build the Schedule of Classes .

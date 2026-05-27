@@ -1,0 +1,89 @@
+Student/ Class Info
+
+Course Management
+
+How to Pre-authorize a Student to Enroll in Classes
+
+How to Pre-authorize a Student to Enroll in Classes
+
+If you assist students with enrolling in courses, use this step-by-step guide for online pre-authorization directly in ISIS. Pre-authorizing in ISIS allows you to approve students online to enroll in classes or get on wait lists for which they do not currently have access.
+
+Note: You must have a Business Systems account and be authorized to access ISIS. If you need authorization, see How to Get Access to UCSD Business Systems .
+
+1. Follow these steps to authorize students to enroll in sections/courses from which they are restricted.
+
+Go to RG CRSEAUTH (Course/Section Pre-Authorization) screen in ISIS.
+
+Check the following reasons for restrictions: Enrollment limit Prerequisite requirements Enrollment restrictions (major, class level, college, department approval) Stop Enrollment Note: The Stop Enrollment flag displays on the CS SECTMNT and SECTOVR screens in ISIS. When the Stop Enrollment Flag for a section is Y, a student must have an override to enroll. The ISIS system automatically sets Stop Enrollment to Y when the section becomes full. This ensures that students on a wait list can receive priority if other students drop the section or if the department raises the enrollment limit. The department can also request that Stop Enrollment be set manually.
+
+Enrollment limit
+
+Prerequisite requirements
+
+Enrollment restrictions (major, class level, college, department approval)
+
+Note: The Stop Enrollment flag displays on the CS SECTMNT and SECTOVR screens in ISIS. When the Stop Enrollment Flag for a section is Y, a student must have an override to enroll.
+
+The ISIS system automatically sets Stop Enrollment to Y when the section becomes full. This ensures that students on a wait list can receive priority if other students drop the section or if the department raises the enrollment limit. The department can also request that Stop Enrollment be set manually.
+
+2. Follow these steps to authorize a student to enroll in any section of a course.
+
+Go to the RG CRSEAUTH screen in ISIS
+
+Enter the following course information: Subject Course Term Be sure the Section ID and Section Number fields are blank.
+
+Press Enter. If you have entered an invalid code, you will receive an appropriate error message: SUBJECT CODE INVALID, COURSE INVALID FOR SUBJECT, or TERM INVALID.
+
+After you retrieve the data for the selected course, tab to the first blank line under the ACTION field. If no blank lines are left, press F8 to page forward until you see a screen with more blank lines. Enter A in the ACTION field to add an entry. In the PID field, enter the student's Personal Identification Number (PID). Enter UN for undergraduate level or GR for graduate level in the STUDENT LEVEL field.
+
+Enter A in the ACTION field to add an entry.
+
+In the PID field, enter the student's Personal Identification Number (PID).
+
+Enter UN for undergraduate level or GR for graduate level in the STUDENT LEVEL field.
+
+In the TYPE field, enter up to three of the following override options: EL = Enrollment Limit Override PR = Prerequisite Override RE = Restriction Override (class level, college, major, department approval) SE = Stop Enrollment Override AL = Override All (EL, PR, RE, and SE)
+
+EL = Enrollment Limit Override
+
+PR = Prerequisite Override
+
+RE = Restriction Override (class level, college, major, department approval)
+
+SE = Stop Enrollment Override
+
+AL = Override All (EL, PR, RE, and SE)
+
+Press ENTER and wait for the ACTION SUCCESSFULLY COMPLETED message to confirm your transaction.
+
+3. Follow these steps to authorize a student to enroll in a specific section of a course.
+
+Go to RG CRSEAUTH screen in ISIS
+
+Enter the 6-digit Section ID number in the SECTION ID field.
+
+After the retrieved data appears on the screen, follow the procedures listed in step 2 above
+
+4. Follow these steps to authorize a student to enroll during the late add period.
+
+Go to RG CRSEAUTH (Course/Section Pre-Authorization) screen in ISIS.
+
+Enter either: 1) the 6-digit Section ID number in the SECTION ID field to enter preauthorization(s) for a specific section of a course 2) the subject and course number to enter preauthorization(s) for a course in general
+
+1) the 6-digit Section ID number in the SECTION ID field to enter preauthorization(s) for a specific section of a course
+
+2) the subject and course number to enter preauthorization(s) for a course in general
+
+Enter the LA (late add) code in addition to any other preauthorizations codes, if necessary: PR = Prerequisite Override RE = Restriction Override (class level, college, major, department approval) EL = Enrollment Limit Override SE = Stop Enrollment Override Note : The Stop Enrollment Flag displays on the CS SECTMNT and SECTOVR screens in ISIS.  When the Stop Enrollment flag for a section is set to Y during the late add period, the SE and EL codes need to be issued in addition to the LA code. AL = Override All (EL, PR, RE, and SE)
+
+PR = Prerequisite Override
+
+RE = Restriction Override (class level, college, major, department approval)
+
+EL = Enrollment Limit Override
+
+SE = Stop Enrollment Override Note : The Stop Enrollment Flag displays on the CS SECTMNT and SECTOVR screens in ISIS.  When the Stop Enrollment flag for a section is set to Y during the late add period, the SE and EL codes need to be issued in addition to the LA code.
+
+Note : The Stop Enrollment Flag displays on the CS SECTMNT and SECTOVR screens in ISIS.  When the Stop Enrollment flag for a section is set to Y during the late add period, the SE and EL codes need to be issued in addition to the LA code.
+
+AL = Override All (EL, PR, RE, and SE)

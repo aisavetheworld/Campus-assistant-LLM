@@ -1,0 +1,35 @@
+Student/ Class Info
+
+Course Management
+
+10% Over-enrollment Planning Guidelines and Timelines
+
+10% Over-enrollment Planning Guidelines and Timelines
+
+Follow these guidelines and timelines for 10% over-enrollment for courses.
+
+ISIS instructions
+
+In the ISIS application, go to CS SECTMNT (section maintenance).
+
+In the Action field, enter C for "change."
+
+Tab down to ENRL LIMIT field, and enter new enrollment limit number.
+
+Click Enter , and wait for the Action successfully completed message.
+
+Follow this process to update other enrollment limit numbers where necessary.
+
+Departments will consider the following 2 groups of courses to be included in 10% over-enrollment.
+
+Departments choosing to use this process need to ensure and monitor that their courses do not exceed room capacities no later the 15th day of instruction.  There is no guarantee that a larger room can be found if enrollment exceeds room capacity.
+
+Group 1 – Courses that can sweep all students from the waitlist (after New Student Enrollment) if the enrollment limit is raised to 10% over the room capacity. These courses would have the enrollment limit increased once, so that students could enroll off of the waitlist in one "sweep." Enrollment limit would be decreased the following day back to room capacity so that additional students would not be able to enroll from the waitlist beyond this point.
+
+These courses would have the enrollment limit increased once, so that students could enroll off of the waitlist in one "sweep."
+
+Enrollment limit would be decreased the following day back to room capacity so that additional students would not be able to enroll from the waitlist beyond this point.
+
+Group 2 – Courses with enrollment limit increased to 10% over room capacity, but students continue to enroll from the waitlist for a longer period of time, up to a certain point before the last waitlist is run. Enrollment limits for these courses are reduced back to room capacity at a later time so that courses are not over-enrolled at the end of the 15th day of instruction.
+
+Enrollment limits for these courses are reduced back to room capacity at a later time so that courses are not over-enrolled at the end of the 15th day of instruction.

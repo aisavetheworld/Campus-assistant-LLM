@@ -41,9 +41,10 @@ class ExpansionResult:
 
 
 def _word_boundary_pattern(phrase: str) -> re.Pattern:
-    """Return a compiled regex that matches phrase at non-alphanumeric boundaries."""
+    """Return a compiled regex that matches phrase at word boundaries (excluding hyphens).
+    Hyphens are treated as word characters so 'OPT' does not match inside 'opt-out'."""
     return re.compile(
-        r"(?<![a-zA-Z0-9])" + re.escape(phrase) + r"(?![a-zA-Z0-9])",
+        r"(?<![a-zA-Z0-9\-])" + re.escape(phrase) + r"(?![a-zA-Z0-9\-])",
         re.IGNORECASE,
     )
 

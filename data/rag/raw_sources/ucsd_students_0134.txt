@@ -1,0 +1,61 @@
+TritonGPT is a platform that includes a series of AI powered assistants. Please read the following Terms of Use to understand how you can responsibly use TritonGPT and what you can expect from our service.
+
+Authorized Users
+
+Only employees and students of UC San Diego campus and health sciences are authorized to use TritonGPT. By agreeing to these Terms, you represent that you are an Authorized User.
+
+Appropriate Use of TritonGPT
+
+TritonGPT is designed to assist the UC San Diego community with their questions and information needs. It is not intended for personal or commercial use, or to generate output that students would submit for credit.
+
+You are not allowed to use TritonGPT for any purpose that is unlawful, prohibited, or otherwise restricted by UC policy (including UC San Diego’s Academic Integrity Policy ), guidelines (including those provided by your course instructors or supervisors), or these Terms of Use.
+
+You may not enter any material that:
+
+Is defamatory, obscene, indecent, abusive, offensive, harassing, violent, hateful, inflammatory, or otherwise objectionable.
+
+May lead to self harm or to others.
+
+Promotes sexually explicit or pornographic material, violence, or discrimination based on race, sex, religion, nationality, disability, sexual orientation, or age.
+
+Infringes any patent, trademark, trade secret, copyright, or other intellectual property or other rights of any other person.
+
+Promotes any unethical or illegal activity, or advocates, promotes, or assists any unethical or unlawful act.
+
+Generative Pre-Trained Transformers (like TritonGPT) are trained to generate the next best word in the sentence based on patterns in their training data set. They are neither trained to nor capable of discerning fact from fiction, truth from falsehoods. We do not guarantee that the information provided is always accurate, complete, or up-to-date. We rely on data and information from various sources, and there may be instances where the information is incomplete, outdated, or incorrect, or TritonGPT does not retrieve information from the appropriate source. Do not make critical decisions based solely on information provided through TritonGPT. TritonGPT’s responses are not and should not be considered as official statements by or on behalf of the Regents.
+
+Ultimately, you are responsible for verifying the accuracy and appropriateness of the output before you use it. If you have any doubts or concerns about the accuracy of the information provided, please let us know by providing feedback through TritonGPT, and we will do our best to verify it. Administrators review the feedback and use it to help shape the direction of the service. Knowingly providing misleading feedback could result in termination of the service.
+
+You may not submit TritonGPT output as your own work for any form of academic credit unless the instructor has authorized such use. In that case, we recommend keeping a record of your chat history should your instructor ask you for it.
+
+No Personal Advice
+
+TritonGPT is not designed to provide legal, medical, financial, or academic advice to individuals. The information provided is for informational purposes only and should not be used as a substitute for professional advice.
+
+TritonGPT is provided on an "as is" and "as available" basis. We disclaim all warranties, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not guarantee that TritonGPT will meet your requirements or that it will be uninterrupted, timely, secure, or error-free.
+
+Limitation of Liability
+
+In no event shall UC San Diego, its employees, agents, or contractors be liable for any damages, including but not limited to incidental, consequential, or punitive damages, arising out of or in connection with the use or misuse of TritonGPT.
+
+Intellectual Property
+
+TritonGPT content, including but not limited to text, graphics, images, and logos, is the property of UC San Diego or its content suppliers and is protected by copyright and other intellectual property laws. You agree not to reproduce, modify, display, sell, distribute, or use it in any way for commercial purposes.
+
+We reserve the right to terminate TritonGPT at any time without notice. We may terminate or suspend your account and deny access to TritonGPT immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms.
+
+These Terms shall be governed and construed in accordance with the laws of California, United States, without regard to its conflict of law provisions.
+
+UC San Diego Policy
+
+TritonGPT adheres to UC San Diego’s Electronic Communications Privacy and Confidentiality Policy and IT Resources Acceptable Use Policy . See Policy and Procedure Manual Code, Section 135-5 and 135-9. Additionally, students adhere to the UC San Diego Academic Integrity Policy .
+
+Changes to Terms of Use
+
+We may update or modify these Terms of use at any time without prior notice. When we make changes to these Terms of use, we will change the date at the end of these Terms. Your continued use of TritonGPT constitutes your agreement to any changes to these Terms.
+
+If you have any questions, concerns, or feedback regarding TritonGPT, please contact us at TritonGPT@ucsd.edu .
+
+Last updated: October 31, 2025
+
+By using TritonGPT, users acknowledge that they have read, understood, and agree to abide by these terms of use.

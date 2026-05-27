@@ -1,0 +1,75 @@
+Student Services
+
+Maintaining F/J Status
+
+Visa Terminology
+
+Visa Terminology
+
+Find descriptions of common visa terminologies below.
+
+Active Status : The status of a Form I-20/DS-2019 is registered or ‘activated’ by a Designated School Official. In order to active a record, the student should have checked-in or reported to their DSO and began their program of study. Curricular Practical Training (CPT) : Training that an F-1 student participates in during a program of study; including alternative work/study, internship, cooperative education, or any other type of required internship or practicum offered by a sponsoring employer through cooperative agreement with a school.
+
+Designated School Official (DSO) : regularly-employed member of the school administration designated by the head of a Student and Exchange Visitor Program-certified school to provide recommendations to F and/or M students enrolled at the school regarding maintenance of nonimmigrant status, and to support timely and complete record keeping and reporting to the U.S. Department of Homeland Security.
+
+DS-2019 : A form issued to accepted J-1 nonimmigrant students from their Student and Exchange Visitor Program-certified school that is required in order to apply for a visa, enter the United States, apply for benefits, and use for employment authorization or travel. The Form Ds-2019 is created and maintained within SEVIS.
+
+Employment Authorization Document (EAD) : A work permit issued by the USCIS that allows you to legally work in the U.S beginning and ending on the dates of your authorized employment.
+
+Visa : A entry document issued from a U.S. Embassy or Consulate outside of the U.S. placed within a passport.  A visa allows a foreign citizen to travel to the U.S. port-of entry, and request permission of the U.S. immigration inspector to enter the United States. Issuance of a visa does not guarantee entry to the United States.The visa is only “used” to enter the U.S.  Once a student has entered the United States, the visa ceases to have a function until next time it is needed to enter the U.S. Students may remain in the U.S. with an expired visa as long as they are 'maintaining status'.
+
+Expected Program End Date/Program End Date : The date the student should complete the program. F-1: A non-immigrant who is pursuing a full course of study to achieve a specific educational objective at a US academic institution that has been designated by the Department of Homeland Security to offer courses of study, and has been enrolled in SEVIS.
+
+I-20/ Form I-20 : A form issued to accepted F-1 nonimmigrant students from their Student and Exchange Visitor Program-certified school that is required in order to apply for a visa, enter the United States, apply for benefits, and use for employment authorization or travel. The Form I-20 is created and maintained within SEVIS.
+
+I-94/Form I-94 : Also known as the Arrival and Departure Record. Electronic record issued by Customs and Border Protection (CBP) upon entry to the United States. Confirms that the student has been legally admitted to the United States in a specific visa status, and for what duration of time.
+
+Initial Status : The status of the Form I-20 or Form DS-2019 issued to a student who plans to enroll in a program of study at the next available term or quarter. Students in ‘Initial Status’ may not be eligible for certain benefits until their Form I-20/DS-2019 is registered or ‘activated’ by a Designated School Official. Registration or Activation of a Form I-20 or SEVIS Record will move the status of the I-20 from ‘Initial’ to ‘Active’ Status. See Active Status.
+
+International Student Advisor : Provides advising, immigration services, programming, advocacy, and outreach to the international student population.
+
+J-1 : The general purpose of the Exchange Visitor Program is to promote international educational and cultural exchange to develop mutual understanding between the people of the U.S. and other countries. J-1 students must be admitted to a degree program for a full course of study or be engaged full time in a non-degree course of study.  50% or more funding must come from a source other than personal or family funds.
+
+Maintaining Status : A term referring to an F-1 or J-1 student fulfilling the purpose for why they were issued a F-1 or J-1 visa and following the regulations associated with that purpose. Examples are enrolling full-time in 12 units every academic term or extending their program end date on their Form I-20/DS-2019 before the date listed. Every visa is issued for a particular purpose and for a specific class of visitor. Each visa classification has a set of requirements that the visa holder must follow and maintain. Those who follow the requirements maintain their status and ensure their ability to remain in the U.S. Those who do not follow the requirements violate their status and are considered "out of status."
+
+Nonimmigrant Visa : A U.S. visa allows the bearer, a foreign citizen, to apply to enter the U.S. temporarily for a specific purpose. Student visas such as F-1 or J-1 are examples of nonimmigrant visas.
+
+One Academic Year Requirement : Students in ACTIVE status must enroll for a minimum of one academic year (3 quarters) on the same SEVIS ID Number, to be eligible for practical training. This is known as the One Academic Year Requirement.
+
+Optional Practical Training (OPT) : Employment authorization that must relate to a student’s major or course of study. To participate, students must receive approval from their designated school official and U.S. Citizenship and Immigration Services. OPT may occur before or after the program end date, but participants may only work for 20 hours per week while school is in session. OPT is not an integral part of the established curriculum. Optional practical training (OPT) does not fulfill requirements of an F-1 student's program of study and successful program completion is not contingent on participation in OPT.
+
+Program Start Date : The date by which the student is expected to report to the school and begin their program of study.
+
+Releasing my SEVIS Record : See SEVIS Transfer.
+
+SEVIS ID Number : The unique identifying number assigned to a student or exchange visitor within SEVIS that appears on the Form I-20 or DS-2019.
+
+SEVIS Record Release Date : Students may request to transfer their record in the Student and Exchange Visitor Information System (SEVIS) from one SEVP-certified school to another. This date refers to the date in which the electronic SEVIS Record is transferred to a new institution. Benefits linked to their previous institution ceases and the new institution holds their SEVIS record on this date. See SEVIS Transfer
+
+SEVIS Transfer : The release of a student’s record in the Student and Exchange Visitor Information System from one SEVP-certified school to another. Students who are labeled ‘SEVIS Transfers’ currently have a SEVIS record (have a Form I-20) with a different institution and have/will transfer their SEVIS Record to UC San Diego. Students are eligible to transfer their SEVIS Records if they do not have more than a 5-month gap from their last date of enrollment, employment, or SEVIS Record Release Date, whichever is later, to the start of their new program at their new institution. Related Terms: SEVIS Record Release Date, transferring my SEVIS Record, Releasing My SEVIS Record.
+
+SEVIS : Student and Exchange Visitor Information System.  SEVIS is an internet-based program that has been developed by Immigration and Customs Enforcement (ICE) to track all students and scholars who are in F-1 and J-1 status.  Their spouses and child dependents are tracked in SEVIS as well.
+
+Terminated : A Form I-20/DS-2019 which is not in Active Status and cannot be used to enter the U.S., apply for benefits, or for employment authorization or travel. A Form I-20/DS-2019 can be terminated for failure to maintain F-1 or J-1 status such as failing to enroll in 12 units every academic term or failure to extend the expected program end date listed on the Form I-20/DS-2019. Students who hold an I-20 in ‘Terminated’ status are also deemed ‘Out of Status’.
+
+Transferring my SEVIS Record : See SEVIS Transfer.
+
+USCIS :  US Citizenship and Immigration Services is responsible for most application and petition adjudication.
+
+Additional Resources
+
+Maintaining F/J Status
+
+Maintaining Visa Status Checklist
+
+Document Self-Check
+
+Full-Time Enrollment
+
+Update Address and Contact Information
+
+Other Changes and Updates
+
+212e Requirement
+
+Visa Terminology

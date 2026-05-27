@@ -1,0 +1,193 @@
+Student Services
+
+iServices Instructions for Students
+
+iServices Instructions
+
+iServices is an online portal which serves as ISEO's document request system for F-1 and J-1 international students and scholars. Through iServices, students are able to request immigration documents, such as the F-1 Form I-20 or J-1 Form DS-2019 from ISEO, in addition to reporting certain changes to their visa status or obtaining other support documents. The ISEO's iServices Instructions for Students page contains helpful information and troubleshooting guides for users accessing and submitting requests through iServices.
+
+Please keep processing timelines in mind when submitting requests. The standard processing time is ten business days (two weeks). During peak periods, processing times may vary. Expedites are not available, so we encourage you to plan accordingly.
+
+How to Login to iServices
+
+Use your Tritonlink username (the part of your UCSD email address before the @) and password associated with the Duo Two-Step Log In
+
+Do NOT use your Single Sign-On (SSO)
+
+Device and Browser Requirements:
+
+Newly Admitted Students:
+
+iServices will be available for you to request your new I-20 or DS-2019 document(s) for Summer or Fall quarter starting in March of that year. New students are required to accept their admission offer and complete ALL required steps for account setup before accessing iServices. Please wait at least 72 hours after accepting your offer of admission to set up your UCSD password/PID . New students should be able to access iServices 3 days after successfully accessing their UCSD email.
+
+iServices Access Issues : New students do NOT need to 'Request an Account' in iServices if their Active Directory has been setup correctly. Please contact ISEO for any login issues that occur after completing all required steps for account setup.
+
+New students do NOT need to 'Request an Account' in iServices if their Active Directory has been setup correctly.
+
+Please contact ISEO for any login issues that occur after completing all required steps for account setup.
+
+If you are an international student alumni who has graduated from UC San Diego, you still need to use your Tritonlink username to login to iServices. Your username is the characters before the '@' in your UCSD email. For example, the network ID for triton@ucsd.edu is 'triton'.
+
+Login using Active Directory and use the password associated with your DUO Mobile. If you are having issues with your password, request a new one .
+
+iServices Access Issues: Note: Your PID/PAC will not work, be sure to login using Active Directory. Please contact ISEO for any login issues that occur .
+
+Note: Your PID/PAC will not work, be sure to login using Active Directory.
+
+Please contact ISEO for any login issues that occur .
+
+iServices: Basic Navigation
+
+Navigating iServices
+
+Your view in iServices is dependent upon your visa type and enrollment status with the university.
+
+Students should see a Menu of Services on the left hand side of the screen. Each Service represents a group of requests that students can submit to ISEO. Students should review the different requests available within each service and identify the correct request to begin. Once a student begins a request, there may be multiple electronic forms ( eForms) within a single request to complete.
+
+Submitting a Request
+
+Students must complete all required eForms and upload all required documents within each request. See section, 'Document Access and Upload Requirements' on this page to understand document requirements. When a student successfuly submits a request, they will receive a confirmation email.
+
+Upon submission, the status of most requests will be "Pending Office Approval."
+
+If the request must be approved by your college, department, or program coordinator before it can be reviewed by ISEO, the status of the request upon submission will be "Routed to Third Party."
+
+Request and eForm Status
+
+Within each request, students will notice that the request itself, in addition to each eForm within the request, will have a status. Below is an explanation of each status:
+
+Approved (with check-mark): Your request has been reviewed by an ISEO Advisor and an email notification has been sent to you. If applicable, a new document may be attached.
+
+Cancelled: Your request is no longer in queue to be reviewed by an ISEO Advisor. If an ISEO Advisor cancels your request, you will receive an email notification for the reason your request has been cancelled.
+
+Denied: Your request has been reviewed by an ISEO Advisor (or your college, department, or program coordinator) and cannot be processed. Review your email notification for the reason your request has been denied and available next steps.
+
+In Progress: You have started a request but have not yet successfully submitted it to ISEO for review.
+
+Incomplete/Draft: Your request is incomplete and requires additional information or action from the student before it can be reviewed by an ISEO Advisor. See section, 'Resubmitting Incomplete Requests' on this page for more information.
+
+Pending Office Approval: Your request is currently in queue to be reviewed by an ISEO Advisor.
+
+Routed to Third Party: Your request is currently in queue to be reviewed by your college or department prior to being routed to an ISEO Advisor.
+
+Your Notifications, Requests, and Documents
+
+Notifications: On the Services Home Page, you will be able to see all email notifications pertaining to your requests. Notifications will be sent to your UC San Diego email, or primary email on file. You can also click on the Bell Icon at the top right had corner of your window to see a list of all your notifications.
+
+Requests: On the Services Home Page, you will be able to see all active and previously submitted requests. Each request will have an associated status (see section, Request and eForm Status). You can also click on the Document and Pen Icon at the top right had corner of your window to see a list of all your requests.
+
+Documents: To access your documents, review your email notifications. Depending on the type of requests, Approval Notifications may have a document attached within the email. You can also click on the Document with Arrow Icon at the top right had corner of your window to see your most recently issued Form I-20, Form DS-2019, or Support/Verification Documents. You can adjust the filter to indicate if you'd like to show the most recent document or all documents within a given group.
+
+Receiving and Reviewing Immigration Documents
+
+Incomplete Requests: Requests will be set to incomplete when additional information, updated information, or clarification is needed. For this reason, please thoroughly review all eForm instructions and your responses prior to submitting. Please note that the days that your iServices request remain in an incomplete status will not count towards the processing time and may cause a delay in processing. If your application is incomplete or invalid, you will be contacted by an ISEO Advisor with instructions to resubmit or add clarifying information to your request in iServices. The speed at which a request can be processed is largely dependent on how complete and accurate the request is at the time of submission.
+
+Completed Requests: Once your request has been reviewed, you will receive a notification by email. If applicable, the approval notification will contain an attached document and will also be uploaded to the Documents section within iServices for you to access. You will need to download it, print it, and sign it.
+
+Completed Requests: Once your request has been reviewed, you will receive a notification by email. If applicable, the approval notification will contain an attached document and will also be uploaded to the Documents section within iServices for you to access. You will need to download it, print it, and sign it.
+
+Resubmitting Incomplete Requests
+
+Requests will be set to incomplete when additional information, updated information, clarification or new document is needed before it can be thoroughly reviewed by an ISEO Advisor. If your request is Incomplete, the request status will reflect as ' Incomplete/Draft'. Follow the steps below:
+
+Review Email Notification to learn what additional information, updated information, clarification, or new document you need to provide.
+
+Log in to iServices.ucsd.edu and open your Incomplete/Draft request.
+
+Open the eForm that is in Incomplete/Draft status and enter the requested information or reupload the requested document.
+
+Click on the "Submit" button to resubmit each eForm that is in Incomplete / Draft status. If there are multiple eForms in Incomplete/Draft status. resubmit them all, and resubmit the Submission Confirmation last.
+
+If there are multiple eForms in Incomplete/Draft status. resubmit them all, and resubmit the Submission Confirmation last.
+
+Make sure the entire request is in Pending Office Approval status or if applicable, Routed to Third Party Status.
+
+Document Access and Upload Requirements
+
+Locating your Documents:
+
+Once your request has been reviewed, you will receive a notification by email. If applicable, the approval notification will contain an attached document and will also be uploaded to the Documents section within iServices for you to access. You will need to download it, print it, and sign it.
+
+To access your documents, review your email notifications. You can also click on the document with a downward facing arrow icon at the top right had corner of your window to see your most recently issued Form I-20, Form DS-2019, or Support/Verification Documents.
+
+You can adjust the filter to indicate if you'd like to show the most recent document or all documents within a given group.
+
+Document Upload Requirements
+
+As you complete your request in iServices, you will be asked to upload documents required to process the request. Ensure your documents meet the following requirements:
+
+Format : Acceptable file formats are: PDF, JPG, GIF, BMP, and PNG.
+
+File Size: The maximum size for any single file upload is 50 MB.
+
+File Name : Upload issues may occur if there are special characters in the document filename. Do not use any spaces or characters  (- * _ : /) when naming any documents for uploading.
+
+Do not use any spaces or characters  (- * _ : /) when naming any documents for uploading.
+
+Single File Upload: The system will only accept one file upload in each datafield. If you have multiple documents to upload in one field, please combine all documents into one file prior to uploading.
+
+Troubleshooting Tips and Support
+
+Access: If you are unable to log in, ensure you've reviewed the 'Login to iServices' section of this page if you are a newly admitted student or have graduated (alumni). If you continue to experience issues, contact ISEO .
+
+View: If you are not seeing requests that you have been instructed to submit, contact ISEO
+
+Performance and Submission Errors:
+
+Slowness : If system is slow to respond upon a submission, wait patiently; clicking the submit button again before system finishes processing the first submit will generate an error.
+
+Bad Request Error: There are a number of issues that could lead to a " Bad Request Error". Review the following recommendations to troubleshoot and resolve the issue:. Use a computer (instead of a mobile device) or a different computer than you tried previously Use Google Chrome (instead of a different internet browser) or try using an Incognito window in Chrome Clear all cookies and cache and refresh before trying again Try using a different WiFi network or ethernet connection When submitting requests, if applicable, ensure all required documents are uploaded (this will be indicated by a green checkmark next to each document requirement) Reduce file sizes (see above drawer) Rename file and remove special characters that are not allowed (see above drawer) Shut down system and reopen (may clear something stuck in the system)
+
+Use a computer (instead of a mobile device) or a different computer than you tried previously
+
+Use Google Chrome (instead of a different internet browser) or try using an Incognito window in Chrome
+
+Clear all cookies and cache and refresh before trying again
+
+Try using a different WiFi network or ethernet connection
+
+When submitting requests, if applicable, ensure all required documents are uploaded (this will be indicated by a green checkmark next to each document requirement)
+
+Reduce file sizes (see above drawer)
+
+Rename file and remove special characters that are not allowed (see above drawer)
+
+Shut down system and reopen (may clear something stuck in the system)
+
+If you have tried all of these tips and still are having issues, contact ISEO .
+
+Verification and Letter Requests
+
+Funding Requirements
+
+Processing Times
+
+Student Services
+
+Starting a New Program
+
+Maintaining F/J Status
+
+Changes to Enrollment
+
+Working in the U.S.
+
+Travel and Visa Application
+
+Returning to UC San Diego
+
+Preparing for Graduation
+
+Changing Visa Status
+
+Sponsored Students
+
+iServices Instructions for Students I-20/DS-2019 Funding Requirements Processing Times Verification Documents and Letter Requests Replacement Requests
+
+I-20/DS-2019 Funding Requirements
+
+Processing Times
+
+Verification Documents and Letter Requests
+
+Replacement Requests

@@ -1,0 +1,85 @@
+Privacy Statement
+
+Privacy Statement
+
+Who Manages TritonGPT and What It Is
+
+TritonGPT is UC San Diego’s AI-powered suite of assistants designed to enhance productivity, streamline administrative workflows, and provide institution-specific support. It is managed by UC San Diego IT Services and hosted on secure infrastructure at the San Diego Supercomputer Center (SDSC). TritonGPT uses open-source and commercial AI technologies to provide a conversational interface for accessing campus services and information.
+
+Scope of This Privacy Statement
+
+This Privacy Statement explains how TritonGPT collects, uses, stores, and safeguards data when accessed by users affiliated with or visiting UC San Diego. It applies to all interactions conducted through the TritonGPT platform.
+
+Information We Collect
+
+We collect the following types of information when you use TritonGPT:
+
+Information you provide directly:
+
+Chat interactions (e.g., questions asked, thumbs-up/down feedback, and written comments).
+
+Optional feedback provided through system forms or ratings.
+
+Information collected automatically:
+
+Browser user agent and IP address for security and performance monitoring.
+
+System-generated metadata related to interactions (e.g., time stamps, assistant used).
+
+Information from other sources:
+
+TritonGPT retrieves responses from publicly available or institutionally approved datasets. It does not ingest or process private user data from other UC systems unless explicitly approved and integrated.
+
+Why We Collect This Information
+
+The information collected is used for the following purposes:
+
+To generate responses to user queries.
+
+To monitor platform performance, system health, and usage trends.
+
+To improve response accuracy and the user experience based on anonymized feedback.
+
+To maintain platform security and ensure compliance with university policies.
+
+To support institutional planning and AI governance priorities.
+
+Note: TritonGPT does not use user prompts or interaction data to train its underlying AI models.
+
+How We Share Information
+
+TritonGPT does not share user data with unauthorized third parties. No data is transmitted outside of UC San Diego’s supported infrastructure. While some AI Assistants may use commercial AI APIs (e.g., Microsoft Azure), this occurs only within environments governed by University of California contractual agreements and data protection policies.
+
+All third-party software components (e.g., Onyx middleware) are installed and operated on SDSC-managed servers. Onyx does not receive or process user data externally.
+
+Safeguards to Protect Your Information
+
+UC San Diego takes multiple steps to protect information handled by TritonGPT:
+
+Encryption: All data in transit is encrypted using industry-standard protocols.
+
+Access Controls: Only authorized personnel may access system logs, and personal identifiers are removed from analytical interfaces.
+
+Monitoring: Regular security audits, vulnerability assessments, and continuous monitoring are performed by the Office of Information Assurance.
+
+Governance: TritonGPT operates under the AI in Administration Work Group and the Enterprise Information Services Committee (EISC), ensuring responsible data practices.
+
+Infrastructure Security: All services run on secured UC San Diego systems at SDSC.
+
+In the event of a data breach, UC San Diego’s Incident Response Protocols will apply, including appropriate notifications and remediation measures.
+
+Your Rights and Choices
+
+Users have the following rights and options regarding their data:
+
+Data Access and Deletion: Interaction records are retained for 90 days and automatically deleted thereafter. Users also have the option to delete all of their chats at any time. To do so, click your profile icon in the upper right corner, navigate to User Settings, and select Delete All Chats.
+
+Responsible Use: Users should not enter confidential, personally identifiable, or sensitive data into TritonGPT. Please refer to the Terms of Use for details.
+
+Feedback Participation: User feedback (e.g., thumbs-up/down ratings) is optional and contributes to continuous improvement.
+
+Contact Information
+
+For questions about privacy, data use, or governance related to TritonGPT, contact:
+
+UC San Diego IT Services Contact us

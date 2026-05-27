@@ -1,0 +1,127 @@
+Financial Support
+
+Student FICA, Defined Contribution Plan, and Medicare
+
+Student FICA, Defined Contribution Plan (DCP), and Medicare
+
+Under Section 3121(b) (10) of the Internal Revenue Code, services performed by a student at a college or university are generally exempt from Social Security (OASDI) and Medicare (the two components of the FICA tax) provided that the student is “enrolled and regularly attending classes.”
+
+Revised IRS regulations published in Internal Revenue Procedure 2005-11 state that a student employee (non-career) will be exempt from FICA taxes if the student is enrolled at least half-time (6 units at UCSD), in accordance with the regulations issued by the Department of Education, and employed less than 80% time for the month* (The previous rules allowed students to be exempt from FICA if they were enrolled at least half-time with no limitation on the number of hours worked).
+
+Note:  The IRS requirements for FICA exemption should not be confused with UC San Diego graduate student support guidelines requiring full-time registration (minimum 12 units) for funding on fellowships, traineeships, scholarships and academic appointments greater than 25% time.
+
+In the 1990’s, California State Assembly Bill 906 authorized the University to mandate that employees who are not members of the University of California Retirement Plan become “safe harbor” participants in the Defined Contribution Plan (DCP), in lieu of contributing to Social Security.  The DCP is a qualified retirement plan administered by the University of California Employee Benefits Office in the Office of the President.
+
+In the UC system, graduate and undergraduate students who do not meet the student FICA exemption criteria contribute on a pre-tax basis 7.5% of their gross wages to the DCP, and 1.45% of their earnings to Medicare.  (Medicare, a Federal health insurance program administered by the Social Security Administration, is designed for individuals entitled to Social Security who are age 65 or older).  Federal and State taxes on the student’s DCP funds and any earnings are deferred until the money is withdrawn (which can occur when UC employment is terminated) and is subject to penalties if withdrawn prior to age 59 ½.
+
+Academic Year (September – June: monthly checks issued 10/1-7/1)
+
+A student employee (non-career; ex: Associate, TA, Reader, Tutor, GSR) who is a U.S. citizen, permanent resident, or resident alien (for U.S. tax purposes only) must be registered (enrolled and fees paid) by the third week of the quarter in a minimum of half-time (6 units at UC San Diego) and employed less than 80% to remain exempt from DCP/Medicare deductions.
+
+During the academic year, a registered graduate student who has advanced to Ph.D. candidacy is not subject to the unit requirement but is subject to the less than 80% requirement.
+
+Registration units are interfaced with the Payroll system at the end of the 3 rd and 5 th weeks each quarter.  The unit default for a graduate student who has advanced to Ph.D. candidacy is 88.8 units.
+
+Summer Months (July & August)
+
+In order to remain exempt from DCP/Medicare deductions, a student employee (non-career) who is a U.S. citizen, permanent resident or resident alien must be registered in the minimum number of units given below during at least one day of the pay period and have an appointment percent or combined appointments of less than 80% for at least one day of the month.
+
+Graduate student:                          3 units (5-week Summer Session)
+
+Graduate student:                          6 units (all other summer session courses)
+
+Undergraduate student:                6 units (any session per Department of Education standards)
+
+8.95% Total Deduction (7.5% for DCP and 1.45% for Medicare)
+
+A student who loses exemption status will contribute on a pre-tax basis 7.5% of gross wages to the Defined Contribution Plan and 1.45% of earnings to Medicare.
+
+Paycheck Receipt
+
+The body of the receipt will contain the explanation under “Deduction” that an amount has been withheld for “DCP CAS SAV R” or DCP Casual Savings Reduction.
+
+Student Income Not Subject to Student FICA
+
+As explained in items A and B below, there are certain types of student income which are exempt from Student FICA.  International students who are nonresident aliens are always exempt from Student FICA.
+
+Fellowship or traineeship stipends, scholarships and grants
+
+Income from fellowships, traineeships, tuition/fee scholarships and grants is not subject to Student FICA deductions.
+
+Graduate students who receive monthly payments from fellowships or traineeships receive stipend payments rather than salary payments. Stipend payments are classified as “unearned income” by the IRS and are not subject to the rules of Student FICA. However, all stipend payments are considered taxable income except any amount used on course-related expenses, such as qualified tuition/fees, books, supplies, and equipment that are required of all students in their course of instruction.
+
+Graduate students who receive stipend payments can access their “Graduate Appointment Letter” on the Graduate Education and Postdoctoral Affairs (GEPA) website under Student Portal at: https://student-db.grad.ucsd.edu . Stipend payments appear on the appointment letter under the heading “Stipend”.  These payments are administered through Student Financial Solutions (SFS) rather than Payroll.
+
+International students (F-1 and J-1 visa) who are nonresident aliens for U.S. tax purposes
+
+All international students (F-1 and J-1 visas) who are nonresident aliens (for U.S. tax purposes only) are exempt from Student FICA.
+
+Note:  International students on F-1 and J-1 visas generally become resident aliens (for U.S. tax purposes only) after their 5 th calendar year in the United States.  IRS Publication 519 contains information for determining Nonresident or Resident Alien status and a chart for taking the Substantial Presence Test.  Contact the Glacier & Taxation office ( glacier@ucsd.edu ) with any questions.
+
+DCP Account Information and Personal and Personal Identification Number (PIN)
+
+For current balances in the DCP program, contact Fidelity Retirement Services at 1-866-682-7787 or https://netbenefits.fidelity.com/ .
+
+To use some of the on-line features, a student must have a valid Personal Identification Number (PIN).  If you are a new employee or continuing employee who has not previously customized your PIN, you will be prompted to set up a PIN.
+
+Click on the “Register Now” link at https://login.fidelity.com/ftgw/Fidelity/NBPart/Login/Init?AuthRedUrl=https://workplaceservices200.fidelity.com/NBHome.html (for customers who have never logged in).
+
+Address Information
+
+It is important to keep your address updated in the Payroll system for W-2 purposes (the W-2 is mailed to the address in the Payroll system for all “inactive” employees) and also at Fidelity for DCP purposes. (This may or may not be the same address as in ISIS, the UC San Diego Student Registration system address which you can update using StudentLink.)
+
+DCP Investment Options
+
+Although your first DCP contribution is invested automatically in the UC-managed Savings Fund, you may redirect your future DCP contributions to other investment funds that are listed on Fidelity’s webpage.
+
+Transfer of Accumulated (Existing) DCP Funds Among UC-Managed Funds
+
+Transfers among funds are allowed at any time on Fidelity’s website. Some restrictions apply to transfers into or out of the ICC Fund.
+
+Current Investment Returns
+
+The Fidelity website provides up-to-date information concerning the returns on investment funds.
+
+UC San Diego W-2, Statement of Earnings
+
+When you have a DCP deduction during the tax year, your year-end W-2 Statement of Earnings will reflect the following:
+
+Box 14 (Other) will state “DCP-CAS” and the total amount of your DCP contribution.  This amount is not reported as taxable income; i.e., this amount will not appear in Box 1 (Federal wages) or Box 17 (CA State wages).
+
+Box 15 will be marked with an “X” under Pension plan.
+
+DCP and IRA Contributions
+
+Participation in the DCP may affect the income tax deductibility of any contributions you or your spouse make to an IRA.  IRA contributions may still qualify for a full or partial income tax deduction, depending on your adjusted gross income and tax filing status.  You may also make non-deductible contributions to an IRA and defer taxes on the earnings.  Check with your tax advisor or complete the IRA Deduction Worksheet in the 1040 Instruction booklet.
+
+Separation from Service
+
+When a student separates from service with the University, he may:
+
+Request a distribution If a distribution is paid to you, 20% will be withheld for federal taxes, as required by law.  No exceptions.  Note that if you are under age 59 ½ and have a distribution paid to you, it may be subject to federal and state early distribution penalties in addition to ordinary income taxes.  (DCP is withheld on a pre-tax basis and becomes taxable income in the year it is distributed.)  The early distribution penalties are substantial – currently a 10% federal tax and a 2.5% California state tax. A student who receives a distribution during the year will receive a tax statement (IRS Form 1099R) by January 31 of the next year
+
+If a distribution is paid to you, 20% will be withheld for federal taxes, as required by law.  No exceptions.  Note that if you are under age 59 ½ and have a distribution paid to you, it may be subject to federal and state early distribution penalties in addition to ordinary income taxes.  (DCP is withheld on a pre-tax basis and becomes taxable income in the year it is distributed.)  The early distribution penalties are substantial – currently a 10% federal tax and a 2.5% California state tax. A student who receives a distribution during the year will receive a tax statement (IRS Form 1099R) by January 31 of the next year
+
+Arrange for a direct rollover to a traditional IRA or other employer plan No taxes will be withheld nor will the distribution be subject to the early distribution penalties.
+
+No taxes will be withheld nor will the distribution be subject to the early distribution penalties.
+
+Keep the money in the Plan if the balance is at least $2,000 or
+
+Receive retirement income from the Plan, if eligible
+
+Account balances of less than $2,000 will automatically be distributed on a quarterly basis to participants who have not previously requested a distribution.
+
+The student should contact Fidelity to update their address.
+
+Fidelity Retirement Services
+
+Phone:  1-866-682-7787 (toll free)  |  Website: https://netbenefits.fidelity.com/
+
+Contact the Financial Support Unit via the Student Support Portal in Services & Support.
+
+Non Discrimination Statement : In accordance with applicable Federal and State law and University policy, the University of California does not discriminate, or grant preferences, on the basis of race, color, national origin, religion, sex, disability, and/or other protected categories. More information about Proposition 209 can be found here . More information about the University of California Anti-Discrimination Policy can be found here.
+
+Support for Student Parents
+
+Transitional Graduate Student Employment Program

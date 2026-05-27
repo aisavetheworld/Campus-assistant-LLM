@@ -1,0 +1,117 @@
+Financial Support
+
+Staff Destinations
+
+Staff Destinations
+
+Below are key links for UC San Diego staff involved in graduate student financial support.
+
+Financial Support Request Tool (FSRT)
+
+Financial Support Payments Tool (FSPT)
+
+Policies & Procedures
+
+FSRT: Takes you directly to the FSRT application for fee payment and remission entries. Pre-approved access required.
+
+FSRT: Takes you directly to the FSRT application for fee payment and remission entries. Pre-approved access required.
+
+FSPT: Takes you directly to the FSPT application for non-employment stipend entries. Pre-approved access required.
+
+FSPT: Takes you directly to the FSPT application for non-employment stipend entries. Pre-approved access required.
+
+Policies & Procedures: Links to the GEPA Campus Partners Collab page for financial support policies, calendars, and updates.
+
+Policies & Procedures: Links to the GEPA Campus Partners Collab page for financial support policies, calendars, and updates.
+
+This project will replace the current Financial Support Request Tool (FS R T) with the new Financial Support Payments Tool (FS P T). The current FS R T is used for graduate student fee remissions, fee payments and retroactive non-employment stipends. FS P T is now used for graduate student non-employment stipends 2026 and beyond.
+
+The FSPT Project has the following releases planned :
+
+Stipends Module Release (Live as of December 8th, 2025, see Campus Notice )
+
+Fee Payments & Cost Distribution Release 📍
+
+FSPT Office Hours
+
+Join us for drop-in support on the second Thursday of each month, 9:05-10:00 a.m.
+
+Sign up for the calendar invite
+
+1:1 Support Sessions
+
+15-minute appointments with FSU, every Thursday from 10:00 a.m. to 12:00 p.m.
+
+Schedule a 1:1 Session
+
+Submit a SNOW Ticket
+
+Email fspt@ucsd.edu with questions or FSPT issues and a SNOW ticket will be opened.
+
+Timeline & Milestones
+
+Mar 2026: Project Kickoff
+
+May 2026: Design Complete
+
+Jul 2026: TSS is live to students (and FSPT and FSRT remediation efforts should be complete)
+
+Sept 2026: Development/Configuration Complete
+
+Dec 2026: Testing Complete
+
+Feb 2027: Production Testing & Deployment Complete (Cutover Complete)
+
+Mar 2027: Go-Live Complete (End users transacting in FSPT for SP27/SU27 fees)
+
+Mar 2027: Initial Training Complete
+
+TBD 2027: Hypercare Complete
+
+FSPT Resources: FSPT Resource Hub All things you need FSPT related on this page.
+
+FAQ: FSPT Project FAQs
+
+Collab Space: GEPA FSU FSPT Collab Space
+
+Microsoft Teams FSPT : Join the team, Graduate Student Financial Support , where there is a dedicated FSPT channel . This channel will be a space to ask GEPA FSU questions, seek support and receive guidance from fellow colleagues.
+
+Enhancement Request Form : If you have an enhancement request or suggestion for FSPT, complete the FSPT Enhancement Request Form .
+
+Videos : View our videos on the FSPT Kaltura Playlist to see demos, quarterly updates, and more!
+
+Training Materials : Training materials created throughout the project will be added to the GEPA FSU FSPT Collab Space .
+
+Email : If you have questions about FSPT, you can email them to fspt@ucsd.edu . A Services & Support (SNOW) ticket will be automatically opened for each email, so that the FSU team can follow up with you.
+
+Stipends Learning Materials
+
+More information about the FSPT Stipends Module can be found on the SIS Project FSPT Webpage . Stipends Training Pages (Step-by-step guides)
+
+Welcome to FSPT (Collab)
+
+Get Oriented in FSPT (Collab)
+
+Add & Edit Stipends in FSPT (Collab)
+
+Additional training resources
+
+FSPT Stipends Training Recording (Virtual Session on December 4)
+
+FSPT Stipends Training Deck (PDF)
+
+FSPT Stipends Training Q&A (Google Doc)
+
+FSPT Stipends Assessment (Google Form)
+
+Non Discrimination Statement : In accordance with applicable Federal and State law and University policy, the University of California does not discriminate, or grant preferences, on the basis of race, color, national origin, religion, sex, disability, and/or other protected categories. More information about Proposition 209 can be found here . More information about the University of California Anti-Discrimination Policy can be found here.
+
+Financial Support
+
+Third-Party Payments
+
+Non-UC Visiting Grads
+
+Financial Support FAQ
+
+Staff Destinations

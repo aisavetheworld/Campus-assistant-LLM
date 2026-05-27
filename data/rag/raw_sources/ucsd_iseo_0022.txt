@@ -1,0 +1,203 @@
+Scholar Services
+
+iServices Instructions for Scholars
+
+Separation/Departure/Transfer Out
+
+Separation, Early Departure, or Transferring Out
+
+First Confirm You No Longer Require UCSD Sponsorship
+
+Please be careful when submitting a J-1 early departure request and make sure you are actually ending your J-1 status. You will have a 30-day grace period in which to depart the U.S. or change to a different visa status.
+
+A J-1 program should NOT be shortened in the following situations:
+
+You are moving to a different department at UCSD. Instead, your department needs to submit a J-1 Amendment. Please speak to your department contact regarding having this completed.
+
+You are moving to a different department at UCSD.
+
+Instead, your department needs to submit a J-1 Amendment. Please speak to your department contact regarding having this completed.
+
+Instead, your department needs to submit a J-1 Amendment. Please speak to your department contact regarding having this completed.
+
+You will be Out of Country (such as during an approved leave of absence from your position at UC San Diego) and intend to return to the same J-1 program. Instead, an Out of Country Notification should be submitted.
+
+You will be Out of Country (such as during an approved leave of absence from your position at UC San Diego) and intend to return to the same J-1 program.
+
+Instead, an Out of Country Notification should be submitted.
+
+Instead, an Out of Country Notification should be submitted.
+
+You are transferring your J-1 record to a different institution . Instead, an ISEO advisor needs to coordinate that transfer and will update your J-1 program dates. Please follow the instructions below to complete the J-1 Scholar Transfer Out Request form in iServices.
+
+You are transferring your J-1 record to a different institution .
+
+Instead, an ISEO advisor needs to coordinate that transfer and will update your J-1 program dates.
+
+Instead, an ISEO advisor needs to coordinate that transfer and will update your J-1 program dates.
+
+Please follow the instructions below to complete the J-1 Scholar Transfer Out Request form in iServices.
+
+Please follow the instructions below to complete the J-1 Scholar Transfer Out Request form in iServices.
+
+You are changing to H-1B status at UCSD . ISEO staff will update the J-1 program dates when working on the H-1B.
+
+You are changing to H-1B status at UCSD .
+
+ISEO staff will update the J-1 program dates when working on the H-1B.
+
+ISEO staff will update the J-1 program dates when working on the H-1B.
+
+If you are an H-1B employee and ending your employment at UCSD earlier than the end date of your H-1B approval notice, your H-1B petition must be withdrawn. Please be careful when submitting an H-1B early departure.
+
+An H-1B program should NOT be shortened in the following situations :
+
+You are moving to a different department or appointment title at UCSD. Instead, an H-1B Amendment should be submitted by your department.
+
+You are moving to a different department or appointment title at UCSD.
+
+Instead, an H-1B Amendment should be submitted by your department.
+
+Instead, an H-1B Amendment should be submitted by your department.
+
+You are doing a Leave of Absence and intend to remain an employee of UCSD .
+
+You are doing a Leave of Absence and intend to remain an employee of UCSD .
+
+I f the department initiated an H-1B employee's separation from employment, the department must offer to cover the reasonable cost of return transportation to the employee's home country (this does not include dependents); see H-1B Early Termination Memo .
+
+iServices Request Processing:
+
+Log in to iServices
+
+Access iServices through either of the following:
+
+"Full Client Services" Portal: (UCSD email account/Network ID)
+
+Scholars with Network ID's will utilize their Active Directory credentials to access iServices via Duo Two-Step Log In.
+
+Network ID is typically the first half the UCSD email: kingtriton @ucsd.edu
+
+Network ID is typically the first half the UCSD email: kingtriton @ucsd.edu
+
+The UCSD VPN creates a virtual private connection over public networks using encryption and other security checks to help protect against computer data transmission interception.
+
+The UCSD VPN creates a virtual private connection over public networks using encryption and other security checks to help protect against computer data transmission interception.
+
+YOU MUST BE ON VPN IF YOU ARE ACCESSING THE PORTAL WITH A WIRELESS CONNECTION OR NOT ON CAMPUS USING ETHERNET.
+
+YOU MUST BE ON VPN IF YOU ARE ACCESSING THE PORTAL WITH A WIRELESS CONNECTION OR NOT ON CAMPUS USING ETHERNET.
+
+" Limited Services" Portal (No UCSD email account/Network ID)
+
+iServices ID numb e r
+
+iServices ID numb e r
+
+Limited Access Pin number
+
+Limited Access Pin number
+
+VPN NOT REQUIRED TO ACCESS
+
+VPN NOT REQUIRED TO ACCESS
+
+J-1 Scholar Transfer Out Request
+
+Completing the Transfer Out Request Form
+
+Please first make sure you have notified your department contact prior to submitting this form.
+
+When completing this form, we will need the following information. Please make sure to have it available:
+
+Destination Institution Details:
+
+Name of the institution
+
+Contact details of the other institution's international scholar advisor
+
+Institution Program Number The J-1 SEVIS program number (NOT your SEVIS number) will appear similar to P-X-XXXXX.
+
+The J-1 SEVIS program number (NOT your SEVIS number) will appear similar to P-X-XXXXX.
+
+Your institution may have additional forms to provide us: ECFMG Category Change Request Form For ECFMG transfers only Please be sure to provide your USMLE number Destination Institution Transfer Form (if applicable)
+
+ECFMG Category Change Request Form For ECFMG transfers only Please be sure to provide your USMLE number
+
+For ECFMG transfers only
+
+Please be sure to provide your USMLE number
+
+Destination Institution Transfer Form (if applicable)
+
+Immigration Information:
+
+Confirm that you HAVE NOT received a US Department of State letter for a favorable recommendation for a waiver and that you DO NOT have any petition for permanent residency pending. If either of these are applicable to you, please contact ischolars@ucsd.edu to discuss alternative options.
+
+If either of these are applicable to you, please contact ischolars@ucsd.edu to discuss alternative options.
+
+Resignation Letter
+
+Required for UC San Diego employees and scholars being paid by the institution
+
+Processing Information:
+
+The standing processing time is 15 business days.
+
+Please notify us if you plan to travel outside of the U.S. while the transfer is pending.
+
+Please have the following ready when completing this form:
+
+Current end date J-1 Scholars: Found on your DS-2019 Employment-Based Scholars: Found on your I-797 Approval Notice
+
+J-1 Scholars: Found on your DS-2019
+
+Employment-Based Scholars: Found on your I-797 Approval Notice
+
+Requested new end date For paid scholars, this should be the last day on UC San Diego payroll
+
+For paid scholars, this should be the last day on UC San Diego payroll
+
+Your letter of resignation This should be the letter or email that you provided to your department to notify them you will be departing early
+
+This should be the letter or email that you provided to your department to notify them you will be departing early
+
+Name and email of departmental contact who can confirm your early departure
+
+Submitting a Separation/Early Departure will end UCSD's sponsorship of your visa status on that new end date. If you are not transferring your visa status to another institution or changing to a different status or permanent residency, you will have to depart the U.S.
+
+You should be aware of information on the J-1 grace period or H-1B grace period .
+
+If you shorten the program to a new end date that is in the future and then change plans, please make sure to notify ISEO immediately .
+
+iServices Instructions for Scholars
+
+Initial J-1 Requests
+
+J-1 Extension Request
+
+H-1B/E-3/TN Initial Requests
+
+H-1B/E-3/TN Extension/Amendment Requests
+
+Register with ISEO
+
+J-1 Scholar Insurance Verification
+
+J-1/J-2 Travel Signature
+
+J-1 Scholar Out of Country Notification
+
+Update Contact Information
+
+Replacement DS-2019
+
+J-1 Student Intern
+
+J-1 Occasional Lecture/Consultation
+
+Separation/Departure/Transfer Out
+
+Change to Permanent Residency
+
+Other Status Registration

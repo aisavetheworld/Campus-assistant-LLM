@@ -1,0 +1,373 @@
+iServices Instructions
+
+Scholar Services
+
+H-1B/E-3/TN Extension Requests
+
+Employment Based (H-1B/E-3/TN) Extension and Amendment Requests
+
+H-1B status may be extended in three-year increments up to a total of six years. We recommend departments submit H-1B extension requests 7 months in prior to the anticipated start date.
+
+Please allow considerable time for this process as extension/amendment applications take as long as initial applications.
+
+Substantive changes in H-1B employment must be received by USCIS with an amended petition submitted prior to the change in employment circumstances. This requires a new recharge and USCIS filing fees. Substantive changes include:
+
+Moving between represented and nonrepresented positions or between different represented positions, from research to clinical care; or adding a work-site outside of the metropolitan statistical area e.g. Postdocs teaching in summer will require an amendment and potentially multiple H-1B amendments to add and remove teaching duties.
+
+e.g. Postdocs teaching in summer will require an amendment and potentially multiple H-1B amendments to add and remove teaching duties.
+
+A normal stepwise progression within an employment series (e.g. Assistant Project Scientist to Associate Project Scientist) will not require an amended petition
+
+A change in worksite location, may require an amendment or a new NOI posting, please consult with an ISEO advisor.
+
+Employment authorization is retained with a timely filed extension or amendment petition; the petition does not have to be approved by USCIS until 240 days into the new H-1B period.
+
+Finding a Current Scholar's Record
+
+Log into the iServices portal and select the "Departmental Services" page.
+
+Please note that there are two ways for a department user to access a scholar's profile.
+
+Please note that there are two ways for a department user to access a scholar's profile.
+
+Select on my "My Current Cases" under the LISTS section. Clicking the scholar's name you are searching for will populate a page titled "Work on Application", which will list of all potential requests a departmental user can submit.
+
+Select on my "My Current Cases" under the LISTS section.
+
+Clicking the scholar's name you are searching for will populate a page titled "Work on Application", which will list of all potential requests a departmental user can submit.
+
+Clicking the scholar's name you are searching for will populate a page titled "Work on Application", which will list of all potential requests a departmental user can submit.
+
+Locate the H-1B Extension Request under the TASKS section. Connect to the scholar record by entering their iServices ID and date of birth . NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you do not have a scholar ID saved you can either: Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Locate the H-1B Extension Request under the TASKS section.
+
+Connect to the scholar record by entering their iServices ID and date of birth . NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you do not have a scholar ID saved you can either: Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Connect to the scholar record by entering their iServices ID and date of birth .
+
+NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you do not have a scholar ID saved you can either: Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+NOTE: The iServices portal  does not have a scholar “search bar” function; instead, the scholar iServices ID and date of birth will be the data needed to search for a scholar. Currently the system is not loaded with UCPath IDs; if you do not have a scholar ID saved you can either:
+
+Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or
+
+Reach out to ischolars@ucsd.edu to request the scholar iServices ID/DOB combination and we will provide it to you, or
+
+Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Begin "Add New Person" e-form and input UCSD email and DOB; the system will recognize the duplication and will provide you with the current campus ID ("FS9999" is most typical); you can then use this ID with the DOB to call up the scholar's record.
+
+Begin H-1B Scholar Extension Application
+
+Departmental users are required to complete a series of e-forms within the H-1B Scholar Extension Request group.
+
+NOTE: Always click the link at the top of each eform listed as MAIN PAGE | TEMPID | SCHOLAR NAME to return the to other eforms within the group INSTEAD of pressing the back arrow in the web browser.
+
+H-1B Extension Request Information
+
+This first individual eform submission will trigger an automated email to the scholar with the access URL to the portal and a login.
+
+This first individual eform submission will trigger an automated email to the scholar with the access URL to the portal and a login.
+
+The scholar can then begin completing their eforms in tandem with you completing the departmental eforms.
+
+The scholar can then begin completing their eforms in tandem with you completing the departmental eforms.
+
+H-1B Extension Appointment Information
+
+Appointment Data
+
+Reappointment Start and End Dates
+
+Reappointment Start and End Dates
+
+Appointment Letter Upload: If the scholar has a second appointment title you may upload an additional appointment letter if applicable.
+
+Appointment Letter Upload: If the scholar has a second appointment title you may upload an additional appointment letter if applicable.
+
+If a Career Staff Position: Upload the job description from the Job Description Library
+
+If a Career Staff Position: Upload the job description from the Job Description Library
+
+Minimum Position Requirements: indicate minimal degree requirement and minimum months of experience required in order to hold the position (do not indicate the prospective beneficiary's degree level attained or their number of years' experience in the field!)
+
+Minimum Position Requirements: indicate minimal degree requirement and minimum months of experience required in order to hold the position (do not indicate the prospective beneficiary's degree level attained or their number of years' experience in the field!)
+
+Full time: H-1B positions must be hired at full-time
+
+Full time: H-1B positions must be hired at full-time
+
+NOTE: If the H-1B employee is separated from employment prior to the end date of the requested H-1B period, the department will be responsible for providing return transportation to the employee's home country (not including any dependents).
+
+H-1B Extension USCIS Cover Letter
+
+Department: Enter the scholar's current or new department of employment.
+
+Department: Enter the scholar's current or new department of employment.
+
+Detailed information for USCIS : depending upon your department's internal policies, determine who will be providing detailed information about the prospective H-1B position, to include: Duties Methodologies and techniques used in performing those duties Courses taught (if applicable), including course number, title, and population serving (UG or Grad)
+
+Detailed information for USCIS : depending upon your department's internal policies, determine who will be providing detailed information about the prospective H-1B position, to include:
+
+Methodologies and techniques used in performing those duties
+
+Methodologies and techniques used in performing those duties
+
+Courses taught (if applicable), including course number, title, and population serving (UG or Grad)
+
+Courses taught (if applicable), including course number, title, and population serving (UG or Grad)
+
+H-1B beneficiary's: Most recent employer or academic institution in home country Most recent job title or degree program in home country Most recent field of research at most recent employer/academic institution in home country
+
+H-1B beneficiary's:
+
+Most recent employer or academic institution in home country
+
+Most recent employer or academic institution in home country
+
+Most recent job title or degree program in home country
+
+Most recent job title or degree program in home country
+
+Most recent field of research at most recent employer/academic institution in home country
+
+Most recent field of research at most recent employer/academic institution in home country
+
+H-1B Extension Worksite
+
+Primary Worksite: A drop down selection is provided with the three most common sites of activity, or the option to provide an “other” worksite and its address information The name of the building is required for an H-1B request
+
+Primary Worksite: A drop down selection is provided with the three most common sites of activity, or the option to provide an “other” worksite and its address information
+
+The name of the building is required for an H-1B request
+
+The name of the building is required for an H-1B request
+
+Additional Worksite(s): List all additional worksites with their addresses and building names as appropriate. Include residential address if a hybrid schedule includes this site; use "remote" for building name
+
+Additional Worksite(s): List all additional worksites with their addresses and building names as appropriate.
+
+Include residential address if a hybrid schedule includes this site; use "remote" for building name
+
+Include residential address if a hybrid schedule includes this site; use "remote" for building name
+
+FAILURE TO INCLUDE ALL WORKSITES MAY REQUIRE AN AMENDED PETITION WITH ALL ASSOCIATED COSTS.
+
+H-1B Actual Wage Rate and Submission
+
+The actual wage rate is that wage paid by the employer to employees in similar positions. "Employer" means UC San Diego as a whole, and not just a sponsoring department. Therefore, it may be necessary for you to obtain salary data for individuals outside your immediate department. Please work with your MSO or equivalent if you do not have UCPath access to this data.
+
+When establishing a salary range for a job category, please compare employees in similar positions; if you don't have multiple positions for comparison from department level data, please expand the comparison to include school level data
+
+Example: if your department only has one Bioinformatics Programmer 3 employee, please expand your salary range to include all Bioinformatics Programmer 3 employees in the entire school
+
+Do not include the prospective H-1B's salary within the salary range (low and high) that you are establishing
+
+Identify any job-related reasons for why this employee is being placed where they are within the overall range; such factors might include extensive publication record, education (PhD whereas other employees in the position have baccalaureate degrees), years of experience in the field, etc.; i f you include "Other," please indicate the additional rationale, such as "granting agency terms require payment at this level"
+
+The above rationale should be reasonable and understandable to a U.S. Department of Labor auditor
+
+If the employee holds more than one appointment title, you will need to complete a second Actual Wage Rate e-form with the other appointment title after completing this one
+
+Return to "Department Services" home page and select the " Additional Actual Wage Rate for Multiple Appointment" request under TASKS.
+
+H-1B ISEO and USCIS fees
+
+ALL H-1B fees MUST be paid by the employing department; fees are NOT rechargeable to the scholar. There are two sets of fees ISEO and USCIS fees both of which are collected through ISEO's recharge form.
+
+The breakdown of fees required for H-1B/E-3/TN requests can be found on ISEO’s Online Recharge page .
+
+Departments will complete: ISEO Service Fee Payment eform USCIS Filing Fee Payment eform
+
+ISEO Service Fee Payment eform
+
+USCIS Filing Fee Payment eform
+
+Within each eform, the department will:
+
+Provide financial information (financial unit name, project number, and task number) directly in the eform
+
+Authorize ISEO to process payment using departmental funds for each fee type
+
+H-1B Extension Export Control Certification
+
+Certify that the research agreement (e.g. contract or grant) on which the nonimmigrant employee will be working:
+
+does not restrict or prohibit the participation of foreign persons in the project
+
+does not restrict or prohibit the participation of foreign persons in the project
+
+does not restrict or prohibit the research team’s right to publish any of the data or research results;
+
+does not restrict or prohibit the research team’s right to publish any of the data or research results;
+
+That in performing the work under the visa, the beneficiary will not:
+
+be working on any research project that is or should be subject to a Technology Control Plan (such a plan may be required if there is access to export controlled technical information, materials, software, or encryption code, which could be received in the form of confidential or proprietary information transmitted by a sponsor or third party)
+
+be working on any research project that is or should be subject to a Technology Control Plan (such a plan may be required if there is access to export controlled technical information, materials, software, or encryption code, which could be received in the form of confidential or proprietary information transmitted by a sponsor or third party)
+
+be working on any service agreements
+
+be working on any service agreements
+
+be given access to equipment specifically designed or developed for military (ITAR) or space applications; and
+
+be given access to equipment specifically designed or developed for military (ITAR) or space applications; and
+
+That the beneficiary will not have any IT administrator responsibilities or access
+
+H-1B Extension and Certification and Submission to ISEO
+
+Final eform in this request process; depending upon your departmental internal policies, determine if you have a final signatory who must review and sign off on the submission; if so, indicate who they are; if not, you will certify the submission to our office.
+
+Review and Submission
+
+Underneath the title of the H-1B Extension Request e-form group page, clicking the link listed as View/Save/Print E-Form Group will open a PDF to view all data submitted by the department user and scholar.
+
+Scholar Documentation Required
+
+Passport Bio Page: The Passport Biographical page must be from scholar’s current unexpired passport (expiration date must be more than 6 months in future).
+
+Degree/Diploma: To qualify for H-1B status, a position must be in a specialty occupation, requiring at least the level of a Bachelor’s degree and the beneficiary must meet the minimal educational/experiential requirements of the position.
+
+Scholar should have uploaded diplomas for all relevant degrees.
+
+Scholar should have uploaded diplomas for all relevant degrees.
+
+Any document not in English will require a translation and translator’s certification. Translation does not need to be completed by an official translation company Translation statement cannot be signed by PI, scholar or family member as it could be seen as biased by an officer.
+
+Any document not in English will require a translation and translator’s certification.
+
+Translation does not need to be completed by an official translation company
+
+Translation does not need to be completed by an official translation company
+
+Translation statement cannot be signed by PI, scholar or family member as it could be seen as biased by an officer.
+
+Translation statement cannot be signed by PI, scholar or family member as it could be seen as biased by an officer.
+
+If the diploma does not specify a particular field, then transcripts must be submitted that indicate in which field the diploma was obtained . If a diploma is not available, transcripts can be used instead, as long as the transcript indicates the degree issued.
+
+If the diploma does not specify a particular field, then transcripts must be submitted that indicate in which field the diploma was obtained . If a diploma is not available, transcripts can be used instead, as long as the transcript indicates the degree issued.
+
+Foreign Credentials Evaluation : If the relevant degrees are not from a U.S. institution, then a foreign credentials evaluation certifying the U.S. degree equivalency must be submitted (exception: Clinical Care appointments do not need evaluations of foreign MD degrees.
+
+The evaluation should include field of study, a detailed description of the material evaluated, rather than conclusions, and a brief description of the qualifications and experience of the evaluator.
+
+The evaluation should include field of study, a detailed description of the material evaluated, rather than conclusions, and a brief description of the qualifications and experience of the evaluator.
+
+Curriculum Vitae: Scholar should not include immigration, personal, or volunteer information on this document.
+
+Documentation needed for scholar currently in the US:
+
+I-94 arrival/departure record for most recent entry into U.S.
+
+I-94 arrival/departure record for most recent entry into U.S.
+
+Visa stamp used for most recent entry to the U.S.
+
+Visa stamp used for most recent entry to the U.S.
+
+Earnings statements: If currently in a paid position, the three most recent statements are required.
+
+Earnings statements: If currently in a paid position, the three most recent statements are required.
+
+If ever in J status: All DS-2019 forms issued scholar and, if applicable, a copy of their I-612 Waiver approval notice if subject to 212(e)
+
+If ever in J status: All DS-2019 forms issued scholar and, if applicable, a copy of their I-612 Waiver approval notice if subject to 212(e)
+
+If ever in H-1B status: Copies of all I-797 approval notices
+
+If ever in H-1B status: Copies of all I-797 approval notices
+
+If ever issued an Employment Authorization Document (EAD): Copies of all EADs
+
+If ever issued an Employment Authorization Document (EAD): Copies of all EADs
+
+Clinical Care Documentation:
+
+Graduates of International Medical Schools ECFMG Certification (unless a graduate of a Canadian medical school) U.S. Medical Licensing Examination (USMLE) Steps 1-3--or--National Board of Medical Examiners (NMBE) examinations – Parts 1-3--or--FLEX examination CA Medical License documentation
+
+Graduates of International Medical Schools
+
+ECFMG Certification (unless a graduate of a Canadian medical school) U.S. Medical Licensing Examination (USMLE) Steps 1-3--or--National Board of Medical Examiners (NMBE) examinations – Parts 1-3--or--FLEX examination CA Medical License documentation
+
+ECFMG Certification (unless a graduate of a Canadian medical school)
+
+U.S. Medical Licensing Examination (USMLE) Steps 1-3--or--National Board of Medical Examiners (NMBE) examinations – Parts 1-3--or--FLEX examination
+
+U.S. Medical Licensing Examination (USMLE) Steps 1-3--or--National Board of Medical Examiners (NMBE) examinations – Parts 1-3--or--FLEX examination
+
+CA Medical License documentation
+
+CA Medical License documentation
+
+Graduates of Accredited U.S. Medical Schools Internationals with a medical degree from an accredited U.S. institution need only provide IFSO with their U.S. MD diploma and, starting 1/1/2020, the Postgraduate Training License (PTL).
+
+Graduates of Accredited U.S. Medical Schools
+
+Internationals with a medical degree from an accredited U.S. institution need only provide IFSO with their U.S. MD diploma and, starting 1/1/2020, the Postgraduate Training License (PTL).
+
+Internationals with a medical degree from an accredited U.S. institution need only provide IFSO with their U.S. MD diploma and, starting 1/1/2020, the Postgraduate Training License (PTL).
+
+Required if the UCSD appointment/job advertisement has as a requirement Medical Residency completion certificate Clinical Fellowship completion certificate Board Certification Documentation establishing Board Eligibility (UC San Diego issued documentation is not acceptable)
+
+Required if the UCSD appointment/job advertisement has as a requirement
+
+Medical Residency completion certificate Clinical Fellowship completion certificate Board Certification Documentation establishing Board Eligibility (UC San Diego issued documentation is not acceptable)
+
+Medical Residency completion certificate
+
+Clinical Fellowship completion certificate
+
+Clinical Fellowship completion certificate
+
+Board Certification
+
+Board Certification
+
+Documentation establishing Board Eligibility (UC San Diego issued documentation is not acceptable)
+
+Documentation establishing Board Eligibility (UC San Diego issued documentation is not acceptable)
+
+Required for ALL Clinical Training programs through ECFMG GME exception to policy allowing for H-1B sponsorship
+
+Required for ALL Clinical Training programs through ECFMG
+
+GME exception to policy allowing for H-1B sponsorship
+
+GME exception to policy allowing for H-1B sponsorship
+
+ISEO Review and Approval
+
+Standard Processing: 60 days from submission of complete request
+
+60 days from submission of complete request
+
+RUSH Processing: Requested start date under 90 days from submission of complete request
+
+Requested start date under 90 days from submission of complete request
+
+Once the form is submitted, upon approval by advising staff we will work on the petition request and submit it to U.S. Citizenship and Immigration Services and notify the sponsoring department and scholar of its submission.
+
+Should you have any additional questions during this process, please reach out to ischolars@ucsd.edu
+
+Department Processing Frequently Asked Questions
+
+Scholar Services
+
+J-1 Initial Request
+
+J-1 Extension Request
+
+H-1B/E-3/TN Initial Request
+
+H-1B/E-3/TN Extension Requests
+
+Other Status Registration
+
+Separation or Departure
+
+Notify ISEO of Change to Permanent Residency

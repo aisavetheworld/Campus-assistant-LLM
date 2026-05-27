@@ -1,0 +1,321 @@
+Student/ Class Info
+
+Course Management
+
+Schedule of Classes
+
+See a list of active department subject codes.
+
+Asian American and Pacific Islander Studies
+
+African American Studies
+
+Architecture Based Enterprise Systems Engineering
+
+Academic Internship Program
+
+Anthropological Archaeology
+
+Anthropology/ Biological Anthropology
+
+Anthro/ Sociocultural Anthropology
+
+Astronomy and Astrophysics
+
+Analytical Writing Program
+
+Biology/ Grad/ General
+
+Biology/ Grad/ Journal Club
+
+Biology/ Grad/ Research Discussion
+
+Biology/ Grad/ Seminar
+
+Biology/ Biochemistry
+
+Biology/ Genetics, Cellular and Developmental
+
+Biology/ Ecology, Behavior, and Evolutionary
+
+Biology/ Lower Division
+
+Biology/ Molecular Biology, Microbiology
+
+Biomedical Sciences
+
+Biology/ Animal Physiology and Neuroscience
+
+Biology/ Special Studies
+
+Culture, Art, and Technology
+
+Critical Community Engagement
+
+Climate Change Studies
+
+Chemical Engineering
+
+Critical Gender Studies
+
+Chemistry and Biochemistry
+
+Cinematic Arts and Film Studies
+
+Classical Studies
+
+Clinical Psychology
+
+Clinical Research
+
+Chicanx and Latinx Studies
+
+Cellular & Molecular Medicine
+
+Communication/ Graduate
+
+Cognitive Science
+
+Contemporary Issues
+
+Convergent Systems Engineering
+
+Computer Science and Engineering
+
+Computational Social Science
+
+Drug Development and Product Management
+
+Dimensions of Culture
+
+Data Science and Engineering
+
+Education Abroad Program
+
+Electrical and Computer Engineering
+
+Education Studies
+
+Emergency Medicine
+
+Environmental Studies
+
+Eleanor Roosevelt College
+
+Environmental Systems
+
+Ethnic Studies/ Interdisciplinary Research Methods
+
+Exchange Programs
+
+Family Medicine and Public Health
+
+Family and Preventive Medicine
+
+German Studies Program
+
+GPS/ International Management
+
+GPS/ Policy Analytics
+
+GPS/ Political Science
+
+Global South Studies
+
+Human Development Program
+
+Human Developmental Sciences
+
+History of Africa
+
+History of East Asia
+
+History of Europe
+
+History, Graduate
+
+History of Latin America
+
+History, Lower Division
+
+History of the Near East
+
+History of South Asia
+
+History of Science
+
+History of the United States
+
+Intercampus Exchange Program
+
+International Studies
+
+International Relations/ Pacific Study-Language
+
+Japanese Studies
+
+Jewish Studies Program
+
+Latin American Studies
+
+Leadership/ Health Care Organizations
+
+Linguistics/ Arabic
+
+Linguistics/ Directed Study-Language
+
+Linguistics/ Esperanto
+
+Linguistics/ French
+
+Linguistics/ German
+
+Linguistics/ General
+
+Linguistics/ Hindi
+
+Linguistics/ Heritage Languages
+
+Linguistics/ Italian
+
+Linguistics/ Portuguese
+
+Linguistics/ American Sign Language
+
+Linguistics/ Spanish
+
+Literature/ African
+
+Literature of the Americas
+
+Literature/ Chinese
+
+Literature/ Comparative
+
+Literature/ Cultural Studies
+
+Literatures/ East Asian
+
+Literatures in English
+
+Literature/ European and Eurasian
+
+Literature/ French
+
+Literature/ Greek
+
+Literature/ German
+
+Literature/ Italian
+
+Literature/ Korean
+
+Literature/ Latin
+
+Literature/ Russian
+
+Literature/ Spanish
+
+Literature/ Theory
+
+Literatures of the World
+
+Literature/ Writing
+
+Mechanical and Aerospace Engineering
+
+Materials Science and Engineering
+
+Marine Biodiversity & Conservation
+
+Muir College Writing Program
+
+Medical Device Engineering
+
+Middle East Studies
+
+Rady School of Management
+
+Rady School of Management Business Analytics
+
+Rady School of Management Finance
+
+Rady School of Management Professional Accountancy
+
+Making of the Modern World
+
+Mathematics and Science Education
+
+Muir Special Projects
+
+Neurosciences/ Graduate
+
+Obstetrics and Gynecology
+
+Physician Assistant Education
+
+Public Health/ Biostatistics
+
+Public Health/ Leadership/ Health Care Organizations
+
+Physics/ Astronomy
+
+Precision Medicine Therapeutics in Oncology
+
+Political Science
+
+Religion, Study of
+
+Radiation Medicine and Applied Sciences
+
+Reproductive Medicine
+
+Structural Engineering
+
+Scripps Institution of Oceanography
+
+Scripps Institution of Oceanography/ Ocean Biosciences Program
+
+Scripps Institution of Oceanography/ Climate, Oceans, Atmosphere Program
+
+Scripps Institution of Oceanography/ Geosciences of Earth, Oceans and Planets
+
+Sociology/ Individual Research and Honors Project
+
+Sociology/ Graduate
+
+Sociology/ Lower Division
+
+School of Medicine Core Courses
+
+School of Medicine Interdisciplinary
+
+SSPPS/ Pharmaceutical Sciences
+
+Synthesis Program
+
+Dance/ Dance Making
+
+Theatre/ Directing and Stage Management
+
+Theatre/ General
+
+Theatre/ Graduate
+
+Theatre/ History & Theory
+
+Dance/ Performance
+
+Theatre Dance/ Practicum
+
+Theatre/ Playwriting
+
+Transnational Korean Studies
+
+Thurgood Marshall College
+
+Urban Studies and Planning
+
+Warren College Writing Program
+
+Wireless Embedded Systems

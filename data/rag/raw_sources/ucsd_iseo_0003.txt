@@ -1,0 +1,187 @@
+iServices Instructions
+
+Scholar Services
+
+Separation or Departure
+
+Early Departures or Separations
+
+If a Faculty/Scholar is separating/ending their activity prior to their department-requested J-1, H-1B, E-3, TN, or O-1 program end date, their visa status must be shortened accordingly, per federal regulations. Use the "J-1 Scholar Separation or Departure" or "H-1B/E-3/TN/O-1 Scholar Separation or Departure" eform within iServices .
+
+If a scholar is separating/ending their activity on the same end date noted on their DS-2019 or USCIS approval notice, then no action is needed as the system will automatically close out their record.
+
+What is an Early Departure or Separation?
+
+An early departure or separation occurs when a scholar ends their UC San Diego appointment prior to the end date on their immigration document , such as a DS-2019 or H-1B approval notice.
+
+This may include situations such as:
+
+The scholar resigns or decides to leave early
+
+The department ends the appointment early (non-renewal, funding ends, project ends, layoff)
+
+The scholar accepts a position with another employer
+
+The scholar will no longer participate in their UC San Diego program or employment
+
+If the scholar’s activity will end earlier than the date on the DS-2019 or USCIS approval notice , the department must report the new end date to ISEO through the Separation or Early Departure eform in iServices.
+
+Reporting early departures is required so ISEO can:
+
+Update government records (SEVIS, USCIS, and the Department of Labor)
+
+Ensure UC San Diego remains compliant with federal regulations
+
+No action is needed if the scholar is ending their appointment on the same end date listed on their immigration document.
+
+Compliance Requirement: Department Reporting Responsibility
+
+Departments are responsible for notifying ISEO when a scholar or employee will end their UC San Diego appointment earlier than the end date listed on their immigration document (such as the DS-2019 or USCIS approval notice).
+
+This reporting requirement applies regardless of who initiated the departure , including situations where:
+
+The scholar resigns or accepts another position
+
+The department initiates a layoff, non-renewal, or early termination
+
+The scholar leaves earlier than planned for any reason
+
+Departments must submit the Early Departure or Separation eform in iServices as soon as the scholar’s last day of employment or program activity is known.
+
+Why timely reporting matters
+
+Timely reporting is required to ensure compliance with federal regulations and to reduce institutional risk. Early departure information allows ISEO to:
+
+Update required government records (SEVIS, USCIS, and the Department of Labor, as applicable)
+
+Withdraw petitions or program sponsorship when required
+
+Maintain accurate Public Access File (PAF) records for Department of Labor compliance
+
+Ensure UC San Diego meets federal reporting obligations and is prepared for potential audits or site visits
+
+Confirm the Scholar No Longer Requires UC San Diego Visa Sponsorship
+
+Submitting a Separation/Early Departure will end UC San Diego's sponsorship of the Faculty/Scholar's visa status on that new end date. If they are not transferring their visa status to another institution or changing to a different status or permanent residency, they will have to depart the U.S. The scholar should be aware of information on the J-1 grace period or H-1B grace period . If you shorten the program to a new end date that is in the future and the scholar or department then change plans, please make sure to notify ISEO immediately .
+
+Use the J-1 separation eform only when the scholar is truly ending their J-1 program. J-1 scholars generally receive a 30-day grace period after the program end date to depart the U.S. or change status.
+
+A J-1 program should not be shortened in these situations:
+
+The scholar is moving to a different department at UC San Diego (title or funding changes may require other J-1 eforms). If title or funding is changing, the new department should complete either the "J-1 Appointment Title Change" or the J-1 Scholar Financial Update Request" eforms.
+
+If title or funding is changing, the new department should complete either the "J-1 Appointment Title Change" or the J-1 Scholar Financial Update Request" eforms.
+
+The scholar will be outside the U.S. temporarily (for example, leave of absence) and intends to return to the same J-1 program (submit an Out of Country Notification instead).
+
+The scholar is transferring their J-1 record to another institution. The scholar should submit a "J-1 Scholar Transfer out Request" eform.
+
+The scholar should submit a "J-1 Scholar Transfer out Request" eform.
+
+The scholar is changing to H-1B status at UC San Diego (the department should submit a New H-1B Request instead).
+
+If an H-1B, E-3, TN, or O-1 UC San Diego employment will end before the end date on the I-797 approval notice, ISEO must notify USCIS and the US Department of Labor of the change.
+
+Do not submit an early departure eform if:
+
+The scholar is moving to a different department or changing appointment title at UC San Diego (the new department should contact ISEO to confirm whether a new petition is required).
+
+The scholar is taking a leave of absence and will remain an employee of UC San Diego (contact ISEO to discuss immigration impact before reporting a separation).
+
+If the department initiates an early separation, the department must offer to cover the reasonable cost of return transportation to the employee’s home country (this does not include dependents). See Early Departure and Separation guidelines .
+
+Required documentation to upload in iServices (H-1B/E-3/TN/O-1)
+
+The department will need to maintain documentation show showing the separation date and who initiated the separation for H-1B and O-1.
+
+Scholar initiated (examples):
+
+Resignation letter or email confirming the last day of employment or activity
+
+Scholar is leaving the U.S.
+
+Scholar accepted a position with another employer
+
+Department initiated (examples):
+
+Non-renewal of appointment or layoff prior to the end date indicated on the H-1B or O-1 Approval Notice
+
+Funding ends and the department must end the appointment earlier than the end date indicated on the H-1B or O-1 Approval Notice
+
+Project ends and there is no more work prior to the end date indicated on the H-1B or O-1 Approval Notice
+
+If department initiated the early departure or separation and the scholar is in H-1B or O-1 status, the department must keep proof they offered the scholar the reasonable cost of return transportation .
+
+Complete the Scholar Separation or Departure Eform in iServices
+
+J-1 Scholar Separation/Departure:
+
+Log into iServices and select the " J-1 Scholar Separation or Departure " eform. Prepare the following information:
+
+Provide the scholar's current end date as indicated on their DS-2019.
+
+Provide the last day of the scholar's program at UC San Diego. If they are a paid employee, this is their last day on payroll.
+
+Upload documentation regarding the separation/departure. If a paid employee, a resignation letter/email; if unpaid, any letter/email from the scholar with departure date/information.
+
+H-1B/E-3/TN/O-1 Scholar Separation/Departure:
+
+Log into iServices and select the " H-1B/E-3/TN/O-1 Scholar Separation or Departure " eform. The eform is designed to include Employment-based (H-1B, E-3, TN, O-1) scholars.  Prepare the following information:
+
+Provide the scholar's current end date as indicated on their I-797 approval notice.
+
+Provide the last day of the scholar's program at UC San Diego. If they are a paid employee, this is their last day on payroll.
+
+Upload documentation regarding the separation/departure. If a paid employee, a resignation letter/email; if unpaid, any letter/email from the scholar with departure date/information.
+
+If the employee is in H-1B or O-1 status, and the department initiated the separation prior to the end date on the I-797 approval notice, the department will need to offer the reasonable cost of return transportation to the scholar.
+
+Upon emailing the new end date and details ISEO, an assigned Scholar Advisor will review, and contact you and/or the scholar if there are any questions.
+
+J-1 program will be shortened in the SEVIS database and a new DS-2019 will be issued and emailed to the scholar and department with the shortened program end date.
+
+H-1B/E-3/O-1/TN petition withdrawal request will be made to USCIS as of the new end date, and the LCA supporting an H-1B/E-3 petition will be withdrawn from the US Department of Labor FLAG database.
+
+You and the scholar will receive an email confirming the date of completion/separation along with helpful resources about traveling and filing tax returns.
+
+Other Reasons for Program Completion that are not Separations or Early Departures
+
+J-1 Scholar Did Not Enter the U.S. (Program Cancellation)
+
+If a J-1 scholar was issued a DS-2019 but decides not to participate in the program before entering the United States , the SEVIS record must be cancelled. Departments should notify ISEO by submitting the J-1 Scholar Cancellation of Pending Program eform in iServices to confirm that the scholar will no longer join UC San Diego.
+
+Before submitting the cancellation request, please note:
+
+J-1 program dates may be amended (up to one year at a time) while keeping the SEVIS record active.
+
+J-1 program dates may be amended (up to one year at a time) while keeping the SEVIS record active.
+
+If the record is cancelled and the scholar later decides to participate, a new J-1 record and DS-2019 will be required, and a new set of processing fees will apply.
+
+If the record is cancelled and the scholar later decides to participate, a new J-1 record and DS-2019 will be required, and a new set of processing fees will apply.
+
+Scholar Changed to Permanent Residency
+
+If a scholar has changed status and is now a U.S. Permanent Resident (green card holder), the department must notify ISEO. Please submit the Scholar Obtained Permanent Residency task in iServices to report the status change.
+
+Reporting this update allows ISEO to:
+
+Close out the scholar’s record with ISEO, as they are no longer in a nonimmigrant status
+
+Ensure institutional records remain accurate and compliant
+
+Scholar Services
+
+J-1 Initial Request
+
+J-1 Extension Request
+
+H-1B/E-3/TN Initial Request
+
+H-1B/E-3/TN Extension Requests
+
+Other Status Registration
+
+Separation or Departure
+
+Notify ISEO of Change to Permanent Residency

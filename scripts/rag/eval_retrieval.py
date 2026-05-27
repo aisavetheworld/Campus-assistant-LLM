@@ -10,6 +10,12 @@ Usage (with query expansion):
     python scripts/rag/eval_retrieval.py \
         --use_query_expansion \
         --report_suffix query_expansion
+
+Usage (hybrid FAISS+BM25 with query expansion — recommended):
+    python scripts/rag/eval_retrieval.py \
+        --hybrid --alpha 0.7 \
+        --use_query_expansion \
+        --report_suffix hybrid_qe
 """
 
 from __future__ import annotations
@@ -26,6 +32,7 @@ from sentence_transformers import SentenceTransformer
 
 sys.path.insert(0, str(Path(__file__).parent))
 from query_expansion import QueryExpander
+from retrieve_hybrid import build_bm25, retrieve_hybrid
 
 INDEX_DIR = Path("data/rag/vector_store")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -63,8 +70,50 @@ def evaluate_all(
     model: SentenceTransformer,
     top_k: int,
     expander: QueryExpander | None = None,
+    bm25=None,
+    alpha: float = 0.7,
 ) -> list[dict]:
-    # Build (possibly expanded) query strings
+    use_hybrid = bm25 is not None
+
+    if use_hybrid:
+        # Sequential per-query (required for BM25)
+        results = []
+        for item in eval_items:
+            exp_info: dict = {}
+            query = item["query"]
+            if expander is not None:
+                exp = expander.expand(query)
+                query = exp.expanded_query
+                exp_info = {
+                    "expanded_query": exp.expanded_query,
+                    "matched_keys": exp.matched_keys,
+                    "appended_terms": exp.appended_terms,
+                }
+            hits = retrieve_hybrid(query, index, chunks, model, bm25,
+                                   alpha=alpha, top_k=top_k)
+            retrieved_ids = [h["source_id"] for h in hits]
+            retrieved_texts = [h["text"] for h in hits]
+            expected_ids = item.get("expected_source_ids", [])
+            keywords = item.get("must_retrieve_keywords", [])
+            row = {
+                "id": item["id"],
+                "category": item["category"],
+                "query": item["query"],
+                "expected_source_ids": expected_ids,
+                "retrieved_source_ids": retrieved_ids,
+                "recall@1": recall_at_k(retrieved_ids, expected_ids, 1),
+                "recall@3": recall_at_k(retrieved_ids, expected_ids, 3),
+                "recall@5": recall_at_k(retrieved_ids, expected_ids, 5),
+                "keyword_hit_rate": keyword_hit_rate(retrieved_texts, keywords),
+                "top_scores": [round(h["score_hybrid"], 4) for h in hits],
+                "safety_expectation": item.get("safety_expectation", ""),
+            }
+            if exp_info:
+                row["expansion"] = exp_info
+            results.append(row)
+        return results
+
+    # Dense-only batch path
     query_texts: list[str] = []
     expansion_infos: list[dict] = []
     for item in eval_items:
@@ -85,7 +134,6 @@ def evaluate_all(
         convert_to_numpy=True, normalize_embeddings=True,
     ).astype(np.float32)
 
-    # Over-fetch then dedup by source_id
     search_k = min(top_k * 10, index.ntotal)
     all_scores, all_indices = index.search(query_vecs, search_k)
 
@@ -159,10 +207,14 @@ def write_report(
     out_dir: Path,
     report_name: str = "retrieval_eval_report",
     use_expansion: bool = False,
+    use_hybrid: bool = False,
+    alpha: float = 0.7,
 ) -> None:
     title = "# Retrieval Evaluation Report"
+    if use_hybrid:
+        title += f" (Hybrid alpha={alpha})"
     if use_expansion:
-        title += " (Query Expansion)"
+        title += " + Query Expansion"
 
     lines = [
         title,
@@ -172,6 +224,7 @@ def write_report(
         "| Metric | Value |",
         "|---|---|",
         f"| Queries | {agg['n_queries']} |",
+        f"| Retrieval mode | {'hybrid FAISS+BM25 alpha=' + str(alpha) if use_hybrid else 'dense-only'} |",
         f"| Query expansion | {'enabled' if use_expansion else 'disabled'} |",
         f"| Recall@1 | {agg['recall@1']:.3f} |",
         f"| Recall@3 | {agg['recall@3']:.3f} |",
@@ -245,6 +298,10 @@ def parse_args() -> argparse.Namespace:
                         help="Appended to report filename: retrieval_eval_report_<suffix>")
     parser.add_argument("--use_query_expansion", action="store_true")
     parser.add_argument("--expansion_config", default=str(EXPANSION_CONFIG))
+    parser.add_argument("--hybrid", action="store_true",
+                        help="Use hybrid FAISS+BM25 retrieval instead of dense-only")
+    parser.add_argument("--alpha", type=float, default=0.7,
+                        help="Hybrid alpha: weight for dense score (default: 0.7)")
     return parser.parse_args()
 
 
@@ -266,9 +323,16 @@ def main() -> None:
     index, chunks = load_index_and_chunks(index_dir)
     print(f"  {index.ntotal} vectors, {len(chunks)} chunks")
 
-    print(f"Running eval on {len(eval_items)} queries (top_k={args.top_k})...")
+    bm25 = None
+    if args.hybrid:
+        print(f"Building BM25 index (hybrid alpha={args.alpha})...")
+        bm25 = build_bm25(chunks)
+
+    mode = "hybrid" if args.hybrid else "dense"
+    print(f"Running eval on {len(eval_items)} queries (top_k={args.top_k}, mode={mode})...")
     t0 = time.time()
-    results = evaluate_all(eval_items, index, chunks, model, args.top_k, expander)
+    results = evaluate_all(eval_items, index, chunks, model, args.top_k,
+                           expander, bm25=bm25, alpha=args.alpha)
     elapsed = time.time() - t0
 
     timing = {
@@ -291,7 +355,8 @@ def main() -> None:
 
     suffix = f"_{args.report_suffix}" if args.report_suffix else ""
     report_name = f"retrieval_eval_report{suffix}"
-    write_report(results, agg, timing, report_dir, report_name, args.use_query_expansion)
+    write_report(results, agg, timing, report_dir, report_name,
+                 args.use_query_expansion, args.hybrid, args.alpha)
     report = {"aggregate": agg, "timing": timing, "results": results}
     (report_dir / f"{report_name}.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False) + "\n"

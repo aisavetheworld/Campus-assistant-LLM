@@ -1,0 +1,109 @@
+Student Services
+
+Travel and Visa Application
+
+The Form I-94 is a lawful record of your admission to the United States (U.S.) issued by the U.S. Customs and Border Protection (CBP) each time you enter the U.S. Your I-94 confirms that you have been legally admitted to the U.S. in a specific visa status for a particular period of time. You may need a printed copy of your I-94 to obtain benefits from 3 rd parties such as employers, the Social Security Administration or the Department of Motor vehicles.
+
+Download your I-94 Every Time You Enter the U.S.
+
+When you enter the U.S., CBP will automatically create an electronic I-94 for you. Access your electronic I-94 each time you enter the U.S. through an airport or seaport by clicking/tapping on the yellow button below.
+
+Review all the information on the form to ensure that it is correct:
+
+The " Admit Until " date should indicate " D/S ", which means “Duration of Status.” This notation means that you can remain in the U.S. for the duration of your academic program as long as you maintain your visa status .
+
+The " Class of Admission " should be F-1 or J-1 (depending on your student visa type)
+
+While you can also access your “Travel History” on the CBP I-94 website, the travel history record is not the same as I-94. It is provided by CBP only as a tool to assist the public, not as an official record of legal admissions to the U.S. Keep in mind that travel history errors and inconsistencies are common. The following travel may not be reflected in the travel history: land border arrivals/departures, closed loop cruise arrivals/departures, air carrier reservation updates, and USCIS updates, changes of status, and extensions of stay or adjustments of status. You can find an electronic version of your travel history here , but if you need an official copy for some reason, you may request it here .
+
+Keep in mind that travel history errors and inconsistencies are common.
+
+The following travel may not be reflected in the travel history: land border arrivals/departures, closed loop cruise arrivals/departures, air carrier reservation updates, and USCIS updates, changes of status, and extensions of stay or adjustments of status.
+
+You can find an electronic version of your travel history here , but if you need an official copy for some reason, you may request it here .
+
+Tips for Locating your I-94
+
+Wait 2-3 days after arrival in the U.S. for the system to update with your information.
+
+Enter the name as stated in the passport, visa, or the submitted Form DS-160. Although U.S. Customs and Border Protection (CBP) has stated it would draw the name for the Form I-94 from the travel document (e.g., passport biographic page), that is not always the case. The instructions on CBP’s website state that the name is drawn from the visa, if any. Therefore, check the passport, visa, and a copy of the submitted Form DS-160 (if available) for name variations. Try entering the name as stated on each document.
+
+Although U.S. Customs and Border Protection (CBP) has stated it would draw the name for the Form I-94 from the travel document (e.g., passport biographic page), that is not always the case. The instructions on CBP’s website state that the name is drawn from the visa, if any. Therefore, check the passport, visa, and a copy of the submitted Form DS-160 (if available) for name variations. Try entering the name as stated on each document.
+
+Enter the first and middle name in the First Name field. In the first name field, type the first and the middle name (if any) with a space in between. Do this even if the middle name is not stated on the passport or visa.
+
+In the first name field, type the first and the middle name (if any) with a space in between. Do this even if the middle name is not stated on the passport or visa.
+
+Switch the order of the names. Switch the last and first name when entering the information on the website. Some countries state the name in the passport as first name, last name, rather than the more standard order of last name, first name. This may cause the name to be recorded incorrectly in the CBP system.
+
+Switch the last and first name when entering the information on the website. Some countries state the name in the passport as first name, last name, rather than the more standard order of last name, first name. This may cause the name to be recorded incorrectly in the CBP system.
+
+Enter multiple first names or multiple last names without spaces. If a person has two first names or two last names, type the first names without a space between them or the last names without a space between them. Example: type the first names “Mary Jane” as “Maryjane”
+
+If a person has two first names or two last names, type the first names without a space between them or the last names without a space between them. Example: type the first names “Mary Jane” as “Maryjane”
+
+Check for birthdate . Try inverting the month and day. Example: Birth Date July 9, 1980 correctly entered would be 1980 July 09; try instead 1980 September 07. Note: an incorrect DOB in the entry record may cause SSA and DMV to be unable to verify the record, so Deferred Inspection may need to correct this. Please see further notes on contacting CBP below.
+
+Try inverting the month and day. Example: Birth Date July 9, 1980 correctly entered would be 1980 July 09; try instead 1980 September 07. Note: an incorrect DOB in the entry record may cause SSA and DMV to be unable to verify the record, so Deferred Inspection may need to correct this. Please see further notes on contacting CBP below.
+
+Check for multiple passport numbers. Check the Form DS-160 (if available) for the passport number stated. If the passport number on the Form DS-160 is different than the passport number on which the person was admitted, type the passport number as stated on the submitted Form DS-160. Also, check the passport number stated on the visa. If the passport number is different than the current passport, enter the passport number stated on the visa. Additional tips:When both letters and numbers appear in the passport number, try entering a space after the letter(s). Example: Passport number LA497327: try entering LA 497327.
+
+Check the Form DS-160 (if available) for the passport number stated. If the passport number on the Form DS-160 is different than the passport number on which the person was admitted, type the passport number as stated on the submitted Form DS-160. Also, check the passport number stated on the visa. If the passport number is different than the current passport, enter the passport number stated on the visa. Additional tips:When both letters and numbers appear in the passport number, try entering a space after the letter(s). Example: Passport number LA497327: try entering LA 497327.
+
+Try the passport booklet number . Sometimes the booklet number differs from the number on the bio page.
+
+Sometimes the booklet number differs from the number on the bio page.
+
+If expired passport: If the valid visa is in an expired passport, try entering the old passport number instead of the new one used for entry.
+
+If the valid visa is in an expired passport, try entering the old passport number instead of the new one used for entry.
+
+If Mexican passport: For Mexican passport entries, try eliminating the first 2 digits of the passport number. Also try dropping the last 2 digits.
+
+For Mexican passport entries, try eliminating the first 2 digits of the passport number. Also try dropping the last 2 digits.
+
+Do not enter the year if included in the passport number. Some passport numbers may begin with the year in which the passport was issued, causing the number to be too long for the relevant field in CBP’s automation system. If relevant, try entering the passport number without the year. For example, a Mexican passport that was issued in 2008 may have a passport number that starts with “08” followed by nine digits. Try entering the passport number without the “08.” This problem should not arise for newer Mexican passports, as those passports do not begin with the year.
+
+Some passport numbers may begin with the year in which the passport was issued, causing the number to be too long for the relevant field in CBP’s automation system. If relevant, try entering the passport number without the year. For example, a Mexican passport that was issued in 2008 may have a passport number that starts with “08” followed by nine digits. Try entering the passport number without the “08.” This problem should not arise for newer Mexican passports, as those passports do not begin with the year.
+
+Check the Classification . Check the classification designated on the visa and compare it to the classification stated on the admission stamp in the passport, as there may be a slight variation. Be sure to try both designations. For example, the visa may state “E-3D” for an E-3 dependent, but the admission stamp may state only “E-3.” The automated I-94 could state the classification either way.
+
+Check the classification designated on the visa and compare it to the classification stated on the admission stamp in the passport, as there may be a slight variation. Be sure to try both designations. For example, the visa may state “E-3D” for an E-3 dependent, but the admission stamp may state only “E-3.” The automated I-94 could state the classification either way.
+
+Deferred Inspection: Fixing Errors or Accessing a Missing I-94
+
+If you are unable to access your I-94 or if you notice an error on your I-94, such as incorrect name, incorrect visa status, or specific end date rather than D/S (except if you have receive a Form I-515 when entering the US), you must request a correction of your I-94 by doing the following:
+
+Send an email to the CBP Deferred Inspections Office at I94SAN@cbp.dhs.gov explaining the issue and the correction that you are requesting.
+
+You will receive a standard reply email with some general information about the correction process, a list of documents that may be required, and a PDF attachment of the “Application for Correction of Arrival/Departure Form (I-94).”
+
+Email the completed application and scanned documents back to I94SAN@cbp.dhs.gov
+
+The “Application for Correction of Arrival/Departure Form (I-94)” should be straightforward to fill out. It will ask for the following information:
+
+Passport Information
+
+U.S. Visa Information
+
+Most Recent U.S. Arrival Information (Class of Admission is the type of Visa you entered under, as listed on the I-94, even if incorrect. If you are unable to access your I-94, list the Visa type you would have entered the US under, such as F-1 or J-1.)
+
+Applicant Certification (Your Signature)
+
+Your request will be processed when all the required documents are received. You will not receive a response when the correction(s) are complete. You will need to check the CBP's I-94 website periodically to see if your I-94 has been updated.
+
+You will be contacted by email only if more information is needed and/or a personal appearance is required. It can take between 5 to 7 business days for updates/corrections to be processed by the CBP Deferred Inspection Office.
+
+If your I-94 is not corrected through the steps above, your F-1 or J-1 status or the benefits of your status may be negatively impacted. Follow up with ISEO if you have any issues or questions about the I-94 correction.
+
+Travel and Visa Application
+
+Visa Application
+
+International Travel
+
+Travel Signature
+
+Check in for SEVIS Activation
+
+Visa Delays and Denials

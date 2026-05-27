@@ -1,0 +1,51 @@
+Exams, Grades, & Transcripts
+
+Transcripts & Verifications
+
+Social Login Instructions
+
+Social Login Instructions
+
+Social Login allows UC San Diego alumni to link Google, Microsoft or LinkedIn credentials to order official transcripts or view their academic history. Alternatively, alumni may opt to create a UC San Diego Guest Login account for access to this service.
+
+The following contains instructions on how to set up and use the Social Login service provided through Cirrus Identity, a secure third-party vendor. Please note this service is distinct from the UC San Diego Alumni Online account creation process, which allows users to access alumni-only portions of the UC San Diego Alumni website . Current UC San Diego employees should use their Business Systems credentials to order official transcripts or view academic history instead of creating a separate Social Login connection through Cirrus Identity.
+
+Using Google, Microsoft, or LinkedIn Credentials
+
+Link your Google, Microsoft or LinkedIn credentials to your UC San Diego academic record in order to access your Official Transcript and Academic History.
+
+Visit Social Login . Select a social provider to link to your UC San Diego academic record. Sign into the selected service using your personal credentials tied to the selected account. Note that you may only link one Social Login at a time with your UC San Diego account.
+
+Select "Don't know my UCSD login info".
+
+Connect to your academic record. You must input your name as it currently shows in your student record, including middle name if that's on your record. If you do not know the name you have on file, please contact us at (858) 534-3150 or transcripthelp@ad.ucsd.edu .
+
+Once you successfully connect your account, you will be prompted to log in again. Make sure to log in using the same credentials you just set up.
+
+On the next screen, click “Academic History” to view and print unofficial transcripts or click “Order Official Documents” to order official transcripts and/or verifications.
+
+If you would like step-by-step instructions on how to order documents, please see the ordering instructions here . Begin on Step 2.
+
+Creating a UC San Diego Guest Login
+
+If you do not wish or are unable to link your Google, Microsoft or LinkedIn credentials, you may alternatively create a UC San Diego Guest Login using an email address to access your Official Transcript and Academic History.
+
+Visit Social Login and select "UCSD Guest Login" at the bottom of the page.
+
+Select "Create Account."
+
+On the Account Management page (Register for New Account tab), enter the requested information. An email will be sent to the email address that you indicated above. If the email doesn’t appear in your Inbox, check your junk mail or spam folder.
+
+Follow the steps in the email to activate your UC San Diego Guest Login and establish a password.
+
+You will be automatically returned to the application login page where you will enter the email address and password just created. If you’re not automatically returned, go to https://alumniacademics.ucsd.edu and select UCSD Guest Login.
+
+Select "Don't know my UCSD login info".
+
+Connect to your academic record. You must input your name as it currently shows in your student record, including middle name if that's on your record. If you do not know the name you have on file, please contact us at (858) 534-3150 or transcripthelp@ad.ucsd.edu .
+
+On the next screen, click “Academic History” to view and print unofficial transcripts or click “Order Official Documents” to order official transcripts and/or verifications.
+
+If you would like step-by-step instructions on how to order documents, please see the ordering instructions here . Begin on Step 2.
+
+Contact the Office of the Registrar at registrar-social-login@ucsd.edu or (858) 534-3150.
