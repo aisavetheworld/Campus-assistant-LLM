@@ -1,9 +1,10 @@
-"""Grounded RAG answer pipeline using hybrid retrieval (alpha=0.7, QE enabled).
+"""Grounded RAG answer pipeline using hybrid retrieval (alpha=0.8, QE enabled).
 
 Modes:
   Default             -- retrieve + print grounded prompt preview (no GPU)
   --build_prompt_only -- retrieve + save prompt JSON for batch GPU generation
   --generate          -- retrieve + generate answer with DPO checkpoint (requires GPU)
+  --batch_generate    -- load pre-built prompts and generate all answers (Colab/GPU)
 
 Usage (preview single query):
     python scripts/rag/rag_answer.py \
@@ -20,12 +21,13 @@ Usage (batch: process all eval-seed queries):
         --eval_seed data/rag/rag_answer_eval_seed.json \
         --output_file outputs/rag_eval/grounded_prompts/batch.json
 
-Usage (generate, Colab/GPU):
+Usage (batch generate on Colab/GPU — recommended):
     python scripts/rag/rag_answer.py \
-        --query "What is the deadline to waive UC SHIP?" \
-        --generate \
+        --batch_generate \
+        --prompts_file outputs/rag_eval/grounded_prompts/batch.json \
         --model_name_or_path Qwen/Qwen2.5-7B-Instruct \
-        --adapter_path outputs/dpo_7b
+        --adapter_path outputs/dpo_7b \
+        --output_file outputs/rag_eval/generated_answers_dpo.json
 """
 
 from __future__ import annotations
@@ -45,7 +47,7 @@ from query_expansion import QueryExpander
 INDEX_DIR = Path("data/rag/vector_store")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 EXPANSION_CONFIG = Path("configs/rag_query_expansion.json")
-DEFAULT_ALPHA = 0.7
+DEFAULT_ALPHA = 0.8
 DEFAULT_TOP_K = 5
 
 GROUNDED_SYSTEM_MESSAGE = (
@@ -136,14 +138,7 @@ def run_retrieval(
     )
 
 
-def generate_answer(
-    prompt: str,
-    system_message: str,
-    model_name_or_path: str,
-    adapter_path: str,
-    max_new_tokens: int,
-    temperature: float,
-) -> str:
+def load_generation_model(model_name_or_path: str, adapter_path: str):
     try:
         import torch
         from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -162,14 +157,25 @@ def generate_answer(
     if adapter_path and Path(adapter_path).exists():
         print(f"Loading DPO adapter: {adapter_path}", file=sys.stderr)
         model = PeftModel.from_pretrained(model, adapter_path)
+    model.eval()
+    return tokenizer, model
 
+
+def generate_one(
+    prompt: str,
+    system_message: str,
+    tokenizer,
+    model,
+    max_new_tokens: int,
+    temperature: float,
+) -> str:
+    import torch
     messages = [
         {"role": "system", "content": system_message},
         {"role": "user", "content": prompt},
     ]
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer([text], return_tensors="pt").to(model.device)
-
     with torch.no_grad():
         output_ids = model.generate(
             **inputs,
@@ -177,9 +183,21 @@ def generate_answer(
             temperature=temperature,
             do_sample=temperature > 0,
         )
-
     generated = output_ids[0][inputs["input_ids"].shape[1]:]
     return tokenizer.decode(generated, skip_special_tokens=True)
+
+
+def generate_answer(
+    prompt: str,
+    system_message: str,
+    model_name_or_path: str,
+    adapter_path: str,
+    max_new_tokens: int,
+    temperature: float,
+) -> str:
+    """Single-query generation (loads model on each call — for interactive use only)."""
+    tokenizer, model = load_generation_model(model_name_or_path, adapter_path)
+    return generate_one(prompt, system_message, tokenizer, model, max_new_tokens, temperature)
 
 
 def build_prompt_record(item_id: str, category: str, query: str, chunks: list[dict]) -> dict:
@@ -214,9 +232,13 @@ def parse_args() -> argparse.Namespace:
     # Generation
     parser.add_argument("--generate", action="store_true",
                         help="Run model generation (requires GPU and model checkpoint).")
+    parser.add_argument("--batch_generate", action="store_true",
+                        help="Load pre-built prompts JSON and generate all answers in one pass.")
+    parser.add_argument("--prompts_file", default="outputs/rag_eval/grounded_prompts/batch.json",
+                        help="Input prompts JSON for --batch_generate mode.")
     parser.add_argument("--model_name_or_path", default="Qwen/Qwen2.5-7B-Instruct")
     parser.add_argument("--adapter_path", default="outputs/dpo_7b",
-                        help="Path to DPO LoRA adapter (PEFT).")
+                        help="Path to DPO LoRA adapter (PEFT). Pass '' to use base model.")
     parser.add_argument("--max_new_tokens", type=int, default=512)
     parser.add_argument("--temperature", type=float, default=0.2)
     return parser.parse_args()
@@ -224,6 +246,40 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+
+    # --- Batch generate mode: no retrieval needed, prompts already built ---
+    if args.batch_generate:
+        prompts_path = Path(args.prompts_file)
+        if not prompts_path.exists():
+            print(f"ERROR: prompts file not found: {prompts_path}", file=sys.stderr)
+            sys.exit(1)
+        records = json.loads(prompts_path.read_text())
+        print(f"Loaded {len(records)} prompts from {prompts_path}", file=sys.stderr)
+
+        tokenizer, gen_model = load_generation_model(args.model_name_or_path, args.adapter_path)
+        results = []
+        for i, rec in enumerate(records, 1):
+            print(f"[{i}/{len(records)}] {rec['id']}: {rec['query'][:60]}...", file=sys.stderr)
+            answer = generate_one(
+                prompt=rec["grounded_prompt"],
+                system_message=GROUNDED_SYSTEM_MESSAGE,
+                tokenizer=tokenizer,
+                model=gen_model,
+                max_new_tokens=args.max_new_tokens,
+                temperature=args.temperature,
+            )
+            results.append({
+                "id": rec["id"],
+                "category": rec.get("category", ""),
+                "query": rec["query"],
+                "generated_answer": answer,
+            })
+
+        out_path = Path(args.output_file) if args.output_file else Path("outputs/rag_eval/generated_answers.json")
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False) + "\n")
+        print(f"\nSaved {len(results)} answers → {out_path}", file=sys.stderr)
+        return
 
     index_path = Path(args.index_dir) / "index.faiss"
     if not index_path.exists():
