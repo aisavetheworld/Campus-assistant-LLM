@@ -99,5 +99,41 @@
     "optional practical training",
     "post-completion OPT",
     "employment authorization"
+  ],
+  "cost to live": [
+    "housing contract rates",
+    "housing rates and services",
+    "room and board"
+  ],
+  "dorm cost": [
+    "housing contract rates",
+    "housing rates and services",
+    "room and board"
+  ],
+  "cost to live in the on-campus dorms": [
+    "housing contract rates",
+    "housing rates and services"
+  ],
+  "summer quarter": [
+    "vacation term",
+    "summer session enrollment",
+    "annual vacation"
+  ],
+  "summer F-1": [
+    "vacation term",
+    "annual vacation",
+    "summer session enrollment"
+  ],
+  "federal loans": [
+    "federal direct loans",
+    "federal direct loans program",
+    "subsidized loan",
+    "unsubsidized loan"
+  ],
+  "federal loan": [
+    "federal direct loans",
+    "federal direct loans program",
+    "subsidized loan",
+    "unsubsidized loan"
   ]
 }
