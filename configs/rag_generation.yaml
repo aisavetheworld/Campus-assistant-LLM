@@ -1,0 +1,108 @@
+# Generation constraints for grounded RAG answers.
+# Loaded by scripts/rag/rag_answer.py and scripts/rag/eval_rag_answer.py.
+
+# ---- Retrieval confidence gating ----
+# If top-1 hybrid score is below this, skip generation and return fallback.
+min_top_score: 0.35
+
+# When True, low-confidence queries (top_score < min_top_score) return
+# the fallback message instead of attempting generation.
+fallback_on_low_confidence: true
+
+# Fallback message returned when retrieval confidence is low OR
+# all retry attempts fail post-validation.
+fallback_message: |
+  I could not verify this from the retrieved official sources.
+  Please check the official UCSD page or contact the relevant office.
+
+# ---- Citation requirement ----
+require_source_citation: true
+
+# Per-chunk fields included in the grounded prompt (passed to the model).
+chunk_prompt_fields:
+  - source_id
+  - title
+  - section_title
+  - url
+  - text
+
+# ---- Retry budget ----
+# After validators flag a problem, regenerate once with the failed
+# items injected as explicit "Do not include X" hints. If still failing,
+# return fallback_message.
+max_retries: 1
+
+# ---- Forbidden absolute-promise phrases ----
+forbidden_absolute_phrases:
+  - definitely
+  - guaranteed
+  - "100%"
+  - certainly
+  - absolutely
+  - "you are fine"
+  - "you're fine"
+  - "you are safe"
+  - "you're safe"
+  - "you will be fine"
+  - "you will be safe"
+  - "you will be approved"
+  - "will not affect"
+  - "won't affect"
+  - "no problem"
+  - "no issue"
+  - "rest assured"
+  - "there is no risk"
+
+# ---- Unsourced-claim guard ----
+# Categories of claims that must NOT appear in the answer unless the same
+# value (date / fee / etc.) literally appears in the retrieved context.
+forbidden_unsourced_claim_types:
+  - deadline       # dates, week numbers
+  - fee            # dollar amounts
+  - policy_rule    # eligibility outcomes, approval decisions
+  - guarantee     # visa/medical/legal assurances
+
+# ---- Meta-commentary patterns (no_extra_notes) ----
+# Post-hoc check: model output must not contain these meta-commentary
+# markers or AI-self-references.
+forbidden_meta_patterns:
+  - "Note:"
+  - "Explanation:"
+  - "Rationale:"
+  - "Disclaimer:"
+  - "As an AI language model"
+  - "As a language model"
+  - "I am an AI"
+  - "Human:"
+  - "Assistant:"
+  - "### Instruction"
+  - "### Response"
+  - "<|im_start|>"
+  - "<|im_end|>"
+
+# ---- High-risk category → official office escalation ----
+# Answers in these categories must mention the relevant office somewhere.
+escalation_offices:
+  international_students:
+    - ISEO
+    - International Students and Programs Office
+    - international student advisor
+  course_enrollment:
+    - Registrar
+    - academic advisor
+    - department
+  health_insurance:
+    - Student Health Services
+    - UC SHIP
+    - insurance office
+  student_health:
+    - Student Health Services
+    - SHS
+  housing:
+    - HDH
+    - Housing, Dining, Hospitality
+    - residential life
+
+# ---- Generation hyperparameters ----
+max_new_tokens: 512
+temperature: 0.2

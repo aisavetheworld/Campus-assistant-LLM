@@ -1,5 +1,16 @@
 """Grounded RAG answer pipeline using hybrid retrieval (alpha=0.8, QE enabled).
 
+Generation constraints (configs/rag_generation.yaml):
+  * Evidence-only: answer must come from retrieved official sources.
+  * Mandatory Sources: section.
+  * Anti-hallucination on dates/fees/policies/guarantees.
+  * No absolute promises (definitely / guaranteed / will be approved …).
+  * Insufficient-context fallback if top retrieval score < min_top_score.
+  * Post-hoc validators (scripts/rag/answer_validators.py) + 1 retry with
+    explicit fix hints. If retry still fails → fallback_message.
+  * Format: direct answer → next steps → safety note → Sources.
+  * No meta-commentary (Note: / Explanation: / As an AI language model / …).
+
 Modes:
   Default             -- retrieve + print grounded prompt preview (no GPU)
   --build_prompt_only -- retrieve + save prompt JSON for batch GPU generation
@@ -9,11 +20,6 @@ Modes:
 Usage (preview single query):
     python scripts/rag/rag_answer.py \
         --query "What is the deadline to waive UC SHIP?"
-
-Usage (save prompt to file):
-    python scripts/rag/rag_answer.py \
-        --query "What is the deadline to waive UC SHIP?" \
-        --build_prompt_only --output_file outputs/rag_eval/grounded_prompts/single.json
 
 Usage (batch: process all eval-seed queries):
     python scripts/rag/rag_answer.py \
@@ -43,53 +49,87 @@ from sentence_transformers import SentenceTransformer
 sys.path.insert(0, str(Path(__file__).parent))
 from retrieve_hybrid import build_bm25, retrieve_hybrid, load_index_and_chunks
 from query_expansion import QueryExpander
+from answer_validators import (
+    load_config as load_constraint_config,
+    run_all_checks,
+    collect_fix_hints,
+    all_passed,
+)
 
 INDEX_DIR = Path("data/rag/vector_store")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 EXPANSION_CONFIG = Path("configs/rag_query_expansion.json")
+CONSTRAINT_CONFIG = Path("configs/rag_generation.yaml")
 DEFAULT_ALPHA = 0.8
 DEFAULT_TOP_K = 5
 
 GROUNDED_SYSTEM_MESSAGE = (
     "You are an assistant helping students navigate campus administrative tasks at UC San Diego. "
-    "You are not the university office, professor, housing office, insurance office, or "
-    "legal/medical advisor. Do not pretend to be an official office.\n\n"
-    "The following context was retrieved from official UCSD sources. "
-    "Base your answer strictly on this context. Do not invent deadlines, fees, policies, "
-    "or guarantees that are not stated in the context. "
-    "If the context does not address the question, say you cannot verify the specific detail "
-    "from the provided sources and direct the student to the relevant official office. "
-    "Always cite the source title or URL when stating a fact. "
-    "End your answer with a brief 'Sources:' section listing the sources used."
+    "You are NOT the university, a professor, the housing office, the insurance office, or a "
+    "legal/medical advisor. Do not pretend to be an official office or give legal/medical advice.\n\n"
+    "STRICT RULES:\n"
+    "1. EVIDENCE-ONLY: Answer using ONLY the retrieved context below. If the context does not "
+    "contain the answer, say so explicitly and recommend the relevant UCSD office.\n"
+    "2. NO INVENTED FACTS: Do NOT state any deadline, date, week number, fee, dollar amount, "
+    "eligibility outcome, approval decision, or guarantee that is not literally present in the "
+    "retrieved context.\n"
+    "3. NO ABSOLUTE PROMISES: Do NOT use words like 'definitely', 'guaranteed', '100%', "
+    "'you are fine/safe/approved', 'will not affect'. Use cautious language ('may', 'typically').\n"
+    "4. ALWAYS CITE: End every answer with a 'Sources:' section listing the source title(s) or "
+    "URL(s) you used from the retrieved context.\n"
+    "5. ESCALATE WHEN UNCERTAIN: For visa, immigration, medical, insurance, or enrollment-risk "
+    "questions, recommend contacting the relevant office "
+    "(ISEO for visa/CPT/OPT/F-1/J-1; Student Health Services for medical/immunization; "
+    "UC SHIP/insurance office for insurance; Registrar/department for enrollment).\n"
+    "6. NO META-COMMENTARY: Do NOT write 'Note:', 'Explanation:', 'Rationale:', "
+    "'Disclaimer:', 'As an AI language model', or template labels like 'Human:' / 'Assistant:'.\n\n"
+    "FORMAT:\n"
+    "  <direct answer to the question>\n"
+    "  <recommended next steps, if applicable>\n"
+    "  <safety note recommending the official office, if applicable>\n"
+    "  Sources:\n"
+    "  - <Source title> (<URL>)\n"
 )
 
 SAFE_ESCALATION = (
-    "I wasn't able to find reliable information in my sources to answer this question confidently. "
-    "Please contact the relevant UCSD office directly for accurate guidance."
+    "I could not verify this from the retrieved official sources. "
+    "Please check the official UCSD page or contact the relevant office."
 )
 
 
-def build_grounded_prompt(query: str, chunks: list[dict]) -> str:
+def build_grounded_prompt(query: str, chunks: list[dict], extra_constraints: str = "") -> str:
+    """Build the user-message prompt with retrieved context.
+
+    extra_constraints: optional string appended after the question, used during
+    retry to inject "Do not include X" hints from failed validators.
+    """
     context_lines = []
     for i, chunk in enumerate(chunks, 1):
         title = chunk.get("title", "Official UCSD Source")
         url = chunk.get("url", "")
         section = chunk.get("section_title", "")
-        source_ref = title
+        source_id = chunk.get("source_id", "")
+        header_bits = [title]
         if section:
-            source_ref += f" — {section}"
+            header_bits.append(section)
         if url:
-            source_ref += f" ({url})"
-        context_lines.append(f"[Source {i}: {source_ref}]\n{chunk['text']}")
+            header_bits.append(url)
+        if source_id:
+            header_bits.append(f"id={source_id}")
+        header = " — ".join(header_bits)
+        context_lines.append(f"[Source {i}: {header}]\n{chunk['text']}")
 
     context_block = "\n\n".join(context_lines)
-    return (
-        f"Retrieved context:\n{context_block}\n\n"
+    prompt = (
+        f"Retrieved context (the ONLY information you may rely on):\n{context_block}\n\n"
         f"Student question:\n{query}\n\n"
-        "Answer based only on the retrieved context above. "
-        "Cite source titles or URLs. "
-        "End with a 'Sources:' section."
+        "Answer using ONLY the retrieved context above. "
+        "Do not invent deadlines, fees, policies, or guarantees. "
+        "End with a 'Sources:' section listing the source titles or URLs."
     )
+    if extra_constraints:
+        prompt += f"\n\nAdditional constraints for this answer:\n{extra_constraints}"
+    return prompt
 
 
 def format_sources_header(chunks: list[dict]) -> str:
@@ -200,14 +240,140 @@ def generate_answer(
     return generate_one(prompt, system_message, tokenizer, model, max_new_tokens, temperature)
 
 
-def build_prompt_record(item_id: str, category: str, query: str, chunks: list[dict]) -> dict:
+def slim_chunks_for_prompt(chunks: list[dict], fields: list[str]) -> list[dict]:
+    """Project each retrieved chunk to the fields required by the prompt schema.
+
+    Configured via configs/rag_generation.yaml -> chunk_prompt_fields.
+    The original list[dict] is kept verbatim under 'retrieved_chunks' for eval.
+    """
+    return [{k: c.get(k, "") for k in fields} for c in chunks]
+
+
+def generate_with_constraints(
+    query: str,
+    chunks: list[dict],
+    category: str,
+    safety_expectation: str,
+    forbidden_claims: list[str],
+    low_confidence: bool,
+    constraint_config: dict,
+    tokenizer,
+    model,
+    max_new_tokens: int,
+    temperature: float,
+) -> dict:
+    """Generate an answer with post-hoc validation + 1 retry + fallback.
+
+    Returns dict:
+        {
+          "answer": final answer string,
+          "validation": {check_name: {"passed", "detail", "fix_hint"}},
+          "attempts": int (1 or 2),
+          "fallback_triggered": bool,
+          "fallback_reason": str,
+        }
+    """
+    fallback_message = constraint_config.get("fallback_message", SAFE_ESCALATION).strip()
+    max_retries = int(constraint_config.get("max_retries", 1))
+
+    # --- Pre-gen confidence gate ---
+    if low_confidence and constraint_config.get("fallback_on_low_confidence", True):
+        validation = run_all_checks(
+            answer=fallback_message,
+            chunks=chunks,
+            query=query,
+            category=category,
+            forbidden_claims=forbidden_claims,
+            safety_expectation=safety_expectation,
+            low_confidence=True,
+            config=constraint_config,
+        )
+        return {
+            "answer": fallback_message,
+            "validation": validation,
+            "attempts": 0,
+            "fallback_triggered": True,
+            "fallback_reason": "low_retrieval_confidence",
+        }
+
+    # --- Attempt 1 ---
+    prompt = build_grounded_prompt(query, chunks)
+    answer = generate_one(prompt, GROUNDED_SYSTEM_MESSAGE, tokenizer, model,
+                          max_new_tokens, temperature)
+    validation = run_all_checks(
+        answer=answer, chunks=chunks, query=query, category=category,
+        forbidden_claims=forbidden_claims, safety_expectation=safety_expectation,
+        low_confidence=False, config=constraint_config,
+    )
+    attempts = 1
+    if all_passed(validation):
+        return {"answer": answer, "validation": validation, "attempts": attempts,
+                "fallback_triggered": False, "fallback_reason": ""}
+
+    # --- Retry with explicit fix hints ---
+    for _ in range(max_retries):
+        hints = collect_fix_hints(validation)
+        if not hints:
+            break
+        retry_prompt = build_grounded_prompt(
+            query, chunks, extra_constraints="\n".join(f"- {h}" for h in hints)
+        )
+        answer = generate_one(retry_prompt, GROUNDED_SYSTEM_MESSAGE, tokenizer, model,
+                              max_new_tokens, temperature)
+        validation = run_all_checks(
+            answer=answer, chunks=chunks, query=query, category=category,
+            forbidden_claims=forbidden_claims, safety_expectation=safety_expectation,
+            low_confidence=False, config=constraint_config,
+        )
+        attempts += 1
+        if all_passed(validation):
+            return {"answer": answer, "validation": validation, "attempts": attempts,
+                    "fallback_triggered": False, "fallback_reason": ""}
+
+    # --- Retries exhausted → fallback ---
+    failed_checks = [k for k, v in validation.items() if not v["passed"]]
+    fallback_validation = run_all_checks(
+        answer=fallback_message, chunks=chunks, query=query, category=category,
+        forbidden_claims=forbidden_claims, safety_expectation=safety_expectation,
+        low_confidence=True, config=constraint_config,
+    )
+    return {
+        "answer": fallback_message,
+        "validation": fallback_validation,
+        "attempts": attempts,
+        "fallback_triggered": True,
+        "fallback_reason": f"validation_failed_after_retry: {failed_checks}",
+    }
+
+
+def build_prompt_record(
+    item_id: str,
+    category: str,
+    query: str,
+    chunks: list[dict],
+    constraint_config: dict,
+    safety_expectation: str = "",
+    forbidden_claims: list[str] | None = None,
+) -> dict:
+    """Build a self-contained prompt record for offline / GPU-batch generation."""
+    top_score = chunks[0].get("score_hybrid", 0.0) if chunks else 0.0
+    min_top = float(constraint_config.get("min_top_score", 0.35))
+    low_confidence = top_score < min_top
+
+    prompt_fields = constraint_config.get("chunk_prompt_fields",
+                                          ["source_id", "title", "section_title", "url", "text"])
     return {
         "id": item_id,
         "category": category,
         "query": query,
         "system_message": GROUNDED_SYSTEM_MESSAGE,
         "user_prompt": build_grounded_prompt(query, chunks),
-        "retrieved_chunks": chunks,
+        "retrieved_chunks": chunks,                              # full, for eval
+        "prompt_chunks": slim_chunks_for_prompt(chunks, prompt_fields),
+        "top_score": round(float(top_score), 4),
+        "low_confidence": low_confidence,
+        "safety_expectation": safety_expectation,
+        "forbidden_claims": forbidden_claims or [],
         "generated_answer": None,
     }
 
@@ -220,8 +386,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--index_dir", default=str(INDEX_DIR))
     parser.add_argument("--embedding_model", default=EMBEDDING_MODEL)
     parser.add_argument("--expansion_config", default=str(EXPANSION_CONFIG))
-    parser.add_argument("--retrieval_score_threshold", type=float, default=0.35,
-                        help="If top-1 hybrid score below this, use safe escalation.")
+    parser.add_argument("--retrieval_score_threshold", type=float, default=None,
+                        help="Override min_top_score from constraint config.")
+    parser.add_argument("--constraint_config", default=str(CONSTRAINT_CONFIG),
+                        help="Path to YAML with generation constraints.")
+    parser.add_argument("--disable_constraints", action="store_true",
+                        help="Disable post-hoc validators and retry/fallback (debug only).")
     # Prompt-only / batch mode
     parser.add_argument("--build_prompt_only", action="store_true",
                         help="Build and save grounded prompts without generation.")
@@ -246,6 +416,9 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    constraint_config = load_constraint_config(args.constraint_config)
+    if args.retrieval_score_threshold is not None:
+        constraint_config["min_top_score"] = args.retrieval_score_threshold
 
     # --- Batch generate mode: no retrieval needed, prompts already built ---
     if args.batch_generate:
@@ -258,28 +431,61 @@ def main() -> None:
 
         tokenizer, gen_model = load_generation_model(args.model_name_or_path, args.adapter_path)
         results = []
+        fallback_n = 0
+        retry_n = 0
         for i, rec in enumerate(records, 1):
             print(f"[{i}/{len(records)}] {rec['id']}: {rec['query'][:60]}...", file=sys.stderr)
-            answer = generate_one(
-                prompt=rec["user_prompt"],
-                system_message=rec.get("system_message", GROUNDED_SYSTEM_MESSAGE),
-                tokenizer=tokenizer,
-                model=gen_model,
-                max_new_tokens=args.max_new_tokens,
-                temperature=args.temperature,
+
+            if args.disable_constraints:
+                answer = generate_one(
+                    prompt=rec["user_prompt"],
+                    system_message=rec.get("system_message", GROUNDED_SYSTEM_MESSAGE),
+                    tokenizer=tokenizer, model=gen_model,
+                    max_new_tokens=args.max_new_tokens, temperature=args.temperature,
+                )
+                results.append({
+                    "id": rec["id"], "category": rec.get("category", ""),
+                    "query": rec["query"], "generated_answer": answer,
+                    "retrieved_chunks": rec.get("retrieved_chunks", []),
+                    "constraints_enabled": False,
+                })
+                continue
+
+            outcome = generate_with_constraints(
+                query=rec["query"],
+                chunks=rec.get("retrieved_chunks", []),
+                category=rec.get("category", ""),
+                safety_expectation=rec.get("safety_expectation", ""),
+                forbidden_claims=rec.get("forbidden_claims", []),
+                low_confidence=bool(rec.get("low_confidence", False)),
+                constraint_config=constraint_config,
+                tokenizer=tokenizer, model=gen_model,
+                max_new_tokens=args.max_new_tokens, temperature=args.temperature,
             )
+            if outcome["fallback_triggered"]:
+                fallback_n += 1
+            if outcome["attempts"] > 1:
+                retry_n += 1
             results.append({
                 "id": rec["id"],
                 "category": rec.get("category", ""),
                 "query": rec["query"],
-                "generated_answer": answer,
+                "generated_answer": outcome["answer"],
                 "retrieved_chunks": rec.get("retrieved_chunks", []),
+                "constraints_enabled": True,
+                "attempts": outcome["attempts"],
+                "fallback_triggered": outcome["fallback_triggered"],
+                "fallback_reason": outcome["fallback_reason"],
+                "validation": outcome["validation"],
             })
 
         out_path = Path(args.output_file) if args.output_file else Path("outputs/rag_eval/generated_answers.json")
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False) + "\n")
         print(f"\nSaved {len(results)} answers → {out_path}", file=sys.stderr)
+        if not args.disable_constraints:
+            print(f"  Retries: {retry_n}/{len(results)}, Fallbacks: {fallback_n}/{len(results)}",
+                  file=sys.stderr)
         return
 
     index_path = Path(args.index_dir) / "index.faiss"
@@ -298,21 +504,30 @@ def main() -> None:
     if args.build_prompt_only and args.eval_seed:
         eval_items = json.loads(Path(args.eval_seed).read_text())
         records = []
+        low_conf_n = 0
         for item in eval_items:
             q = item["query"]
             print(f"  Retrieving: {q[:60]}...", file=sys.stderr)
             retrieved = run_retrieval(q, model, index, chunks, bm25, expander, args.top_k, args.alpha)
-            records.append(build_prompt_record(
+            rec = build_prompt_record(
                 item_id=item["id"],
                 category=item.get("category", ""),
                 query=q,
                 chunks=retrieved,
-            ))
+                constraint_config=constraint_config,
+                safety_expectation=item.get("safety_expectation", ""),
+                forbidden_claims=item.get("forbidden_claims", []),
+            )
+            if rec["low_confidence"]:
+                low_conf_n += 1
+            records.append(rec)
 
         out_path = Path(args.output_file) if args.output_file else Path("outputs/rag_eval/grounded_prompts/batch.json")
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n")
         print(f"\nSaved {len(records)} grounded prompts → {out_path}", file=sys.stderr)
+        print(f"  Low-confidence (top_score < {constraint_config['min_top_score']}): "
+              f"{low_conf_n}/{len(records)}", file=sys.stderr)
         return
 
     # --- Single query mode ---
@@ -329,7 +544,8 @@ def main() -> None:
         return
 
     top_score = retrieved[0].get("score_hybrid", 0.0)
-    low_confidence = top_score < args.retrieval_score_threshold
+    min_top = float(constraint_config.get("min_top_score", 0.35))
+    low_confidence = top_score < min_top
 
     print(format_sources_header(retrieved))
     print()
@@ -338,7 +554,9 @@ def main() -> None:
 
     # --- Build prompt only (single query) ---
     if args.build_prompt_only:
-        record = build_prompt_record("single", "", args.query, retrieved)
+        record = build_prompt_record(
+            "single", "", args.query, retrieved, constraint_config,
+        )
         if args.output_file:
             out_path = Path(args.output_file)
             out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -354,26 +572,37 @@ def main() -> None:
         print(f"[System]\n{GROUNDED_SYSTEM_MESSAGE}\n")
         print(f"[User]\n{grounded_prompt}")
         if low_confidence:
-            print(f"\n[Warning] Top hybrid score {top_score:.4f} < threshold "
-                  f"{args.retrieval_score_threshold} — safe escalation would trigger.")
+            print(f"\n[Warning] Top hybrid score {top_score:.4f} < min_top_score "
+                  f"{min_top} — fallback would trigger.")
         return
 
-    # --- Generate ---
-    if low_confidence:
-        print(f"[Low confidence: hybrid score={top_score:.4f}]")
-        print(SAFE_ESCALATION)
+    # --- Generate with constraints ---
+    if low_confidence and constraint_config.get("fallback_on_low_confidence", True):
+        print(f"[Low confidence: hybrid score={top_score:.4f} < {min_top}]")
+        print(constraint_config.get("fallback_message", SAFE_ESCALATION).strip())
         return
 
-    answer = generate_answer(
-        prompt=grounded_prompt,
-        system_message=GROUNDED_SYSTEM_MESSAGE,
-        model_name_or_path=args.model_name_or_path,
-        adapter_path=args.adapter_path,
-        max_new_tokens=args.max_new_tokens,
-        temperature=args.temperature,
+    tokenizer, gen_model = load_generation_model(args.model_name_or_path, args.adapter_path)
+    if args.disable_constraints:
+        answer = generate_one(grounded_prompt, GROUNDED_SYSTEM_MESSAGE, tokenizer, gen_model,
+                              args.max_new_tokens, args.temperature)
+        print("--- Answer (constraints disabled) ---")
+        print(answer)
+        return
+
+    outcome = generate_with_constraints(
+        query=args.query, chunks=retrieved, category="",
+        safety_expectation="", forbidden_claims=[],
+        low_confidence=low_confidence, constraint_config=constraint_config,
+        tokenizer=tokenizer, model=gen_model,
+        max_new_tokens=args.max_new_tokens, temperature=args.temperature,
     )
-    print("--- Answer ---")
-    print(answer)
+    print(f"--- Answer (attempts={outcome['attempts']}, "
+          f"fallback={outcome['fallback_triggered']}) ---")
+    print(outcome["answer"])
+    failed = [k for k, v in outcome["validation"].items() if not v["passed"]]
+    if failed:
+        print(f"\n[Validation failed: {failed}]")
 
 
 if __name__ == "__main__":
