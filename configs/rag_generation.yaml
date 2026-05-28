@@ -102,6 +102,15 @@ escalation_offices:
     - HDH
     - Housing, Dining, Hospitality
     - residential life
+  financial_aid:
+    - Financial Aid and Scholarships Office
+    - financial aid office
+    - financial aid advisor
+  graduate_students:
+    - Graduate Division
+    - graduate division
+    - graduate program coordinator
+    - department
 
 # ---- Generation hyperparameters ----
 max_new_tokens: 512
