@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 import time
 from pathlib import Path
@@ -32,7 +33,7 @@ from sentence_transformers import SentenceTransformer
 
 sys.path.insert(0, str(Path(__file__).parent))
 from query_expansion import QueryExpander
-from retrieve_hybrid import build_bm25, retrieve_hybrid
+from retrieve_hybrid import build_bm25, load_reranker, rerank_chunks, retrieve_hybrid
 
 INDEX_DIR = Path("data/rag/vector_store")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -63,6 +64,26 @@ def keyword_hit_rate(retrieved_texts: list[str], keywords: list[str]) -> float:
     return sum(1 for kw in keywords if kw.lower() in combined) / len(keywords)
 
 
+def mrr(retrieved_ids: list[str], expected_ids: list[str]) -> float:
+    expected_set = set(expected_ids)
+    for rank, sid in enumerate(retrieved_ids, 1):
+        if sid in expected_set:
+            return 1.0 / rank
+    return 0.0
+
+
+def ndcg_at_k(retrieved_ids: list[str], expected_ids: list[str], k: int = 5) -> float:
+    expected_set = set(expected_ids)
+    dcg = sum(
+        1.0 / math.log2(i + 2)
+        for i, sid in enumerate(retrieved_ids[:k])
+        if sid in expected_set
+    )
+    n_rel = min(len(expected_ids), k)
+    idcg = sum(1.0 / math.log2(i + 2) for i in range(n_rel))
+    return dcg / idcg if idcg > 0 else 0.0
+
+
 def evaluate_all(
     eval_items: list[dict],
     index: faiss.Index,
@@ -72,6 +93,9 @@ def evaluate_all(
     expander: QueryExpander | None = None,
     bm25=None,
     alpha: float = 0.7,
+    reranker=None,
+    reranker_backend: str = "crossencoder",
+    candidate_k: int = 50,
 ) -> list[dict]:
     use_hybrid = bm25 is not None
 
@@ -80,32 +104,54 @@ def evaluate_all(
         results = []
         for item in eval_items:
             exp_info: dict = {}
-            query = item["query"]
+            original_query = item["query"]
+            search_query = original_query
             if expander is not None:
-                exp = expander.expand(query)
-                query = exp.expanded_query
+                exp = expander.expand(original_query)
+                search_query = exp.expanded_query
                 exp_info = {
                     "expanded_query": exp.expanded_query,
                     "matched_keys": exp.matched_keys,
                     "appended_terms": exp.appended_terms,
                 }
-            hits = retrieve_hybrid(query, index, chunks, model, bm25,
-                                   alpha=alpha, top_k=top_k)
+
+            # Standard retrieval (top_k=5, faiss_k=100) — same as original behavior
+            hits = retrieve_hybrid(search_query, index, chunks, model, bm25,
+                                   alpha=alpha, top_k=top_k, dedup_source=True)
+
+            # Candidate pool for cR@20/cR@50 and reranking (separate call, larger k)
+            if candidate_k > 0 or reranker is not None:
+                pool_size = max(candidate_k, top_k)
+                hits_pool = retrieve_hybrid(search_query, index, chunks, model, bm25,
+                                            alpha=alpha, top_k=pool_size, dedup_source=True)
+                candidate_ids = [h["source_id"] for h in hits_pool]
+                if reranker is not None:
+                    hits = rerank_chunks(original_query, hits_pool[:candidate_k], reranker,
+                                         reranker_backend, top_k, dedup_source=True)
+            else:
+                candidate_ids = [h["source_id"] for h in hits]
+
             retrieved_ids = [h["source_id"] for h in hits]
             retrieved_texts = [h["text"] for h in hits]
             expected_ids = item.get("expected_source_ids", [])
             keywords = item.get("must_retrieve_keywords", [])
+
+            score_key = "score_rerank" if reranker is not None else "score_hybrid"
             row = {
                 "id": item["id"],
                 "category": item["category"],
-                "query": item["query"],
+                "query": original_query,
                 "expected_source_ids": expected_ids,
                 "retrieved_source_ids": retrieved_ids,
                 "recall@1": recall_at_k(retrieved_ids, expected_ids, 1),
                 "recall@3": recall_at_k(retrieved_ids, expected_ids, 3),
                 "recall@5": recall_at_k(retrieved_ids, expected_ids, 5),
+                "mrr": mrr(retrieved_ids, expected_ids),
+                "ndcg@5": ndcg_at_k(retrieved_ids, expected_ids, 5),
+                "candidate_recall@20": recall_at_k(candidate_ids, expected_ids, 20),
+                "candidate_recall@50": recall_at_k(candidate_ids, expected_ids, 50),
                 "keyword_hit_rate": keyword_hit_rate(retrieved_texts, keywords),
-                "top_scores": [round(h["score_hybrid"], 4) for h in hits],
+                "top_scores": [round(h.get(score_key, 0.0), 4) for h in hits],
                 "safety_expectation": item.get("safety_expectation", ""),
             }
             if exp_info:
@@ -183,7 +229,14 @@ def aggregate(results: list[dict]) -> dict:
         "recall@1": round(sum(r["recall@1"] for r in results) / n, 4),
         "recall@3": round(sum(r["recall@3"] for r in results) / n, 4),
         "recall@5": round(sum(r["recall@5"] for r in results) / n, 4),
+        "mrr": round(sum(r.get("mrr", 0.0) for r in results) / n, 4),
+        "ndcg@5": round(sum(r.get("ndcg@5", 0.0) for r in results) / n, 4),
+        "candidate_recall@20": round(sum(r.get("candidate_recall@20", 0.0) for r in results) / n, 4),
+        "candidate_recall@50": round(sum(r.get("candidate_recall@50", 0.0) for r in results) / n, 4),
         "keyword_hit_rate": round(sum(r["keyword_hit_rate"] for r in results) / n, 4),
+        "zero_recall@5": sum(1 for r in results if r["recall@5"] == 0.0),
+        "zero_recall@20": sum(1 for r in results if r.get("candidate_recall@20", 1.0) == 0.0),
+        "zero_recall@50": sum(1 for r in results if r.get("candidate_recall@50", 1.0) == 0.0),
     }
     categories = sorted(set(r["category"] for r in results))
     agg["per_category"] = {}
@@ -195,6 +248,8 @@ def aggregate(results: list[dict]) -> dict:
             "recall@1": round(sum(r["recall@1"] for r in cat_rows) / nc, 4),
             "recall@3": round(sum(r["recall@3"] for r in cat_rows) / nc, 4),
             "recall@5": round(sum(r["recall@5"] for r in cat_rows) / nc, 4),
+            "mrr": round(sum(r.get("mrr", 0.0) for r in cat_rows) / nc, 4),
+            "ndcg@5": round(sum(r.get("ndcg@5", 0.0) for r in cat_rows) / nc, 4),
             "keyword_hit_rate": round(sum(r["keyword_hit_rate"] for r in cat_rows) / nc, 4),
         }
     return agg
@@ -229,19 +284,27 @@ def write_report(
         f"| Recall@1 | {agg['recall@1']:.3f} |",
         f"| Recall@3 | {agg['recall@3']:.3f} |",
         f"| Recall@5 | {agg['recall@5']:.3f} |",
+        f"| MRR | {agg.get('mrr', 0.0):.3f} |",
+        f"| nDCG@5 | {agg.get('ndcg@5', 0.0):.3f} |",
+        f"| Candidate R@20 | {agg.get('candidate_recall@20', 0.0):.3f} |",
+        f"| Candidate R@50 | {agg.get('candidate_recall@50', 0.0):.3f} |",
+        f"| Zero-recall @5 | {agg.get('zero_recall@5', 0)} |",
+        f"| Zero-recall @20 | {agg.get('zero_recall@20', 0)} |",
+        f"| Zero-recall @50 | {agg.get('zero_recall@50', 0)} |",
         f"| Keyword Hit Rate | {agg['keyword_hit_rate']:.3f} |",
         f"| Total eval time | {timing['total_s']:.2f}s |",
         f"| Avg per query | {timing['avg_per_query_ms']:.1f}ms |",
         "",
         "## Per-Category Recall@5",
         "",
-        "| category | n | R@1 | R@3 | R@5 | KW% |",
-        "|---|---|---|---|---|---|",
+        "| category | n | R@1 | R@3 | R@5 | MRR | nDCG@5 | KW% |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for cat, m in agg["per_category"].items():
         lines.append(
             f"| {cat} | {m['n']} | {m['recall@1']:.3f} | {m['recall@3']:.3f} "
-            f"| {m['recall@5']:.3f} | {m['keyword_hit_rate']:.3f} |"
+            f"| {m['recall@5']:.3f} | {m.get('mrr', 0.0):.3f} | {m.get('ndcg@5', 0.0):.3f} "
+            f"| {m['keyword_hit_rate']:.3f} |"
         )
 
     lines += [
@@ -302,6 +365,17 @@ def parse_args() -> argparse.Namespace:
                         help="Use hybrid FAISS+BM25 retrieval instead of dense-only")
     parser.add_argument("--alpha", type=float, default=0.8,
                         help="Hybrid alpha: weight for dense score (default: 0.8)")
+    # Candidate recall
+    parser.add_argument("--candidate_k", type=int, default=50,
+                        help="Pool size for candidate recall metrics R@20 / R@50 (default: 50).")
+    # Reranker
+    parser.add_argument("--rerank", action="store_true",
+                        help="Enable two-stage reranking with a cross-encoder.")
+    parser.add_argument("--reranker_model", default="cross-encoder/ms-marco-MiniLM-L-6-v2",
+                        help="Reranker model name.")
+    parser.add_argument("--reranker_backend", default="crossencoder",
+                        choices=["crossencoder", "flag"],
+                        help="'crossencoder' (sentence-transformers) or 'flag' (FlagEmbedding).")
     return parser.parse_args()
 
 
@@ -328,11 +402,25 @@ def main() -> None:
         print(f"Building BM25 index (hybrid alpha={args.alpha})...")
         bm25 = build_bm25(chunks)
 
-    mode = "hybrid" if args.hybrid else "dense"
-    print(f"Running eval on {len(eval_items)} queries (top_k={args.top_k}, mode={mode})...")
+    reranker = None
+    if args.rerank:
+        if not args.hybrid:
+            print("WARNING: --rerank requires --hybrid; enabling hybrid automatically.")
+            bm25 = build_bm25(chunks)
+        print(f"Loading reranker: {args.reranker_model} ({args.reranker_backend})")
+        reranker = load_reranker(args.reranker_model, args.reranker_backend)
+
+    mode = "hybrid" if (args.hybrid or bm25 is not None) else "dense"
+    rerank_label = f" + rerank({args.reranker_model})" if reranker else ""
+    print(f"Running eval on {len(eval_items)} queries "
+          f"(top_k={args.top_k}, mode={mode}{rerank_label}, candidate_k={args.candidate_k})...")
     t0 = time.time()
-    results = evaluate_all(eval_items, index, chunks, model, args.top_k,
-                           expander, bm25=bm25, alpha=args.alpha)
+    results = evaluate_all(
+        eval_items, index, chunks, model, args.top_k,
+        expander, bm25=bm25, alpha=args.alpha,
+        reranker=reranker, reranker_backend=args.reranker_backend,
+        candidate_k=args.candidate_k,
+    )
     elapsed = time.time() - t0
 
     timing = {
@@ -345,12 +433,21 @@ def main() -> None:
         if r.get("expansion", {}).get("matched_keys"):
             exp_marker = f" [+{len(r['expansion']['matched_keys'])} keys]"
         print(f"  {r['id']}: R@1={r['recall@1']:.2f} R@3={r['recall@3']:.2f} "
-              f"R@5={r['recall@5']:.2f} KW={r['keyword_hit_rate']:.2f}{exp_marker}")
+              f"R@5={r['recall@5']:.2f} MRR={r.get('mrr', 0.0):.2f} "
+              f"cR@20={r.get('candidate_recall@20', 0.0):.2f} "
+              f"cR@50={r.get('candidate_recall@50', 0.0):.2f} "
+              f"KW={r['keyword_hit_rate']:.2f}{exp_marker}")
 
     agg = aggregate(results)
     print(f"\nAggregate ({agg['n_queries']} queries): "
           f"R@1={agg['recall@1']:.3f} R@3={agg['recall@3']:.3f} "
-          f"R@5={agg['recall@5']:.3f} KW={agg['keyword_hit_rate']:.3f}")
+          f"R@5={agg['recall@5']:.3f} MRR={agg.get('mrr', 0.0):.3f} "
+          f"nDCG@5={agg.get('ndcg@5', 0.0):.3f} "
+          f"cR@20={agg.get('candidate_recall@20', 0.0):.3f} "
+          f"cR@50={agg.get('candidate_recall@50', 0.0):.3f} "
+          f"KW={agg['keyword_hit_rate']:.3f}")
+    print(f"Zero-recall: @5={agg.get('zero_recall@5',0)} "
+          f"@20={agg.get('zero_recall@20',0)} @50={agg.get('zero_recall@50',0)}")
     print(f"Timing: {timing['total_s']:.2f}s total, {timing['avg_per_query_ms']:.1f}ms/query")
 
     suffix = f"_{args.report_suffix}" if args.report_suffix else ""
