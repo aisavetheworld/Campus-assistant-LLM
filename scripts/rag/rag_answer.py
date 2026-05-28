@@ -273,6 +273,7 @@ def main() -> None:
                 "category": rec.get("category", ""),
                 "query": rec["query"],
                 "generated_answer": answer,
+                "retrieved_chunks": rec.get("retrieved_chunks", []),
             })
 
         out_path = Path(args.output_file) if args.output_file else Path("outputs/rag_eval/generated_answers.json")
