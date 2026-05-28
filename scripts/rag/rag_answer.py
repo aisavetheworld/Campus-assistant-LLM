@@ -261,8 +261,8 @@ def main() -> None:
         for i, rec in enumerate(records, 1):
             print(f"[{i}/{len(records)}] {rec['id']}: {rec['query'][:60]}...", file=sys.stderr)
             answer = generate_one(
-                prompt=rec["grounded_prompt"],
-                system_message=GROUNDED_SYSTEM_MESSAGE,
+                prompt=rec["user_prompt"],
+                system_message=rec.get("system_message", GROUNDED_SYSTEM_MESSAGE),
                 tokenizer=tokenizer,
                 model=gen_model,
                 max_new_tokens=args.max_new_tokens,
