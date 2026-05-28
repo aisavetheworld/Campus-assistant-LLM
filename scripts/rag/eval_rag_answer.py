@@ -364,6 +364,8 @@ def parse_args() -> argparse.Namespace:
                         help="JSON file with generated answers (list of records).")
     parser.add_argument("--eval_seed", default="data/rag/rag_answer_eval_seed.json")
     parser.add_argument("--report_dir", default="outputs/rag_eval")
+    parser.add_argument("--report_suffix", default="",
+                        help="Suffix for report filenames, e.g. 'dpo' → rag_answer_eval_report_dpo.{md,json}")
     return parser.parse_args()
 
 
@@ -393,8 +395,9 @@ def main() -> None:
     report_dir = Path(args.report_dir)
     report_dir.mkdir(parents=True, exist_ok=True)
 
-    md_path = report_dir / "rag_answer_eval_report.md"
-    json_path = report_dir / "rag_answer_eval_report.json"
+    suffix = f"_{args.report_suffix}" if args.report_suffix else ""
+    md_path = report_dir / f"rag_answer_eval_report{suffix}.md"
+    json_path = report_dir / f"rag_answer_eval_report{suffix}.json"
 
     md_path.write_text(render_markdown_report(eval_results, args.answers_file))
     json_path.write_text(json.dumps(eval_results, indent=2, ensure_ascii=False) + "\n")
