@@ -37,6 +37,22 @@ The first launch downloads Qwen2.5-7B-Instruct (~15 GB) — give it
 # (just untick the checkbox in the UI; no flag needed)
 ```
 
+## Local on Apple Silicon (M1+, recommended for offline demo)
+
+Native MLX backend, 4-bit quantized model (~4.5 GB on disk, ~25 tok/s on M4):
+
+```bash
+pip install mlx-lm gradio faiss-cpu sentence-transformers rank-bm25 pyyaml
+python scripts/rag/demo_app_mlx.py
+```
+
+Open http://localhost:7860. First launch downloads
+`mlx-community/Qwen2.5-7B-Instruct-4bit` (~4.5 GB).
+
+This is the fastest and lightest path on a Mac — no CUDA, no PyTorch MPS
+quirks, no LoRA adapter loading issues. Single query takes ~10–25 seconds
+end-to-end on M4 (8–15 s generation + retrieval / validators ≪ 1 s).
+
 ## Local (CPU, retrieval-only — no LLM)
 
 If you want to demo retrieval and inspect the grounded prompt without
