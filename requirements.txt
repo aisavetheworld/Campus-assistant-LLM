@@ -9,3 +9,6 @@ pyyaml
 tqdm
 sentencepiece
 protobuf
+fastapi
+httpx
+uvicorn[standard]
