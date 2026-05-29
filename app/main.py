@@ -1,20 +1,21 @@
-"""FastAPI skeleton for the Campus AI Assistant serving pipeline.
+"""FastAPI serving pipeline for the Campus AI Assistant.
 
 Endpoints:
-    GET  /health  -- liveness + vLLM reachability check
+    GET  /health  -- liveness probe + model load status
     POST /chat    -- grounded RAG answer with latency breakdown
 
 Startup:
-    RAG components (embedding model, FAISS index, BM25, query expander) are
-    loaded once via the lifespan context manager so every request can reuse them.
+    RAG components (embedding model, FAISS index, BM25, query expander) and
+    the generation model (base + LoRA adapter) are loaded once via the lifespan
+    context manager so every request can reuse them.
+
+Generation backend: transformers + PEFT (local inference, no vLLM required).
 
 Configuration (all overrideable via env vars):
-    VLLM_BASE_URL      -- base URL of the vLLM OpenAI-compatible server
-                          (default: http://localhost:8000)
-    VLLM_MODEL_NAME    -- model name passed in chat-completions requests
-                          (default: campus-assistant)
-    VLLM_MAX_TOKENS    -- max tokens to generate (default: 512)
-    VLLM_TEMPERATURE   -- sampling temperature (default: 0.2)
+    BASE_MODEL      -- HuggingFace model id or local path (default: Qwen/Qwen2.5-7B-Instruct)
+    ADAPTER_PATH    -- LoRA adapter directory (default: outputs/dpo_7b)
+    GEN_MAX_TOKENS  -- max tokens to generate (default: 512)
+    GEN_TEMPERATURE -- sampling temperature (default: 0.2)
 """
 
 from __future__ import annotations
@@ -32,7 +33,6 @@ from typing import Any
 # ---------------------------------------------------------------------------
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts" / "rag"))
 
-import httpx
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
@@ -50,6 +50,8 @@ try:
         load_retrieval_components,
         run_retrieval,
         build_grounded_prompt,
+        load_generation_model,
+        generate_one,
     )
 except ImportError as exc:
     raise ImportError(
@@ -68,13 +70,10 @@ except ImportError as exc:
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-VLLM_BASE_URL: str = os.getenv("VLLM_BASE_URL", "http://localhost:8000")
-VLLM_MODEL_NAME: str = os.getenv("VLLM_MODEL_NAME", "campus-assistant")
-VLLM_MAX_TOKENS: int = int(os.getenv("VLLM_MAX_TOKENS", "512"))
-VLLM_TEMPERATURE: float = float(os.getenv("VLLM_TEMPERATURE", "0.2"))
-
-# Short timeout used for the vLLM reachability probe in /health
-_HEALTH_PROBE_TIMEOUT: float = 2.0
+BASE_MODEL: str = os.getenv("BASE_MODEL", "Qwen/Qwen2.5-7B-Instruct")
+ADAPTER_PATH: str = os.getenv("ADAPTER_PATH", "outputs/dpo_7b")
+GEN_MAX_TOKENS: int = int(os.getenv("GEN_MAX_TOKENS", "512"))
+GEN_TEMPERATURE: float = float(os.getenv("GEN_TEMPERATURE", "0.2"))
 
 logging.basicConfig(
     level=logging.INFO,
@@ -98,13 +97,13 @@ async def lifespan(app: FastAPI):
     logger.info("Loading RAG components…")
     t_start = time.time()
 
-    model, index, chunks, bm25, expander = load_retrieval_components(
+    emb_model, index, chunks, bm25, expander = load_retrieval_components(
         index_dir=INDEX_DIR,
         embedding_model=EMBEDDING_MODEL,
         expansion_config=EXPANSION_CONFIG,
     )
 
-    app_state["embedding_model"] = model
+    app_state["embedding_model"] = emb_model
     app_state["faiss_index"] = index
     app_state["chunks"] = chunks
     app_state["bm25"] = bm25
@@ -119,6 +118,14 @@ async def lifespan(app: FastAPI):
         len(chunks),
     )
 
+    logger.info("Loading generation model %s + adapter %s …", BASE_MODEL, ADAPTER_PATH)
+    t_gen = time.time()
+    tokenizer, gen_model = load_generation_model(BASE_MODEL, ADAPTER_PATH)
+    app_state["tokenizer"] = tokenizer
+    app_state["gen_model"] = gen_model
+    app_state["model_loaded"] = True
+    logger.info("Generation model loaded in %.1f ms.", (time.time() - t_gen) * 1000)
+
     yield  # application is running
 
     # Shutdown: nothing heavy to clean up
@@ -131,7 +138,7 @@ async def lifespan(app: FastAPI):
 # ---------------------------------------------------------------------------
 app = FastAPI(
     title="Campus AI Assistant",
-    description="Grounded RAG Q&A for UCSD students, backed by vLLM.",
+    description="Grounded RAG Q&A for UCSD students.",
     version="0.1.0",
     lifespan=lifespan,
 )
@@ -185,63 +192,27 @@ class ChatResponse(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Helper: call vLLM
+# Helper: local transformers inference
 # ---------------------------------------------------------------------------
 
 
-def call_vllm(
+def call_local(
     prompt: str,
     system_message: str,
-    max_tokens: int = VLLM_MAX_TOKENS,
-    temperature: float = VLLM_TEMPERATURE,
+    max_tokens: int = GEN_MAX_TOKENS,
+    temperature: float = GEN_TEMPERATURE,
 ) -> str:
-    """POST to vLLM's OpenAI-compatible chat completions endpoint.
-
-    Raises:
-        HTTPException(503): vLLM server is not reachable.
-        HTTPException(502): vLLM returned a non-200 response.
-    """
-    url = f"{VLLM_BASE_URL}/v1/chat/completions"
-    payload = {
-        "model": VLLM_MODEL_NAME,
-        "messages": [
-            {"role": "system", "content": system_message},
-            {"role": "user", "content": prompt},
-        ],
-        "max_tokens": max_tokens,
-        "temperature": temperature,
-    }
-    try:
-        with httpx.Client(timeout=120.0) as client:
-            response = client.post(url, json=payload)
-    except httpx.ConnectError:
-        raise HTTPException(
-            status_code=503,
-            detail=(
-                "vLLM server is not running. "
-                "Start it first with the vllm_runbook.md instructions."
-            ),
-        )
-    except httpx.TimeoutException as exc:
-        raise HTTPException(
-            status_code=504,
-            detail=f"vLLM request timed out: {exc}",
-        )
-
-    if response.status_code != 200:
-        raise HTTPException(
-            status_code=502,
-            detail=f"vLLM returned HTTP {response.status_code}: {response.text[:200]}",
-        )
-
-    data = response.json()
-    try:
-        return data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError) as exc:
-        raise HTTPException(
-            status_code=502,
-            detail=f"Unexpected vLLM response shape: {exc}. Body: {str(data)[:200]}",
-        )
+    """Generate answer using the in-process transformers model."""
+    if not app_state.get("model_loaded"):
+        raise HTTPException(status_code=503, detail="Generation model is not loaded yet.")
+    return generate_one(
+        prompt=prompt,
+        system_message=system_message,
+        tokenizer=app_state["tokenizer"],
+        model=app_state["gen_model"],
+        max_new_tokens=max_tokens,
+        temperature=temperature,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -251,23 +222,13 @@ def call_vllm(
 
 @app.get("/health")
 def health():
-    """Liveness probe + vLLM reachability check."""
-    rag_loaded: bool = app_state.get("rag_loaded", False)
-
-    # Probe vLLM
-    vllm_status: str
-    try:
-        with httpx.Client(timeout=_HEALTH_PROBE_TIMEOUT) as client:
-            resp = client.get(f"{VLLM_BASE_URL}/health")
-        vllm_status = "ok" if resp.status_code == 200 else f"http_{resp.status_code}"
-    except Exception:
-        vllm_status = "unreachable"
-
+    """Liveness probe."""
     return {
         "status": "ok",
-        "rag_loaded": rag_loaded,
-        "vllm_url": f"{VLLM_BASE_URL}/v1",
-        "vllm_status": vllm_status,
+        "rag_loaded": app_state.get("rag_loaded", False),
+        "model_loaded": app_state.get("model_loaded", False),
+        "base_model": BASE_MODEL,
+        "adapter_path": ADAPTER_PATH,
     }
 
 
@@ -309,10 +270,10 @@ def chat(request: ChatRequest):
     prompt_build_ms = (time.time() - t2) * 1000
 
     # ------------------------------------------------------------------
-    # 3. Call vLLM
+    # 3. Local generation
     # ------------------------------------------------------------------
     t3 = time.time()
-    answer = call_vllm(prompt, system_message=GROUNDED_SYSTEM_MESSAGE)
+    answer = call_local(prompt, system_message=GROUNDED_SYSTEM_MESSAGE)
     generation_ms = (time.time() - t3) * 1000
 
     # ------------------------------------------------------------------
