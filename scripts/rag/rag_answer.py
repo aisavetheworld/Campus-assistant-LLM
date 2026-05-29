@@ -186,17 +186,38 @@ def load_generation_model(model_name_or_path: str, adapter_path: str):
     except ImportError as e:
         raise ImportError(f"Generation requires transformers and peft: {e}")
 
-    print(f"Loading model: {model_name_or_path}", file=sys.stderr)
+    # Auto-detect best device + dtype:
+    #   CUDA  -> fp16 + device_map="auto"
+    #   MPS   -> bf16 + explicit .to("mps")  (Apple Silicon)
+    #   CPU   -> fp32
+    if torch.cuda.is_available():
+        dtype = torch.float16
+        device_map = "auto"
+        device_label = "cuda"
+    elif getattr(torch.backends, "mps", None) and torch.backends.mps.is_available():
+        dtype = torch.bfloat16
+        device_map = None
+        device_label = "mps"
+    else:
+        dtype = torch.float32
+        device_map = None
+        device_label = "cpu"
+
+    print(f"Loading model: {model_name_or_path} on {device_label} ({dtype})", file=sys.stderr)
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         model_name_or_path,
-        torch_dtype=torch.float16,
-        device_map="auto",
+        torch_dtype=dtype,
+        device_map=device_map,
         trust_remote_code=True,
     )
+    if device_map is None:
+        model = model.to(device_label)
     if adapter_path and Path(adapter_path).exists():
-        print(f"Loading DPO adapter: {adapter_path}", file=sys.stderr)
+        print(f"Loading adapter: {adapter_path}", file=sys.stderr)
         model = PeftModel.from_pretrained(model, adapter_path)
+        if device_map is None:
+            model = model.to(device_label)
     model.eval()
     return tokenizer, model
 
