@@ -1,5 +1,7 @@
 # Project 3 — v0 Status (Phase 0/1/2 Skeleton)
 
+> **Superseded by [`project3_final_report.md`](project3_final_report.md) (2026-05-30). Project 3 is complete.**
+
 **Date:** 2026-05-28
 **Status:** Skeleton complete — not yet end-to-end tested (requires GPU)
 

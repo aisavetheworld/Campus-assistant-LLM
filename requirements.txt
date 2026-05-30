@@ -12,3 +12,7 @@ protobuf
 fastapi
 httpx
 uvicorn[standard]
+sentence-transformers
+faiss-cpu
+rank-bm25
+redis

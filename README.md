@@ -2,7 +2,7 @@
 
 A UCSD-focused prototype with school-agnostic training behavior.
 
-This repository covers a three-project pipeline for an international student campus affairs assistant. Project 1 (complete) is the SFT/DPO training module built on Hugging Face Transformers, TRL, PEFT, and accelerate. Project 2 (in progress) adds RAG over official UCSD source documents. Project 3 (planned) adds serving infrastructure.
+This repository covers a three-project pipeline for an international student campus affairs assistant. All three projects are complete: Project 1 (SFT/DPO fine-tuning), Project 2 (RAG retrieval pipeline), and Project 3 (FastAPI + vLLM serving).
 
 ## Project Overview
 
@@ -224,8 +224,49 @@ python scripts/eval_dpo_preference.py \
 - PEFT: used for LoRA/QLoRA parameter-efficient fine-tuning.
 - Transformers: used for model/tokenizer loading and inference.
 
+## Final Results
+
+| Project | Status | Key Metrics |
+|---------|--------|-------------|
+| P1: SFT + DPO | ✅ Complete | Rule pass rate 98.39% (311 checks), preference win rate 90.00%, `mentions_international_office` failures = 0 |
+| P2: RAG Pipeline | ✅ Complete | Recall@5 = 0.868, Hit@5 = 1.000, answer pass rate 94.7% (90/95), retrieval latency 33ms (CPU) |
+| P3: Serving | ✅ Complete | vLLM + FastAPI + Redis cache; sweet spot u=8: RPS=0.62, P95=18s, zero failures; Redis cache 338× speedup |
+
+## Quick Start — RAG + Serving
+
+**1. Start vLLM (requires GPU with ~15GB VRAM):**
+```bash
+python -m vllm.entrypoints.openai.api_server \
+  --model Qwen/Qwen2.5-7B-Instruct \
+  --served-model-name campus-assistant \
+  --enable-lora --max-lora-rank 32 \
+  --lora-modules campus-assistant=outputs/dpo_7b \
+  --host 0.0.0.0 --port 8000 \
+  --dtype bfloat16 --max-model-len 4096 \
+  --gpu-memory-utilization 0.88
+```
+
+**2. Start FastAPI (new terminal):**
+```bash
+SERVING_BACKEND=vllm uvicorn app.main:app --host 0.0.0.0 --port 8080 --workers 1
+```
+
+**3. Run smoke test:**
+```bash
+python scripts/deploy/test_chat_api.py --url http://localhost:8080
+```
+
+**4. Query the API:**
+```bash
+curl -X POST http://localhost:8080/chat \
+  -H "Content-Type: application/json" \
+  -d '{"query": "How do I waive UC SHIP health insurance?", "top_k": 5}'
+```
+
+Optional: start Redis for query caching (`redis-server --daemonize yes`) before step 2.
+
 ## Roadmap
 
-- **Project 1 (complete):** SFT + LoRA ablation + DPO preference alignment. Best checkpoint: `outputs/dpo_7b`.
-- **Project 2 (in progress):** RAG over official UCSD source documents. See `docs/project2_rag_plan.md`.
-- **Project 3 (planned):** Serving infrastructure — FastAPI, vLLM, quantization, latency benchmarking.
+- **Project 1 (complete):** SFT + LoRA ablation + DPO preference alignment. Best checkpoint: `outputs/dpo_7b`. See `docs/experiments/dpo_7b_summary.md`.
+- **Project 2 (complete):** RAG over 673 official UCSD source documents, 4098 chunks. See `docs/rag/project_2_final_report.md`.
+- **Project 3 (complete):** FastAPI + vLLM serving, load testing, KV cache analysis, Redis caching, failure drills. See `docs/deployment/project3_final_report.md`.
