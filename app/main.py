@@ -16,6 +16,8 @@ Configuration:
     ADAPTER_PATH     -- LoRA adapter dir (default: outputs/dpo_7b)
     GEN_MAX_TOKENS   -- max tokens to generate (default: 512)
     GEN_TEMPERATURE  -- sampling temperature (default: 0.2)
+    REDIS_URL        -- Redis connection URL (default: redis://localhost:6379)
+    CACHE_TTL        -- cache TTL in seconds (default: 3600)
 """
 
 from __future__ import annotations
@@ -30,7 +32,11 @@ from typing import Any
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts" / "rag"))
 
+import hashlib
+import json
+
 import httpx
+import redis.asyncio as aioredis
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
@@ -75,6 +81,9 @@ ADAPTER_PATH: str  = os.getenv("ADAPTER_PATH", "outputs/dpo_7b")
 GEN_MAX_TOKENS: int    = int(os.getenv("GEN_MAX_TOKENS", "512"))
 GEN_TEMPERATURE: float = float(os.getenv("GEN_TEMPERATURE", "0.2"))
 
+REDIS_URL: str = os.getenv("REDIS_URL", "redis://localhost:6379")
+CACHE_TTL: int = int(os.getenv("CACHE_TTL", "3600"))
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s — %(message)s",
@@ -115,8 +124,20 @@ async def lifespan(app: FastAPI):
         logger.info("Model loaded in %.1f ms.", (time.time() - t1) * 1000)
 
     app_state["model_loaded"] = True
+
+    try:
+        redis_client = aioredis.from_url(REDIS_URL, decode_responses=True)
+        await redis_client.ping()
+        app_state["redis"] = redis_client
+        logger.info("Redis connected at %s (TTL=%ds).", REDIS_URL, CACHE_TTL)
+    except Exception as exc:
+        app_state["redis"] = None
+        logger.warning("Redis unavailable — cache disabled: %s", exc)
+
     yield
     logger.info("Shutting down.")
+    if app_state.get("redis"):
+        await app_state["redis"].aclose()
     app_state.clear()
 
 
@@ -165,6 +186,7 @@ class ChatResponse(BaseModel):
     retrieval_metadata: RetrievalMetadata
     safety_metadata: SafetyMetadata
     latency: LatencyBreakdown
+    cache_hit: bool = False
 
 # ---------------------------------------------------------------------------
 # Generation helpers
@@ -218,6 +240,11 @@ def generate(prompt: str, system_message: str) -> str:
         return call_local(prompt, system_message)
     return call_vllm(prompt, system_message)
 
+
+def _cache_key(query: str, top_k: int) -> str:
+    raw = f"{query.lower().strip()}|{top_k}"
+    return "campus_assistant:chat:" + hashlib.sha256(raw.encode()).hexdigest()
+
 # ---------------------------------------------------------------------------
 # Endpoints
 # ---------------------------------------------------------------------------
@@ -241,13 +268,22 @@ def health():
 
 
 @app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest):
+async def chat(request: ChatRequest):
     if not app_state.get("rag_loaded"):
         raise HTTPException(503, "RAG not loaded.")
 
     query  = request.query.strip()
     top_k  = request.top_k
     t0     = time.time()
+
+    redis = app_state.get("redis")
+    if redis:
+        cached = await redis.get(_cache_key(query, top_k))
+        if cached:
+            logger.info("cache HIT | query=%r", query[:80])
+            resp = ChatResponse(**json.loads(cached))
+            resp.cache_hit = True
+            return resp
 
     t1 = time.time()
     chunks = run_retrieval(
@@ -300,7 +336,7 @@ def chat(request: ChatRequest):
     logger.info("chat | query=%r | backend=%s | total_ms=%.1f",
                 query[:80], SERVING_BACKEND, total_ms)
 
-    return ChatResponse(
+    response = ChatResponse(
         answer=answer,
         sources=sources,
         retrieval_metadata=RetrievalMetadata(
@@ -318,4 +354,10 @@ def chat(request: ChatRequest):
             validation_ms=round(validation_ms, 2),
             total_ms=round(total_ms, 2),
         ),
+        cache_hit=False,
     )
+
+    if redis:
+        await redis.set(_cache_key(query, top_k), response.model_dump_json(), ex=CACHE_TTL)
+
+    return response
